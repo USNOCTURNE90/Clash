@@ -1,4 +1,5 @@
 rules:
+  - DOMAIN-SUFFIX,.mokexapp.me
   - DOMAIN-SUFFIX,inapps.appsflyer.com
   - IP-CIDR,8.210.73.205/24
   - DOMAIN-SUFFIX,bnappweb.biz
