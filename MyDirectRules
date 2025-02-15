@@ -187,6 +187,7 @@ rules:
   - PROCESS-NAME,WeChat.exe
   - PROCESS-NAME,WeChatApp.exe
   - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,nvcontainer.exe
   - PROCESS-NAME,wegame.exe  
   - PROCESS-NAME,cloudmusic.exe
   - PROCESS-NAME,QQMusic.exe
