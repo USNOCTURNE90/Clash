@@ -112,90 +112,10 @@ rules:
   - IP-CIDR6,2a01:bc80:a::/48
   - IP-CIDR6,2a01:bc80:b::/48
   - IP-CIDR6,2a01:bc80:c::/48
-  # Windows Update 相关
-  - DOMAIN-SUFFIX,update.microsoft.com
-  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
-  - DOMAIN-SUFFIX,download.microsoft.com
-  - DOMAIN-SUFFIX,download.windowsupdate.com
-  - DOMAIN-SUFFIX,download.microsoft.windows.com
-  - DOMAIN-SUFFIX,wustat.windows.com
-  - DOMAIN-SUFFIX,ntservicepack.microsoft.com
-  - DOMAIN-SUFFIX,stats.microsoft.com
-  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,geo-prod.do.dsp.mp.microsoft.com
-  # Microsoft Store 相关
-  - DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
-  - DOMAIN-SUFFIX,pti.store.microsoft.com
-  - DOMAIN-SUFFIX,displaycatalog.mp.microsoft.com
-  - DOMAIN-SUFFIX,products.office.com
-  - DOMAIN-SUFFIX,store-images.microsoft.com
-  - DOMAIN-SUFFIX,store-images.s-microsoft.com
-  - DOMAIN-SUFFIX,store.rg-adguard.net
-  # Microsoft 账户登录
-  - DOMAIN-SUFFIX,login.live.com
-  - DOMAIN-SUFFIX,login.microsoftonline.com
-  - DOMAIN-SUFFIX,account.live.com
-  - DOMAIN-SUFFIX,account.microsoft.com
-  - DOMAIN-SUFFIX,authentication.services.live.com
-  # OneDrive 相关
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,admin.onedrive.com
-  - DOMAIN-SUFFIX,officeclient.microsoft.com
-  # Microsoft Office 相关
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,outlook.office365.com
-  - DOMAIN-SUFFIX,outlook.live.com
-  - DOMAIN-SUFFIX,outlook.office.com
-  - DOMAIN-SUFFIX,officeapps.live.com
-  - DOMAIN-SUFFIX,office.live.com
-  - DOMAIN-SUFFIX,office-365.live.com
-  # Windows Defender 相关
-  - DOMAIN-SUFFIX,wdcp.microsoft.com
-  - DOMAIN-SUFFIX,wdcpalt.microsoft.com
-  - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
-  - DOMAIN-SUFFIX,smartscreen.microsoft.com
-  - DOMAIN-SUFFIX,wmrt.trafficmanager.net
-  # Xbox 相关服务
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
-  - DOMAIN-SUFFIX,user.auth.xboxlive.com
-  # 其他重要服务
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,time.windows.com
-  - DOMAIN-SUFFIX,dns.msftncsi.com
-  - DOMAIN-SUFFIX,www.msftncsi.com
-  - DOMAIN-SUFFIX,ipv6.msftncsi.com
-  - DOMAIN-SUFFIX,feedback.microsoft.com
-  - DOMAIN-SUFFIX,support.microsoft.com
-  - DOMAIN-SUFFIX,fs.microsoft.com
-  # 通配符规则（建议放在最后）
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,microsoft.net
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,windows.net
-  - PROCESS-NAME,Asphalt8.exe
-  - PROCESS-NAME,Asphalt8Launcher.exe
-  - PROCESS-NAME,AsphaltService.exe
-  - PROCESS-NAME,Gameloft.exe
-  - PROCESS-NAME,GameloftConnect.exe
-  - PROCESS-NAME,WeChat.exe
-  - PROCESS-NAME,WeChatApp.exe
-  - PROCESS-NAME,QQ.exe
-  - PROCESS-NAME,nvcontainer.exe
-  - PROCESS-NAME,wegame.exe  
-  - PROCESS-NAME,cloudmusic.exe
-  - PROCESS-NAME,QQMusic.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,aria2c.exe
-  - PROCESS-NAME,SRManager.exe
-  - PROCESS-NAME,gamingservices.exe
-  - PROCESS-NAME,Cyberpunk2077.exe
+  #其他
+  - PROCESS-NAME,企业微信
+  - PROCESS-NAME,企业微信Helper
+  - PROCESS-NAME,Dingtalk
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,microsoft.com.cn
   - DOMAIN-SUFFIX,windowsupdate.com
@@ -223,20 +143,12 @@ rules:
   - DOMAIN-SUFFIX,xbox.com.cn
   - DOMAIN-SUFFIX,xboxlive.cn
   - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,h-adashx.dingtalkapps.com
   - IP-CIDR,110.45.217.198/32
   - IP-CIDR,114.108.157.209/32
   - DOMAIN-SUFFIX,blizzard.gcdn.cloudn.co.kr
   - DOMAIN-SUFFIX,event-tracking.lbctrl.com
   - DOMAIN-SUFFIX,api.lbctrl.com
-  - DOMAIN-SUFFIX,yyai8.com
-  - DOMAIN-SUFFIX,www.yyai8.com
-  - DOMAIN-SUFFIX,api.yyai8.com
-  - DOMAIN-SUFFIX,img.yyai8.com
-  - DOMAIN-SUFFIX,public.nftstatic.com
-  - DOMAIN-SUFFIX,www.mokexweb.me
-  - IP-CIDR,35.77.148.188/32
-  - DOMAIN-SUFFIX,zftksc-launches.appsflyersdk.com
-  - DOMAIN-SUFFIX,530c098a-e3fa-4ee4-9a09-b6bd98656c4a-addfd325e6e3.cdn.forter.com
   - DOMAIN-SUFFIX,yyai8.com
   - DOMAIN-SUFFIX,www.yyai8.com
   - DOMAIN-SUFFIX,api.yyai8.com
@@ -256,10 +168,11 @@ rules:
   - DOMAIN-SUFFIX,launcher.rockstargames.com
   - DOMAIN-SUFFIX,media.rockstargames.com
   - DOMAIN-SUFFIX,rsg.sc
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,vcrfiw.lol
+  - DOMAIN-SUFFIX,sjygml.lol
   # Logitech G HUB 相关域名
   - DOMAIN-SUFFIX,ghub.logitech.io
   - DOMAIN-SUFFIX,logitech.io
@@ -268,7 +181,7 @@ rules:
   - DOMAIN-SUFFIX,logitech.com
   - DOMAIN-SUFFIX,logitech.zendesk.com
   - DOMAIN-SUFFIX,logitechg.zendesk.com
-# 微软
+  # 微软
   - DOMAIN,res.cdn.office.net
   - DOMAIN-SUFFIX,fs.microsoft.com
   - DOMAIN-SUFFIX,sdx.microsoft.com
@@ -322,12 +235,9 @@ rules:
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,download.prss.microsoft.com
-  - DOMAIN-SET,/^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
+  - DOMAIN-SET, /^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
   - DOMAIN,d4-ec.a.kwimgs.com
-  - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
-  - DOMAIN-SUFFIX,edge.microsoft.com
-  - DOMAIN-SUFFIX,msedge.sf.trafficmanager.net
-# 同花顺
+  # 同花顺
   - DOMAIN-SUFFIX,push.hexin.cn
   - DOMAIN-SUFFIX,apm.hexin.cn
   - DOMAIN-SUFFIX,10jqka.com.cn
@@ -338,24 +248,24 @@ rules:
   - DOMAIN-SUFFIX,w.10jqka.com.cn
   - DOMAIN-SUFFIX,ai.iwencai.com
   - DOMAIN-SUFFIX,nativeapphq.hexin.cn
-# 东方财富
+  # 东方财富
   - DOMAIN-SUFFIX,eastmoney.com
   - DOMAIN-SUFFIX,push2.eastmoney.com
   - DOMAIN-SUFFIX,push2his.eastmoney.com
-# 大智慧
+  # 大智慧
   - DOMAIN-SUFFIX,dzh.com
-# 新浪财经
+  # 新浪财经
   - DOMAIN-SUFFIX,finance.sina.com.cn
-# 雪球
+  # 雪球
   - DOMAIN-SUFFIX,xueqiu.com
   - DOMAIN-SUFFIX,static.snowballfinance.com
-# 老虎证券
+  # 老虎证券
   - DOMAIN-SUFFIX,tigerbrokers.com
-# 富途牛牛
+  # 富途牛牛
   - DOMAIN-SUFFIX,futunn.com
-# 腾讯自选股
+  # 腾讯自选股
   - DOMAIN-SUFFIX,stock.qq.com
-# 其他常用股票相关域名
+  # 其他常用股票相关域名
   - DOMAIN-SUFFIX,gw.com.cn
   - DOMAIN-SUFFIX,cs.com.cn
   - DOMAIN-SUFFIX,hc.com.cn
@@ -416,6 +326,7 @@ rules:
   - DOMAIN-SUFFIX,teslamotors.com
   - DOMAIN-SUFFIX,teslamotors.com.cn
   - DOMAIN-SUFFIX,teslazta.net
+  - DOMAIN-SUFFIX,akamai-apigateway-gio-analytics.tesla.cn
   - DOMAIN-SUFFIX,ts.la
   - DOMAIN,cas-dc.splashtop.com
   - DOMAIN,52-81-95-57.relay.splashtop.com
@@ -440,14 +351,13 @@ rules:
   - DOMAIN-SUFFIX,ls.dtrace.nvidia.com
   - DOMAIN-SUFFIX,events.gfe.nvidia.com
   - DOMAIN,sms-activate.org
-# China
+  # China
   - DOMAIN-KEYWORD,iqiyi
   - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,hdslb
   - DOMAIN-KEYWORD,meituan
   - DOMAIN-KEYWORD,dianping
   - DOMAIN-KEYWORD,baidu
-  - DOMAIN-KEYWORD,didi
   - DOMAIN-KEYWORD,xiaojukeji
   - DOMAIN-KEYWORD,pupu
   - DOMAIN-KEYWORD,12306
@@ -458,7 +368,7 @@ rules:
   - DOMAIN-KEYWORD,webank
   - DOMAIN-KEYWORD,weibo
   - DOMAIN-KEYWORD,10086
-#  - DOMAIN-SUFFIX,cn
+  #DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,tmall.com
@@ -472,7 +382,7 @@ rules:
   - DOMAIN-SUFFIX,i-amtr.com
   - DOMAIN-SUFFIX,picooc-int.com
   - DOMAIN-SUFFIX,api.lbkrs.com
-# Others
+  # Others
   - DOMAIN-SUFFIX,whatismyipaddress.com
   - DOMAIN-SUFFIX,whatismyip.akamai.com
   - DOMAIN-SUFFIX,myip.la
@@ -480,9 +390,9 @@ rules:
   - DOMAIN-SUFFIX,api-ipv6.ip.sb
   - DOMAIN-SUFFIX,sessions.bugsnag.com
   - PROCESS-NAME,Tailscale
-# Client
+  # Client
   - PROCESS-NAME,UUBooster
-# > Download
+  # > Download
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -523,7 +433,7 @@ rules:
   - DOMAIN-SUFFIX,asfiovnxocqpcry.com.cn
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,aws-border.cn
-  - DOMAIN-SUFFIX,aws-icp-  - DOMAIN-manager.cn
+  - DOMAIN-SUFFIX,aws-icp-domain-manager.cn
   - DOMAIN-SUFFIX,awsapps.cn
   - DOMAIN-SUFFIX,awsapps.com.cn
   - DOMAIN-SUFFIX,awsstatic.cn
@@ -555,11 +465,10 @@ rules:
   - DOMAIN,alt8-mtalk.google.com
   - DOMAIN,alt9-mtalk.google.com
   - DOMAIN-SUFFIX,mobile-gtalk.l.google.com
-
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
   - PROCESS-NAME,UUBooster
-# > Download
+  # > Download
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -570,13 +479,12 @@ rules:
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
-# > nexsub
+  # > nexsub
   - DOMAIN-SUFFIX,xvvrkb.lol
-# > qiniup
+  # > qiniup
   - DOMAIN-SUFFIX,qiniup.com
-
-  - IP-CIDR,162.14.0.0/18,no-resolve
-  - IP-CIDR,140.205.1.0/24,no-resolve
+  - IP-CIDR,162.14.0.0/18
+  - IP-CIDR,140.205.1.0/24
   - IP-CIDR,1.1.8.0/24
   - IP-CIDR,1.2.4.0/24
   - IP-CIDR,1.8.1.0/24
@@ -4139,11 +4047,11 @@ rules:
   - IP-CIDR,223.252.192.0/19
   - IP-CIDR,223.255.236.0/22
   - IP-CIDR,223.255.252.0/23
-################## EOF ##################
+  ################## EOF ##################
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,www.asusrouter.com
-#one drive
+  #one drive
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
@@ -4159,10 +4067,11 @@ rules:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
-  - DOMAIN-SUFFIX,onedrive.com,USER-AGENT,OneDrive*
+  - USER-AGENT,OneDrive*
+  - USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-#Xiaomi
+  #Xiaomi
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net
   - DOMAIN-SUFFIX,816798.net
@@ -4287,7 +4196,92 @@ rules:
   - DOMAIN-SUFFIX,youpin.cn
   - DOMAIN-SUFFIX,youpin.com.cn
   - DOMAIN-SUFFIX,zhutidasai.com
+  - IP-CIDR,120.133.33.222/32
+  - IP-CIDR,47.241.176.221/32
+  - IP-CIDR,58.220.58.152/31
+  - IP-CIDR,58.220.59.2/32
+  - DOMAIN-KEYWORD,didi
+  - DOMAIN-SET,/^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
+  - DOMAIN-SUFFIX,530c098a-e3fa-4ee4-9a09-b6bd98656c4a-addfd325e6e3.cdn.forter.com
+  - DOMAIN-SUFFIX,account.live.com
+  - DOMAIN-SUFFIX,account.microsoft.com
+  - DOMAIN-SUFFIX,admin.onedrive.com
+  - DOMAIN-SUFFIX,authentication.services.live.com
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,displaycatalog.mp.microsoft.com
+  - DOMAIN-SUFFIX,dns.msftncsi.com
+  - DOMAIN-SUFFIX,download.microsoft.windows.com
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,feedback.microsoft.com
+  - DOMAIN-SUFFIX,geo-prod.do.dsp.mp.microsoft.com
+  - DOMAIN-SUFFIX,ipv6.msftncsi.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,login.live.com
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoft.net
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
+  - DOMAIN-SUFFIX,msedge.sf.trafficmanager.net
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,ntservicepack.microsoft.com
+  - DOMAIN-SUFFIX,office-365.live.com
+  - DOMAIN-SUFFIX,office.live.com
+  - DOMAIN-SUFFIX,office365.com
+  - DOMAIN-SUFFIX,officeapps.live.com
+  - DOMAIN-SUFFIX,officeclient.microsoft.com
+  - DOMAIN-SUFFIX,onedrive.com,USER-AGENT,OneDrive*
+  - DOMAIN-SUFFIX,outlook.live.com
+  - DOMAIN-SUFFIX,outlook.office.com
+  - DOMAIN-SUFFIX,outlook.office365.com
+  - DOMAIN-SUFFIX,products.office.com
+  - DOMAIN-SUFFIX,pti.store.microsoft.com
+  - DOMAIN-SUFFIX,public.nftstatic.com
+  - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
+  - DOMAIN-SUFFIX,smartscreen.microsoft.com
+  - DOMAIN-SUFFIX,stats.microsoft.com
+  - DOMAIN-SUFFIX,store-images.microsoft.com
+  - DOMAIN-SUFFIX,store-images.s-microsoft.com
+  - DOMAIN-SUFFIX,store.rg-adguard.net
+  - DOMAIN-SUFFIX,support.microsoft.com
+  - DOMAIN-SUFFIX,time.windows.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,user.auth.xboxlive.com
+  - DOMAIN-SUFFIX,wdcp.microsoft.com
+  - DOMAIN-SUFFIX,wdcpalt.microsoft.com
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,wmrt.trafficmanager.net
+  - DOMAIN-SUFFIX,wustat.windows.com
+  - DOMAIN-SUFFIX,www.mokexweb.me
+  - DOMAIN-SUFFIX,www.msftncsi.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
+  - DOMAIN-SUFFIX,zftksc-launches.appsflyersdk.com
   - IP-CIDR,120.133.33.222/32,no-resolve
+  - IP-CIDR,140.205.1.0/24,no-resolve
+  - IP-CIDR,162.14.0.0/18,no-resolve
+  - IP-CIDR,35.77.148.188/32
   - IP-CIDR,47.241.176.221/32,no-resolve
   - IP-CIDR,58.220.58.152/31,no-resolve
   - IP-CIDR,58.220.59.2/32,no-resolve
+  - PROCESS-NAME,Asphalt8.exe
+  - PROCESS-NAME,Asphalt8Launcher.exe
+  - PROCESS-NAME,AsphaltService.exe
+  - PROCESS-NAME,Cyberpunk2077.exe
+  - PROCESS-NAME,Gameloft.exe
+  - PROCESS-NAME,GameloftConnect.exe
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,QQMusic.exe
+  - PROCESS-NAME,SRManager.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,WeChatApp.exe
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,cloudmusic.exe
+  - PROCESS-NAME,gamingservices.exe
+  - PROCESS-NAME,nvcontainer.exe
+  - PROCESS-NAME,wegame.exe
+  - PROCESS-NAME,"/Applications/极空间.app/Contents/Frameworks/极空间 Helper.app/Contents/MacOS/极空间 Helper"
