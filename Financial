@@ -1,5 +1,23 @@
 rules:
-  # 胜利证券
+  #za bank
+  - DOMAIN-SUFFIX,zaip-aic.za.group
+  - DOMAIN-SUFFIX,integrate-appgw.zajourney.com
+  - DOMAIN-SUFFIX,testcdn.zaticdn.com
+  - DOMAIN-SUFFIX,appmon-prd.zajourney.com
+  - DOMAIN-SUFFIX,cdn.zaticdn.com
+  - DOMAIN-SUFFIX,bankappgw.za.group
+  - DOMAIN-SUFFIX,aim-abtesting-sdk.za.group
+  - DOMAIN-SUFFIX,bankappgw.za.group
+  - DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
+  - DOMAIN-SUFFIX,launches.appsflyer.com
+  - DOMAIN-SUFFIX,appguard.za.group
+  #Optionstart
+  - DOMAIN-SUFFIX,optionstrat.com
+  #OSL
+  - DOMAIN-SUFFIX,trade-hk.osl.com
+  - DOMAIN-KEYWORD,osl
+  #胜利证券
+  - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,accountopen.victorysec.com.hk
   - DOMAIN-KEYWORD,rwbkr
   - DOMAIN-SUFFIX,open.rwbkr.com
@@ -7,7 +25,7 @@ rules:
   - DOMAIN-SUFFIX,ccp.rwbkr.com
   - DOMAIN-SUFFIX,news.rwbkr.com
   - DOMAIN-SUFFIX,notify.rwbkr.com
-  # 长桥证券网页
+  #长桥证券网页
   - DOMAIN-SUFFIX,event.lbkrs.com
   - DOMAIN-SUFFIX,event-tracking.lbkrs.com
   - DOMAIN-SUFFIX,longbridge.com
@@ -20,7 +38,7 @@ rules:
   - DOMAIN-SUFFIX,s.tradingview.com
   - DOMAIN-SUFFIX,data.tradingview.com
   - DOMAIN-SUFFIX,widget.tradingview.com
-  # Schwab
+  #Schwab
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,schwabinstitutional.com
   - DOMAIN-SUFFIX,schwaballiance.com
@@ -41,7 +59,7 @@ rules:
   - DOMAIN-KEYWORD,brokerage
   - DOMAIN-KEYWORD,investing
   - DOMAIN-KEYWORD,trading
-  # Alipay HK
+  #Alipay HK
   - DOMAIN-SUFFIX,alipay
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
@@ -63,7 +81,7 @@ rules:
   - DOMAIN-SUFFIX,ifaa.org.cn
   - DOMAIN-SUFFIX,luohanacademy.com
   - DOMAIN-SUFFIX,sinopayment.com.cn
-  # Interactive Brokers
+  #Interactive Brokers 域名
   - DOMAIN-SUFFIX,ocsp.digicert.com
   - DOMAIN-SUFFIX,c.go-mpulse.net
   - DOMAIN-SUFFIX,ibkr.com
@@ -101,15 +119,14 @@ rules:
   - PROCESS-NAME,ibkr-pro
   - PROCESS-NAME,ib-mobile
   - PROCESS-NAME,ibgateway
-  - OR,((DOMAIN-SUFFIX,interactivebrokers.com),(IP-CIDR,169.62.208.0/20))
-  # Yahoo
-  - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,finance.yahoo.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yimg.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yahooapis.com,YahooFinanceProxy
-  - DOMAIN-KEYWORD,finance,YahooFinanceProxy
-  - DOMAIN-KEYWORD,yahoo,YahooFinanceProxy
-  # HSBC
+  #yahoo
+  - DOMAIN-SUFFIX,yahoo.com, YahooFinanceProxy
+  - DOMAIN-SUFFIX,finance.yahoo.com, YahooFinanceProxy
+  - DOMAIN-SUFFIX,yimg.com, YahooFinanceProxy
+  - DOMAIN-SUFFIX,yahooapis.com, YahooFinanceProxy
+  - DOMAIN-KEYWORD,finance, YahooFinanceProxy
+  - DOMAIN-KEYWORD,yahoo, YahooFinanceProxy
+  #HSBC
   - DOMAIN-SUFFIX,hsbc.com
   - DOMAIN-SUFFIX,hsbc.co.uk
   - DOMAIN-SUFFIX,hsbcnet.com
