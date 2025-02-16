@@ -4284,4 +4284,3 @@ rules:
   - PROCESS-NAME,gamingservices.exe
   - PROCESS-NAME,nvcontainer.exe
   - PROCESS-NAME,wegame.exe
-  - PROCESS-NAME,"/Applications/极空间.app/Contents/Frameworks/极空间 Helper.app/Contents/MacOS/极空间 Helper"
