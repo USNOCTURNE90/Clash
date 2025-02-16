@@ -23,7 +23,6 @@ rules:
   - DOMAIN-SUFFIX,eccdnx.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,wmsj.cn
   - DOMAIN-SUFFIX,wmsjsteam.com
   - DOMAIN-SUFFIX,tnkjmec.com
