@@ -322,7 +322,7 @@ rules:
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,download.prss.microsoft.com
-  - DOMAIN-SET, /^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
+  - DOMAIN-SET,/^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
   - DOMAIN,d4-ec.a.kwimgs.com
   - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
   - DOMAIN-SUFFIX,edge.microsoft.com
