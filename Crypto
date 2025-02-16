@@ -1,4 +1,6 @@
 rules:
+  - DOMAIN-SUFFIX,o529943.ingest.sentry.io
+  - DOMAIN-SUFFIX,static.devfdg.net
   - DOMAIN-SUFFIX,plaid.com
   - DOMAIN-SUFFIX,fptls.com
   - DOMAIN-SUFFIX,p.sardine.ai
