@@ -1,6 +1,30 @@
-rules:
-  - DOMAIN-SUFFIX,.mokexapp.me
+rules：
+  - DOMAIN-SUFFIX,plaid.com
+  - DOMAIN-SUFFIX,fptls.com
+  - DOMAIN-SUFFIX,p.sardine.ai
+  - DOMAIN-SUFFIX,pzv0jgbcy309a5unukdm9ji2cqeoo5nm.d.sardine.ai
+  - DOMAIN-SUFFIX,api.sardine.ai
+  - DOMAIN-SUFFIX,atlas-mainnet.helius-rpc.com
+  - DOMAIN-SUFFIX,nbstream.yshyqxx.com
+  - DOMAIN-SUFFIX,stream.yshyqxx.com
+  - DOMAIN-SUFFIX,coinsbee.com
+  - DOMAIN-SUFFIX,static.kinguin.net
+  - DOMAIN-SUFFIX,bmp.cryptomate.online
+  - DOMAIN-SUFFIX,cryptomate.store
+  - DOMAIN-SUFFIX,wistia.com
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,sdk-api-v1.singular.net
+  - DOMAIN-SUFFIX,sdk.fra-01.braze.eu
+  - DOMAIN-SUFFIX,cdn.branch.io
+  - DOMAIN-SUFFIX,moshi.cam
+  - DOMAIN-SUFFIX,api.gatefi.com
+  - DOMAIN-SUFFIX,onramp.gatefi.com
+  - DOMAIN-SUFFIX,dev-yzlqn.quill.run
+  - DOMAIN-SUFFIX,img.daylight.xyz
+  - DOMAIN-SUFFIX,coinbasecdn.net
+  - DOMAIN-SUFFIX,mokexapp.io
   - DOMAIN-SUFFIX,inapps.appsflyer.com
+  - DOMAIN-SUFFIX,mokexapp.me
   - IP-CIDR,8.210.73.205/24
   - DOMAIN-SUFFIX,bnappweb.biz
   - DOMAIN-SUFFIX,bycsi.com
