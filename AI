@@ -124,7 +124,3 @@ rules:
   - DOMAIN-SUFFIX,api.msn.com
   - DOMAIN-SUFFIX,prod.rewardsplatform.microsoft.com
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
-  #Claude
-  - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
