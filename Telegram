@@ -1,4 +1,11 @@
 rules:
+  - IP-CIDR,144.165.28.108/32
+  - IP-CIDR,144.37.151.108/32
+  - IP-CIDR,16.166.28.108/32
+  - IP-CIDR,160.32.145.2/32
+  - IP-CIDR,192.100.108.23/24
+  - IP-CIDR,192.237.133.2/24
+  - IP-CIDR,24.0.0.0/24
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,cdn-telegram.org
