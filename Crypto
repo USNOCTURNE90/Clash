@@ -160,6 +160,7 @@ rules:
   - DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
   - DOMAIN-SUFFIX,bybit-help-center-prod-ac4de1465648.herokuapp.com
   #Binance
+  - DOMAIN-SUFFIX,binance
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-KEYWORD,bnbstatic
