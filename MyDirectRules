@@ -610,11 +610,9 @@ rules:
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
-  - DOMAIN-SUFFIX,zftksc-launches.appsflyersdk.com
   - IP-CIDR,120.133.33.222/32
   - IP-CIDR,140.205.1.0/24
   - IP-CIDR,162.14.0.0/18
-  - IP-CIDR,35.77.148.188/32
   - IP-CIDR,47.241.176.221/32
   - IP-CIDR,58.220.58.152/31
   - IP-CIDR,58.220.59.2/32
@@ -730,7 +728,6 @@ rules:
   - IP-CIDR,36.255.128.0/22
   - IP-CIDR,39.64.0.0/11
   - IP-CIDR,39.96.0.0/13
-  - IP-CIDR,39.104.0.0/14
   - IP-CIDR,39.128.0.0/10
   - IP-CIDR,40.0.176.0/20
   - IP-CIDR,40.0.248.0/21
@@ -2406,7 +2403,6 @@ rules:
   - IP-CIDR,119.255.0.0/18
   - IP-CIDR,119.255.128.0/17
   - IP-CIDR,120.0.0.0/12
-  - IP-CIDR,120.24.0.0/14
   - IP-CIDR,120.31.0.0/16
   - IP-CIDR,120.32.0.0/12
   - IP-CIDR,120.48.0.0/16
