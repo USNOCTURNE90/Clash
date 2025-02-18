@@ -192,6 +192,7 @@ rules:
   - DOMAIN-SUFFIX,liquid.com
   - DOMAIN-SUFFIX,poloniex.com
   - DOMAIN-KEYWORD,saasexch
+  - DOMAIN-SUFFIX,saasexch
   - DOMAIN-SUFFIX,zb.app
   - DOMAIN-SUFFIX,zb.com
   - DOMAIN-SUFFIX,zb.io
