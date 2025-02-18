@@ -1,4 +1,12 @@
 rules:
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,appsflyersdk.com
+  - IP-CIDR,120.24.0.0/14
+  - IP-CIDR,35.77.148.188/32
+  - IP-CIDR,39.104.0.0/14
+  - IP-CIDR,120.76.0.0/14
+  - IP-CIDR,120.68.0.0/14
+  - IP-CIDR,39.108.0.0/16
   - IP-CIDR,47.96.0.0/12
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,o529943.ingest.sentry.io
@@ -28,7 +36,6 @@ rules:
   - DOMAIN-SUFFIX,img.daylight.xyz
   - DOMAIN-SUFFIX,coinbasecdn.net
   - DOMAIN-SUFFIX,mokexapp.io
-  - DOMAIN-SUFFIX,inapps.appsflyer.com
   - DOMAIN-SUFFIX,mokexapp.me
   - IP-CIDR,8.210.73.205/24
   - DOMAIN-SUFFIX,bnappweb.biz
