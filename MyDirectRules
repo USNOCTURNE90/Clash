@@ -1,6 +1,4 @@
 rules:
-  - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,vh.api.okaapps.com
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.7littlemen.com
