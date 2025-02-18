@@ -1,4 +1,5 @@
 rules:
+  - DOMAIN-SUFFIX,o529943.ingest.sentry.io
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,appsflyersdk.com
   - IP-CIDR,120.24.0.0/14
