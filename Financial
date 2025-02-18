@@ -9,7 +9,6 @@ rules:
   - DOMAIN-SUFFIX,aim-abtesting-sdk.za.group
   - DOMAIN-SUFFIX,bankappgw.za.group
   - DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
-  - DOMAIN-SUFFIX,launches.appsflyer.com
   - DOMAIN-SUFFIX,appguard.za.group
   #Optionstart
   - DOMAIN-SUFFIX,optionstrat.com
@@ -17,7 +16,6 @@ rules:
   - DOMAIN-SUFFIX,trade-hk.osl.com
   - DOMAIN-KEYWORD,osl
   #胜利证券
-  - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,accountopen.victorysec.com.hk
   - DOMAIN-KEYWORD,rwbkr
   - DOMAIN-SUFFIX,open.rwbkr.com
