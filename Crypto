@@ -1,5 +1,7 @@
 rules:
-  - PROCESS-NAME,Binance.exe
+  - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,DOMAIN,sentry.io
   - DOMAIN-SUFFIX,o529943.ingest.sentry.io
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,appsflyersdk.com
