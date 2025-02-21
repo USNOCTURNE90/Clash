@@ -8,3 +8,4 @@ rules:
   - DOMAIN-SUFFIX,steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
   - DOMAIN-SUFFIX,r11.o.lencr.org
   - DOMAIN-SUFFIX,steam-chat.com
+  - IP-CIDR,45.207.10.185/24
