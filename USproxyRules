@@ -25,6 +25,7 @@ rules:
   - IP-CIDR,104.26.0.0/20
   - IP-CIDR,172.67.0.0/16
   # TextNow Surge Rules
+  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,analytics.adjust.com
   - DOMAIN-SUFFIX,logs.ads.vungle.com
   - DOMAIN-SUFFIX,sdk-files.smaato.net
