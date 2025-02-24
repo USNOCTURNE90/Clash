@@ -36,3 +36,5 @@ rules:
   - DOMAIN-SUFFIX,repo.new
   - DOMAIN-SUFFIX,thegithubshop.com
   - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,default.exp-tas.com
+  - DOMAIN-SUFFIX,cdn-lfs-us-1.hf.co
