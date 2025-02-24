@@ -23,11 +23,6 @@ rules:
   - DOMAIN-KEYWORD,nssurge.com
 
   # Suffix Rules
-  - DOMAIN-SUFFIX,download.pytorch.org
-  - DOMAIN-SUFFIX,i.vimeocdn.com
-  - DOMAIN-SUFFIX,comfy.org
-  - DOMAIN-SUFFIX,api.mixpanel.com
-  - DOMAIN-SUFFIX,download.pytorch.org
   - DOMAIN-SUFFIX,telegraph.prd.api.discomax.com
   - DOMAIN-SUFFIX,freedidi.com
   - DOMAIN-SUFFIX,onlyfans.com
