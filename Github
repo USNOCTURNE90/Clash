@@ -1,4 +1,11 @@
 rules:
+  - DOMAIN-SUFFIX,files.pythonhosted.org
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,i.vimeocdn.com
+  - DOMAIN-SUFFIX,comfy.org
+  - DOMAIN-SUFFIX,api.mixpanel.com
+  - DOMAIN-SUFFIX,download.pytorch.org
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,dependabot.com
   - DOMAIN-SUFFIX,ghcr.io
