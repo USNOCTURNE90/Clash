@@ -137,3 +137,28 @@ rules:
   - DOMAIN-SUFFIX,hsbc.de
   - DOMAIN-SUFFIX,hsbc.com.mx
   - DOMAIN-SUFFIX,sy.msghist.liveperson.net
+  - DOMAIN-SUFFIX,lpsnmedia.net
+  - DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,we-stats.com
+  - DOMAIN-SUFFIX,tealiumiq.com
+  - DOMAIN-SUFFIX,messaging.prod.ap-east-1.vam-hk.cloud1.vv1865.com
+  - DOMAIN-SUFFIX,match.adsrvr.org
+  - DOMAIN-SUFFIX,logx.optimizely.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,akamai.tiqcdn.com
+  - DOMAIN-SUFFIX,d0r7clfv2slbaskjrbpfrgqzn4qtocrktla5akcjc611196246f6d3c6sac.d.aa.online-metrix.net
+  - DOMAIN-SUFFIX,finance,YahooFinanceProxy
+  - DOMAIN-SUFFIX,market,YahooFinanceProxy
+  - DOMAIN-SUFFIX,quote,YahooFinanceProxy
+  - DOMAIN-SUFFIX,stocks,YahooFinanceProxy
+  - DOMAIN-SUFFIX,YahooFinanceProxy
+  - DOMAIN-SUFFIX,6bt0.com
+  - DOMAIN-SUFFIX,cdn-fastly.obsproject.com
+  - DOMAIN-SUFFIX,finance.yahoo.com,YahooFinanceProxy
+  - DOMAIN-SUFFIX,ingest.contribute.live-video.net
+  - DOMAIN-SUFFIX,o.ss2.us
+  - DOMAIN-SUFFIX,obsproject.com
+  - DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
+  - DOMAIN-SUFFIX,yahooapis.com,YahooFinanceProxy
+  - DOMAIN-SUFFIX,yimg.com,YahooFinanceProxy
