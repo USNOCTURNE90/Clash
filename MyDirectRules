@@ -1,19 +1,18 @@
 rules:
+  - DOMAIN-SUFFIX,skan.singular.net
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,vh.api.okaapps.com
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.7littlemen.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   #Steam
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,open.bigmodel.cn
+  - DOMAIN-SUFFIX,wbrks.com
   - DOMAIN-SUFFIX,ocsp.comodoca.com
   - DOMAIN-SUFFIX,ocsp.usertrust.com
   - DOMAIN-SUFFIX,ocsp.sectigo.com
   - DOMAIN-SUFFIX,store.steampowered.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamusercontent.com
