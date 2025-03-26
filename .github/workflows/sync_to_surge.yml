@@ -69,6 +69,7 @@ jobs:
           from pathlib import Path
           import logging
           import traceback
+          from datetime import datetime, timedelta
           
           # 配置日志
           logging.basicConfig(
@@ -76,6 +77,12 @@ jobs:
               format="%(asctime)s - %(levelname)s - %(message)s"
           )
           logger = logging.getLogger(__name__)
+          
+          # 获取中国时间
+          def get_china_time():
+              utc_now = datetime.utcnow()
+              china_time = utc_now + timedelta(hours=8)
+              return china_time.strftime('%Y-%m-%d %H:%M:%S')
           
           # 打印当前工作目录和内容
           print(f"Current directory: {os.getcwd()}")
@@ -124,7 +131,7 @@ jobs:
                       clash_content = f.read()
                   
                   # 添加最后更新时间标记
-                  current_time = time.strftime('%Y-%m-%d %H:%M:%S')
+                  current_time = get_china_time()
                   
                   # 转换为Surge格式
                   surge_rules = []
@@ -150,8 +157,8 @@ jobs:
                   surge_content_lines = []
                   
                   # 添加更新时间注释
-                  surge_content_lines.append(f"# 最后更新时间: {current_time}")
-                  surge_content_lines.append(f"# 从Clash自动同步 - {current_time}")
+                  surge_content_lines.append(f"# 最后更新时间: {current_time} (北京时间)")
+                  surge_content_lines.append(f"# 从Clash自动同步 - {current_time} (北京时间)")
                   surge_content_lines.append(f"# 原始文件: {clash_file.name}")
                   
                   # 添加原始注释（但不包括更新时间相关注释）
@@ -183,7 +190,8 @@ jobs:
               
               if result.stdout.strip():
                   print("Changes found, committing...")
-                  commit_message = f"[AUTO_SYNC] 从Clash自动同步规则集 - {time.strftime('%Y-%m-%d %H:%M:%S')}"
+                  china_time = get_china_time()
+                  commit_message = f"[AUTO_SYNC] 从Clash自动同步规则集 - {china_time} (北京时间)"
                   subprocess.run(
                       ["git", "-C", "Surge", "commit", "-m", commit_message],
                       check=True
