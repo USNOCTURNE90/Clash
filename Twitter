@@ -1,3 +1,5 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Twitter
 rules:
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
@@ -25,8 +27,6 @@ rules:
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-KEYWORD,twitter
-
-  # IP-CIDR rules (no-resolve option is not directly applicable in Clash, so the option is omitted)
   - IP-CIDR,192.133.76.0/22
   - IP-CIDR,199.59.148.0/22
   - IP-CIDR,199.96.56.0/21

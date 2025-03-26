@@ -1,5 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: MyProxyRules
 rules:
-  # Key-Word Rule
   - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
   - DOMAIN-SUFFIX,finance.yahoo.com,YahooFinanceProxy
@@ -21,8 +22,6 @@ rules:
   - DOMAIN-KEYWORD,cdnbc-logs.hsbc.com
   - DOMAIN-KEYWORD,d0r7clfv2slbaskjrbpfrgqzn4qtocrktla5akcjc611196246f6d3c6sac.d.aa.online-metrix.net
   - DOMAIN-KEYWORD,nssurge.com
-
-  # Suffix Rules
   - DOMAIN-SUFFIX,holdemresources.net
   - DOMAIN-SUFFIX,telegraph.prd.api.discomax.com
   - DOMAIN-SUFFIX,freedidi.com
@@ -84,8 +83,6 @@ rules:
   - DOMAIN-SUFFIX,discordstatus.com
   - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
-
-  # Viber Rules
   - DOMAIN-SUFFIX,viber.com
   - DOMAIN-SUFFIX,cdn.viber.com
   - DOMAIN-SUFFIX,www.viber.com

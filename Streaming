@@ -1,6 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Streaming
 rules:
-  # Netflix Rules
-  - USER-AGENT,Argo*
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.net
@@ -9,23 +9,12 @@ rules:
   - DOMAIN-SUFFIX,nflximg.net
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
-
-  # Prime Video Rules
-  - USER-AGENT,Prime%20Video*
-  - USER-AGENT,InstantVideo.US*
-  - USER-AGENT,ViuTV*
   - DOMAIN,api.viu.now.com
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,llnwd.net
-
-  # myTVsuper Rules
-  - USER-AGENT,mytv*
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,tvb.com
-
-  # Disney+ Rules
-  - USER-AGENT,Disney*
   - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,global.edge.bamgrid.com
   - DOMAIN-SUFFIX,disneyplus.com

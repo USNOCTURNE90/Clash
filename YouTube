@@ -1,5 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: YouTube
 rules:
-  # YouTube and Google Video Domains
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
@@ -179,15 +180,5 @@ rules:
   - DOMAIN-SUFFIX,youtubemobilesupport.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
-
-  # YouTube-related IP ranges
   - IP-CIDR,172.110.32.0/21,no-resolve
   - IP-CIDR,216.73.80.0/20,no-resolve
-  - IP-CIDR6,2620:120:e000::/40,no-resolve
-  - USER-AGENT,*YouTubeMusic*
-  - USER-AGENT,*com.google.ios.youtubemusic*
-  - USER-AGENT,*youtube*
-  - USER-AGENT,YouTube*
-  - USER-AGENT,YouTubeMusic*
-  - USER-AGENT,com.google.ios.youtube*
-  - USER-AGENT,com.google.ios.youtubemusic*

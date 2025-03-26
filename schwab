@@ -1,5 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: schwab
 rules:
-  # Charles Schwab Rules
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,schwabinstitutional.com
   - DOMAIN-SUFFIX,schwaballiance.com
@@ -14,12 +15,8 @@ rules:
   - DOMAIN-SUFFIX,schwabfunds.com
   - DOMAIN-SUFFIX,schwabetf.com
   - DOMAIN-SUFFIX,optionsxpress.com
-
-  # Possible Related Domains
   - DOMAIN-SUFFIX,tdameritrade.com
   - DOMAIN-SUFFIX,ameritrade.com
-
-  # General Financial Keywords (Optional)
   - DOMAIN-KEYWORD,schwab
   - DOMAIN-KEYWORD,brokerage
   - DOMAIN-KEYWORD,investing

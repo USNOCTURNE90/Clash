@@ -1,3 +1,5 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Speedtest
 rules:
   - DOMAIN-SUFFIX,peedtest-net.mk.de
   - DOMAIN-SUFFIX,speedtest.rt.ru

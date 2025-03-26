@@ -1,3 +1,5 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Domestic
 rules:
   - DOMAIN-SUFFIX,c-t.work
   - DOMAIN-SUFFIX,mijia.tech
@@ -765,6 +767,3 @@ rules:
   - DOMAIN-SUFFIX,6.cn
   - DOMAIN-SUFFIX,3.cn
   - DOMAIN-SUFFIX,chaoxing.cc
-  - USER-AGENT,%E4%BC%98%E9%85%B7*
-  - USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
-  - USER-AGENT,TeslaMap

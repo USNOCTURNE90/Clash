@@ -1,3 +1,5 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: AppleProxyRules
 rules:
   - IP-CIDR,17.248.152.0/24
   - DOMAIN-SUFFIX,ess.apple.com
@@ -16,7 +18,6 @@ rules:
   - DOMAIN,books.apple.com
   - DOMAIN,itunes.apple.com
   - DOMAIN,tv.apple.com
-  # News
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN,news-assets.apple.com
   - DOMAIN,news-client.apple.com
@@ -24,18 +25,15 @@ rules:
   - DOMAIN,news-edge.apple.com
   - DOMAIN,news-events.apple.com
   - DOMAIN,apple.comscoreresearch.com
-  # Apple Fitness+ and health
   - DOMAIN,hls-svod.itunes.apple.com
   - DOMAIN,amp-api.fitness.apple.com
   - DOMAIN,config-chr.health.apple.com
-  # Apple TV
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN,hls.itunes.apple.com
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,tv.applemusic.com
   - DOMAIN,uts-api.itunes.apple.com
-  # Apple-content
   - IP-CIDR,17.248.152.252/31
   - IP-CIDR,17.248.152.224/27
   - IP-CIDR,17.248.152.192/27

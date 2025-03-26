@@ -1,6 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Paypal
 rules:
-  # PayPal Rules
-  - USER-AGENT,PayPal*
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal-mktg.com

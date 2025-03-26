@@ -1,9 +1,10 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Adobe
 rules:
   - DOMAIN-SUFFIX,cai.adobe.io
   - DOMAIN-SUFFIX,p13n.adobe.io
   - DOMAIN-SUFFIX,ims-prod06.adobelogin.com
   - DOMAIN-SUFFIX,pre-signed-firefly-prod.s3-
-accelerate.amazonaws.com
   - DOMAIN-SUFFIX,cc-ext-prod-pkgs.s3.amazonaws.com
   - DOMAIN-SUFFIX,10xfotolia.com
   - DOMAIN-SUFFIX,2o7.net

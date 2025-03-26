@@ -1,5 +1,6 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Financial
 rules:
-  #za bank
   - DOMAIN-SUFFIX,zaip-aic.za.group
   - DOMAIN-SUFFIX,integrate-appgw.zajourney.com
   - DOMAIN-SUFFIX,testcdn.zaticdn.com
@@ -10,12 +11,9 @@ rules:
   - DOMAIN-SUFFIX,bankappgw.za.group
   - DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
   - DOMAIN-SUFFIX,appguard.za.group
-  #Optionstart
   - DOMAIN-SUFFIX,optionstrat.com
-  #OSL
   - DOMAIN-SUFFIX,trade-hk.osl.com
   - DOMAIN-KEYWORD,osl
-  #胜利证券
   - DOMAIN-SUFFIX,accountopen.victorysec.com.hk
   - DOMAIN-KEYWORD,rwbkr
   - DOMAIN-SUFFIX,open.rwbkr.com
@@ -23,20 +21,17 @@ rules:
   - DOMAIN-SUFFIX,ccp.rwbkr.com
   - DOMAIN-SUFFIX,news.rwbkr.com
   - DOMAIN-SUFFIX,notify.rwbkr.com
-  #长桥证券网页
   - DOMAIN-SUFFIX,event.lbkrs.com
   - DOMAIN-SUFFIX,event-tracking.lbkrs.com
   - DOMAIN-SUFFIX,longbridge.com
   - DOMAIN-SUFFIX,longportapp.com
   - IP-CIDR,18.163.178.98/32
-  # TradingView
   - DOMAIN-SUFFIX,api.tradingview.com
   - DOMAIN-SUFFIX,www.tradingview.com
   - DOMAIN-SUFFIX,chart.tradingview.com
   - DOMAIN-SUFFIX,s.tradingview.com
   - DOMAIN-SUFFIX,data.tradingview.com
   - DOMAIN-SUFFIX,widget.tradingview.com
-  #Schwab
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,schwabinstitutional.com
   - DOMAIN-SUFFIX,schwaballiance.com
@@ -57,7 +52,6 @@ rules:
   - DOMAIN-KEYWORD,brokerage
   - DOMAIN-KEYWORD,investing
   - DOMAIN-KEYWORD,trading
-  #Alipay HK
   - DOMAIN-SUFFIX,alipay
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
@@ -79,7 +73,6 @@ rules:
   - DOMAIN-SUFFIX,ifaa.org.cn
   - DOMAIN-SUFFIX,luohanacademy.com
   - DOMAIN-SUFFIX,sinopayment.com.cn
-  #Interactive Brokers 域名
   - DOMAIN-SUFFIX,ocsp.digicert.com
   - DOMAIN-SUFFIX,c.go-mpulse.net
   - DOMAIN-SUFFIX,ibkr.com
@@ -108,8 +101,6 @@ rules:
   - IP-CIDR,104.20.10.0/24
   - IP-CIDR,169.62.208.0/20
   - IP-CIDR,207.228.232.0/24
-  - IP-CIDR6,2606:4700::/32
-  - IP-CIDR6,2606:4700:10::/48
   - PROCESS-NAME,ibkr-desktop
   - PROCESS-NAME,ibkr-mobile
   - PROCESS-NAME,ibkr-api
@@ -117,14 +108,12 @@ rules:
   - PROCESS-NAME,ibkr-pro
   - PROCESS-NAME,ib-mobile
   - PROCESS-NAME,ibgateway
-  #yahoo
   - DOMAIN-SUFFIX,yahoo.com, YahooFinanceProxy
   - DOMAIN-SUFFIX,finance.yahoo.com, YahooFinanceProxy
   - DOMAIN-SUFFIX,yimg.com, YahooFinanceProxy
   - DOMAIN-SUFFIX,yahooapis.com, YahooFinanceProxy
   - DOMAIN-KEYWORD,finance, YahooFinanceProxy
   - DOMAIN-KEYWORD,yahoo, YahooFinanceProxy
-  #HSBC
   - DOMAIN-SUFFIX,hsbc.com
   - DOMAIN-SUFFIX,hsbc.co.uk
   - DOMAIN-SUFFIX,hsbcnet.com

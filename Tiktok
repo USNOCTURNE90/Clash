@@ -1,10 +1,9 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: Tiktok
 rules:
-  # Specific Domains
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
-
-  # Suffix Rules
   - DOMAIN-SUFFIX,bytedapm.com
   - DOMAIN-SUFFIX,bytegecko-i18n.com
   - DOMAIN-SUFFIX,byteoversea.com
@@ -26,14 +25,7 @@ rules:
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.us
-
-  # Keyword Rules
   - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
-
-  # User-Agent Rules
-  - USER-AGENT,TikTok*
-
-  # Process Name Rules
   - PROCESS-NAME,com.zhiliaoapp.musically

@@ -1,3 +1,5 @@
+# 从Surge自动同步 - 2025-03-26 14:25:44
+# 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,skan.singular.net
   - DOMAIN-SUFFIX,deepseek.com
@@ -5,7 +7,6 @@ rules:
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.7littlemen.com
   - DOMAIN-SUFFIX,immersivetranslate.com
-  #Steam
   - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,open.bigmodel.cn
   - DOMAIN-SUFFIX,wbrks.com
@@ -28,7 +29,6 @@ rules:
   - DOMAIN-SUFFIX,8686c.com
   - DOMAIN-SUFFIX,pphimalayanrt.com
   - DOMAIN-SUFFIX,cm.steampowered.com
-  #其他
   - PROCESS-NAME,企业微信
   - PROCESS-NAME,企业微信Helper
   - PROCESS-NAME,Dingtalk
@@ -69,7 +69,6 @@ rules:
   - DOMAIN-SUFFIX,www.yyai8.com
   - DOMAIN-SUFFIX,api.yyai8.com
   - DOMAIN-SUFFIX,img.yyai8.com
-  # Rockstar Games 相关域名
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,www.rockstargames.com
   - DOMAIN-SUFFIX,socialclub.rockstargames.com
@@ -89,7 +88,6 @@ rules:
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
   - DOMAIN-SUFFIX,vcrfiw.lol
   - DOMAIN-SUFFIX,sjygml.lol
-  # Logitech G HUB 相关域名
   - DOMAIN-SUFFIX,ghub.logitech.io
   - DOMAIN-SUFFIX,logitech.io
   - DOMAIN-SUFFIX,logi.com
@@ -97,7 +95,6 @@ rules:
   - DOMAIN-SUFFIX,logitech.com
   - DOMAIN-SUFFIX,logitech.zendesk.com
   - DOMAIN-SUFFIX,logitechg.zendesk.com
-  # 微软
   - DOMAIN,res.cdn.office.net
   - DOMAIN-SUFFIX,fs.microsoft.com
   - DOMAIN-SUFFIX,sdx.microsoft.com
@@ -151,9 +148,7 @@ rules:
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,download.prss.microsoft.com
-  - DOMAIN-SET, /^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
   - DOMAIN,d4-ec.a.kwimgs.com
-  # 同花顺
   - DOMAIN-SUFFIX,push.hexin.cn
   - DOMAIN-SUFFIX,apm.hexin.cn
   - DOMAIN-SUFFIX,10jqka.com.cn
@@ -164,24 +159,16 @@ rules:
   - DOMAIN-SUFFIX,w.10jqka.com.cn
   - DOMAIN-SUFFIX,ai.iwencai.com
   - DOMAIN-SUFFIX,nativeapphq.hexin.cn
-  # 东方财富
   - DOMAIN-SUFFIX,eastmoney.com
   - DOMAIN-SUFFIX,push2.eastmoney.com
   - DOMAIN-SUFFIX,push2his.eastmoney.com
-  # 大智慧
   - DOMAIN-SUFFIX,dzh.com
-  # 新浪财经
   - DOMAIN-SUFFIX,finance.sina.com.cn
-  # 雪球
   - DOMAIN-SUFFIX,xueqiu.com
   - DOMAIN-SUFFIX,static.snowballfinance.com
-  # 老虎证券
   - DOMAIN-SUFFIX,tigerbrokers.com
-  # 富途牛牛
   - DOMAIN-SUFFIX,futunn.com
-  # 腾讯自选股
   - DOMAIN-SUFFIX,stock.qq.com
-  # 其他常用股票相关域名
   - DOMAIN-SUFFIX,gw.com.cn
   - DOMAIN-SUFFIX,cs.com.cn
   - DOMAIN-SUFFIX,hc.com.cn
@@ -267,7 +254,6 @@ rules:
   - DOMAIN-SUFFIX,ls.dtrace.nvidia.com
   - DOMAIN-SUFFIX,events.gfe.nvidia.com
   - DOMAIN,sms-activate.org
-  # China
   - DOMAIN-KEYWORD,iqiyi
   - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,hdslb
@@ -284,7 +270,6 @@ rules:
   - DOMAIN-KEYWORD,webank
   - DOMAIN-KEYWORD,weibo
   - DOMAIN-KEYWORD,10086
-  #DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,tmall.com
@@ -297,7 +282,6 @@ rules:
   - DOMAIN-SUFFIX,i-amtr.com
   - DOMAIN-SUFFIX,picooc-int.com
   - DOMAIN-SUFFIX,api.lbkrs.com
-  # Others
   - DOMAIN-SUFFIX,whatismyipaddress.com
   - DOMAIN-SUFFIX,whatismyip.akamai.com
   - DOMAIN-SUFFIX,myip.la
@@ -305,9 +289,7 @@ rules:
   - DOMAIN-SUFFIX,api-ipv6.ip.sb
   - DOMAIN-SUFFIX,sessions.bugsnag.com
   - PROCESS-NAME,Tailscale
-  # Client
   - PROCESS-NAME,UUBooster
-  # > Download
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -383,7 +365,6 @@ rules:
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
   - PROCESS-NAME,UUBooster
-  # > Download
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -394,14 +375,11 @@ rules:
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
-  # > nexsub
   - DOMAIN-SUFFIX,xvvrkb.lol
-  # > qiniup
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,www.asusrouter.com
-  #one drive
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
@@ -417,11 +395,8 @@ rules:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
-  - USER-AGENT,OneDrive*
-  - USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-  #Xiaomi
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net
   - DOMAIN-SUFFIX,816798.net
@@ -551,7 +526,6 @@ rules:
   - IP-CIDR,58.220.58.152/31
   - IP-CIDR,58.220.59.2/32
   - DOMAIN-KEYWORD,didi
-  - DOMAIN-SET,/^edge-0([1-9]|[1-9][0-9]|100)\.xactu1\.icloud-content\.com\.cn$/
   - DOMAIN-SUFFIX,530c098a-e3fa-4ee4-9a09-b6bd98656c4a-addfd325e6e3.cdn.forter.com
   - DOMAIN-SUFFIX,account.live.com
   - DOMAIN-SUFFIX,account.microsoft.com
@@ -631,7 +605,6 @@ rules:
   - PROCESS-NAME,cloudmusic.exe
   - PROCESS-NAME,gamingservices.exe
   - PROCESS-NAME,nvcontainer.exe
-  # IPv4 规则:
   - IP-CIDR,1.1.8.0/24
   - IP-CIDR,1.2.4.0/24
   - IP-CIDR,1.8.1.0/24
@@ -3918,11 +3891,4 @@ rules:
   - IP-CIDR,223.252.192.0/19
   - IP-CIDR,223.255.236.0/22
   - IP-CIDR,223.255.252.0/23
-  # IPv6 规则:
-  - IP-CIDR6,2404:3fc0::/45
-  - IP-CIDR6,240e:958:2003:200::/60
-  - IP-CIDR6,240e:978:d02:300::/60
-  - IP-CIDR6,240e:978:2902:1100::/64
-  - IP-CIDR6,2602:801:f000::/44
-  - IP-CIDR6,2a01:bc80::/45
   - PROCESS-NAME,wegame.exe
