@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-26 22:32:38 (北京时间)
+# 从Surge自动同步 - 2025-03-26 22:48:04 (北京时间)
 # 原始文件: Financial
 rules:
+  - DOMAIN-SUFFIX,openbb.co
   - DOMAIN-SUFFIX,zaip-aic.za.group
   - DOMAIN-SUFFIX,integrate-appgw.zajourney.com
   - DOMAIN-SUFFIX,testcdn.zaticdn.com
