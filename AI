@@ -1,7 +1,6 @@
 # 从Surge自动同步 - 2025-03-26 22:32:38 (北京时间)
 # 原始文件: AI
 rules:
-  - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,manus.im
   - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
   - DOMAIN-SUFFIX,api.revenuecat.com
