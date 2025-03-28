@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-03-28 23:36:09 (北京时间)
+# 从Surge自动同步 - 2025-03-29 00:33:32 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-KEYWORD,120399
+  - DOMAIN-KEYWORD,95598
   - DOMAIN-SUFFIX,skan.singular.net
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,vh.api.okaapps.com
