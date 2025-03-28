@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-26 22:48:04 (北京时间)
+# 从Surge自动同步 - 2025-03-28 23:23:11 (北京时间)
 # 原始文件: Paypal
 rules:
   - DOMAIN-SUFFIX,paypal.com
