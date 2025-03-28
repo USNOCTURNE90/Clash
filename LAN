@@ -1,0 +1,49 @@
+payload:
+  # 局域网地址
+  - IP-CIDR,127.0.0.0/8,LAN
+  - IP-CIDR,10.0.0.0/8,LAN
+  - IP-CIDR,172.16.0.0/12,LAN
+  - IP-CIDR,192.168.0.0/16,LAN
+  - IP-CIDR,169.254.0.0/16,LAN
+  - IP-CIDR,224.0.0.0/4,LAN
+  - IP-CIDR,240.0.0.0/4,LAN
+  - IP-CIDR,::1/128,LAN
+  - IP-CIDR,fc00::/7,LAN
+  - IP-CIDR,fe80::/10,LAN
+  - IP-CIDR,fd00::/8,LAN
+
+  # 本地保留地址
+  - DOMAIN-SUFFIX,local,LAN
+  - DOMAIN-SUFFIX,localhost,LAN
+  - DOMAIN-SUFFIX,lan,LAN
+  - DOMAIN,router.asus.com,LAN
+  - DOMAIN,router.synology.com,LAN
+  - DOMAIN-SUFFIX,nip.io,LAN
+
+  # Apple 服务
+  - DOMAIN,api.smoot.apple.com,LAN
+  - DOMAIN,captive.apple.com,LAN
+  - DOMAIN,xp.apple.com,LAN
+  - DOMAIN,configuration.apple.com,LAN
+  - DOMAIN,guzzoni.apple.com,LAN
+  - DOMAIN,smp-device-content.apple.com,LAN
+  - DOMAIN-SUFFIX,ess.apple.com,LAN
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net,LAN
+  - DOMAIN-SUFFIX,push.apple.com,LAN
+  - DOMAIN,aod.itunes.apple.com,LAN
+  - DOMAIN,mesu.apple.com,LAN
+  - DOMAIN,api.smoot.apple.cn,LAN
+  - DOMAIN,gs-loc.apple.com,LAN
+  - DOMAIN,mvod.itunes.apple.com,LAN
+  - DOMAIN,streamingaudio.itunes.apple.com,LAN
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com,LAN
+  - DOMAIN-SUFFIX,lcdn-registration.apple.com,LAN
+  - DOMAIN-SUFFIX,ls.apple.com,LAN
+  - DOMAIN,instant-hotspot.svc.apple.com,LAN
+  - DOMAIN,smp-device,LAN
+  - DOMAIN-SUFFIX,apple-mobileme.com,LAN
+  - DOMAIN-SUFFIX,icloud.com.cn,LAN
+  
+  # 系统进程
+  - PROCESS-NAME,trustd,LAN
+  - PROCESS-NAME,netbiosd,LAN 
