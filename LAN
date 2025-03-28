@@ -11,7 +11,6 @@ payload:
   - IP-CIDR,fc00::/7,LAN
   - IP-CIDR,fe80::/10,LAN
   - IP-CIDR,fd00::/8,LAN
-
   # 本地保留地址
   - DOMAIN-SUFFIX,local,LAN
   - DOMAIN-SUFFIX,localhost,LAN
@@ -19,7 +18,6 @@ payload:
   - DOMAIN,router.asus.com,LAN
   - DOMAIN,router.synology.com,LAN
   - DOMAIN-SUFFIX,nip.io,LAN
-
   # Apple 服务
   - DOMAIN,api.smoot.apple.com,LAN
   - DOMAIN,captive.apple.com,LAN
