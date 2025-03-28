@@ -1,4 +1,4 @@
-payload:
+rules:
   # 局域网地址
   - IP-CIDR,127.0.0.0/8,LAN
   - IP-CIDR,10.0.0.0/8,LAN
