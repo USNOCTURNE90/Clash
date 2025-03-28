@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 00:33:32 (北京时间)
+# 从Surge自动同步 - 2025-03-29 00:35:21 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,api.wsgw-rewrite.com/electricity/bill/all
   - DOMAIN-KEYWORD,120399
   - DOMAIN-KEYWORD,95598
   - DOMAIN-SUFFIX,skan.singular.net
