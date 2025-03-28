@@ -1,5 +1,6 @@
+# 从Surge自动同步 - 2025-03-28 23:33:26 (北京时间)
+# 原始文件: LAN
 rules:
-  # 局域网地址
   - IP-CIDR,127.0.0.0/8,LAN
   - IP-CIDR,10.0.0.0/8,LAN
   - IP-CIDR,172.16.0.0/12,LAN
@@ -11,14 +12,12 @@ rules:
   - IP-CIDR,fc00::/7,LAN
   - IP-CIDR,fe80::/10,LAN
   - IP-CIDR,fd00::/8,LAN
-  # 本地保留地址
   - DOMAIN-SUFFIX,local,LAN
   - DOMAIN-SUFFIX,localhost,LAN
   - DOMAIN-SUFFIX,lan,LAN
   - DOMAIN,router.asus.com,LAN
   - DOMAIN,router.synology.com,LAN
   - DOMAIN-SUFFIX,nip.io,LAN
-  # Apple 服务
   - DOMAIN,api.smoot.apple.com,LAN
   - DOMAIN,captive.apple.com,LAN
   - DOMAIN,xp.apple.com,LAN
@@ -41,7 +40,5 @@ rules:
   - DOMAIN,smp-device,LAN
   - DOMAIN-SUFFIX,apple-mobileme.com,LAN
   - DOMAIN-SUFFIX,icloud.com.cn,LAN
-  
-  # 系统进程
   - PROCESS-NAME,trustd,LAN
-  - PROCESS-NAME,netbiosd,LAN 
+  - PROCESS-NAME,netbiosd,LAN
