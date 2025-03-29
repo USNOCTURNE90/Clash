@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-29 18:07:01 (北京时间)
+# 从Surge自动同步 - 2025-03-29 18:11:16 (北京时间)
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,px-cdn.net
@@ -10,14 +10,10 @@ rules:
   - DOMAIN-SUFFIX,tapad.com
   - DOMAIN-SUFFIX,ugoearn.com
   - DOMAIN-KEYWORD,ugoearn
-  - IP-CIDR,104.21.0.0/20
-  - IP-CIDR,172.67.0.0/16
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,tellocdn.com
   - DOMAIN-SUFFIX,redpocket.com
   - DOMAIN-KEYWORD,redpocket
-  - IP-CIDR,104.16.0.0/12
-  - IP-CIDR,104.26.0.0/20
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN-SUFFIX,vungle.com
@@ -32,13 +28,8 @@ rules:
   - DOMAIN-SUFFIX,netomi.com
   - DOMAIN-SUFFIX,textnow.com
   - DOMAIN-KEYWORD,textnow
-  - IP-CIDR,35.186.0.0/17
-  - IP-CIDR,35.192.0.0/14
   - DOMAIN-SUFFIX,tiqcdn.com
   - DOMAIN-SUFFIX,siftscience.com
-  - IP-CIDR,104.18.0.0/16
-  - IP-CIDR,104.22.0.0/16
-  - IP-CIDR,172.64.0.0/13
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,verizon.com
@@ -61,6 +52,9 @@ rules:
   - DOMAIN-SUFFIX,mintmobile.com
   - DOMAIN-SUFFIX,fi.google.com
   - DOMAIN-SUFFIX,visible.com
+  - DOMAIN-SUFFIX,ultramobile.com
   - IP-CIDR,199.0.0.0/8
   - IP-CIDR,208.0.0.0/8
-  - DOMAIN-SUFFIX,ultramobile.com
+  - IP-CIDR,104.18.0.0/15
+  - IP-CIDR,104.21.0.0/20
+  - IP-CIDR,172.64.0.0/13
