@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:26:55 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:28:42 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -10,17 +10,15 @@ rules:
   - DOMAIN-KEYWORD,quote
   - DOMAIN-KEYWORD,stocks
   - DOMAIN-KEYWORD,market
-  - DOMAIN-KEYWORD,coze.com
+  - DOMAIN-SUFFIX,coze.com
   - DOMAIN-KEYWORD,docker
   - DOMAIN-KEYWORD,mastodon
   - DOMAIN-KEYWORD,techhub.social
   - DOMAIN-KEYWORD,macked
   - DOMAIN-KEYWORD,mobile.eum-appdynamics.com
   - DOMAIN-KEYWORD,aa.online-metrix.net
-  - DOMAIN-KEYWORD,cdntm.hsbc.com.hk
-  - DOMAIN-KEYWORD,cdnbc-logs.hsbc.com
   - DOMAIN-KEYWORD,d0r7clfv2slbaskjrbpfrgqzn4qtocrktla5akcjc611196246f6d3c6sac.d.aa.online-metrix.net
-  - DOMAIN-KEYWORD,nssurge.com
+  - DOMAIN-SUFFIX,,nssurge.com
   - DOMAIN-SUFFIX,holdemresources.net
   - DOMAIN-SUFFIX,telegraph.prd.api.discomax.com
   - DOMAIN-SUFFIX,freedidi.com
