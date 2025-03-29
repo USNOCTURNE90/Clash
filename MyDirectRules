@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 23:01:57 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:03:32 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,sis.jpush.io
   - DOMAIN-SUFFIX,sdk-open-phone.getui.com
   - DOMAIN-SUFFIX,vn.cloud.tesla.cn
   - DOMAIN-SUFFIX,wechatpay.cn/mmtls/*
