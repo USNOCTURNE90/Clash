@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-29 16:20:54 (北京时间)
+# 从Surge自动同步 - 2025-03-29 17:27:48 (北京时间)
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,ugoearn.com
@@ -27,6 +27,7 @@ rules:
   - DOMAIN-SUFFIX,c.amazon-adsystem.com
   - DOMAIN-SUFFIX,data.emb-api.com
   - DOMAIN-SUFFIX,jotfor.ms
+  - DOMAIN-SUFFIX,chatapps-us.netomi.com
   - DOMAIN-SUFFIX,textnow.com
   - DOMAIN-SUFFIX,textnow.me
   - DOMAIN-KEYWORD,textnow
