@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:38:04 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:39:38 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -165,10 +165,6 @@ rules:
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,dns.google
   - DOMAIN-SUFFIX,run.app
   - DOMAIN-SUFFIX,cloudflare-dns.com
@@ -492,7 +488,6 @@ rules:
   - DOMAIN-SUFFIX,redtube.com
   - DOMAIN-SUFFIX,redtubepremium.com
   - DOMAIN-SUFFIX,render.com
-  - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
   - DOMAIN-SUFFIX,reuters.com
   - DOMAIN-SUFFIX,rfa.org
   - DOMAIN-SUFFIX,rule34.xxx
