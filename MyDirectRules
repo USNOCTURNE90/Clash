@@ -1,6 +1,16 @@
-# 从Surge自动同步 - 2025-03-29 23:16:11 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:21:52 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,api.mapbox.com
+  - IP-CIDR,101.47.81.229/32
+  - IP-CIDR,101.47.83.103/32
+  - IP-CIDR,155.102.4.141/32
+  - IP-CIDR,103.136.221.67/32
+  - IP-CIDR,163.181.35.204/32
+  - IP-CIDR,139.177.246.206/32
+  - IP-CIDR,139.177.246.206/32
+  - DOMAIN-SUFFIX,www.pospal.cn
+  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,sis.jpush.io
   - DOMAIN-SUFFIX,sdk-open-phone.getui.com
   - DOMAIN-SUFFIX,vn.cloud.tesla.cn
