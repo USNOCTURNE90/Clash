@@ -1,9 +1,9 @@
-# 从Surge自动同步 - 2025-03-29 10:18:31 (北京时间)
+# 从Surge自动同步 - 2025-03-29 10:20:13 (北京时间)
 # 原始文件: MyDirectRules
 rules:
-  - DOMAIN-SUFFIX,b5ff55d150411557fb7fb31292c8f49e0.asuscomm.com,DIRECT // Added for: b5ff55d150411557fb7fb31292c8f49e0.asuscomm.com:8443
-  - DOMAIN-SUFFIX,aae-sgweb001-1.asuscomm.com,DIRECT // Added for: aae-sgweb001-1.asuscomm.com:443
-  - DOMAIN-SUFFIX,api.wsgw-rewrite.com,Select // Added for: http://api.wsgw-rewrite.com/electricity/bill/all
+  - DOMAIN-SUFFIX,b5ff55d150411557fb7fb31292c8f49e0.asuscomm.com
+  - DOMAIN-SUFFIX,aae-sgweb001-1.asuscomm.com
+  - DOMAIN-SUFFIX,api.wsgw-rewrite.com
   - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,sgcc.com.cn
   - DOMAIN-SUFFIX,api.wsgw-rewrite.com/electricity/bill/all
