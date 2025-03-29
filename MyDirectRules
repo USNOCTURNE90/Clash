@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-03-30 01:54:51 (北京时间)
+# 从Surge自动同步 - 2025-03-30 02:47:14 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN,dns.weixin.qq.com.cn
+  - DOMAIN,dns.weixin.qq.com
   - DOMAIN-SUFFIX,tencentcs.com
   - DOMAIN-SUFFIX,gs.gepush.com
   - DOMAIN-SUFFIX,ipify.org
