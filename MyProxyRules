@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:20:10 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:21:45 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -195,7 +195,6 @@ rules:
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linkedin.at
   - DOMAIN-SUFFIX,lnkd.in
-  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
