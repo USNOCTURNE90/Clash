@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 18:02:11 (北京时间)
+# 从Surge自动同步 - 2025-03-29 18:02:43 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,wanxiang.art
   - DOMAIN-SUFFIX,effirst.com
   - DOMAIN-SUFFIX,weixinbridge.com
