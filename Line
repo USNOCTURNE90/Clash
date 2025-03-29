@@ -1,6 +1,26 @@
-# 从Surge自动同步 - 2025-03-30 01:42:00 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:42:26 (北京时间)
 # 原始文件: Line
 rules:
+  - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line.biz
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,nhncorp.jp
+  - DOMAIN-SUFFIX,gcld-line.com
+  - DOMAIN-SUFFIX,line-apps-beta.com
+  - DOMAIN-SUFFIX,line-apps-rc.com
+  - DOMAIN-SUFFIX,line-beta.me
+  - DOMAIN-SUFFIX,linecorp.com
+  - DOMAIN-SUFFIX,linefriends.com
+  - DOMAIN-SUFFIX,linefriends.com.tw
+  - DOMAIN-SUFFIX,linegame.jp
+  - DOMAIN-SUFFIX,linemobile.com
+  - DOMAIN-SUFFIX,linemyshop.com
+  - DOMAIN-SUFFIX,lineshoppingseller.com
+  - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-cdn.net
