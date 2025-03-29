@@ -1,6 +1,19 @@
-# 从Surge自动同步 - 2025-03-29 17:55:30 (北京时间)
+# 从Surge自动同步 - 2025-03-29 17:56:35 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,wanxiang.art
+  - DOMAIN-SUFFIX,effirst.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,qlogo.cn
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliapp.org
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alimama.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,100font.com
   - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,b5ff55d150411557fb7fb31292c8f49e0.asuscomm.com
   - DOMAIN-SUFFIX,aae-sgweb001-1.asuscomm.com
