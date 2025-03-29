@@ -1,6 +1,9 @@
-# 从Surge自动同步 - 2025-03-30 00:10:28 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:14:52 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,caixin.cn
+  - DOMAIN-SUFFIX,caixin.com.*
   - DOMAIN-SUFFIX,hxkba.com
   - DOMAIN-SUFFIX,ucweb.com
   - DOMAIN-SUFFIX,xcr.tratao.com
