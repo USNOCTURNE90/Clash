@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 00:55:37 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:56:34 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,tencentcs.com
@@ -120,11 +120,11 @@ rules:
   - DOMAIN-SUFFIX,event-tracking.lbctrl.com
   - DOMAIN-SUFFIX,api.lbctrl.com
   - DOMAIN-SUFFIX,yyai8.com
-  - DOMAIN-SUFFIX,www.yyai8.com
+  - DOMAIN-SUFFIX,yyai8.com
   - DOMAIN-SUFFIX,api.yyai8.com
   - DOMAIN-SUFFIX,img.yyai8.com
   - DOMAIN-SUFFIX,rockstargames.com
-  - DOMAIN-SUFFIX,www.rockstargames.com
+  - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,socialclub.rockstargames.com
   - DOMAIN-SUFFIX,downloads.rockstargames.com
   - DOMAIN-SUFFIX,support.rockstargames.com
@@ -281,7 +281,7 @@ rules:
   - DOMAIN-SUFFIX,riotgames.com
   - DOMAIN-SUFFIX,wr.pvp.net
   - DOMAIN,kktxjq.lol
-  - DOMAIN,www.3bt0.com
+  - DOMAIN,3bt0.com
   - DOMAIN,mask-canary.icloud.com
   - DOMAIN,vip.video.qq.com
   - DOMAIN-KEYWORD,zenithspace.net
@@ -418,7 +418,7 @@ rules:
   - DOMAIN-SUFFIX,qiniup.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN,www.asusrouter.com
+  - DOMAIN,asusrouter.com
   - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
@@ -617,8 +617,8 @@ rules:
   - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,wmrt.trafficmanager.net
   - DOMAIN-SUFFIX,wustat.windows.com
-  - DOMAIN-SUFFIX,www.mokexweb.me
-  - DOMAIN-SUFFIX,www.msftncsi.com
+  - DOMAIN-SUFFIX,mokexweb.me
+  - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
@@ -4169,7 +4169,7 @@ rules:
   - DOMAIN-SUFFIX,miyoushe.com
   - DOMAIN-SUFFIX,luojilab.com
   - DOMAIN-SUFFIX,lenovomm.com
-  - DOMAIN,www.layuicdn.com
+  - DOMAIN,layuicdn.com
   - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,ksmobile.com
   - DOMAIN-SUFFIX,jstarkan.com
@@ -4639,7 +4639,7 @@ rules:
   - DOMAIN-SUFFIX,meizu.cn
   - DOMAIN-SUFFIX,m1905.cn
   - DOMAIN-SUFFIX,jpush.cn
-  - DOMAIN,www.intel.cn
+  - DOMAIN,intel.cn
   - DOMAIN-SUFFIX,infoq.cn
   - DOMAIN-SUFFIX,honor.cn
   - DOMAIN-SUFFIX,gtimg.cn
