@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 23:46:28 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:49:27 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,moneypro.net
   - DOMAIN-SUFFIX,lilisi.com
   - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,mapbox.com
