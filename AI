@@ -1,6 +1,13 @@
-# 从Surge自动同步 - 2025-03-29 17:57:53 (北京时间)
+# 从Surge自动同步 - 2025-03-29 17:59:58 (北京时间)
 # 原始文件: AI
 rules:
+  - DOMAIN-SUFFIX,cursorlist.com
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,hibennie.com
+  - DOMAIN-SUFFIX,openpanel.dev
+  - DOMAIN-SUFFIX,supabase.co
+  - DOMAIN-SUFFIX,cursor.directory
   - DOMAIN-SUFFIX,manus.im
   - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
   - DOMAIN-SUFFIX,api.revenuecat.com
@@ -15,7 +22,6 @@ rules:
   - DOMAIN-SUFFIX,bingworld.com
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
