@@ -1,23 +1,19 @@
-# 美国代理规则 - 简化版
-
+# 从Surge自动同步 - 2025-03-29 15:55:06 (北京时间)
+# 原始文件: USproxyRules
 rules:
-  # UgoEarn 相关
   - DOMAIN-SUFFIX,ugoearn.com
   - DOMAIN-KEYWORD,ugoearn
   - IP-CIDR,104.21.0.0/20
   - IP-CIDR,172.67.0.0/16
-  # Tello 相关
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,tellocdn.com
   - DOMAIN-SUFFIX,tellocustomercare.com
   - IP-CIDR,104.16.0.0/12
-  # Red Pocket 相关
   - DOMAIN-SUFFIX,redpocket.com
   - DOMAIN-SUFFIX,goredpocket.com
   - DOMAIN-KEYWORD,redpocket
   - IP-CIDR,104.26.0.0/20
   - IP-CIDR,172.67.0.0/16
-  # AWS 和广告/分析服务
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,analytics.adjust.com
   - DOMAIN-SUFFIX,logs.ads.vungle.com
@@ -31,13 +27,11 @@ rules:
   - DOMAIN-SUFFIX,c.amazon-adsystem.com
   - DOMAIN-SUFFIX,data.emb-api.com
   - DOMAIN-SUFFIX,jotfor.ms
-  # TextNow 相关
   - DOMAIN-SUFFIX,textnow.com
   - DOMAIN-SUFFIX,textnow.me
   - DOMAIN-KEYWORD,textnow
   - IP-CIDR,35.186.0.0/17
   - IP-CIDR,35.192.0.0/14
-  # Anthropic/Claude 相关
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,anthropic.ai
   - DOMAIN-SUFFIX,claude.ai
@@ -51,7 +45,6 @@ rules:
   - IP-CIDR,172.64.0.0/13
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io
-  # 美国主要电信运营商
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,vzw.com
   - DOMAIN-SUFFIX,verizonwireless.com
@@ -61,7 +54,6 @@ rules:
   - DOMAIN-SUFFIX,t-mobile.com
   - DOMAIN-SUFFIX,tmobile.com
   - DOMAIN-SUFFIX,sprint.com
-  # 美国主要宽带/互联网服务提供商
   - DOMAIN-SUFFIX,xfinity.com
   - DOMAIN-SUFFIX,comcast.net
   - DOMAIN-SUFFIX,comcast.com
@@ -73,7 +65,6 @@ rules:
   - DOMAIN-SUFFIX,frontier.com
   - DOMAIN-SUFFIX,cox.com
   - DOMAIN-SUFFIX,cox.net
-  # 美国虚拟运营商
   - DOMAIN-SUFFIX,uscellular.com
   - DOMAIN-SUFFIX,boostmobile.com
   - DOMAIN-SUFFIX,cricketwireless.com
