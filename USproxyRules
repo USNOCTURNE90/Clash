@@ -1,6 +1,14 @@
-# 从Surge自动同步 - 2025-03-29 17:28:39 (北京时间)
+# 从Surge自动同步 - 2025-03-29 17:34:31 (北京时间)
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN-SUFFIX,client.px-cloud.net
+  - DOMAIN-SUFFIX,sc-static.net
+  - DOMAIN-SUFFIX,static.hotjar.com
+  - DOMAIN-SUFFIX,analytics.ahrefs.com
+  - DOMAIN-SUFFIX,tzm.px-cloud.net
+  - DOMAIN-SUFFIX,collector-pxk56wkc4o.px-cloud.net
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,pixel.tapad.com
   - DOMAIN-SUFFIX,ugoearn.com
   - DOMAIN-KEYWORD,ugoearn
   - IP-CIDR,104.21.0.0/20
