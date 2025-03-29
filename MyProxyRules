@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:25:01 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:26:55 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -7,15 +7,9 @@ rules:
   - DOMAIN-SUFFIX,ghostfam.com
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,store.steampowered.com
-  - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,finance.yahoo.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yimg.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yahooapis.com,YahooFinanceProxy
-  - DOMAIN-KEYWORD,finance,YahooFinanceProxy
-  - DOMAIN-KEYWORD,yahoo,YahooFinanceProxy
-  - DOMAIN-KEYWORD,quote,YahooFinanceProxy
-  - DOMAIN-KEYWORD,stocks,YahooFinanceProxy
-  - DOMAIN-KEYWORD,market,YahooFinanceProxy
+  - DOMAIN-KEYWORD,quote
+  - DOMAIN-KEYWORD,stocks
+  - DOMAIN-KEYWORD,market
   - DOMAIN-KEYWORD,coze.com
   - DOMAIN-KEYWORD,docker
   - DOMAIN-KEYWORD,mastodon
