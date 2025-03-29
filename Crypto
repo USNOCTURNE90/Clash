@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-03-29 17:56:35 (北京时间)
+# 从Surge自动同步 - 2025-03-29 17:57:53 (北京时间)
 # 原始文件: Crypto
 rules:
+  - DOMAIN-SUFFIX,tvsquared.com
+  - DOMAIN-SUFFIX,1a-1791.com
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,DOMAIN,sentry.io
