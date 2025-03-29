@@ -1,7 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 22:48:41 (北京时间)
+# 从Surge自动同步 - 2025-03-29 22:49:40 (北京时间)
 # 原始文件: MyDirectRules
 rules:
-  - DOMAIN-SUFFIX,owner-api.vn.cloud.tesla.cn
+  - DOMAIN-SUFFIX,vn.cloud.tesla.cn
   - DOMAIN-SUFFIX,short.snspay.wechatpay.cn/mmtls/3244db72
   - DOMAIN-SUFFIX,paydns.wechatpay.cn/mmtls/321900e5
   - DOMAIN-SUFFIX,gtimg.wechatpay.cn
