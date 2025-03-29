@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:28:42 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:29:20 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -18,7 +18,7 @@ rules:
   - DOMAIN-KEYWORD,mobile.eum-appdynamics.com
   - DOMAIN-KEYWORD,aa.online-metrix.net
   - DOMAIN-KEYWORD,d0r7clfv2slbaskjrbpfrgqzn4qtocrktla5akcjc611196246f6d3c6sac.d.aa.online-metrix.net
-  - DOMAIN-SUFFIX,,nssurge.com
+  - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,holdemresources.net
   - DOMAIN-SUFFIX,telegraph.prd.api.discomax.com
   - DOMAIN-SUFFIX,freedidi.com
