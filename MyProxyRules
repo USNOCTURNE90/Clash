@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:29:20 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:34:21 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -6,7 +6,6 @@ rules:
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,ghostfam.com
   - DOMAIN-SUFFIX,nexconvert.com
-  - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-KEYWORD,quote
   - DOMAIN-KEYWORD,stocks
   - DOMAIN-KEYWORD,market
@@ -92,7 +91,6 @@ rules:
   - DOMAIN,addons.mozilla.org
   - DOMAIN,ees.elsevier.com
   - DOMAIN,ccmdl.adobe.com
-  - DOMAIN,media.steampowered.com
   - DOMAIN,wego.here.com
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,ampproject.org
@@ -253,19 +251,7 @@ rules:
   - DOMAIN-SUFFIX,discordapp.net
   - DOMAIN-SUFFIX,discordcdn.com
   - DOMAIN-SUFFIX,aex.com
-  - DOMAIN-SUFFIX,binance.cc
-  - DOMAIN-SUFFIX,binance.com
-  - DOMAIN-SUFFIX,binance.me
-  - DOMAIN-SUFFIX,binance.us
-  - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,hbg.com
-  - DOMAIN-SUFFIX,huobi.pro
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,okex.com
-  - DOMAIN-SUFFIX,coingecko.com
-  - DOMAIN-SUFFIX,metamask.io
-  - DOMAIN-SUFFIX,crypto.com
-  - DOMAIN-SUFFIX,coinmarketcap.com
   - DOMAIN-SUFFIX,nicehash.com
   - DOMAIN-SUFFIX,mexc.com
   - DOMAIN-SUFFIX,kraken.com
@@ -331,7 +317,6 @@ rules:
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,bgp.tools
   - DOMAIN-SUFFIX,bibox.com
-  - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,bitbucket.io
   - DOMAIN-SUFFIX,bitfinex.com
   - DOMAIN-SUFFIX,bit.ly
@@ -541,7 +526,6 @@ rules:
   - DOMAIN-SUFFIX,stackblitz.com
   - DOMAIN-SUFFIX,stackexchange.com
   - DOMAIN-SUFFIX,stackoverflow.com
-  - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,stripchat.com
   - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,supjav.com
