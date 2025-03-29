@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 23:41:40 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:43:19 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,mapbox.com
   - IP-CIDR,101.47.81.229/32
   - IP-CIDR,101.47.83.103/32
