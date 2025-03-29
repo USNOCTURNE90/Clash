@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-30 00:06:15 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:06:55 (北京时间)
 # 原始文件: Crypto
 rules:
+  - DOMAIN-SUFFIX,bybit.global
   - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,tvsquared.com
   - DOMAIN-SUFFIX,1a-1791.com
