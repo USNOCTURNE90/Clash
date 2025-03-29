@@ -1,66 +1,52 @@
-# 从Surge自动同步 - 2025-03-29 18:05:24 (北京时间)
+# 从Surge自动同步 - 2025-03-29 18:07:01 (北京时间)
 # 原始文件: USproxyRules
 rules:
-  - DOMAIN-SUFFIX,collector-pxk56wkc4o.px-cdn.net
-  - DOMAIN-SUFFIX,client.px-cloud.net
+  - DOMAIN-SUFFIX,px-cdn.net
+  - DOMAIN-SUFFIX,px-cloud.net
   - DOMAIN-SUFFIX,sc-static.net
-  - DOMAIN-SUFFIX,static.hotjar.com
-  - DOMAIN-SUFFIX,analytics.ahrefs.com
-  - DOMAIN-SUFFIX,tzm.px-cloud.net
-  - DOMAIN-SUFFIX,collector-pxk56wkc4o.px-cloud.net
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN-SUFFIX,ahrefs.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
-  - DOMAIN-SUFFIX,pixel.tapad.com
+  - DOMAIN-SUFFIX,tapad.com
   - DOMAIN-SUFFIX,ugoearn.com
   - DOMAIN-KEYWORD,ugoearn
   - IP-CIDR,104.21.0.0/20
   - IP-CIDR,172.67.0.0/16
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,tellocdn.com
-  - DOMAIN-SUFFIX,tellocustomercare.com
-  - IP-CIDR,104.16.0.0/12
   - DOMAIN-SUFFIX,redpocket.com
-  - DOMAIN-SUFFIX,goredpocket.com
   - DOMAIN-KEYWORD,redpocket
+  - IP-CIDR,104.16.0.0/12
   - IP-CIDR,104.26.0.0/20
-  - IP-CIDR,172.67.0.0/16
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,analytics.adjust.com
-  - DOMAIN-SUFFIX,logs.ads.vungle.com
-  - DOMAIN-SUFFIX,sdk-files.smaato.net
-  - DOMAIN-SUFFIX,rt.applovin.com
-  - DOMAIN-SUFFIX,d.applovin.com
-  - DOMAIN-SUFFIX,cdn2.inner-active.mobi
-  - DOMAIN-SUFFIX,collector-pxk56wkc4o.perimeterx.net
-  - DOMAIN-SUFFIX,sdk-tracking.iad-07.braze.com
-  - DOMAIN-SUFFIX,config.emb-api.com
-  - DOMAIN-SUFFIX,c.amazon-adsystem.com
-  - DOMAIN-SUFFIX,data.emb-api.com
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,vungle.com
+  - DOMAIN-SUFFIX,smaato.net
+  - DOMAIN-SUFFIX,applovin.com
+  - DOMAIN-SUFFIX,inner-active.mobi
+  - DOMAIN-SUFFIX,perimeterx.net
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,emb-api.com
+  - DOMAIN-SUFFIX,amazon-adsystem.com
   - DOMAIN-SUFFIX,jotfor.ms
-  - DOMAIN-SUFFIX,chatapps-us.netomi.com
+  - DOMAIN-SUFFIX,netomi.com
   - DOMAIN-SUFFIX,textnow.com
-  - DOMAIN-SUFFIX,textnow.me
   - DOMAIN-KEYWORD,textnow
   - IP-CIDR,35.186.0.0/17
   - IP-CIDR,35.192.0.0/14
-  - DOMAIN-SUFFIX,tags.tiqcdn.com
-  - DOMAIN-SUFFIX,api3.siftscience.com
+  - DOMAIN-SUFFIX,tiqcdn.com
+  - DOMAIN-SUFFIX,siftscience.com
   - IP-CIDR,104.18.0.0/16
   - IP-CIDR,104.22.0.0/16
   - IP-CIDR,172.64.0.0/13
   - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,vzw.com
-  - DOMAIN-SUFFIX,verizonwireless.com
   - DOMAIN-SUFFIX,att.com
-  - DOMAIN-SUFFIX,attws.com
-  - DOMAIN-SUFFIX,attwifi.com
   - DOMAIN-SUFFIX,t-mobile.com
-  - DOMAIN-SUFFIX,tmobile.com
-  - DOMAIN-SUFFIX,sprint.com
   - DOMAIN-SUFFIX,xfinity.com
   - DOMAIN-SUFFIX,comcast.net
-  - DOMAIN-SUFFIX,comcast.com
   - DOMAIN-SUFFIX,spectrum.com
   - DOMAIN-SUFFIX,charter.com
   - DOMAIN-SUFFIX,timewarnercable.com
@@ -68,7 +54,6 @@ rules:
   - DOMAIN-SUFFIX,level3.com
   - DOMAIN-SUFFIX,frontier.com
   - DOMAIN-SUFFIX,cox.com
-  - DOMAIN-SUFFIX,cox.net
   - DOMAIN-SUFFIX,uscellular.com
   - DOMAIN-SUFFIX,boostmobile.com
   - DOMAIN-SUFFIX,cricketwireless.com
