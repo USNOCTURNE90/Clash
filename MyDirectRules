@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-29 23:26:01 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:41:40 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,mapbox.com
@@ -45,6 +45,7 @@ rules:
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.7littlemen.com
   - DOMAIN-SUFFIX,immersivetranslate.com
+  - DOMAIN-SUFFIX,pbkrs.com
   - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,open.bigmodel.cn
   - DOMAIN-SUFFIX,wbrks.com
