@@ -1,14 +1,13 @@
-# 从Surge自动同步 - 2025-03-30 00:41:00 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:55:18 (北京时间)
 # 原始文件: Crypto
 rules:
-  - DOMAIN-SUFFIX,tencentcs.com
   - DOMAIN-SUFFIX,bybit.global
   - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,tvsquared.com
   - DOMAIN-SUFFIX,1a-1791.com
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,appsflyer.com
-  - DOMAIN-SUFFIX,DOMAIN,sentry.io
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,o529943.ingest.sentry.io
   - DOMAIN-SUFFIX,appsflyersdk.com
   - IP-CIDR,120.24.0.0/14
@@ -23,11 +22,9 @@ rules:
   - DOMAIN-SUFFIX,plaid.com
   - DOMAIN-SUFFIX,fptls.com
   - DOMAIN-SUFFIX,p.sardine.ai
-  - DOMAIN-SUFFIX,pzv0jgbcy309a5unukdm9ji2cqeoo5nm.d.sardine.ai
-  - DOMAIN-SUFFIX,api.sardine.ai
+  - DOMAIN-SUFFIX,sardine.ai
   - DOMAIN-SUFFIX,atlas-mainnet.helius-rpc.com
-  - DOMAIN-SUFFIX,nbstream.yshyqxx.com
-  - DOMAIN-SUFFIX,stream.yshyqxx.com
+  - DOMAIN-SUFFIX,yshyqxx.com
   - DOMAIN-SUFFIX,coinsbee.com
   - DOMAIN-SUFFIX,static.kinguin.net
   - DOMAIN-SUFFIX,bmp.cryptomate.online
@@ -68,7 +65,7 @@ rules:
   - DOMAIN-SUFFIX,pushstat.api.engagelab.cc
   - DOMAIN-SUFFIX,img.gurenla.com
   - DOMAIN-SUFFIX,x.adroll.com
-  - DOMAIN-SUFFIX,www.bitget.com
+  - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,websdk.appsflyer.com
   - DOMAIN-SUFFIX,wa.onelink.me
   - DOMAIN-SUFFIX,wa.appsflyer.com
@@ -108,7 +105,7 @@ rules:
   - DOMAIN-SUFFIX,qrc.bgstatic.com
   - DOMAIN-SUFFIX,appapi.bgportable.com
   - DOMAIN-SUFFIX,bitgetimg.com
-  - DOMAIN-SUFFIX,www.bitgetapps.com
+  - DOMAIN-SUFFIX,bitgetapps.com
   - DOMAIN-SUFFIX,bitgetapp.com
   - DOMAIN-SUFFIX,min-api.cryptocompare.com
   - DOMAIN-SUFFIX,fn.segmentapis.com
@@ -159,7 +156,6 @@ rules:
   - DOMAIN-SUFFIX,api3.byd3c3.com
   - DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
   - DOMAIN-SUFFIX,bybit-help-center-prod-ac4de1465648.herokuapp.com
-  - DOMAIN-SUFFIX,binance
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,bnbstatic.com
   - DOMAIN-KEYWORD,bnbstatic
@@ -206,26 +202,16 @@ rules:
   - DOMAIN-SUFFIX,aave.com
   - DOMAIN-SUFFIX,app.aave.com
   - DOMAIN-SUFFIX,1inch.io
-  - DOMAIN-SUFFIX,app.1inch.io
   - DOMAIN-SUFFIX,balancer.fi
-  - DOMAIN-SUFFIX,app.balancer.fi
   - DOMAIN-SUFFIX,beefy.finance
-  - DOMAIN-SUFFIX,app.beefy.finance
   - DOMAIN-SUFFIX,blur.io
   - DOMAIN-SUFFIX,camelot.exchange
-  - DOMAIN-SUFFIX,app.camelot.exchange
   - DOMAIN-SUFFIX,compound.finance
-  - DOMAIN-SUFFIX,app.compound.finance
   - DOMAIN-SUFFIX,convexfinance.com
-  - DOMAIN-SUFFIX,app.convexfinance.finance
   - DOMAIN-SUFFIX,dydx.exchange
-  - DOMAIN-SUFFIX,app.dydx.exchange
   - DOMAIN-SUFFIX,gmx.io
-  - DOMAIN-SUFFIX,app.gmx.io
   - DOMAIN-SUFFIX,hashflow.com
-  - DOMAIN-SUFFIX,app.hashflow.com
   - DOMAIN-SUFFIX,kava.io
-  - DOMAIN-SUFFIX,app.kava.io
   - DOMAIN-SUFFIX,lido.fi
   - DOMAIN-SUFFIX,looksrare.org
   - DOMAIN-SUFFIX,matcha.xyz
@@ -234,41 +220,27 @@ rules:
   - DOMAIN-SUFFIX,osmosis.zone
   - DOMAIN-SUFFIX,app.osmosis.zone
   - DOMAIN-SUFFIX,paraswap.io
-  - DOMAIN-SUFFIX,app.paraswap.io
   - DOMAIN-SUFFIX,quickswap.exchange
-  - DOMAIN-SUFFIX,app.quickswap.exchange
   - DOMAIN-SUFFIX,radiant.capital
   - DOMAIN-SUFFIX,app.radiant.capital
   - DOMAIN-SUFFIX,ribbon.finance
-  - DOMAIN-SUFFIX,app.ribbon.finance
   - DOMAIN-SUFFIX,rocketpool.net
   - DOMAIN-SUFFIX,rocketx.exchange
-  - DOMAIN-SUFFIX,app.rocketx.exchange
   - DOMAIN-SUFFIX,saddle.finance
-  - DOMAIN-SUFFIX,app.saddle.finance
   - DOMAIN-SUFFIX,solidly.com
-  - DOMAIN-SUFFIX,app.solidly.com
   - DOMAIN-SUFFIX,spookyswap.finance
-  - DOMAIN-SUFFIX,app.spookyswap.finance
   - DOMAIN-SUFFIX,spiritswap.finance
-  - DOMAIN-SUFFIX,app.spiritswap.finance
   - DOMAIN-SUFFIX,staderlabs.com
   - DOMAIN-SUFFIX,stargate.finance
-  - DOMAIN-SUFFIX,app.stargate.finance
   - DOMAIN-SUFFIX,sushi.com
-  - DOMAIN-SUFFIX,app.sushi.com
   - DOMAIN-SUFFIX,synthetix.io
   - DOMAIN-SUFFIX,snx.io
   - DOMAIN-SUFFIX,thorchain.org
   - DOMAIN-SUFFIX,app.thorchain.org
   - DOMAIN-SUFFIX,velodrome.finance
-  - DOMAIN-SUFFIX,app.velodrome.finance
   - DOMAIN-SUFFIX,vesper.finance
-  - DOMAIN-SUFFIX,app.vesper.finance
   - DOMAIN-SUFFIX,vvs.finance
-  - DOMAIN-SUFFIX,app.vvs.finance
   - DOMAIN-SUFFIX,wootrade.com
-  - DOMAIN-SUFFIX,app.wootrade.com
   - DOMAIN-SUFFIX,x2y2.io
   - DOMAIN-SUFFIX,yearn.finance
   - DOMAIN-SUFFIX,yfi.finance
@@ -286,12 +258,10 @@ rules:
   - DOMAIN-SUFFIX,online-metrix.net
   - DOMAIN-SUFFIX,cdn.forter.com
   - DOMAIN-SUFFIX,onfido.com
-  - DOMAIN-SUFFIX,us.posthog.com
-  - DOMAIN-SUFFIX,us.i.posthog.com
+  - DOMAIN-SUFFIX,posthog.com
   - DOMAIN-SUFFIX,logs.browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,sc-datasink.ffe390afd658c19dcbf707e0597b846d.de
-  - DOMAIN-SUFFIX,sc-abtest.ffe390afd658c19dcbf707e0597b846d.de
-  - DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
   - DOMAIN-SUFFIX,cdn.cookielaw.org
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudfront.net
