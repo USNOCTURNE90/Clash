@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-29 15:55:06 (北京时间)
+# 从Surge自动同步 - 2025-03-29 16:17:44 (北京时间)
 # 原始文件: Github
 rules:
   - DOMAIN-SUFFIX,files.pythonhosted.org
