@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-03-29 22:43:38 (北京时间)
+# 从Surge自动同步 - 2025-03-29 22:44:22 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,paydns.wechatpay.cn/mmtls/321900e5
   - DOMAIN-SUFFIX,gtimg.wechatpay.cn
   - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,wanxiang.art
