@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-29 23:24:37 (北京时间)
+# 从Surge自动同步 - 2025-03-29 23:26:01 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,mapbox.com
@@ -267,7 +267,7 @@ rules:
   - DOMAIN-SUFFIX,teslamotors.com
   - DOMAIN-SUFFIX,teslamotors.com.cn
   - DOMAIN-SUFFIX,teslazta.net
-  - DOMAIN-SUFFIX,akamai-apigateway-gio-analytics.tesla.cn
+  - DOMAIN-SUFFIX,tesla.cn
   - DOMAIN-SUFFIX,ts.la
   - DOMAIN,cas-dc.splashtop.com
   - DOMAIN,52-81-95-57.relay.splashtop.com
