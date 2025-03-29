@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:42:26 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:47:21 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -207,13 +207,6 @@ rules:
   - DOMAIN-SUFFIX,signalusers.org
   - DOMAIN-SUFFIX,whispersystems.org
   - DOMAIN-SUFFIX,wa.me
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,t.co
-  - DOMAIN-SUFFIX,twimg.co
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twitpic.com
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,pscp.tv
@@ -571,8 +564,6 @@ rules:
   - DOMAIN-SUFFIX,quillbot.com
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,discord
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-KEYWORD,dropbox
