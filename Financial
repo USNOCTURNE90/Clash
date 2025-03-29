@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 00:20:42 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:30:02 (北京时间)
 # 原始文件: Financial
 rules:
   - DOMAIN-SUFFIX,openbb.co
@@ -22,14 +22,11 @@ rules:
   - DOMAIN-SUFFIX,ccp.rwbkr.com
   - DOMAIN-SUFFIX,news.rwbkr.com
   - DOMAIN-SUFFIX,notify.rwbkr.com
-  - DOMAIN-SUFFIX,event.lbkrs.com
-  - DOMAIN-SUFFIX,event-tracking.lbkrs.com
+  - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,longbridge.com
   - DOMAIN-SUFFIX,longportapp.com
   - IP-CIDR,18.163.178.98/32
-  - DOMAIN-SUFFIX,api.tradingview.com
-  - DOMAIN-SUFFIX,www.tradingview.com
-  - DOMAIN-SUFFIX,chart.tradingview.com
+  - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,s.tradingview.com
   - DOMAIN-SUFFIX,data.tradingview.com
   - DOMAIN-SUFFIX,widget.tradingview.com
@@ -109,12 +106,10 @@ rules:
   - PROCESS-NAME,ibkr-pro
   - PROCESS-NAME,ib-mobile
   - PROCESS-NAME,ibgateway
-  - DOMAIN-SUFFIX,yahoo.com, YahooFinanceProxy
-  - DOMAIN-SUFFIX,finance.yahoo.com, YahooFinanceProxy
-  - DOMAIN-SUFFIX,yimg.com, YahooFinanceProxy
-  - DOMAIN-SUFFIX,yahooapis.com, YahooFinanceProxy
-  - DOMAIN-KEYWORD,finance, YahooFinanceProxy
-  - DOMAIN-KEYWORD,yahoo, YahooFinanceProxy
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,finance.yahoo.com
+  - DOMAIN-SUFFIX,yimg.com
+  - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,hsbc.com
   - DOMAIN-SUFFIX,hsbc.co.uk
   - DOMAIN-SUFFIX,hsbcnet.com
@@ -133,18 +128,11 @@ rules:
   - DOMAIN-SUFFIX,tealiumiq.com
   - DOMAIN-SUFFIX,messaging.prod.ap-east-1.vam-hk.cloud1.vv1865.com
   - DOMAIN-SUFFIX,match.adsrvr.org
-  - DOMAIN-SUFFIX,logx.optimizely.com
-  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,akamai.tiqcdn.com
-  - DOMAIN-SUFFIX,d0r7clfv2slbaskjrbpfrgqzn4qtocrktla5akcjc611196246f6d3c6sac.d.aa.online-metrix.net
-  - DOMAIN-SUFFIX,finance,YahooFinanceProxy
-  - DOMAIN-SUFFIX,market,YahooFinanceProxy
-  - DOMAIN-SUFFIX,quote,YahooFinanceProxy
-  - DOMAIN-SUFFIX,stocks,YahooFinanceProxy
-  - DOMAIN-SUFFIX,YahooFinanceProxy
-  - DOMAIN-SUFFIX,6bt0.com
+  - DOMAIN-SUFFIX,online-metrix.net
   - DOMAIN-SUFFIX,cdn-fastly.obsproject.com
-  - DOMAIN-SUFFIX,finance.yahoo.com,YahooFinanceProxy
+  - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,ingest.contribute.live-video.net
   - DOMAIN-SUFFIX,o.ss2.us
   - DOMAIN-SUFFIX,obsproject.com
