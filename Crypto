@@ -5,7 +5,6 @@ rules:
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,DOMAIN,sentry.io
   - DOMAIN-SUFFIX,o529943.ingest.sentry.io
-  - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,appsflyersdk.com
   - IP-CIDR,120.24.0.0/14
   - IP-CIDR,35.77.148.188/32
@@ -15,7 +14,6 @@ rules:
   - IP-CIDR,39.108.0.0/16
   - IP-CIDR,47.96.0.0/12
   - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,o529943.ingest.sentry.io
   - DOMAIN-SUFFIX,static.devfdg.net
   - DOMAIN-SUFFIX,plaid.com
   - DOMAIN-SUFFIX,fptls.com
@@ -33,7 +31,6 @@ rules:
   - DOMAIN-SUFFIX,wise.com
   - DOMAIN-SUFFIX,sdk-api-v1.singular.net
   - DOMAIN-SUFFIX,sdk.fra-01.braze.eu
-  - DOMAIN-SUFFIX,atlas-mainnet.helius-rpc.com
   - DOMAIN-SUFFIX,cdn.branch.io
   - DOMAIN-SUFFIX,moshi.cam
   - DOMAIN-SUFFIX,api.gatefi.com
@@ -56,9 +53,6 @@ rules:
   - DOMAIN-SUFFIX,api-app-slow.bitapi.vip
   - DOMAIN-SUFFIX,api-app-slow.bitkeep.biz
   - DOMAIN-SUFFIX,api-app-slow.bitkeep.top
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.life
-  - DOMAIN-SUFFIX,api-app-slow.chainnear.com
-  - DOMAIN-SUFFIX,api-app-slow.ljhsnzpc.com
   - DOMAIN-SUFFIX,api-app-slow.bitkeep.asia
   - DOMAIN-SUFFIX,api-app-slow.bitkeep.fun
   - DOMAIN-SUFFIX,bitget-2.ada.support
@@ -75,9 +69,7 @@ rules:
   - DOMAIN-SUFFIX,wa.appsflyer.com
   - DOMAIN-SUFFIX,static-web.jjdsn.vip
   - DOMAIN-SUFFIX,cdn.bitkeep.vip
-  - DOMAIN-SUFFIX,pushstat.api.engagelab.cc
   - DOMAIN-SUFFIX,mc.yandex.ru
-  - DOMAIN-SUFFIX,img.gurenla.com
   - DOMAIN-SUFFIX,h1dz7f-launches.appsflyersdk.com
   - DOMAIN-SUFFIX,adroll.com
   - DOMAIN-SUFFIX,appapi.bitget.com
@@ -129,7 +121,6 @@ rules:
   - DOMAIN-SUFFIX,js.usemessages.com
   - DOMAIN-SUFFIX,js.hs-banner.com
   - DOMAIN-SUFFIX,amazonaws.com
-  - IP-CIDR,35.77.148.188/24
   - DOMAIN-SUFFIX,query.thegraph.kiln.fi
   - DOMAIN-SUFFIX,twnodes.com
   - DOMAIN-SUFFIX,static.cx.metamask.io
