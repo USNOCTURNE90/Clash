@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 00:30:02 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:41:00 (北京时间)
 # 原始文件: Financial
 rules:
   - DOMAIN-SUFFIX,openbb.co
@@ -17,19 +17,12 @@ rules:
   - DOMAIN-KEYWORD,osl
   - DOMAIN-SUFFIX,accountopen.victorysec.com.hk
   - DOMAIN-KEYWORD,rwbkr
-  - DOMAIN-SUFFIX,open.rwbkr.com
-  - DOMAIN-SUFFIX,notify.rwbkr.com
-  - DOMAIN-SUFFIX,ccp.rwbkr.com
-  - DOMAIN-SUFFIX,news.rwbkr.com
-  - DOMAIN-SUFFIX,notify.rwbkr.com
+  - DOMAIN-SUFFIX,rwbkr.com
   - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,longbridge.com
   - DOMAIN-SUFFIX,longportapp.com
   - IP-CIDR,18.163.178.98/32
   - DOMAIN-SUFFIX,tradingview.com
-  - DOMAIN-SUFFIX,s.tradingview.com
-  - DOMAIN-SUFFIX,data.tradingview.com
-  - DOMAIN-SUFFIX,widget.tradingview.com
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,schwabinstitutional.com
   - DOMAIN-SUFFIX,schwaballiance.com
@@ -79,24 +72,12 @@ rules:
   - DOMAIN-SUFFIX,ib-api.com
   - DOMAIN-SUFFIX,ibgapi.com
   - DOMAIN-SUFFIX,ibkraml.com
-  - DOMAIN-SUFFIX,interactivebrokers.co.uk
-  - DOMAIN-SUFFIX,interactivebrokers.co.jp
-  - DOMAIN-SUFFIX,interactivebrokers.ca
-  - DOMAIN-SUFFIX,interactivebrokers.ch
-  - DOMAIN-SUFFIX,interactivebrokers.co.in
-  - DOMAIN-SUFFIX,interactivebrokers.com.cn
+  - DOMAIN-SUFFIX,interactivebrokers.*
   - DOMAIN-SUFFIX,ibkrmobile.com
   - DOMAIN-SUFFIX,ibllc.com
-  - DOMAIN-SUFFIX,ibroker.biz
-  - DOMAIN-SUFFIX,ibroker.net
-  - DOMAIN-SUFFIX,ibroker.org
-  - DOMAIN-SUFFIX,ibroker.io
-  - DOMAIN-SUFFIX,ibbroker.app
-  - DOMAIN-SUFFIX,ibbroker.mobi
-  - DOMAIN-SUFFIX,ibroker.us
-  - IP-CIDR,104.20.8.0/24
-  - IP-CIDR,104.20.9.0/24
-  - IP-CIDR,104.20.10.0/24
+  - DOMAIN-SUFFIX,ibroker.*
+  - DOMAIN-SUFFIX,ibbroker.*
+  - IP-CIDR,104.20.8.0/22
   - IP-CIDR,169.62.208.0/20
   - IP-CIDR,207.228.232.0/24
   - PROCESS-NAME,ibkr-desktop
@@ -107,7 +88,6 @@ rules:
   - PROCESS-NAME,ib-mobile
   - PROCESS-NAME,ibgateway
   - DOMAIN-SUFFIX,yahoo.com
-  - DOMAIN-SUFFIX,finance.yahoo.com
   - DOMAIN-SUFFIX,yimg.com
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,hsbc.com
@@ -132,11 +112,9 @@ rules:
   - DOMAIN-SUFFIX,akamai.tiqcdn.com
   - DOMAIN-SUFFIX,online-metrix.net
   - DOMAIN-SUFFIX,cdn-fastly.obsproject.com
-  - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,ingest.contribute.live-video.net
   - DOMAIN-SUFFIX,o.ss2.us
   - DOMAIN-SUFFIX,obsproject.com
   - DOMAIN-SUFFIX,store.steampowered.com
-  - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yahooapis.com,YahooFinanceProxy
-  - DOMAIN-SUFFIX,yimg.com,YahooFinanceProxy
+  - DOMAIN-SUFFIX,yahooapis.com
+  - DOMAIN-SUFFIX,yimg.com
