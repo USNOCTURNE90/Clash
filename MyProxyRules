@@ -1,6 +1,9 @@
-# 从Surge自动同步 - 2025-03-29 18:01:34 (北京时间)
+# 从Surge自动同步 - 2025-03-29 18:02:11 (北京时间)
 # 原始文件: MyProxyRules
 rules:
+  - DOMAIN-SUFFIX,cybertrucksim.com
+  - DOMAIN-SUFFIX,adguard.org
+  - DOMAIN-SUFFIX,ghostfam.com
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,yahoo.com,YahooFinanceProxy
