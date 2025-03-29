@@ -1,6 +1,12 @@
-# 从Surge自动同步 - 2025-03-29 18:02:43 (北京时间)
+# 从Surge自动同步 - 2025-03-29 18:04:28 (北京时间)
 # 原始文件: AI
 rules:
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,anthropic.ai
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,a-cdn.anthropic.com
   - DOMAIN-SUFFIX,cursorlist.com
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,stripecdn.com
