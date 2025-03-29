@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 01:22:44 (北京时间)
+# 从Surge自动同步 - 2025-03-30 01:25:01 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,statsigapi.net
@@ -224,23 +224,6 @@ rules:
   - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,signalusers.org
   - DOMAIN-SUFFIX,whispersystems.org
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.me
-  - DOMAIN-SUFFIX,fb.watch
-  - DOMAIN-SUFFIX,accountkit.com
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,m.me
-  - DOMAIN-SUFFIX,messenger.com
-  - DOMAIN-SUFFIX,fbmessenger.com
-  - DOMAIN-SUFFIX,oculus.com
-  - DOMAIN-SUFFIX,oculuscdn.com
-  - DOMAIN-SUFFIX,f8.com
-  - DOMAIN-SUFFIX,tfbnw.net
-  - DOMAIN-SUFFIX,fbsbx.com
-  - DOMAIN-SUFFIX,threads.net
-  - DOMAIN-SUFFIX,facebook-hardware.com
   - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,t.co
