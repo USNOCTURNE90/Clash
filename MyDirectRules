@@ -1,6 +1,12 @@
-# 从Surge自动同步 - 2025-03-29 23:49:27 (北京时间)
+# 从Surge自动同步 - 2025-03-30 00:00:26 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,ucweb.com
+  - DOMAIN-SUFFIX,xcr.tratao.com
+  - DOMAIN-SUFFIX,trade.5ifund.com
+  - DOMAIN-SUFFIX,thsi.cn
+  - DOMAIN-SUFFIX,hexin.cn
+  - DOMAIN-SUFFIX,community.touzime.com
   - DOMAIN-SUFFIX,moneypro.net
   - DOMAIN-SUFFIX,lilisi.com
   - DOMAIN-SUFFIX,benzinga.com
@@ -191,19 +197,9 @@ rules:
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,download.prss.microsoft.com
   - DOMAIN,d4-ec.a.kwimgs.com
-  - DOMAIN-SUFFIX,push.hexin.cn
-  - DOMAIN-SUFFIX,apm.hexin.cn
   - DOMAIN-SUFFIX,10jqka.com.cn
-  - DOMAIN-SUFFIX,same.10jqka.com.cn
-  - DOMAIN-SUFFIX,spd.10jqka.com.cn
-  - DOMAIN-SUFFIX,x.10jqka.com.cn
-  - DOMAIN-SUFFIX,q.10jqka.com.cn
-  - DOMAIN-SUFFIX,w.10jqka.com.cn
   - DOMAIN-SUFFIX,ai.iwencai.com
-  - DOMAIN-SUFFIX,nativeapphq.hexin.cn
   - DOMAIN-SUFFIX,eastmoney.com
-  - DOMAIN-SUFFIX,push2.eastmoney.com
-  - DOMAIN-SUFFIX,push2his.eastmoney.com
   - DOMAIN-SUFFIX,dzh.com
   - DOMAIN-SUFFIX,finance.sina.com.cn
   - DOMAIN-SUFFIX,xueqiu.com
@@ -244,18 +240,15 @@ rules:
   - DOMAIN-SUFFIX,ibytedtos.com
   - IP-CIDR,203.107.1.1/24
   - DOMAIN-KEYWORD,byteeffecttos.com
-  - DOMAIN-KEYWORD,zijieapi.com
-  - DOMAIN-SUFFIX,mcs.zijieapi.com
-  - DOMAIN-SUFFIX,mon.zijieapi.com
+  - DOMAIN-KEYWORD,zijieapi
+  - DOMAIN-SUFFIX,zijieapi.com
   - DOMAIN-SUFFIX,vc-gate.ndcpp.com
   - DOMAIN-SUFFIX,mssdk.bytedance.com
   - DOMAIN-SUFFIX,prod.otel.kaizen.nvidia.com
   - DOMAIN-SUFFIX,ops.gx.nvidia.com
   - DOMAIN-SUFFIX,events.gfe.nvidia.com
   - DOMAIN,blizzard.nefficient.co.kr
-  - DOMAIN,blzddist1-a.akamaihd.net
-  - DOMAIN,blzddistkr1-a.akamaihd.net
-  - DOMAIN,bnetproduct-a.akamaihd.net
+  - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN,cdn.blz-contentstack.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com.cn
@@ -275,8 +268,7 @@ rules:
   - DOMAIN-SUFFIX,ts.la
   - DOMAIN,cas-dc.splashtop.com
   - DOMAIN,52-81-95-57.relay.splashtop.com
-  - DOMAIN-SUFFIX, b5ca55e5af712bb12c2601378b2c879bb.asuscomm.com:8443
-  - DOMAIN,b5ca55e5af712bb12c2601378b2c879bb.asuscomm.com
+  - DOMAIN-SUFFIX,asuscomm.com
   - DOMAIN-SUFFIX,st-v3-stp-src-ios-3660-g3.api.splashtop.com
   - DOMAIN-SUFFIX,dscnzz.com
   - DOMAIN-SUFFIX,riotcdn.net
