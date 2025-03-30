@@ -1,6 +1,13 @@
-# 从Surge自动同步 - 2025-03-31 00:15:30 (北京时间)
+# 从Surge自动同步 - 2025-03-31 01:06:42 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,siomxity.net
+  - IP-CIDR,34.102.215.99/32
+  - IP-CIDR,163.181.78.183/32
+  - IP-CIDR,155.102.4.145/32
+  - DOMAIN-SUFFIX,ndcpp.com
+  - DOMAIN-SUFFIX,sdktt.data.tianwenca.com
+  - IP-CIDR,163.181.78.185/32
   - DOMAIN-SUFFIX,tt.x.bsgslb.cn
   - DOMAIN,dns.weixin.qq.com.cn
   - DOMAIN,dns.weixin.qq.com
