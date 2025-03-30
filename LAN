@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 23:57:45 (北京时间)
+# 从Surge自动同步 - 2025-03-30 23:58:12 (北京时间)
 # 原始文件: LAN
 rules:
   - IP-CIDR,127.0.0.0/8
@@ -14,6 +14,7 @@ rules:
   - IP-CIDR,fd00::/8
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,lan
   - DOMAIN,router.asus.com
   - DOMAIN,router.synology.com
   - DOMAIN-SUFFIX,nip.io
