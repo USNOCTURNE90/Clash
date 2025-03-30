@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-03-30 02:47:14 (北京时间)
+# 从Surge自动同步 - 2025-03-30 23:55:19 (北京时间)
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,mobileapi.keepcalling.net
@@ -51,7 +51,6 @@ rules:
   - DOMAIN-SUFFIX,cricketwireless.com
   - DOMAIN-SUFFIX,metrobyt-mobile.com
   - DOMAIN-SUFFIX,mintmobile.com
-  - DOMAIN-SUFFIX,fi.google.com
   - DOMAIN-SUFFIX,visible.com
   - DOMAIN-SUFFIX,ultramobile.com
   - IP-CIDR,199.0.0.0/8
