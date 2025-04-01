@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-01 23:16:17 (北京时间)
+# 从Surge自动同步 - 2025-04-01 23:23:22 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,gala.convection.cn
   - DOMAIN-SUFFIX,zspace.cn
   - DOMAIN-SUFFIX,cnzz.com
   - DOMAIN-SUFFIX,z4pro-qaw6
