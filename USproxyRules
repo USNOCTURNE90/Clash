@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-01 19:50:04 (北京时间)
+# 从Surge自动同步 - 2025-04-01 19:53:44 (北京时间)
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,mobileapi.keepcalling.net
@@ -57,3 +57,4 @@ rules:
   - IP-CIDR,104.18.0.0/15
   - IP-CIDR,104.21.0.0/20
   - IP-CIDR,172.64.0.0/13
+  - IP-CIDR,199.0.0.0/8
