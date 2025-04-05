@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-04-05 14:37:12 (北京时间)
+# 从Surge自动同步 - 2025-04-05 21:48:50 (北京时间)
 # 原始文件: MyProxyRules
 rules:
+  - DOMAIN-SUFFIX,filters.adtidy.org
+  - DOMAIN-SUFFIX,ani.gamer.com.tw
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,cybertrucksim.com
