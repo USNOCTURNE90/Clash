@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-02 21:26:19 (北京时间)
+# 从Surge自动同步 - 2025-04-05 14:37:12 (北京时间)
 # 原始文件: Github
 rules:
+  - DOMAIN-SUFFIX,api.ip.sb
   - DOMAIN-SUFFIX,edge.sdk.awswaf.com
   - DOMAIN-SUFFIX,stripe.network
   - DOMAIN-SUFFIX,api.hf.space
