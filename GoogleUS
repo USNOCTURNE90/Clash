@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-05 21:51:04 (北京时间)
+# 从Surge自动同步 - 2025-04-07 22:11:57 (北京时间)
 # 原始文件: GoogleUS
 rules:
+  - DOMAIN-SUFFIX,cloud.gist.build
   - DOMAIN-SUFFIX,fi.google.com
   - DOMAIN,voice.telephony.goog
   - DOMAIN-SUFFIX,0emm.com
