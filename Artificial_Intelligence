@@ -1,6 +1,8 @@
 # 从Surge自动同步 - 2025-04-08 17:41:44 (北京时间)
 # 原始文件: Artificial_Intelligence
 rules:
+
+  - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,anthropic.ai
   - DOMAIN-SUFFIX,claude.ai
