@@ -1,6 +1,7 @@
 # 从Surge自动同步 - 2025-04-08 17:41:44 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,virtualearth.net
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,gala.convection.cn
   - DOMAIN-SUFFIX,zspace.cn
