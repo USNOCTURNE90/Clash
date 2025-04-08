@@ -122,7 +122,6 @@ rules:
   - DOMAIN-SUFFIX,sway.com
   - DOMAIN-SUFFIX,trafficmanager.net
   - DOMAIN-SUFFIX,uservoice.com
-  - DOMAIN-SUFFIX,virtualearth.net
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,windows-ppe.net
   - DOMAIN-SUFFIX,windows.com
