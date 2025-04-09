@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-09 20:49:39 (北京时间)
+# 从Surge自动同步 - 2025-04-09 20:57:30 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,azure-api.net
@@ -129,12 +129,8 @@ rules:
   - DOMAIN-SUFFIX,api.yyai8.com
   - DOMAIN-SUFFIX,img.yyai8.com
   - DOMAIN-SUFFIX,rockstargames.com
-  - DOMAIN-SUFFIX,rockstargames.com
-  - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rsg.sc
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
-  - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
-  - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,vcrfiw.lol
   - DOMAIN-SUFFIX,sjygml.lol
   - DOMAIN-SUFFIX,ghub.logitech.io
@@ -295,7 +291,6 @@ rules:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
   - PROCESS-NAME,DownloadService
-  - PROCESS-NAME,Thunder
   - PROCESS-NAME,115
   - DOMAIN-SUFFIX,aiqicha.baidu.com
   - DOMAIN-SUFFIX,a2z.org.cn
@@ -360,7 +355,6 @@ rules:
   - DOMAIN-SUFFIX,mobile-gtalk.l.google.com
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-  - PROCESS-NAME,UUBooster
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
@@ -587,7 +581,6 @@ rules:
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,WeChat.exe
   - PROCESS-NAME,WeChatApp.exe
-  - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,cloudmusic.exe
   - PROCESS-NAME,gamingservices.exe
   - PROCESS-NAME,nvcontainer.exe
