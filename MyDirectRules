@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-10 17:31:03 (北京时间)
+# 从Surge自动同步 - 2025-04-10 18:39:37 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,azure-api.net
@@ -32,7 +32,6 @@ rules:
   - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,mapbox.com
   - DOMAIN-SUFFIX,pospal.cn
-  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,sis.jpush.io
   - DOMAIN-SUFFIX,sdk-open-phone.getui.com
   - DOMAIN-SUFFIX,vn.cloud.tesla.cn
@@ -341,18 +340,6 @@ rules:
   - DOMAIN-SUFFIX,yamaxun.cn
   - DOMAIN-SUFFIX,z.cn
   - DOMAIN,ct-cn-central-00001.oos-b-220615.ctyunapi.cn
-  - DOMAIN,mtalk.google.com
-  - DOMAIN,mobile-gtalk.l.google.com
-  - DOMAIN,alt1-mtalk.google.com
-  - DOMAIN,alt2-mtalk.google.com
-  - DOMAIN,alt3-mtalk.google.com
-  - DOMAIN,alt4-mtalk.google.com
-  - DOMAIN,alt5-mtalk.google.com
-  - DOMAIN,alt6-mtalk.google.com
-  - DOMAIN,alt7-mtalk.google.com
-  - DOMAIN,alt8-mtalk.google.com
-  - DOMAIN,alt9-mtalk.google.com
-  - DOMAIN-SUFFIX,mobile-gtalk.l.google.com
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
   - PROCESS-NAME,aria2c
