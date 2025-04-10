@@ -1,7 +1,8 @@
-# 从Surge自动同步 - 2025-04-10 18:58:24 (北京时间)
+# 从Surge自动同步 - 2025-04-10 18:58:33 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,azure-api.net
+  - DOMAIN-SUFFIX,iam.e-govt.cn
   - DOMAIN-SUFFIX,azurefd.net
   - DOMAIN-SUFFIX,virtualearth.net
   - DOMAIN-SUFFIX,lencr.org
