@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-09 20:57:30 (北京时间)
+# 从Surge自动同步 - 2025-04-10 16:57:38 (北京时间)
 # 原始文件: Artificial_Intelligence
 rules:
+  - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,anthropic.ai
