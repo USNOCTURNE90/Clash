@@ -1,6 +1,7 @@
 # 从Surge自动同步 - 2025-04-10 18:42:35 (北京时间)
 # 原始文件: Artificial_Intelligence
 rules:
+  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,elevenreader.io
   - DOMAIN-SUFFIX,api-js.mixpanel.com
   - DOMAIN-SUFFIX,prod.ferndocs.com
