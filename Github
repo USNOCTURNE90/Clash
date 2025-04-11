@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-04-11 00:46:15 (北京时间)
+# 从Surge自动同步 - 2025-04-11 22:14:21 (北京时间)
 # 原始文件: Github
 rules:
+  - DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,rustup.rs
   - DOMAIN-SUFFIX,api.ip.sb
   - DOMAIN-SUFFIX,edge.sdk.awswaf.com
   - DOMAIN-SUFFIX,stripe.network
