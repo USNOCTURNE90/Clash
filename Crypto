@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-12 22:38:10 (北京时间)
+# 从Surge自动同步 - 2025-04-12 23:49:58 (北京时间)
 # 原始文件: Crypto
 rules:
   - DOMAIN,bybit-exchange.github.io
@@ -307,6 +307,7 @@ rules:
   - DOMAIN-SUFFIX,tiplink.io
   - DOMAIN-SUFFIX,track.hubspot.com
   - DOMAIN-SUFFIX,trustwallet.com
+  - DOMAIN-SUFFIX,unavailable-in-your-area.pages.dev
   - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,tvsquared.com
   - DOMAIN-SUFFIX,twnodes.com
