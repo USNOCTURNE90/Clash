@@ -4156,6 +4156,7 @@ rules:
   - IP-CIDR,93.183.14.0/24
   - IP-CIDR,93.183.18.0/24
   - IP-CIDR,94.191.0.0/17
+  - PROCESS-NAME,PlatformWebBrowser.exe
   - PROCESS-NAME,115
   - PROCESS-NAME,企业微信
   - PROCESS-NAME,企业微信Helper
