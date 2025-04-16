@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-04-16 19:35:56 (北京时间)
+# 从Surge自动同步 - 2025-04-16 20:17:27 (北京时间)
 # 原始文件: MyProxyRules
 rules:
+  - DOMAIN-SUFFIX,renderer.gist.build
+  - DOMAIN-SUFFIX,notion-static.com
   - DOMAIN-SUFFIX,filters.adtidy.org
   - DOMAIN-SUFFIX,ani.gamer.com.tw
   - DOMAIN-SUFFIX,civitai.com
