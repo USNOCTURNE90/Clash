@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-16 11:41:15 (北京时间)
+# 从Surge自动同步 - 2025-04-16 19:33:36 (北京时间)
 # 原始文件: Github
 rules:
+  - DOMAIN-SUFFIX,download.clashverge.dev
   - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,rustup.rs
   - DOMAIN-SUFFIX,api.ip.sb
