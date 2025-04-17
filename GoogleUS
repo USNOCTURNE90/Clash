@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-17 19:36:40 (北京时间)
+# 从Surge自动同步 - 2025-04-17 20:26:30 (北京时间)
 # 原始文件: GoogleUS
 rules:
   - DOMAIN-SUFFIX,rstr.in
@@ -697,8 +697,8 @@ rules:
   - DOMAIN-SUFFIX,womenwill.id
   - DOMAIN-SUFFIX,womenwill.in
   - DOMAIN-SUFFIX,womenwill.mx
-  - DOMAIN-SUFFIX,www.destinationurl.com
-  - DOMAIN-SUFFIX,www.pxcc.com
+  - DOMAIN-SUFFIX,destinationurl.com
+  - DOMAIN-SUFFIX,pxcc.com
   - DOMAIN-SUFFIX,x.company
   - DOMAIN-SUFFIX,x.team
   - DOMAIN-SUFFIX,xn--9kr7l.com
