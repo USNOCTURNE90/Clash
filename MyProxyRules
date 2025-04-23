@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-04-23 20:28:02 (北京时间)
+# 从Surge自动同步 - 2025-04-23 21:42:20 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,renderer.gist.build
@@ -15,6 +15,7 @@ rules:
   - DOMAIN-KEYWORD,stocks
   - DOMAIN-KEYWORD,market
   - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,redditspace.com
   - DOMAIN-KEYWORD,docker
   - DOMAIN-KEYWORD,mastodon
   - DOMAIN-KEYWORD,techhub.social
