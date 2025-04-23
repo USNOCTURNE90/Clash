@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-04-23 21:42:20 (北京时间)
+# 从Surge自动同步 - 2025-04-23 21:49:23 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubi.com
   - DOMAIN-SUFFIX,ppsvc.prismray.io
   - DOMAIN-SUFFIX,hostedactivation.com
   - DOMAIN-SUFFIX,crl3.digicert.com
