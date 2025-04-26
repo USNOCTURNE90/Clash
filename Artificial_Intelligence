@@ -1,7 +1,8 @@
-# 从Surge自动同步 - 2025-04-26 19:13:48 (北京时间)
+# 从Surge自动同步 - 2025-04-26 21:23:24 (北京时间)
 # 原始文件: Artificial_Intelligence
 rules:
   - DOMAIN-SUFFIX,vscode-cdn.net
+  - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,obsidian.md
   - DOMAIN-SUFFIX,tavily.com
   - DOMAIN-SUFFIX,unpkg.com
