@@ -1,6 +1,7 @@
-# 从Surge自动同步 - 2025-04-28 08:36:03 (北京时间)
+# 从Surge自动同步 - 2025-04-28 08:36:18 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,assets.immersivetranslate.cn
   - DOMAIN-SUFFIX,ubisoft.com
   - DOMAIN-SUFFIX,ubi.com
   - DOMAIN-SUFFIX,ppsvc.prismray.io
