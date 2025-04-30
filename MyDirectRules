@@ -1,6 +1,9 @@
-# 从Surge自动同步 - 2025-04-30 15:15:35 (北京时间)
+# 从Surge自动同步 - 2025-04-30 20:05:29 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,media.wago.io
+  - DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,images.blz-contentstack.com
   - DOMAIN-SUFFIX,some.url
   - DOMAIN-SUFFIX,xboxservices.com
   - DOMAIN-SUFFIX,assets.immersivetranslate.cn
