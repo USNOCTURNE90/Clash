@@ -1,6 +1,17 @@
-# 从Surge自动同步 - 2025-04-28 21:50:25 (北京时间)
+# 从Surge自动同步 - 2025-04-30 08:05:37 (北京时间)
 # 原始文件: Artificial_Intelligence
 rules:
+  - DOMAIN-SUFFIX,usepylon.com
+  - DOMAIN-SUFFIX,usepylon.com
+  - DOMAIN-SUFFIX,use1-turn.fpjs.io
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,mechatroner.gallery.vsassets.io
+  - DOMAIN-SUFFIX,getkoala.com
+  - DOMAIN-SUFFIX,dubcdn.com
+  - DOMAIN-SUFFIX,getkoala.com
+  - DOMAIN-SUFFIX,churnkey.co
+  - DOMAIN-SUFFIX,firecrawl.dev
+  - DOMAIN-SUFFIX,use1-turn.fpjs.io
   - DOMAIN-SUFFIX,gitkraken.com
   - DOMAIN-SUFFIX,vscode-unpkg.net
   - DOMAIN-SUFFIX,vscode-cdn.net
