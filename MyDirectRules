@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-04-30 20:05:29 (北京时间)
+# 从Surge自动同步 - 2025-04-30 20:57:16 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,steelseries.com
+  - DOMAIN-SUFFIX,updates.a-volute.com
   - DOMAIN-SUFFIX,media.wago.io
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,images.blz-contentstack.com
