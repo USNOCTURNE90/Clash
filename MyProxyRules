@@ -1,6 +1,11 @@
-# 从Surge自动同步 - 2025-04-30 20:57:16 (北京时间)
+# 从Surge自动同步 - 2025-05-03 21:43:00 (北京时间)
 # 原始文件: MyProxyRules
 rules:
+  - DOMAIN-SUFFIX,assets.gist.build
+  - DOMAIN-SUFFIX,img.notionusercontent.com
+  - DOMAIN-SUFFIX,cdn.sprig.com
+  - DOMAIN-SUFFIX,assets.customer.io
+  - DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com
   - DOMAIN-SUFFIX,sublimehq.com
   - DOMAIN-SUFFIX,sublimetext.com
   - DOMAIN-SUFFIX,renderer.gist.build
