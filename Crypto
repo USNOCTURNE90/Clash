@@ -1,10 +1,11 @@
-# 从Surge自动同步 - 2025-05-04 00:31:10 (北京时间)
+# 从Surge自动同步 - 2025-05-04 00:36:28 (北京时间)
 # 原始文件: Crypto
 rules:
-  - DOMAIN,bybit-exchange.github.io
-  - DOMAIN,bybit.ada.support
-  - DOMAIN,deribit.cdn.prismic.io
-  - DOMAIN,onekey.zendesk.com
+  - DOMAIN-SUFFIX,pulse.walletconnect.com
+  - DOMAIN-SUFFIX,bybit-exchange.github.io
+  - DOMAIN-SUFFIX,bybit.ada.support
+  - DOMAIN-SUFFIX,deribit.cdn.prismic.io
+  - DOMAIN-SUFFIX,onekey.zendesk.com
   - DOMAIN-SUFFIX,appsflayer.com
   - DOMAIN-SUFFIX,asproex.com
   - DOMAIN-SUFFIX,asproexapi.com
