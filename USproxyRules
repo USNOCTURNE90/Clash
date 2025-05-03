@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-03 21:43:00 (北京时间)
+# 从Surge自动同步 - 2025-05-03 21:44:26 (北京时间)
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
