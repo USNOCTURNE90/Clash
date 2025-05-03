@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-03 23:20:25 (北京时间)
+# 从Surge自动同步 - 2025-05-03 23:20:56 (北京时间)
 # 原始文件: MyDirectRules
 rules:
   - IP-CIDR,52.176.60.255/32
@@ -317,7 +317,6 @@ rules:
   - DOMAIN-SUFFIX,cmvideo.cn
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,cnnic.cn
-  - DOMAIN-SUFFIX,cnspeedtest.cn
   - DOMAIN-SUFFIX,cnstock.com
   - DOMAIN-SUFFIX,cntv.cn
   - DOMAIN-SUFFIX,cnzz.com
@@ -929,7 +928,6 @@ rules:
   - DOMAIN-SUFFIX,soso.com
   - DOMAIN-SUFFIX,soufunimg.com
   - DOMAIN-SUFFIX,soulapp.cn
-  - DOMAIN-SUFFIX,speedtest.cn
   - DOMAIN-SUFFIX,st-v3-stp-src-ios-3660-g3.api.splashtop.com
   - DOMAIN-SUFFIX,sspai.com
   - DOMAIN-SUFFIX,staticdn.net
