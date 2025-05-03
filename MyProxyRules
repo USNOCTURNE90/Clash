@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-03 23:10:55 (北京时间)
+# 从Surge自动同步 - 2025-05-03 23:20:25 (北京时间)
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,assets.gist.build
@@ -201,8 +201,6 @@ rules:
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,npr.org
   - DOMAIN-SUFFIX,telegraph.co.uk
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,speedtestcustom.com
   - DOMAIN-SUFFIX,cdnst.net
   - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,archive.fo
