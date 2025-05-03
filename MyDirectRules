@@ -1,6 +1,8 @@
-# 从Surge自动同步 - 2025-05-03 21:48:54 (北京时间)
+# 从Surge自动同步 - 2025-05-03 23:10:55 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - IP-CIDR,52.176.60.255/32
+  - IP-CIDR,23.218.108.8/32
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,steelseries.com
   - DOMAIN-SUFFIX,updates.a-volute.com
