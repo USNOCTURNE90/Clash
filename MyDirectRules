@@ -34,3 +34,4 @@ rules:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,msn.cn
+  - DOMAIN-SUFFIX,storage.msn.com
