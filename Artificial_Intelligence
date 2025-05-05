@@ -2,6 +2,7 @@
 # 原始文件: Artificial_Intelligence
 rules:
   - DOMAIN,officecdn-microsoft-com.akamaized.net
+  - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,1drv.com
