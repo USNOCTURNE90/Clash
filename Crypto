@@ -1,9 +1,10 @@
-# 从Surge自动同步 - 2025-05-05 23:17:04 (北京时间)
+# 从Surge自动同步 - 2025-05-05 23:59:32 (北京时间)
 # 原始文件: Crypto
 rules:
   - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,bybit-exchange.github.io
   - DOMAIN-SUFFIX,bybit.ada.support
+  - DOMAIN-SUFFIX,bybit.com
   - DOMAIN-SUFFIX,deribit.cdn.prismic.io
   - DOMAIN-SUFFIX,onekey.zendesk.com
   - DOMAIN-SUFFIX,appsflayer.com
