@@ -29,3 +29,8 @@ rules:
   - DOMAIN-SUFFIX,api.wsgw-rewrite.com/electricity/bill/all
   - DOMAIN-SUFFIX,status-ipv6.jpush.cn
   - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,msftauth.cn
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,msn.cn
