@@ -2,7 +2,6 @@
 # 原始文件: Crypto
 rules:
   - DOMAIN-SUFFIX,walletconnect.com
-  - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,bybit-exchange.github.io
   - DOMAIN-SUFFIX,bybit.ada.support
   - DOMAIN-SUFFIX,deribit.cdn.prismic.io
