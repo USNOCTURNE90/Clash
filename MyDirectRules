@@ -1,1 +1,4 @@
-- DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,api.lbctrl.com
+  - DOMAIN-SUFFIX,event-tracking.lbctrl.com
+  - DOMAIN-SUFFIX,lbkrs.com
