@@ -8,3 +8,24 @@ rules:
   - DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
   - DOMAIN-SUFFIX,catalog.gamepass.com
   - DOMAIN-SUFFIX,x1.c.lencr.org
+  - DOMAIN-SUFFIX,micode.cn
+  - DOMAIN-SUFFIX,micode.net
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoft.net
+  - DOMAIN-SUFFIX,microsoftedge.com
+  - DOMAIN-SUFFIX,microsoftonline-p.cn
+  - DOMAIN-SUFFIX,microsoftonline.cn
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.cn
+  - DOMAIN-SUFFIX,bing.com.cn
+  - DOMAIN-SUFFIX,windows.com.cn
+  - DOMAIN-SUFFIX,xbox.com.cn
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.cn
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,api.wsgw-rewrite.com
+  - DOMAIN-SUFFIX,api.wsgw-rewrite.com/electricity/bill/all
+  - DOMAIN-SUFFIX,status-ipv6.jpush.cn
+  - DOMAIN-SUFFIX,xboxservices.com
