@@ -1,6 +1,7 @@
 # 从Surge自动同步 - 2025-05-05 23:17:04 (北京时间)
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN-SUFFIX,api.mapbox.com
   - DOMAIN-SUFFIX,api.lbctrl.com
   - DOMAIN-SUFFIX,event-tracking.lbctrl.com
   - DOMAIN-SUFFIX,lbkrs.com
