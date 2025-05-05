@@ -1,8 +1,7 @@
-# 从Surge自动同步 - 2025-05-04 00:37:18 (北京时间)
+# 从Surge自动同步 - 2025-05-05 20:54:59 (北京时间)
 # 原始文件: AppleProxyRules
 rules:
   - IP-CIDR,17.248.152.0/24
-  - DOMAIN-SUFFIX,ess.apple.com
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,appsto.re
