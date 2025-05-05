@@ -1,7 +1,7 @@
 # 从Surge自动同步 - 2025-05-05 23:17:04 (北京时间)
 # 原始文件: MyProxyRules
 rules:
-
+  - DOMAIN-SUFFIX,privacyportal-fr.onetrust.com
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,nubia.cn
   - DOMAIN-SUFFIX,nubia.com
