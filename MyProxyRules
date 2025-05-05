@@ -1,6 +1,12 @@
 # 从Surge自动同步 - 2025-05-05 23:17:04 (北京时间)
 # 原始文件: MyProxyRules
 rules:
+
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,nubia.cn
+  - DOMAIN-SUFFIX,nubia.com
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubi.com
   - DOMAIN-SUFFIX,assets.gist.build
   - DOMAIN-SUFFIX,img.notionusercontent.com
   - DOMAIN-SUFFIX,cdn.sprig.com
