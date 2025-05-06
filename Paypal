@@ -1,6 +1,5 @@
+# 最后更新时间: 2025-05-06 13:02:48 (北京时间)
 payload:
-# 从Surge自动同步 - 2025-05-06 09:51:45 (北京时间)
-# 原始文件: Paypal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal-mktg.com

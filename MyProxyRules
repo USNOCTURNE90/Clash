@@ -1,6 +1,5 @@
+# 最后更新时间: 2025-05-06 13:02:48 (北京时间)
 payload:
-# 从Surge自动同步 - 2025-05-06 09:51:45 (北京时间)
-# 原始文件: MyProxyRules
   - DOMAIN-SUFFIX,.amazontrust.com
   - DOMAIN-SUFFIX,privacyportal-fr.onetrust.com
   - DOMAIN-SUFFIX,lencr.org
