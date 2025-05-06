@@ -1,5 +1,6 @@
 # 最后更新时间: 2025-05-06 21:08:54 (北京时间)
 rules:
+azureedge.us
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
   - DOMAIN-SUFFIX,cdn.honey.io
   - DOMAIN-SUFFIX,i.honey-images.com
