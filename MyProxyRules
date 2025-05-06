@@ -1,6 +1,6 @@
 # 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
-sprig.com
+  - DOMAIN-SUFFIX,sprig.com
   - DOMAIN-SUFFIX,sub.nexconvert.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,notion.so
