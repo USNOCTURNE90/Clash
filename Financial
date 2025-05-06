@@ -1,6 +1,10 @@
-# 最后更新时间: 2025-05-07 00:03:25 (北京时间)
+# 最后更新时间: 2025-05-07 00:09:12 (北京时间)
 rules:
   - DOMAIN-SUFFIX,openbb.co
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,guce.oath.com
+  - DOMAIN-SUFFIX,mobile-gw.spot.im
+  - DOMAIN-SUFFIX,obi.aol.com
   - DOMAIN-SUFFIX,zaip-aic.za.group
   - DOMAIN-SUFFIX,integrate-appgw.zajourney.com
   - DOMAIN-SUFFIX,testcdn.zaticdn.com
