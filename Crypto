@@ -1,5 +1,6 @@
-# 最后更新时间: 2025-05-06 23:56:41 (北京时间)
+# 最后更新时间: 2025-05-07 00:01:22 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,cryptobubbles.net
   - DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com
   - DOMAIN-SUFFIX,twnodes.com
   - DOMAIN-SUFFIX,ninerealms.com
