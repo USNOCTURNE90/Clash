@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-06 09:03:38 (北京时间)
+# 从Surge自动同步 - 2025-05-06 09:03:48 (北京时间)
 # 原始文件: Adobe
 rules:
   - DOMAIN-SUFFIX,payments.braintree-api.com
