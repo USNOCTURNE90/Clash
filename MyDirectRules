@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-07 07:57:09 (北京时间)
+# 最后更新时间: 2025-05-07 07:57:32 (北京时间)
 rules:
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,doh.pub
@@ -13,6 +13,7 @@ rules:
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,azurewebsites.net
