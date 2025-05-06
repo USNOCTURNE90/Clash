@@ -59,7 +59,6 @@ rules:
   - DOMAIN-SUFFIX,gist.build
   - DOMAIN-SUFFIX,travis-ci.org
   - DOMAIN-SUFFIX,travis-ci.com
-  - PROCESS-NAME,内容与媒体
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,nytimes.com
   - DOMAIN-SUFFIX,bbc.com
@@ -72,7 +71,6 @@ rules:
   - DOMAIN-SUFFIX,foxnews.com
   - DOMAIN-SUFFIX,thepiratebay.org
   - DOMAIN-SUFFIX,nyaa.si
-  - PROCESS-NAME,存储与备份
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,mega.nz
@@ -108,7 +106,6 @@ rules:
   - DOMAIN-SUFFIX,grammarly.com
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,huggingface.co
-  - PROCESS-NAME,代理与网络工具
   - DOMAIN-SUFFIX,ipleak.net
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,nssurge.com
@@ -117,12 +114,10 @@ rules:
   - DOMAIN-SUFFIX,v2ray.com
   - DOMAIN-SUFFIX,v2fly.org
   - DOMAIN-SUFFIX,surfshark.com
-  - PROCESS-NAME,成人内容
   - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,xhamster.com
-  - PROCESS-NAME,设计与创意
   - DOMAIN-SUFFIX,sublimetext.com
   - DOMAIN-SUFFIX,sublimehq.com
   - DOMAIN-SUFFIX,blackmagicdesign.com
