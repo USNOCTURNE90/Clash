@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-06 09:03:09 (北京时间)
+# 从Surge自动同步 - 2025-05-06 09:03:22 (北京时间)
 # 原始文件: Github
 rules:
   - DOMAIN-SUFFIX,raw.githubusercontent.com
