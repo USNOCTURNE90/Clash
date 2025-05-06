@@ -1,5 +1,11 @@
-# 最后更新时间: 2025-05-06 20:24:19 (北京时间)
+# 最后更新时间: 2025-05-06 21:08:07 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamusercontent.com
   - IP-CIDR,103.36.24.14/32
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
