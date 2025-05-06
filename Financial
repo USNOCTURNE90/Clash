@@ -1,5 +1,8 @@
-# 最后更新时间: 2025-05-07 00:09:12 (北京时间)
+# 最后更新时间: 2025-05-07 00:20:25 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,usmartsg.com
+  - IP-CIDR,47.242.186.255/32
   - DOMAIN-SUFFIX,openbb.co
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,guce.oath.com
