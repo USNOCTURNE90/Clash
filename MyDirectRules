@@ -1,5 +1,13 @@
 # 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
+  - DOMAIN-KEYWORD,office
+  - DOMAIN-KEYWORD,skype
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,azurewebsites.net
   - DOMAIN-SUFFIX,ocsp.comodoca.com
   - DOMAIN-SUFFIX,dynamics.com
