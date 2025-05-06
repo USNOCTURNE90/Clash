@@ -38,7 +38,8 @@ def process_rule_line(line, is_surge=True):
     # 检查是否已有前缀
     known_prefixes = ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]
     if any(line.startswith(prefix) for prefix in known_prefixes):
-        return line
+        # 已有规则前缀，根据目标格式返回
+        return line if is_surge else f"- {line}"
         
     # 检查是否是域名（包含点）
     if "." in line:
@@ -49,16 +50,16 @@ def process_rule_line(line, is_surge=True):
                 # 尝试解析为IP地址
                 ipaddress.ip_address(line)
                 # 如果是有效IP，添加IP-CIDR前缀和/32
-                return f"IP-CIDR,{line}/32"
+                return f"IP-CIDR,{line}/32" if is_surge else f"- IP-CIDR,{line}/32"
             else:
                 # 是域名，添加DOMAIN-SUFFIX前缀
-                return f"DOMAIN-SUFFIX,{line}"
+                return f"DOMAIN-SUFFIX,{line}" if is_surge else f"- DOMAIN-SUFFIX,{line}"
         except ValueError:
             # 不是有效IP，当作域名处理
-            return f"DOMAIN-SUFFIX,{line}"
+            return f"DOMAIN-SUFFIX,{line}" if is_surge else f"- DOMAIN-SUFFIX,{line}"
     else:
         # 没有点，作为进程名处理
-        return f"PROCESS-NAME,{line}"
+        return f"PROCESS-NAME,{line}" if is_surge else f"- PROCESS-NAME,{line}"
 
 # 打印当前工作目录和内容
 print(f"Current directory: {os.getcwd()}")
@@ -97,10 +98,6 @@ try:
         
         return False
     
-    # 获取GitHub令牌
-    github_token = os.environ.get("GITHUB_TOKEN", "")
-    surge_repo = f"https://{github_token}@github.com/USNOCTURNE90/Surge.git"
-    
     # 查找规则文件
     rule_files = []
     for file_path in root_dir.glob("*"):
@@ -122,7 +119,7 @@ try:
         print(f"All files: {[f.name for f in root_dir.glob('*') if not should_exclude(f)]}")
         exit(1)
     
-    # 先处理本地规则文件，确保格式正确
+    # 先处理本地规则文件，确保前缀正确
     for clash_file in rule_files:
         with open(clash_file, "r", encoding="utf-8") as f:
             clash_content = f.read()
@@ -159,9 +156,9 @@ try:
                             processed_rule = process_rule_line(rule_part, is_surge=False)
                             # 保持原有的缩进格式
                             if line.startswith("  "):
-                                updated_clash_lines.append(f"  - {processed_rule}")
+                                updated_clash_lines.append(f"  - {processed_rule.replace('- ', '')}")
                             else:
-                                updated_clash_lines.append(f"- {processed_rule}")
+                                updated_clash_lines.append(f"- {processed_rule.replace('- ', '')}")
                         else:
                             # 已有规则前缀，保持不变
                             updated_clash_lines.append(line)
@@ -195,8 +192,25 @@ try:
                     time_comment_found = True
                 else:
                     # 处理规则行，添加适当的前缀
-                    processed_line = process_rule_line(line, is_surge=True)
-                    updated_lines.append(processed_line)
+                    if line.strip() and not line.startswith("#"):
+                        # 去除可能存在的前缀
+                        clean_line = line.strip()
+                        if clean_line.startswith("- "):
+                            clean_line = clean_line[2:]
+                        elif clean_line.startswith("  - "):
+                            clean_line = clean_line[4:]
+                        
+                        # 检查是否已有规则前缀
+                        if not any(clean_line.startswith(prefix) for prefix in ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]):
+                            # 添加适当的规则前缀
+                            processed_line = process_rule_line(clean_line, is_surge=True)
+                            updated_lines.append(processed_line)
+                        else:
+                            # 已有规则前缀，保持不变
+                            updated_lines.append(clean_line)
+                    else:
+                        # 注释或空行
+                        updated_lines.append(line)
             
             if not time_comment_found:
                 # 在文件开头添加更新时间
@@ -212,97 +226,6 @@ try:
             # 使用更新后的内容
             clash_content = updated_content
             clash_lines = updated_lines
-        
-        # 转换为Surge格式
-        surge_rules = []
-        comment_lines = []
-        
-        # 提取注释和规则
-        rules_section = False
-        for line in clash_lines:
-            if line.strip() == "payload:" or line.strip() == "rules:":
-                rules_section = True
-                continue
-            elif line.startswith("#"):
-                comment_lines.append(line)
-            elif rules_section and line.strip():
-                # 处理规则行（转换为Surge格式）
-                processed_line = process_rule_line(line, is_surge=True)
-                if processed_line and not processed_line.startswith("#"):
-                    surge_rules.append(processed_line)
-            elif not rules_section and not is_clash_format and line.strip():
-                # 非Clash格式文件，直接处理每一行
-                processed_line = process_rule_line(line, is_surge=True)
-                if processed_line and not processed_line.startswith("#"):
-                    surge_rules.append(processed_line)
-        
-        # 创建Surge格式内容
-        surge_content_lines = []
-        
-        # 添加更新时间注释
-        surge_content_lines.append(f"# 最后更新时间: {current_time} (北京时间)")
-        
-        if is_clash_format:
-            surge_content_lines.append(f"# 从Clash自动同步 - {current_time} (北京时间)")
-        else:
-            surge_content_lines.append(f"# 规则自动格式化 - {current_time} (北京时间)")
-            
-        surge_content_lines.append(f"# 原始文件: {clash_file.name}")
-        
-        # 添加原始注释（但不包括更新时间相关注释）
-        for comment in comment_lines:
-            if not ("最后更新时间" in comment or "自动同步" in comment or "原始文件" in comment or "规则自动格式化" in comment):
-                surge_content_lines.append(comment)
-        
-        # 添加规则内容
-        surge_content_lines.extend(surge_rules)
-        surge_content = "\n".join(surge_content_lines)
-        
-        # 克隆Surge仓库（临时目录）
-        temp_surge_dir = "temp_surge_repo"
-        if os.path.exists(temp_surge_dir):
-            import shutil
-            shutil.rmtree(temp_surge_dir)
-        
-        print(f"Cloning Surge repo: {surge_repo}")
-        subprocess.run(["git", "clone", surge_repo, temp_surge_dir], check=True)
-        
-        # 写入Surge规则文件
-        surge_file_path = os.path.join(temp_surge_dir, clash_file.name)
-        with open(surge_file_path, "w", encoding="utf-8") as f:
-            f.write(surge_content)
-        
-        print(f"Synced rule file to Surge: {clash_file.name}")
-        
-        # 提交Surge仓库更改
-        subprocess.run(["git", "-C", temp_surge_dir, "add", "."], check=True)
-        
-        # 检查是否有更改
-        result = subprocess.run(
-            ["git", "-C", temp_surge_dir, "status", "--porcelain"],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        
-        if result.stdout.strip():
-            print("Changes found in Surge repo, committing...")
-            china_time = get_china_time()
-            commit_message = f"[AUTO_SYNC] 从Clash自动同步规则集 - {china_time} (北京时间)"
-            subprocess.run(
-                ["git", "-C", temp_surge_dir, "commit", "-m", commit_message],
-                check=True
-            )
-            
-            print("Pushing changes to Surge repo...")
-            subprocess.run(["git", "-C", temp_surge_dir, "push"], check=True)
-            print("Successfully synced rules to Surge repo")
-        else:
-            print("No changes to commit in Surge repo")
-        
-        # 清理临时目录
-        import shutil
-        shutil.rmtree(temp_surge_dir)
     
     # 提交本地更改
     local_result = subprocess.run(
@@ -330,6 +253,132 @@ try:
         print("Successfully updated local repo")
     else:
         print("No changes to commit in local repo")
+    
+    # 获取GitHub令牌
+    github_token = os.environ.get("GITHUB_TOKEN", "")
+    surge_repo = f"https://{github_token}@github.com/USNOCTURNE90/Surge.git"
+    
+    # 克隆Surge仓库
+    surge_dir = Path("Surge")
+    if surge_dir.exists():
+        import shutil
+        shutil.rmtree(surge_dir)
+    
+    print(f"Cloning Surge repo: {surge_repo}")
+    subprocess.run(["git", "clone", surge_repo, "Surge"], check=True)
+    
+    # 处理规则文件并同步到Surge仓库
+    for clash_file in rule_files:
+        with open(clash_file, "r", encoding="utf-8") as f:
+            clash_content = f.read()
+        
+        # 检查文件是否是Clash格式
+        is_clash_format = "payload:" in clash_content or "rules:" in clash_content
+        
+        # 转换为Surge格式
+        surge_rules = []
+        comment_lines = []
+        clash_lines = clash_content.splitlines()
+        
+        # 提取注释和规则
+        rules_section = False
+        for line in clash_lines:
+            if line.strip() == "payload:" or line.strip() == "rules:":
+                rules_section = True
+                continue
+            elif line.startswith("#"):
+                comment_lines.append(line)
+            elif rules_section and line.strip():
+                # 在规则部分的行，去除前缀标记 (- or   -)
+                rule_line = line
+                if rule_line.strip().startswith("  - "):
+                    rule_line = rule_line.strip()[4:]
+                elif rule_line.strip().startswith("- "):
+                    rule_line = rule_line.strip()[2:]
+                    
+                # 检查是否已有规则前缀
+                if not any(rule_line.startswith(prefix) for prefix in ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]):
+                    # 添加适当的规则前缀
+                    processed_line = process_rule_line(rule_line, is_surge=True)
+                else:
+                    # 已有规则前缀
+                    processed_line = rule_line
+                    
+                if processed_line and not processed_line.startswith("#"):
+                    surge_rules.append(processed_line)
+            elif not rules_section and not is_clash_format and line.strip():
+                # 非Clash格式文件，直接处理每一行
+                rule_line = line
+                # 去除可能存在的前缀
+                if rule_line.strip().startswith("- "):
+                    rule_line = rule_line.strip()[2:]
+                    
+                # 检查是否已有规则前缀
+                if not any(rule_line.startswith(prefix) for prefix in ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]):
+                    # 添加适当的规则前缀
+                    processed_line = process_rule_line(rule_line, is_surge=True)
+                else:
+                    # 已有规则前缀
+                    processed_line = rule_line
+                    
+                if processed_line and not processed_line.startswith("#"):
+                    surge_rules.append(processed_line)
+        
+        # 创建Surge格式内容
+        current_time = get_china_time()
+        surge_content_lines = []
+        
+        # 添加更新时间注释
+        surge_content_lines.append(f"# 最后更新时间: {current_time} (北京时间)")
+        
+        if is_clash_format:
+            surge_content_lines.append(f"# 从Clash自动同步 - {current_time} (北京时间)")
+        else:
+            surge_content_lines.append(f"# 规则自动格式化 - {current_time} (北京时间)")
+            
+        surge_content_lines.append(f"# 原始文件: {clash_file.name}")
+        
+        # 添加原始注释（但不包括更新时间相关注释）
+        for comment in comment_lines:
+            if not ("最后更新时间" in comment or "自动同步" in comment or "原始文件" in comment or "规则自动格式化" in comment):
+                surge_content_lines.append(comment)
+        
+        # 添加规则内容
+        surge_content_lines.extend(surge_rules)
+        surge_content = "\n".join(surge_content_lines)
+        
+        # 写入Surge规则文件
+        surge_file = surge_dir / clash_file.name
+        with open(surge_file, "w", encoding="utf-8") as f:
+            f.write(surge_content)
+        
+        print(f"Synced rule file to Surge: {clash_file.name}")
+    
+    # 提交Surge仓库更改
+    subprocess.run(["git", "-C", "Surge", "add", "."], check=True)
+    
+    # 检查是否有更改
+    result = subprocess.run(
+        ["git", "-C", "Surge", "status", "--porcelain"],
+        capture_output=True,
+        text=True,
+        check=True
+    )
+    
+    if result.stdout.strip():
+        print("Changes found in Surge repo, committing...")
+        china_time = get_china_time()
+        commit_message = f"[AUTO_SYNC] 从Clash自动同步规则集 - {china_time} (北京时间)"
+        subprocess.run(
+            ["git", "-C", "Surge", "commit", "-m", commit_message],
+            check=True
+        )
+        
+        print("Pushing changes to Surge repo...")
+        subprocess.run(["git", "-C", "Surge", "push"], check=True)
+        print("Successfully synced rules to Surge repo")
+    else:
+        print("No changes to commit in Surge repo")
 
 except Exception as e:
     print(f"Error: {str(e)}")
