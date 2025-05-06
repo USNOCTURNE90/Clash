@@ -1,6 +1,8 @@
-# 最后更新时间: 2025-05-07 07:55:22 (北京时间)
+# 最后更新时间: 2025-05-07 07:57:09 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,azure.com
   - IP-CIDR,52.139.169.119/32
   - DOMAIN-SUFFIX,s.rsg.sc
