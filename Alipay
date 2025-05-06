@@ -1,7 +1,5 @@
-# 最后更新时间: 2025-05-06 19:12:10 (北京时间)
+# 最后更新时间: 2025-05-06 19:12:50 (北京时间)
 rules:
-  - PROCESS-NAME,alipay
-  - DOMAIN-SUFFIX,alipay
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
