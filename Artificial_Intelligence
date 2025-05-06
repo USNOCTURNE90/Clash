@@ -1,6 +1,7 @@
-# 最后更新时间: 2025-05-06 23:37:56 (北京时间)
+# 最后更新时间: 2025-05-06 23:42:06 (北京时间)
 rules:
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,prodregistryv2.org
   - DOMAIN-KEYWORD,bing
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
