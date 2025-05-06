@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 19:53:44 (北京时间)
+# 最后更新时间: 2025-05-06 19:59:58 (北京时间)
 rules:
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,browser-intake-datadoghq.com
@@ -33,6 +33,7 @@ rules:
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,churnkey.co
   - DOMAIN-SUFFIX,clarity.ms
+  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,cloudappsecurity.com
