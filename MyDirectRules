@@ -1,5 +1,6 @@
-# 最后更新时间: 2025-05-06 23:49:09 (北京时间)
+# 最后更新时间: 2025-05-06 23:51:52 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,doh.pub
   - IP-CIDR,52.139.169.119/32
   - DOMAIN-SUFFIX,s.rsg.sc
   - DOMAIN-KEYWORD,office
