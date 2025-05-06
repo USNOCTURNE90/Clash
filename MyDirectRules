@@ -71,7 +71,7 @@ rules:
   - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,assets.immersivetranslate.cn
-  - DOMAIN-SUFFIX,router.asus.com
+  - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,asusrouter.com
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,asuscomm.com
