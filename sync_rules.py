@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-06 09:02:46 (北京时间)
+# 从Surge自动同步 - 2025-05-06 09:02:58 (北京时间)
 # 原始文件: sync_rules.py
 rules:
   - PROCESS-NAME,import os
