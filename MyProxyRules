@@ -1,5 +1,6 @@
-# 最后更新时间: 2025-05-07 00:46:16 (北京时间)
+# 最后更新时间: 2025-05-07 00:47:21 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,sprig.com
   - DOMAIN-SUFFIX,kelee.one
   - DOMAIN-SUFFIX,splunkcloud.com
