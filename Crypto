@@ -1,353 +1,80 @@
-# 最后更新时间: 2025-05-06 22:32:10 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,walletconnect.com
-  - DOMAIN-SUFFIX,bybit-exchange.github.io
-  - DOMAIN-SUFFIX,bybit.ada.support
-  - DOMAIN-SUFFIX,bybit.com
-  - DOMAIN-SUFFIX,deribit.cdn.prismic.io
-  - DOMAIN-SUFFIX,onekey.zendesk.com
-  - DOMAIN-SUFFIX,appsflayer.com
-  - DOMAIN-SUFFIX,asproex.com
-  - DOMAIN-SUFFIX,asproexapi.com
-  - DOMAIN-SUFFIX,binance.cc
-  - DOMAIN-SUFFIX,binance.charity
-  - DOMAIN-SUFFIX,binance.cloud
-  - DOMAIN-SUFFIX,binance.co
-  - DOMAIN-SUFFIX,binance.com
-  - DOMAIN-SUFFIX,binance.info
-  - DOMAIN-SUFFIX,binance.me
-  - DOMAIN-SUFFIX,binance.net
-  - DOMAIN-SUFFIX,binance.org
-  - DOMAIN-SUFFIX,binance.us
-  - DOMAIN-SUFFIX,binance.vision
-  - DOMAIN-SUFFIX,binanceapi.com
-  - DOMAIN-SUFFIX,binancecnt.com
-  - DOMAIN-SUFFIX,binancezh.be
-  - DOMAIN-SUFFIX,binancezh.biz
-  - DOMAIN-SUFFIX,binancezh.cc
-  - DOMAIN-SUFFIX,binancezh.co
-  - DOMAIN-SUFFIX,binancezh.com
-  - DOMAIN-SUFFIX,binancezh.info
-  - DOMAIN-SUFFIX,binancezh.ink
-  - DOMAIN-SUFFIX,binancezh.kim
-  - DOMAIN-SUFFIX,binancezh.link
-  - DOMAIN-SUFFIX,binancezh.live
-  - DOMAIN-SUFFIX,binancezh.mobi
-  - DOMAIN-SUFFIX,binancezh.net
-  - DOMAIN-SUFFIX,binancezh.pro
-  - DOMAIN-SUFFIX,binancezh.sh
-  - DOMAIN-SUFFIX,binancezh.top
-  - DOMAIN-SUFFIX,bisq.io
-  - DOMAIN-SUFFIX,bisq.network
-  - DOMAIN-SUFFIX,bitbank.cc
-  - DOMAIN-SUFFIX,bitcoin.org
-  - DOMAIN-SUFFIX,bitflyer.com
-  - DOMAIN-SUFFIX,bitflyer.jp
-  - DOMAIN-SUFFIX,bitquick.co
-  - DOMAIN-SUFFIX,bitsquare.io
-  - DOMAIN-SUFFIX,blockfrost.io
-  - DOMAIN-SUFFIX,btcbox.co.jp
-  - DOMAIN-SUFFIX,byapis.com
-  - DOMAIN-SUFFIX,bybit-global.com
-  - DOMAIN-SUFFIX,bycbe.com
-  - DOMAIN-SUFFIX,bymj.io
-  - DOMAIN-SUFFIX,cex.io
-  - DOMAIN-SUFFIX,clearpool.finance
-  - DOMAIN-SUFFIX,coinalyze.net
-  - DOMAIN-SUFFIX,coindesk.com
-  - DOMAIN-SUFFIX,coinglass.com
-  - DOMAIN-SUFFIX,coinmap.org
-  - DOMAIN-SUFFIX,coinonecore.com
-  - DOMAIN-SUFFIX,coinonecorp.com
-  - DOMAIN-SUFFIX,crypto.com
-  - DOMAIN-SUFFIX,cryptocompare.com
-  - DOMAIN-SUFFIX,cryptomus.com
-  - DOMAIN-SUFFIX,cyberx.com
-  - DOMAIN-SUFFIX,deribit.com
-  - DOMAIN-SUFFIX,devcon.org
-  - DOMAIN-SUFFIX,dogecoin.com
-  - DOMAIN-SUFFIX,ethereum.foundation
-  - DOMAIN-SUFFIX,ethereum.org
-  - DOMAIN-SUFFIX,fundingrates.xyz
-  - DOMAIN-SUFFIX,gatedata.org
-  - DOMAIN-SUFFIX,gateimg.com
-  - DOMAIN-SUFFIX,gateio.live
-  - DOMAIN-SUFFIX,gateio.services
-  - DOMAIN-SUFFIX,hbabit.com
-  - DOMAIN-SUFFIX,hbfile.net
-  - DOMAIN-SUFFIX,htx.com
-  - DOMAIN-SUFFIX,huobi.me
-  - DOMAIN-SUFFIX,huobi.pro
-  - DOMAIN-SUFFIX,huobi.sc
-  - DOMAIN-SUFFIX,huobiasia.vip
-  - DOMAIN-SUFFIX,huobigroup.com
-  - DOMAIN-SUFFIX,huobitoken.com
-  - DOMAIN-SUFFIX,invity.io
-  - DOMAIN-SUFFIX,kraken.onl
-  - DOMAIN-SUFFIX,kucoin.plus
-  - DOMAIN-SUFFIX,localbitcoins.com
-  - DOMAIN-SUFFIX,localbitcoinschain.com
-  - DOMAIN-SUFFIX,maple.finance
-  - DOMAIN-SUFFIX,metalpha.finance
-  - DOMAIN-SUFFIX,mexc.com
-  - DOMAIN-SUFFIX,mexcsensors.com
-  - DOMAIN-SUFFIX,mytokenapi.com
-  - DOMAIN-SUFFIX,nexo.com
-  - DOMAIN-SUFFIX,nexo.io
-  - DOMAIN-SUFFIX,okex.com
-  - DOMAIN-SUFFIX,oklink.com @cn
-  - DOMAIN-SUFFIX,okx-dns.com
-  - DOMAIN-SUFFIX,okx-dns1.com
-  - DOMAIN-SUFFIX,okx-dns2.com
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,onekey-asset.com
-  - DOMAIN-SUFFIX,onekey.so
-  - DOMAIN-SUFFIX,onekeycn.com
-  - DOMAIN-SUFFIX,osl.com
-  - DOMAIN-SUFFIX,paxful.com
-  - DOMAIN-SUFFIX,pod-15-sunco-ws.zendesk.com
-  - DOMAIN-SUFFIX,redotpay.com
-  - DOMAIN-SUFFIX,redotpay.zendesk.com
-  - DOMAIN-SUFFIX,ripple.com
-  - DOMAIN-SUFFIX,rp-static-apne1.s3.ap-northeast-1.amazonaws.com
-  - DOMAIN-SUFFIX,saasexch.com
-  - DOMAIN-SUFFIX,saasexch.io
-  - DOMAIN-SUFFIX,satoshilabs.com
-  - DOMAIN-SUFFIX,theblock.co
-  - DOMAIN-SUFFIX,trezor.io
-  - DOMAIN-SUFFIX,truefi.io
-  - DOMAIN-SUFFIX,unisat.io
-  - DOMAIN-SUFFIX,wintermute.com
-  - DOMAIN-SUFFIX,wisecoin.com
-  - DOMAIN-SUFFIX,wiseid.com
-  - DOMAIN-SUFFIX,wisekey.com
-  - DOMAIN-SUFFIX,wisekey.com.hk
-  - DOMAIN-SUFFIX,wynd.network
-  - DOMAIN-SUFFIX,wyndlabs.ai
-  - DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
-  - DOMAIN-KEYWORD,binance
-  - DOMAIN-KEYWORD,bitget
-  - DOMAIN-KEYWORD,bnbstatic
-  - DOMAIN-KEYWORD,huobi
-  - DOMAIN-KEYWORD,okex.com
-  - DOMAIN-KEYWORD,oklink.com
-  - DOMAIN-KEYWORD,okx
-  - DOMAIN-KEYWORD,saasexch
-  - DOMAIN-KEYWORD,trustwallet
-  - DOMAIN-SUFFIX,1a-1791.com
-  - DOMAIN-SUFFIX,adroll.com
-  - DOMAIN-SUFFIX,aex.com
-  - DOMAIN-SUFFIX,affiliates.bybit.cloud
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,announcements.bybit-global.com
-  - DOMAIN-SUFFIX,announcements.bybit.cloud
-  - DOMAIN-SUFFIX,api-app-slow.bitapi.vip
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.app
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.asia
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.biz
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.fun
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.life
-  - DOMAIN-SUFFIX,api-app-slow.bitkeep.top
-  - DOMAIN-SUFFIX,api-app-slow.chainnear.com
-  - DOMAIN-SUFFIX,api-app-slow.ljhsnzpc.com
-  - DOMAIN-SUFFIX,api-app-slow.lymryy.com
-  - DOMAIN-SUFFIX,api.bnbchain.org
-  - DOMAIN-SUFFIX,api.clashofcoins.co
-  - DOMAIN-SUFFIX,api.gatefi.com
-  - DOMAIN-SUFFIX,api.hubapi.com
-  - DOMAIN-SUFFIX,api.jup.ag
-  - DOMAIN-SUFFIX,api.onesignal.com
-  - DOMAIN-SUFFIX,api3.byabcde.com
-  - DOMAIN-SUFFIX,api3.byapps.net
-  - DOMAIN-SUFFIX,api3.bybdc6.com
-  - DOMAIN-SUFFIX,api3.bybit.biz
-  - DOMAIN-SUFFIX,api3.byd3c3.com
-  - DOMAIN-SUFFIX,app-analytics-services.com
-  - DOMAIN-SUFFIX,app.aave.com
-  - DOMAIN-SUFFIX,app.curve.fi
-  - DOMAIN-SUFFIX,app.matcha.xyz
-  - DOMAIN-SUFFIX,app.osmosis.zone
-  - DOMAIN-SUFFIX,app.pancakeswap.finance
-  - DOMAIN-SUFFIX,app.radiant.capital
-  - DOMAIN-SUFFIX,app.thorchain.org
-  - DOMAIN-SUFFIX,app.uniswap.org
-  - DOMAIN-SUFFIX,appapi.bgportable.com
-  - DOMAIN-SUFFIX,appapi.bitget.com
-  - DOMAIN-SUFFIX,appsflyer.com
-  - DOMAIN-SUFFIX,appsflyersdk.com
-  - DOMAIN-SUFFIX,atlas-mainnet.helius-rpc.com
-  - DOMAIN-SUFFIX,balancer.fi
-  - DOMAIN-SUFFIX,beefy.finance
-  - DOMAIN-SUFFIX,bgportable.com
-  - DOMAIN-SUFFIX,bibox.com
-  - DOMAIN-SUFFIX,bitcointalk.org
-  - DOMAIN-SUFFIX,bitget-2.ada.support
-  - DOMAIN-SUFFIX,bitgetapp.com
-  - DOMAIN-SUFFIX,bitgetapps.com
-  - DOMAIN-SUFFIX,bitgetimg.com
-  - DOMAIN-SUFFIX,bithumb.com
-  - DOMAIN-SUFFIX,blur.io
-  - DOMAIN-SUFFIX,bmp.cryptomate.online
-  - DOMAIN-SUFFIX,bnappweb.biz
-  - DOMAIN-SUFFIX,bntrace.com
-  - DOMAIN-SUFFIX,bybit-help-center-prod-ac4de1465648.herokuapp.com
-  - DOMAIN-SUFFIX,bybit.global
-  - DOMAIN-SUFFIX,bybt.com
-  - DOMAIN-SUFFIX,camelot.exchange
-  - DOMAIN-SUFFIX,cdn.bitkeep.vip
-  - DOMAIN-SUFFIX,cdn.branch.io
-  - DOMAIN-SUFFIX,cdn.cookielaw.org
-  - DOMAIN-SUFFIX,cdn.forter.com
-  - DOMAIN-SUFFIX,cdn.segment.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,coinbasecdn.net
-  - DOMAIN-SUFFIX,coincheck.com
-  - DOMAIN-SUFFIX,coinsbee.com
-  - DOMAIN-SUFFIX,compound.finance
-  - DOMAIN-SUFFIX,conf.packcard.com
-  - DOMAIN-SUFFIX,contendvc.cnouyi.pizza
-  - DOMAIN-SUFFIX,content.byabcd.com
-  - DOMAIN-SUFFIX,convexfinance.com
-  - DOMAIN-SUFFIX,cryptomate.store
-  - DOMAIN-SUFFIX,defillama.com
-  - DOMAIN-SUFFIX,dev-yzlqn.quill.run
-  - DOMAIN-SUFFIX,dispatcher.cdp.us-east-1.prod.data.typeform.com
-  - DOMAIN-SUFFIX,eth-mainnet.nodereal.io
-  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
-  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
-  - DOMAIN-SUFFIX,flia4w7b-ios.mobile-messenger.intercom.com
-  - DOMAIN-SUFFIX,fn.segmentapis.com
-  - DOMAIN-SUFFIX,fptls.com
-  - DOMAIN-SUFFIX,ftx.com
-  - DOMAIN-SUFFIX,gate.ac
-  - DOMAIN-SUFFIX,geolocation.onetrust.com
-  - DOMAIN-SUFFIX,gmx.io
-  - DOMAIN-SUFFIX,h1dz7f-launches.appsflyersdk.com
-  - DOMAIN-SUFFIX,http://crt.r2m02.amazontrust.com/r2m02.cer
-  - DOMAIN-SUFFIX,img.bgstatic.com
-  - DOMAIN-SUFFIX,img.daylight.xyz
-  - DOMAIN-SUFFIX,img.gurenla.com
-  - DOMAIN-SUFFIX,in.appcenter.ms
-  - DOMAIN-SUFFIX,ingest.sentry.io
-  - DOMAIN-SUFFIX,js-na1.hs-scripts.com
-  - DOMAIN-SUFFIX,js.hs-banner.com
-  - DOMAIN-SUFFIX,js.hsleadflows.net
-  - DOMAIN-SUFFIX,js.usemessages.com
-  - DOMAIN-SUFFIX,jupiter-fe.helius-rpc.com
-  - DOMAIN-SUFFIX,kava.io
-  - DOMAIN-SUFFIX,korbit.co.kr
-  - DOMAIN-SUFFIX,lido.fi
-  - DOMAIN-SUFFIX,liquid.com
-  - DOMAIN-SUFFIX,log.bntrace.com
-  - DOMAIN-SUFFIX,logs.browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,looksrare.org
-  - DOMAIN-SUFFIX,m.api.forter.com
-  - DOMAIN-SUFFIX,matcha.xyz
-  - DOMAIN-SUFFIX,mc.yandex.ru
-  - DOMAIN-SUFFIX,metamask.io
-  - DOMAIN-SUFFIX,midgard.ninerealms.com
-  - DOMAIN-SUFFIX,min-api.cryptocompare.com
-  - DOMAIN-SUFFIX,mokexapp.io
-  - DOMAIN-SUFFIX,mokexapp.me
-  - DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
-  - DOMAIN-SUFFIX,moonshot.money
-  - DOMAIN-SUFFIX,moshi.cam
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,o1377931.ingest.sentry.io
-  - DOMAIN-SUFFIX,o4507686279512064.ingest.us.sentry.io
-  - DOMAIN-SUFFIX,o529943.ingest.sentry.io
-  - DOMAIN-SUFFIX,ocsp.digicert.com/ME8wTTBLMEkwRzAHBgUrDgMCGgQUOdKLcf4dGbZfs%2FEojyO8BFlcQ5UEFE4iVCAYlebjbuYP%2Bvq5Eu0GF485AhALJZQiztmBKhWgTplSig76
-  - DOMAIN-SUFFIX,onfido.com
-  - DOMAIN-SUFFIX,online-metrix.net
-  - DOMAIN-SUFFIX,onramp.gatefi.com
-  - DOMAIN-SUFFIX,osmosis.zone
-  - DOMAIN-SUFFIX,p.sardine.ai
-  - DOMAIN-SUFFIX,pancakeswap.com
-  - DOMAIN-SUFFIX,pancakeswap.finance
-  - DOMAIN-SUFFIX,paraswap.io
-  - DOMAIN-SUFFIX,plaid.com
-  - DOMAIN-SUFFIX,poloniex.com
-  - DOMAIN-SUFFIX,posthog.com
-  - DOMAIN-SUFFIX,public.nftstatic.com
-  - DOMAIN-SUFFIX,pulse.walletconnect.org
-  - DOMAIN-SUFFIX,pushstat.api.engagelab.cc
-  - DOMAIN-SUFFIX,qrc.bgstatic.com
-  - DOMAIN-SUFFIX,query.thegraph.kiln.fi
-  - DOMAIN-SUFFIX,quickswap.exchange
-  - DOMAIN-SUFFIX,radiant.capital
-  - DOMAIN-SUFFIX,realtime.ably.io
-  - DOMAIN-SUFFIX,ribbon.finance
-  - DOMAIN-SUFFIX,rocketpool.net
-  - DOMAIN-SUFFIX,rocketx.exchange
-  - DOMAIN-SUFFIX,rollout.ada.support
-  - DOMAIN-SUFFIX,saasexch
-  - DOMAIN-SUFFIX,saddle.finance
-  - DOMAIN-SUFFIX,sardine.ai
-  - DOMAIN-SUFFIX,sdk-api-v1.singular.net
-  - DOMAIN-SUFFIX,sdk.fra-01.braze.eu
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,sis.push.theengagelab.com
-  - DOMAIN-SUFFIX,snx.io
-  - DOMAIN-SUFFIX,solidly.com
-  - DOMAIN-SUFFIX,spiritswap.finance
-  - DOMAIN-SUFFIX,spookyswap.finance
-  - DOMAIN-SUFFIX,staderlabs.com
-  - DOMAIN-SUFFIX,stargate.finance
-  - DOMAIN-SUFFIX,static-web.jjdsn.vip
-  - DOMAIN-SUFFIX,static.ada.support
-  - DOMAIN-SUFFIX,static.cx.metamask.io
-  - DOMAIN-SUFFIX,static.devfdg.net
-  - DOMAIN-SUFFIX,static.kinguin.net
-  - DOMAIN-SUFFIX,status.rapidssl.com/ME8wTTBLMEkwRzAHBgUrDgMCGgQUSYlCoE9pvPH2eJ8XNS7ujP475GoEFAzbbIJJD0pnCrgU7nrESFKI61Y4AhAEwforAKUEDRgK4JGwi5Rc
-  - DOMAIN-SUFFIX,stream.bitget.com
-  - DOMAIN-SUFFIX,sushi.com
-  - DOMAIN-SUFFIX,synthetix.io
-  - DOMAIN-SUFFIX,t1.bycsi.com
-  - DOMAIN-SUFFIX,thorchain.org
-  - DOMAIN-SUFFIX,tiplink.io
-  - DOMAIN-SUFFIX,track.hubspot.com
-  - DOMAIN-SUFFIX,trustwallet.com
-  - DOMAIN-SUFFIX,unavailable-in-your-area.pages.dev
-  - DOMAIN-SUFFIX,truthsocial.com
-  - DOMAIN-SUFFIX,tvsquared.com
-  - DOMAIN-SUFFIX,twnodes.com
-  - DOMAIN-SUFFIX,typeform.com
-  - DOMAIN-SUFFIX,velodrome.finance
-  - DOMAIN-SUFFIX,vesper.finance
-  - DOMAIN-SUFFIX,vvs.finance
-  - DOMAIN-SUFFIX,w.usabilla.com
-  - DOMAIN-SUFFIX,wa.appsflyer.com
-  - DOMAIN-SUFFIX,wa.onelink.me
-  - DOMAIN-SUFFIX,websdk.appsflyer.com
-  - DOMAIN-SUFFIX,websites.cdn.getfeedback.com
-  - DOMAIN-SUFFIX,wise.com
-  - DOMAIN-SUFFIX,wistia.com
-  - DOMAIN-SUFFIX,wootrade.com
-  - DOMAIN-SUFFIX,worker.jup.ag
-  - DOMAIN-SUFFIX,ws2.byapps.net
-  - DOMAIN-SUFFIX,ws2.bybdc6.com
-  - DOMAIN-SUFFIX,ws2.bybit.biz
-  - DOMAIN-SUFFIX,ws2.byd3c3.com
-  - DOMAIN-SUFFIX,x.adroll.com
-  - DOMAIN-SUFFIX,x2y2.io
-  - DOMAIN-SUFFIX,yearn.finance
-  - DOMAIN-SUFFIX,yfi.finance
-  - DOMAIN-SUFFIX,yshyqxx.com
-  - DOMAIN-SUFFIX,zerion.io
-  - IP-CIDR,110.238.104.159/32
-  - IP-CIDR,119.13.110.238/32
-  - IP-CIDR,119.8.191.101/24
-  - IP-CIDR,120.24.0.0/14
-  - IP-CIDR,120.68.0.0/14
-  - IP-CIDR,120.76.0.0/14
-  - IP-CIDR,190.92.198.30/32
-  - IP-CIDR,35.77.148.188/32
-  - IP-CIDR,39.104.0.0/14
-  - IP-CIDR,39.108.0.0/16
-  - IP-CIDR,47.96.0.0/13
-  - IP-CIDR,47.104.0.0/14
-  - IP-CIDR,52.68.117.1/24
-  - IP-CIDR,54.150.106.1/24
-  - IP-CIDR,8.210.73.205/24
-  - IP-CIDR,8.212.49.105/24
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,bitget
+DOMAIN-KEYWORD,bnbstatic
+DOMAIN-KEYWORD,huobi
+DOMAIN-KEYWORD,okex
+DOMAIN-KEYWORD,oklink
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,saasexch
+DOMAIN-KEYWORD,trustwallet
+DOMAIN-KEYWORD,bybit
+DOMAIN-KEYWORD,byapp
+DOMAIN-KEYWORD,bitkeep
+DOMAIN-SUFFIX,walletconnect.com
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,aex.com
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateio.live
+DOMAIN-SUFFIX,huobi.pro
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,ethereum.org
+DOMAIN-SUFFIX,bitcoin.org
+DOMAIN-SUFFIX,ripple.com
+DOMAIN-SUFFIX,trezor.io
+DOMAIN-SUFFIX,cryptocompare.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,coindesk.com
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,pancakeswap.finance
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,dogecoin.com
+DOMAIN-SUFFIX,coincheck.com
+DOMAIN-SUFFIX,ftx.com
+DOMAIN-SUFFIX,deribit.com
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,amazonwebservices.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,segmentapis.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,forter.com
+DOMAIN-SUFFIX,ably.io
+DOMAIN-SUFFIX,cdn.branch.io
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,hubspot.com
+DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,onetrust.com
+DOMAIN-SUFFIX,zendesk.com
+DOMAIN-SUFFIX,ada.support
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,posthog.com
+DOMAIN-SUFFIX,sardine.ai
+DOMAIN-SUFFIX,helius-rpc.com
+DOMAIN-SUFFIX,thegraph.kiln.fi
+DOMAIN-SUFFIX,nftstatic.com
+IP-CIDR,110.238.104.159/32
+IP-CIDR,119.13.110.238/32
+IP-CIDR,119.8.191.101/24
+IP-CIDR,120.24.0.0/14
+IP-CIDR,120.68.0.0/14
+IP-CIDR,120.76.0.0/14
+IP-CIDR,190.92.198.30/32
+IP-CIDR,35.77.148.188/32
+IP-CIDR,39.104.0.0/14
+IP-CIDR,39.108.0.0/16
+IP-CIDR,47.96.0.0/13
+IP-CIDR,47.104.0.0/14
+IP-CIDR,52.68.117.1/24
+IP-CIDR,54.150.106.1/24
+IP-CIDR,8.210.73.205/24
+IP-CIDR,8.212.49.105/24
