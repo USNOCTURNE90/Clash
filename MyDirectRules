@@ -1,6 +1,6 @@
 # 最后更新时间: 2025-05-06 21:08:54 (北京时间)
 rules:
-dynamics.com
+  - DOMAIN-SUFFIX,dynamics.com
   - DOMAIN-SUFFIX,static-ecst.licdn.com
   - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,battle.net
