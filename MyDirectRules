@@ -1,5 +1,7 @@
 # 最后更新时间: 2025-05-06 21:08:54 (北京时间)
 rules:
+battle.net
+amazontrust.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,azure-api.net
   - DOMAIN-SUFFIX,azure.cn
