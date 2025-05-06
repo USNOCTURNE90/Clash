@@ -1,6 +1,6 @@
-# 最后更新时间: 2025-05-06 14:17:03 (北京时间)
+# 最后更新时间: 2025-05-06 14:17:40 (北京时间)
 rules:
-  - IP-CIDR,192.42.43.1/32
+  - DOMAIN-SUFFIX,192.422.433.321
   - DOMAIN-SUFFIX,payments.braintree-api.com
   - DOMAIN-SUFFIX,cai.adobe.io
   - DOMAIN-SUFFIX,p13n.adobe.io

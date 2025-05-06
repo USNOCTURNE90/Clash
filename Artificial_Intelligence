@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 14:17:03 (北京时间)
+# 最后更新时间: 2025-05-06 14:17:40 (北京时间)
 rules:
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,browser-intake-datadoghq.com

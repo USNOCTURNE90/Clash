@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 14:17:03 (北京时间)
+# 最后更新时间: 2025-05-06 14:17:40 (北京时间)
 rules:
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
   - DOMAIN-SUFFIX,cdn.honey.io
