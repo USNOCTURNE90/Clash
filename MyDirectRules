@@ -1,7 +1,7 @@
 # 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
   - DOMAIN-KEYWORD,office
-rockstargames.com
+  - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-KEYWORD,skype
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,outlook.com
