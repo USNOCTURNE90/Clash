@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 23:43:41 (北京时间)
+# 最后更新时间: 2025-05-06 23:44:54 (北京时间)
 rules:
   - DOMAIN-SUFFIX,azureedge.us
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
@@ -33,7 +33,6 @@ rules:
   - DOMAIN-SUFFIX,textnow.com
   - DOMAIN-KEYWORD,textnow
   - DOMAIN-SUFFIX,tiqcdn.com
-  - DOMAIN-SUFFIX,siftscience.com
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,verizon.com
