@@ -1,7 +1,7 @@
 # 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
-52.139.169.119
-s.rsg.sc
+  - IP-CIDR,52.139.169.119/32
+  - DOMAIN-SUFFIX,s.rsg.sc
   - DOMAIN-KEYWORD,office
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-KEYWORD,skype
