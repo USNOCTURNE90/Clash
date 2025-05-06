@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 19:12:50 (北京时间)
+# 最后更新时间: 2025-05-06 19:51:12 (北京时间)
 rules:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me

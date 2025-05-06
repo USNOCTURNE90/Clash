@@ -1,5 +1,10 @@
-# 最后更新时间: 2025-05-06 19:12:50 (北京时间)
+# 最后更新时间: 2025-05-06 19:51:12 (北京时间)
 rules:
+  - IP-CIDR,103.36.24.14/32
+  - DOMAIN-SUFFIX,crl3.digicert.com
+  - DOMAIN-SUFFIX,ocsp.sectigo.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,ocsp.usertrust.com
   - DOMAIN-SUFFIX,updates.a-volute.com
   - DOMAIN-SUFFIX,steelseries.com
   - DOMAIN-SUFFIX,sb.scorecardresearch.com
