@@ -1,7 +1,5 @@
-# 最后更新时间: 2025-05-06 14:09:24 (北京时间)
+# 最后更新时间: 2025-05-06 14:10:33 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,323.32.123.123
-  - DOMAIN-SUFFIX,323.32.123.123
   - DOMAIN-SUFFIX,payments.braintree-api.com
   - DOMAIN-SUFFIX,cai.adobe.io
   - DOMAIN-SUFFIX,p13n.adobe.io
