@@ -1,5 +1,6 @@
-# 最后更新时间: 2025-05-06 21:46:34 (北京时间)
+# 最后更新时间: 2025-05-06 21:52:49 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,azurewebsites.net
   - DOMAIN-SUFFIX,ocsp.comodoca.com
   - DOMAIN-SUFFIX,dynamics.com
   - DOMAIN-SUFFIX,fonts.ne

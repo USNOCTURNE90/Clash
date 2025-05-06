@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 21:46:34 (北京时间)
+# 最后更新时间: 2025-05-06 21:52:49 (北京时间)
 rules:
   - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,bybit-exchange.github.io
