@@ -1,8 +1,8 @@
 # 最后更新时间: 2025-05-06 21:08:54 (北京时间)
 rules:
   - DOMAIN-SUFFIX,dynamics.com
-fonts.ne
-bazaarvoice.com
+  - DOMAIN-SUFFIX,fonts.ne
+  - DOMAIN-SUFFIX,bazaarvoice.com
 
   - DOMAIN-SUFFIX,static-ecst.licdn.com
   - DOMAIN-SUFFIX,s-microsoft.com
