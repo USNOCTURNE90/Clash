@@ -1,8 +1,9 @@
-# 最后更新时间: 2025-05-06 20:06:21 (北京时间)
+# 最后更新时间: 2025-05-06 20:24:19 (北京时间)
 rules:
   - IP-CIDR,103.36.24.14/32
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
+  - DOMAIN-SUFFIX,st2-v3-dc.splashtop.com
   - DOMAIN-SUFFIX,some.url
   - DOMAIN-SUFFIX,api.lolesports.com
   - DOMAIN-SUFFIX,qtreport.qq.com

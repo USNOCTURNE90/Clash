@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-06 20:06:21 (北京时间)
+# 最后更新时间: 2025-05-06 20:24:19 (北京时间)
 rules:
   - DOMAIN-SUFFIX,rstr.in
   - DOMAIN-SUFFIX,firebase.studio
