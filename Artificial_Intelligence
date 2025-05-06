@@ -1,5 +1,5 @@
-# 最后更新时间: 2025-05-06 13:16:29 (北京时间)
-payload:
+# 最后更新时间: 2025-05-06 14:07:49 (北京时间)
+rules:
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,static.cloudflareinsights.com
