@@ -1,6 +1,10 @@
-# 最后更新时间: 2025-05-06 19:59:58 (北京时间)
+# 最后更新时间: 2025-05-06 20:02:58 (北京时间)
 rules:
   - IP-CIDR,103.36.24.14/32
+  - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
+  - DOMAIN-SUFFIX,some.ur
+  - DOMAIN-SUFFIX,api.lolesports.com
+  - DOMAIN-SUFFIX,qtreport.qq.com
   - DOMAIN-SUFFIX,wegame.com.cn
   - DOMAIN-SUFFIX,report.url.cn
   - DOMAIN-SUFFIX,crl3.digicert.com
