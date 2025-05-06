@@ -1,6 +1,7 @@
-# 最后更新时间: 2025-05-07 00:20:25 (北京时间)
+# 最后更新时间: 2025-05-07 00:40:28 (北京时间)
 rules:
   - DOMAIN-SUFFIX,sprig.com
+  - DOMAIN-SUFFIX,kelee.one
   - DOMAIN-SUFFIX,splunkcloud.com
   - DOMAIN-SUFFIX,sub.nexconvert.com
   - DOMAIN-SUFFIX,immersivetranslate.com
