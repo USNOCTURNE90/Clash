@@ -1,6 +1,9 @@
-# 最后更新时间: 2025-05-07 00:01:22 (北京时间)
+# 最后更新时间: 2025-05-07 00:03:25 (北京时间)
 rules:
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,chronosphere.io
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,featureassets.org
   - DOMAIN-SUFFIX,api.appcenter.ms
   - DOMAIN-SUFFIX,api.revenuecat.com
   - DOMAIN-SUFFIX,siftscience.com
