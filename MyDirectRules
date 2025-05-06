@@ -1,6 +1,8 @@
-# 最后更新时间: 2025-05-06 19:51:12 (北京时间)
+# 最后更新时间: 2025-05-06 19:53:44 (北京时间)
 rules:
   - IP-CIDR,103.36.24.14/32
+  - DOMAIN-SUFFIX,wegame.com.cn
+  - DOMAIN-SUFFIX,report.url.cn
   - DOMAIN-SUFFIX,crl3.digicert.com
   - DOMAIN-SUFFIX,ocsp.sectigo.com
   - DOMAIN-SUFFIX,akamaized.net
