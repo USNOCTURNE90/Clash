@@ -1,5 +1,4 @@
 rules:
-
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,whatsapp
