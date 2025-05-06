@@ -1,3 +1,132 @@
+name: Sync to Surge
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 2
+          
+      - name: Check commit message
+        id: check_commit
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if [[ $COMMIT_MSG == *"[AUTO_SYNC]"* || $COMMIT_MSG == *"[AUTO_FORMAT]"* ]]; then
+            echo "Skipping workflow as this is an automated sync commit"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Proceeding with sync"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Set up Python
+        if: steps.check_commit.outputs.skip == 'false'
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        if: steps.check_commit.outputs.skip == 'false'
+        run: |
+          python -m pip install --upgrade pip
+          
+      - name: Configure Git
+        if: steps.check_commit.outputs.skip == 'false'
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+      - name: Debug environment
+        if: steps.check_commit.outputs.skip == 'false'
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Directory contents:"
+          ls -la
+          
+      - name: Create and run sync script
+        if: steps.check_commit.outputs.skip == 'false'
+        run: |
+          cat > sync_to_surge.py << 'EOF'
+          #!/usr/bin/env python3
+
+          import os
+          import re
+          import time
+          import subprocess
+          from pathlib import Path
+          import logging
+          import traceback
+          from datetime import datetime, timedelta
+          import ipaddress
+          
+          # 配置日志
+          logging.basicConfig(
+              level=logging.INFO,
+              format="%(asctime)s - %(levelname)s - %(message)s"
+          )
+          logger = logging.getLogger(__name__)
+          
+          # 获取中国时间
+          def get_china_time():
+              utc_now = datetime.utcnow()
+              china_time = utc_now + timedelta(hours=8)
+              return china_time.strftime('%Y-%m-%d %H:%M:%S')
+          
+          # 检查和处理规则行
+          def process_rule_line(line, is_surge=True):
+              line = line.strip()
+              if not line or line.startswith("#"):
+                  return line
+              
+              # 去除Clash格式的前缀
+              if line.startswith('  - '):
+                  line = line[4:]
+              elif line.startswith('- '):
+                  line = line[2:]
+              
+              # 检查是否已有前缀
+              known_prefixes = ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]
+              if any(line.startswith(prefix) for prefix in known_prefixes):
+                  # 已有规则前缀，根据目标格式返回
+                  return line if is_surge else f"- {line}"
+                  
+              # 检查是否是域名（包含点）
+              if "." in line:
+                  try:
+                      # 检查是否是纯数字IP
+                      parts = line.split('.')
+                      if all(part.isdigit() for part in parts):
+                          # 尝试解析为IP地址
+                          ipaddress.ip_address(line)
+                          # 如果是有效IP，添加IP-CIDR前缀和/32
+                          return f"IP-CIDR,{line}/32" if is_surge else f"- IP-CIDR,{line}/32"
+                      else:
+                          # 是域名，添加DOMAIN-SUFFIX前缀
+                          return f"DOMAIN-SUFFIX,{line}" if is_surge else f"- DOMAIN-SUFFIX,{line}"
+                  except ValueError:
+                      # 不是有效IP，当作域名处理
+                      return f"DOMAIN-SUFFIX,{line}" if is_surge else f"- DOMAIN-SUFFIX,{line}"
+              else:
+                  # 没有点，作为进程名处理
+                  return f"PROCESS-NAME,{line}" if is_surge else f"- PROCESS-NAME,{line}"
+          
+          # 打印当前工作目录和内容
+          print(f"Current directory: {os.getcwd()}")
+          print(f"Directory contents: {os.listdir('.')}")
+          
           try:
               # 设置目录
               root_dir = Path(".")
@@ -313,3 +442,13 @@
               else:
                   print("No changes to commit in Surge repo")
           
+          except Exception as e:
+              print(f"Error: {str(e)}")
+              traceback.print_exc()
+              exit(1)
+          EOF
+          
+          chmod +x sync_to_surge.py
+          python sync_to_surge.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}  
