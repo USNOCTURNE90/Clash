@@ -1,158 +1,52 @@
-# 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,aadrm.com
-  - DOMAIN-SUFFIX,acompli.com
-  - DOMAIN-SUFFIX,acompli.net
-  - DOMAIN-SUFFIX,aka.ms
-  - DOMAIN-SUFFIX,algolia.net
-  - DOMAIN-SUFFIX,anthropic.ai
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,appcenter.ms
-  - DOMAIN-SUFFIX,aria.ms
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,asp.net
-  - DOMAIN-SUFFIX,aspnetcdn.com
-  - DOMAIN-SUFFIX,assets-yammer.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,azure.net
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,azurerms.com
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bing.net
-  - DOMAIN-SUFFIX,bingads.com
-  - DOMAIN-SUFFIX,bingagencyawards.com
-  - DOMAIN-SUFFIX,bingapistatistics.com
-  - DOMAIN-SUFFIX,bingsandbox.com
-  - DOMAIN-SUFFIX,bingvisualsearch.com
-  - DOMAIN-SUFFIX,bingworld.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,churnkey.co
-  - DOMAIN-SUFFIX,clarity.ms
-  - DOMAIN-SUFFIX,claudeusercontent.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,cloudapp.net
-  - DOMAIN-SUFFIX,cloudappsecurity.com
-  - DOMAIN-SUFFIX,bing.com.cn
-  - DOMAIN-SUFFIX,cookiebot.com
-  - DOMAIN-SUFFIX,cursor-cdn.com
-  - DOMAIN-SUFFIX,cursor.com
-  - DOMAIN-SUFFIX,cursor.directory
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,cursorlist.com
-  - DOMAIN-SUFFIX,docs.com
-  - DOMAIN-SUFFIX,dubcdn.com
-  - DOMAIN-SUFFIX,edgesuite.net
-  - DOMAIN-SUFFIX,elevenlabs.io
-  - DOMAIN-SUFFIX,elevenreader.io
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,prod.ferndocs.com
-  - DOMAIN-SUFFIX,firecrawl.dev
-  - DOMAIN-SUFFIX,use1-turn.fpjs.io
-  - DOMAIN-SUFFIX,getkoala.com
-  - DOMAIN-SUFFIX,gfx.ms
-  - DOMAIN-SUFFIX,gitkraken.com
-  - DOMAIN-SUFFIX,grsm.io
-  - DOMAIN-SUFFIX,hcaptcha.com
-  - DOMAIN-SUFFIX,hibennie.com
-  - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,immersivetranslate.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,snap.licdn.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-SUFFIX,lync.com
-  - DOMAIN-SUFFIX,manus.im
-  - DOMAIN-SUFFIX,shopping.bing-shopping.microsoft-falcon.io
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,api.microsoftapp.net
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,api-js.mixpanel.com
-  - DOMAIN-SUFFIX,msappproxy.net
-  - DOMAIN-SUFFIX,msauth.net
-  - DOMAIN-SUFFIX,msauthimages.net
-  - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,msft.net
-  - DOMAIN-SUFFIX,msftauth.net
-  - DOMAIN-SUFFIX,msftauthimages.net
-  - DOMAIN-SUFFIX,msftidentity.com
-  - DOMAIN-SUFFIX,msidentity.com
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,msocdn.com
-  - DOMAIN-SUFFIX,msocsp.com
-  - DOMAIN-SUFFIX,mstea.ms
-  - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
-  - DOMAIN-SUFFIX,o365weve.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,oaspapps.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,obsidian.md
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,officeppe.net
-  - DOMAIN-SUFFIX,omniroot.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,onenote.com
-  - DOMAIN-SUFFIX,onenote.net
-  - DOMAIN-SUFFIX,onestore.ms
-  - DOMAIN-SUFFIX,openpanel.dev
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,outlookmobile.com
-  - DOMAIN-SUFFIX,partnerlinks.io
-  - DOMAIN-SUFFIX,phonefactor.net
-  - DOMAIN-SUFFIX,prodregistryv2.org
-  - DOMAIN-SUFFIX,public-trust.com
-  - DOMAIN-SUFFIX,api.revenuecat.com
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,sfbassets.com
-  - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
-  - DOMAIN-SUFFIX,skype.com
-  - DOMAIN-SUFFIX,skypeassets.com
-  - DOMAIN-SUFFIX,skypeforbusiness.com
-  - DOMAIN-SUFFIX,staffhub.ms
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,stripecdn.com
-  - DOMAIN-SUFFIX,supabase.co
-  - DOMAIN-SUFFIX,svc.ms
-  - DOMAIN-SUFFIX,sway-cdn.com
-  - DOMAIN-SUFFIX,sway-extensions.com
-  - DOMAIN-SUFFIX,sway.com
-  - DOMAIN-SUFFIX,tavily.com
-  - DOMAIN-SUFFIX,todesktop.com
-  - DOMAIN-SUFFIX,trafficmanager.net
-  - DOMAIN-SUFFIX,unpkg.com
-  - DOMAIN-SUFFIX,usepylon.com
-  - DOMAIN-SUFFIX,uservoice.com
-  - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,mechatroner.gallery.vsassets.io
-  - DOMAIN-SUFFIX,vscode-cdn.net
-  - DOMAIN-SUFFIX,vscode-unpkg.net
-  - DOMAIN-SUFFIX,windows-ppe.net
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,windowsazure.com
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,wunderlist.com
-  - DOMAIN-SUFFIX,yammer.com
-  - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32
-  - IP-CIDR,64.23.132.171/32
-  - IP-ASN,20473
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,bing
+DOMAIN-KEYWORD,office
+DOMAIN-KEYWORD,azure
+DOMAIN-KEYWORD,skype
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,gfx.ms
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorlist.com
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+IP-ASN,20473
