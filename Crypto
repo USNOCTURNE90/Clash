@@ -1,6 +1,7 @@
 # 最后更新时间: 2025-05-06 22:53:45 (北京时间)
 rules:
   - DOMAIN-KEYWORD,binance
+  - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-KEYWORD,bitget
   - DOMAIN-KEYWORD,bnbstatic
   - DOMAIN-KEYWORD,huobi
