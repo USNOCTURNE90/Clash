@@ -1,4 +1,4 @@
-# 从Surge自动同步 - 2025-05-06 08:10:09 (北京时间)
+# 从Surge自动同步 - 2025-05-06 08:13:00 (北京时间)
 # 原始文件: sync_rules.py
 rules:
   - PROCESS-NAME,import os
@@ -57,7 +57,7 @@ rules:
   - PROCESS-NAME,try:
   - PROCESS-NAME,with open(file_path, "r", encoding="utf-8") as f:
   - DOMAIN-SUFFIX,content = f.read()
-  - PROCESS-NAME,if "DOMAIN" in content or "IP-CIDR" in content:
+  - DOMAIN-SUFFIX,if "DOMAIN" in content or "IP-CIDR" in content or "." in content:
   - DOMAIN-SUFFIX,rule_files.append(file_path)
   - DOMAIN-SUFFIX,print(f"Found rule file: {file_path.name}")
   - PROCESS-NAME,except Exception as e:
@@ -85,6 +85,7 @@ rules:
   - DOMAIN-SUFFIX,updated_surge_content = "\n".join(updated_surge_lines)
   - PROCESS-NAME,with open(surge_file, "w", encoding="utf-8") as f:
   - DOMAIN-SUFFIX,f.write(updated_surge_content)
+  - PROCESS-NAME,surge_changes = True
   - PROCESS-NAME,clash_rules = ["rules:"]
   - DOMAIN-SUFFIX,for line in updated_surge_content.split("\n"):
   - DOMAIN-SUFFIX,line = line.strip()
@@ -100,26 +101,48 @@ rules:
   - PROCESS-NAME,with open(clash_file, "w", encoding="utf-8") as f:
   - DOMAIN-SUFFIX,f.write(clash_content)
   - DOMAIN-SUFFIX,print(f"Synced rule file: {surge_file.name}")
+  - DOMAIN-SUFFIX,print("Checking for changes in Surge repo...")
+  - DOMAIN-SUFFIX,subprocess.run(["git", "add", "."], check=True)
+  - DOMAIN-SUFFIX,surge_result = subprocess.run(
+  - PROCESS-NAME,["git", "status", "--porcelain"],
+  - PROCESS-NAME,capture_output=True,
+  - PROCESS-NAME,text=True,
+  - PROCESS-NAME,check=True
+  - PROCESS-NAME,)
+  - DOMAIN-SUFFIX,if surge_result.stdout.strip():
+  - DOMAIN-SUFFIX,print("Changes found in Surge repo, committing...")
+  - PROCESS-NAME,china_time = get_china_time()
+  - PROCESS-NAME,surge_commit_message = f"[AUTO_FORMAT] 自动格式化规则集 - {china_time} (北京时间)"
+  - DOMAIN-SUFFIX,subprocess.run(
+  - PROCESS-NAME,["git", "commit", "-m", surge_commit_message],
+  - PROCESS-NAME,check=True
+  - PROCESS-NAME,)
+  - DOMAIN-SUFFIX,print("Pushing changes to Surge repo...")
+  - DOMAIN-SUFFIX,subprocess.run(["git", "push"], check=True)
+  - PROCESS-NAME,print("Successfully updated Surge repo")
+  - PROCESS-NAME,else:
+  - PROCESS-NAME,print("No changes to commit in Surge repo")
+  - DOMAIN-SUFFIX,print("Checking for changes in Clash repo...")
   - DOMAIN-SUFFIX,subprocess.run(["git", "-C", "Clash", "add", "."], check=True)
-  - DOMAIN-SUFFIX,result = subprocess.run(
+  - DOMAIN-SUFFIX,clash_result = subprocess.run(
   - PROCESS-NAME,["git", "-C", "Clash", "status", "--porcelain"],
   - PROCESS-NAME,capture_output=True,
   - PROCESS-NAME,text=True,
   - PROCESS-NAME,check=True
   - PROCESS-NAME,)
-  - DOMAIN-SUFFIX,if result.stdout.strip():
-  - DOMAIN-SUFFIX,print("Changes found, committing...")
+  - DOMAIN-SUFFIX,if clash_result.stdout.strip():
+  - DOMAIN-SUFFIX,print("Changes found in Clash repo, committing...")
   - PROCESS-NAME,china_time = get_china_time()
-  - PROCESS-NAME,commit_message = f"[AUTO_SYNC] 从Surge自动同步规则集 - {china_time} (北京时间)"
+  - PROCESS-NAME,clash_commit_message = f"[AUTO_SYNC] 从Surge自动同步规则集 - {china_time} (北京时间)"
   - DOMAIN-SUFFIX,subprocess.run(
-  - PROCESS-NAME,["git", "-C", "Clash", "commit", "-m", commit_message],
+  - PROCESS-NAME,["git", "-C", "Clash", "commit", "-m", clash_commit_message],
   - PROCESS-NAME,check=True
   - PROCESS-NAME,)
-  - DOMAIN-SUFFIX,print("Pushing changes...")
+  - DOMAIN-SUFFIX,print("Pushing changes to Clash repo...")
   - DOMAIN-SUFFIX,subprocess.run(["git", "-C", "Clash", "push"], check=True)
   - PROCESS-NAME,print("Successfully synced rules to Clash repo")
   - PROCESS-NAME,else:
-  - PROCESS-NAME,print("No changes to commit")
+  - PROCESS-NAME,print("No changes to commit in Clash repo")
   - PROCESS-NAME,except Exception as e:
   - PROCESS-NAME,print(f"Error: {str(e)}")
   - DOMAIN-SUFFIX,traceback.print_exc()
