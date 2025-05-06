@@ -130,7 +130,7 @@ try:
         # 检查文件是否是Clash格式（包含payload:或rules:关键字）
         is_clash_format = "payload:" in clash_content or "rules:" in clash_content
         
-        # 处理本地Clash文件，确保格式正确
+        # 处理本地Clash文件，确保前缀正确
         if is_clash_format:
             # 处理Clash格式的文件，为未添加前缀的规则添加前缀
             clash_lines = clash_content.splitlines()
@@ -156,15 +156,23 @@ try:
                             processed_rule = process_rule_line(rule_part, is_surge=False)
                             # 保持原有的缩进格式
                             if line.startswith("  "):
-                                updated_clash_lines.append(f"  - {processed_rule.replace('- ', '')}")
+                                updated_clash_lines.append(f"  {processed_rule}")
                             else:
-                                updated_clash_lines.append(f"- {processed_rule.replace('- ', '')}")
+                                updated_clash_lines.append(processed_rule)
                         else:
                             # 已有规则前缀，保持不变
                             updated_clash_lines.append(line)
                     else:
-                        # 其他非规则行或注释
-                        updated_clash_lines.append(line)
+                        # 可能是没有前缀标记的规则
+                        rule_part = line.strip()
+                        # 检查是否已有规则前缀
+                        if not any(rule_part.startswith(prefix) for prefix in ["DOMAIN-SUFFIX,", "DOMAIN-KEYWORD,", "DOMAIN,", "IP-CIDR,", "IP-ASN,", "PROCESS-NAME,"]):
+                            # 添加适当的规则前缀
+                            processed_rule = process_rule_line(rule_part, is_surge=False)
+                            updated_clash_lines.append(f"  {processed_rule}")
+                        else:
+                            # 已有规则前缀，添加正确的前缀标记
+                            updated_clash_lines.append(f"  - {rule_part}")
                 else:
                     # 不在规则部分或者是注释
                     updated_clash_lines.append(line)
