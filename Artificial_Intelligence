@@ -1,5 +1,6 @@
 rules:
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,bing
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
