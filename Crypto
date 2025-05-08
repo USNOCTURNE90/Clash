@@ -1,6 +1,6 @@
 # 最后更新时间: 2025-05-08 18:57:32 (北京时间)
 rules:
-api-js.mixpanel.com
+  - DOMAIN-SUFFIX,api-js.mixpanel.com
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,bitget
   - DOMAIN-KEYWORD,bnbstatic
