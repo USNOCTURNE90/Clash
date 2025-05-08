@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-08 18:01:30 (北京时间)
+# 最后更新时间: 2025-05-08 18:02:43 (北京时间)
 rules:
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,bitget
@@ -9,6 +9,7 @@ rules:
   - DOMAIN-KEYWORD,okx
   - DOMAIN-KEYWORD,saasexch
   - DOMAIN-KEYWORD,trustwallet
+  - DOMAIN-SUFFIX,d3sknckuh1o9tg.cloudfront.net
   - DOMAIN-SUFFIX,binance.cc
   - DOMAIN-SUFFIX,binance.charity
   - DOMAIN-SUFFIX,binance.cloud
