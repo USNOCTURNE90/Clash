@@ -2,6 +2,9 @@
 rules:
   - DOMAIN-SUFFIX,api-js.mixpanel.com
   - DOMAIN-KEYWORD,binance
+onetrust.com
+devfdg.net
+
   - DOMAIN-KEYWORD,binancezh
   - DOMAIN-KEYWORD,bitget
   - DOMAIN-KEYWORD,bnbstatic
