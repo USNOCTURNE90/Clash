@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-08 18:02:43 (北京时间)
+# 最后更新时间: 2025-05-08 18:57:32 (北京时间)
 rules:
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,bitget
@@ -15,6 +15,7 @@ rules:
   - DOMAIN-SUFFIX,binance.cloud
   - DOMAIN-SUFFIX,binance.co
   - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,truthsocial.com
   - DOMAIN-SUFFIX,binance.info
   - DOMAIN-SUFFIX,binance.me
   - DOMAIN-SUFFIX,binance.net
