@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-08 23:20:54 (北京时间)
+# 最后更新时间: 2025-05-09 12:25:21 (北京时间)
 rules:
   - DOMAIN-SUFFIX,azureedge.us
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
