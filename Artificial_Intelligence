@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-05-09 22:16:41 (北京时间)
+# 最后更新时间: 2025-05-09 22:24:05 (北京时间)
 rules:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,chronosphere.io
@@ -28,8 +28,8 @@ rules:
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
