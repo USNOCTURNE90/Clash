@@ -1,6 +1,5 @@
-# 最后更新时间: 2025-05-09 12:25:21 (北京时间)
+# 最后更新时间: 2025-05-09 12:26:31 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,ibllc.com.cn
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
   - IP-CIDR,47.242.186.255/32
