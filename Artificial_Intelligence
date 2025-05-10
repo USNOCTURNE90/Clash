@@ -4,7 +4,7 @@ rules:
   - DOMAIN-SUFFIX,workos.com
   - DOMAIN-SUFFIX,chronosphere.io
   - DOMAIN-SUFFIX,x.ai
-imgix.net
+  - DOMAIN-SUFFIX,imgix.net
   - DOMAIN-SUFFIX,featureassets.org
   - DOMAIN-SUFFIX,api.appcenter.ms
   - DOMAIN-SUFFIX,api.revenuecat.com
