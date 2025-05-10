@@ -1,6 +1,6 @@
 # 最后更新时间: 2025-05-09 22:24:05 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,1306379396.file.myqcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
   - IP-CIDR,47.242.186.255/32
   - DOMAIN-SUFFIX,openbb.co
