@@ -4,6 +4,7 @@ rules:
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,windows.com
+wow-backup-1251007209.cos.ap-shanghai.myqcloud.com
   - DOMAIN-SUFFIX,azure.com
   - IP-CIDR,52.139.169.119/32
   - DOMAIN-SUFFIX,s.rsg.sc
