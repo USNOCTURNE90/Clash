@@ -1,6 +1,7 @@
 # 最后更新时间: 2025-05-09 22:24:05 (北京时间)
 rules:
   - DOMAIN-KEYWORD,openai
+workos.com
   - DOMAIN-SUFFIX,chronosphere.io
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,featureassets.org
