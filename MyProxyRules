@@ -5,7 +5,6 @@ rules:
   - DOMAIN-SUFFIX,kelee.one
   - DOMAIN-SUFFIX,splunkcloud.com
   - DOMAIN-SUFFIX,sub.nexconvert.com
-  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,notion-static.com
   - DOMAIN-SUFFIX,notionusercontent.com
