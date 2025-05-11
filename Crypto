@@ -4,7 +4,7 @@ rules:
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,devfdg.net
-immersivetranslate.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-KEYWORD,binancezh
   - DOMAIN-KEYWORD,bitget
   - DOMAIN-KEYWORD,bnbstatic
