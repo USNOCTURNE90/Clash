@@ -1,6 +1,7 @@
 # 最后更新时间: 2025-05-09 22:24:05 (北京时间)
 rules:
   - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,sprig.com
   - DOMAIN-SUFFIX,kelee.one
   - DOMAIN-SUFFIX,splunkcloud.com
