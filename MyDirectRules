@@ -92,6 +92,8 @@ rules:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,msn.cn
   - DOMAIN-SUFFIX,storage.msn.com
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,Wow.exe
   - DOMAIN-SUFFIX,assets.immersivetranslate.cn
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,asusrouter.com
