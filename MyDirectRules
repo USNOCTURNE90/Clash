@@ -1,9 +1,9 @@
-# 最后更新时间: 2025-05-20 18:27:28 (北京时间)
+# 最后更新时间: 2025-05-20 18:27:58 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,iam.e-govt.cn,DIRECT // Added for: iam.e-govt.cn:8901
-  - DOMAIN-SUFFIX,mztapp.fujian.gov.cn,DIRECT // Added for: mztapp.fujian.gov.cn:8702
-  - DOMAIN-SUFFIX,www.fujian.gov.cn,DIRECT // Added for: www.fujian.gov.cn:443
-  - DOMAIN-SUFFIX,zwfw.fujian.gov.cn,DIRECT // Added for: http://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=A37F92E54E1EEC5D5ADF7EA036C3A97B&randomNum=0.02521985676685823
+  - DOMAIN-SUFFIX,iam.e-govt.cn
+  - DOMAIN-SUFFIX,mztapp.fujian.gov.cn
+  - DOMAIN-SUFFIX,www.fujian.gov.cn
+  - DOMAIN-SUFFIX,zwfw.fujian.gov.cn
   - DOMAIN-SUFFIX,ibllc.com.cn
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,doh.pub
