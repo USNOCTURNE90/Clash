@@ -1,9 +1,7 @@
-# 最后更新时间: 2025-05-20 18:27:58 (北京时间)
+# 最后更新时间: 2025-05-20 18:29:30 (北京时间)
 rules:
   - DOMAIN-SUFFIX,iam.e-govt.cn
-  - DOMAIN-SUFFIX,mztapp.fujian.gov.cn
-  - DOMAIN-SUFFIX,www.fujian.gov.cn
-  - DOMAIN-SUFFIX,zwfw.fujian.gov.cn
+  - DOMAIN-SUFFIX,fujian.gov.cn
   - DOMAIN-SUFFIX,ibllc.com.cn
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,doh.pub
