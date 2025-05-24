@@ -45,7 +45,6 @@ rules:
   - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
   - DOMAIN-SUFFIX,splashtop.com
   - DOMAIN-SUFFIX,some.url
-
   - DOMAIN-SUFFIX,api.lolesports.com
   - DOMAIN-SUFFIX,qtreport.qq.com
   - DOMAIN-SUFFIX,wegame.com.cn
