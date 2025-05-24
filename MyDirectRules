@@ -45,6 +45,7 @@ rules:
   - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
   - DOMAIN-SUFFIX,splashtop.com
   - DOMAIN-SUFFIX,some.url
+
   - DOMAIN-SUFFIX,api.lolesports.com
   - DOMAIN-SUFFIX,qtreport.qq.com
   - DOMAIN-SUFFIX,wegame.com.cn
@@ -101,3 +102,4 @@ rules:
   - DOMAIN-SUFFIX,asusrouter.com
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,asuscomm.com
+  - PROCESS-NAME,PlatformWebBrowser.exe
