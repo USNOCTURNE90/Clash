@@ -1,5 +1,19 @@
-# 最后更新时间: 2025-05-21 23:07:30 (北京时间)
+# 最后更新时间: 2025-05-26 07:31:38 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,byapps.net,Crypto // Added for: ws2.byapps.net:443
+  - DOMAIN-SUFFIX,bybit.biz,Crypto // Added for: ws2.bybit.biz:443
+  - DOMAIN-SUFFIX,api3.byapps.net,Crypto // Added for: api3.byapps.net:443
+  - DOMAIN-SUFFIX,bybit.biz,Crypto // Added for: ws2.bybit.biz:443
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,Crypto // Added for: sc-abtest.ffe390afd658c19dcbf707e0597b846d.de:443
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,Crypto // Added for: sc-abtest.ffe390afd658c19dcbf707e0597b846d.de:443
+  - DOMAIN-SUFFIX,byabcde.com
+  - DOMAIN-SUFFIX,bybdc6.com
+  - DOMAIN-SUFFIX,byabcde.com
+  - DOMAIN-SUFFIX,byd3c3.com
+  - DOMAIN-SUFFIX,sc-datasink.ffe390afd658c19dcbf707e0597b846d.de
+  - DOMAIN-SUFFIX,fh-static.bycsi.com
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  - DOMAIN-SUFFIX,byd3c3.com
   - DOMAIN-SUFFIX,api-js.mixpanel.com
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,onetrust.com
