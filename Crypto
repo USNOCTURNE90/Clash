@@ -1,8 +1,7 @@
-# 最后更新时间: 2025-05-26 07:36:44 (北京时间)
+# 最后更新时间: 2025-05-26 07:39:53 (北京时间)
 rules:
   - DOMAIN-SUFFIX,byapps.net
   - DOMAIN-SUFFIX,bybit.biz
-  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
   - DOMAIN-SUFFIX,byabcde.com
   - DOMAIN-SUFFIX,bybdc6.com
   - DOMAIN-SUFFIX,byd3c3.com
