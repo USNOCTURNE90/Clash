@@ -102,3 +102,4 @@ rules:
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,asuscomm.com
   - PROCESS-NAME,PlatformWebBrowser.exe
+  - PROCESS-NAME,LeagueClient.exe
