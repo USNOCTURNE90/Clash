@@ -1,5 +1,8 @@
-# 最后更新时间: 2025-06-08 16:44:32 (北京时间)
+# 最后更新时间: 2025-06-13 13:28:41 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,us.etrade.com
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,vanguard.com
   - DOMAIN-SUFFIX,azureedge.us
   - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
   - DOMAIN-SUFFIX,cdn.honey.io
