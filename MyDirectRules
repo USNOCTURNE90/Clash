@@ -1,6 +1,6 @@
 # 最后更新时间: 2025-07-29 22:53:52 (北京时间)
 rules:
-dn2r0q8ek3r7o.cloudfront.net
+  - DOMAIN-SUFFIX,dn2r0q8ek3r7o.cloudfront.net
   - DOMAIN-SUFFIX,fcdc6d61a.yrpfkl.xyz
   - DOMAIN-SUFFIX,bblmw.com
   - DOMAIN-SUFFIX,bambu-lab.com
