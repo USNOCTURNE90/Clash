@@ -1,0 +1,10 @@
+# 最后更新时间: 2025-08-01 08:01:23 (北京时间)
+rules:
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,whispersystems.org
+  - DOMAIN-SUFFIX,textsecure-service.whispersystems.org
+  - DOMAIN-SUFFIX,cdn.signal.org
+  - DOMAIN-SUFFIX,updates.signal.org
+  - DOMAIN-SUFFIX,storage.signal.org
+  - DOMAIN-SUFFIX,signal-cdn.org
+  - DOMAIN-SUFFIX,signal.org
