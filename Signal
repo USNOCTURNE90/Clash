@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-08-29 11:10:32 (北京时间)
+# 最后更新时间: 2025-08-29 11:11:30 (北京时间)
 rules:
   - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,whispersystems.org
