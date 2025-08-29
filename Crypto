@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-08-29 11:05:47 (北京时间)
+# 最后更新时间: 2025-08-29 11:10:32 (北京时间)
 rules:
   - DOMAIN-SUFFIX,byapps.net
   - DOMAIN-SUFFIX,bybit.biz
@@ -8,7 +8,6 @@ rules:
   - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
   - DOMAIN-SUFFIX,fh-static.bycsi.com
   - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
-  - DOMAIN-SUFFIX,mixpanel.com
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,devfdg.net
