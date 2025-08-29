@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-08-29 11:03:25 (北京时间)
+# 最后更新时间: 2025-08-29 11:05:24 (北京时间)
 rules:
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-SUFFIX,t.co
