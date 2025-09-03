@@ -1,5 +1,8 @@
-# 最后更新时间: 2025-08-29 11:11:30 (北京时间)
+# 最后更新时间: 2025-09-03 12:26:09 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,api.doupay.com
+  - DOMAIN-SUFFIX,ecombdapi.com
+  - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,dn2r0q8ek3r7o.cloudfront.net
   - DOMAIN-SUFFIX,fcdc6d61a.yrpfkl.xyz
   - DOMAIN-SUFFIX,bblmw.com
