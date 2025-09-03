@@ -1,6 +1,7 @@
-# 最后更新时间: 2025-09-03 23:52:50 (北京时间)
+# 最后更新时间: 2025-09-03 23:57:21 (北京时间)
 rules:
   - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,api.doupay.com
   - DOMAIN-SUFFIX,ecombdapi.com
