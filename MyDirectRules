@@ -1,11 +1,10 @@
-# 最后更新时间: 2025-09-15 23:53:50 (北京时间)
+# 最后更新时间: 2025-09-16 00:02:46 (北京时间)
 rules:
   - DOMAIN-SUFFIX,amemv.com
-  - DOMAIN-SUFFIX,byteimg.com
-  - DOMAIN-SUFFIX,ecombdimg.com
-  - DOMAIN-SUFFIX,bytegecko.com
-  - DOMAIN-SUFFIX,ecombdapi.com
-  - DOMAIN-SUFFIX,zijieapi.com
+  - IP-CIDR,163.181.35.203/32
+  - IP-CIDR,163.181.35.203/32
+  - IP-CIDR,103.136.221.67/32
+  - DOMAIN-SUFFIX,http://103.155.16.186/third/stream-406204194713764666_Third0N200hd5.flv
   - DOMAIN-SUFFIX,autodesk.com
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,bytegecko.com
