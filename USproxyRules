@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-09-14 07:41:07 (北京时间)
+# 最后更新时间: 2025-09-15 23:51:28 (北京时间)
 rules:
   - DOMAIN-SUFFIX,mixpanel.com
   - DOMAIN-SUFFIX,tvsquared.com
