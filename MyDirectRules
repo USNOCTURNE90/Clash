@@ -1,6 +1,22 @@
-# 最后更新时间: 2025-09-16 00:21:58 (北京时间)
+# 最后更新时间: 2025-10-08 23:42:01 (北京时间)
 rules:
   - DOMAIN-SUFFIX,amemv.com
+  - IP-CIDR,163.181.77.215/32,DIRECT,no-resolve // Added for: 163.181.77.215:443 (ecomuser.snssdk.com)
+  - IP-CIDR,163.181.35.186/32,DIRECT,no-resolve // Added for: 163.181.35.186:443 (lf-webcast-gr-sourcecdn.bytegecko.com)
+  - IP-CIDR,139.177.246.206/32,DIRECT,no-resolve // Added for: 139.177.246.206:443 (render.ecombdpage.com)
+  - IP-CIDR,38.175.45.13/32,DIRECT,no-resolve // Added for: 38.175.45.13:443 (p9-cm-sign.ecombdimg.com)
+  - IP-CIDR,101.47.85.10/32,DIRECT,no-resolve // Added for: 101.47.85.10:443 (ma5-normal-lq.zijieapi.com)
+  - IP-CIDR,163.181.77.216/32,DIRECT,no-resolve // Added for: 163.181.77.216:443 (bsync3-normal-hj.zijieapi.com)
+  - IP-CIDR,129.227.71.37/32,DIRECT,no-resolve // Added for: 129.227.71.37:443 (p9-sign.douyinpic.com)
+  - IP-CIDR,129.227.71.37/32,DIRECT,no-resolve // Added for: 129.227.71.37:443 (p9-sign.douyinpic.com)
+  - IP-CIDR,163.181.77.221/32,DIRECT,no-resolve // Added for: 163.181.77.221:443 (lf3-static.bytednsdoc.com)
+  - IP-CIDR,163.181.77.221/32,DIRECT,no-resolve // Added for: 163.181.77.221:443 (lf3-static.bytednsdoc.com)
+  - IP-CIDR,38.175.45.19/32,DIRECT,no-resolve // Added for: 38.175.45.19:443 (p9-dy-gm-yp-sign.byteimg.com)
+  - IP-CIDR,163.181.35.187/32,DIRECT,no-resolve // Added for: 163.181.35.187:443 (pitaya.bytedance.com)
+  - IP-CIDR,101.47.81.229/32,DIRECT,no-resolve // Added for: 101.47.81.229:443 (api5-normal-lq.amemv.com)
+  - DOMAIN-SUFFIX,cdn.primehelix.co,DIRECT // Added for: cdn.primehelix.co:443
+  - DOMAIN-SUFFIX,zjcdn.com,DIRECT // Added for: v5-dy-o-abtest.zjcdn.com:443
+  - IP-CIDR,163.181.77.220/32,DIRECT,no-resolve // Added for: 163.181.77.220:443 (p3-im-emoticon-sign.byteimg.com)
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,autodesk.com
   - DOMAIN-SUFFIX,douyinpic.com
