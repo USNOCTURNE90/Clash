@@ -1,5 +1,13 @@
-# 最后更新时间: 2025-10-08 23:53:38 (北京时间)
+# 最后更新时间: 2025-11-17 00:16:37 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,whispersystems.org
+  - DOMAIN-SUFFIX,textsecure-service.whispersystems.org
+  - DOMAIN-SUFFIX,cdn.signal.org
+  - DOMAIN-SUFFIX,updates.signal.org
+  - DOMAIN-SUFFIX,storage.signal.org
+  - DOMAIN-SUFFIX,signal-cdn.org
+  - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,events.mapbox.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,immersivetranslate.com
