@@ -1,8 +1,9 @@
-# 最后更新时间: 2025-12-21 09:54:50 (北京时间)
+# 最后更新时间: 2025-12-21 10:02:54 (北京时间)
 rules:
   - DOMAIN-SUFFIX,stun.voipstunt.com
   - DOMAIN-SUFFIX,stun.voiparound.com
   - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,dl.istoreos.com
   - IP-CIDR,163.181.77.215/32
   - IP-CIDR,163.181.77.216/32
   - IP-CIDR,163.181.77.220/32
