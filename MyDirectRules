@@ -1,5 +1,18 @@
-# 最后更新时间: 2025-12-21 10:02:54 (北京时间)
+# 最后更新时间: 2025-12-28 13:10:21 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple.cn
+  - DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN,edge-076.xasha1.icloud-content.com.cn
+  - IP-ASN,714
+  - IP-ASN,6185
   - DOMAIN-SUFFIX,stun.voipstunt.com
   - DOMAIN-SUFFIX,stun.voiparound.com
   - DOMAIN-SUFFIX,amemv.com
