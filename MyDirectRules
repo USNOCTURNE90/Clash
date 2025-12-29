@@ -150,3 +150,4 @@ rules:
   - DOMAIN-SUFFIX,asuscomm.com
   - PROCESS-NAME,PlatformWebBrowser.exe
   - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,SC2_x64.exe
