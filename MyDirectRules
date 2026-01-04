@@ -1,4 +1,4 @@
-# 最后更新时间: 2025-12-30 11:32:47 (北京时间)
+# 最后更新时间: 2026-01-04 16:37:04 (北京时间)
 rules:
   - DOMAIN-SUFFIX,shuidichou.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -152,3 +152,4 @@ rules:
   - PROCESS-NAME,PlatformWebBrowser.exe
   - PROCESS-NAME,LeagueClient.exe
   - PROCESS-NAME,SC2_x64.exe
+  - PROCESS-NAME,OR, ((PROTOCOL, UDP), (DEST-PORT, 10000-20000))
