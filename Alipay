@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-01-11 14:54:17 (北京时间)
+# 最后更新时间: 2026-01-11 15:31:01 (北京时间)
 rules:
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com

@@ -1,7 +1,5 @@
-# 最后更新时间: 2026-01-11 14:54:17 (北京时间)
+# 最后更新时间: 2026-01-11 15:31:01 (北京时间)
 rules:
-  - DOMAIN-SUFFIX,1.1.1.1/32
-  - DOMAIN-SUFFIX,1.0.0.1/32
   - IP-CIDR,17.248.152.0/24
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN,testflight.apple.com
@@ -34,20 +32,6 @@ rules:
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,tv.applemusic.com
   - DOMAIN,uts-api.itunes.apple.com
-  - IP-CIDR,17.248.152.252/31
-  - IP-CIDR,17.248.152.224/27
-  - IP-CIDR,17.248.152.192/27
-  - IP-CIDR,17.248.152.128/26
-  - IP-CIDR,17.248.152.120/29
-  - IP-CIDR,17.248.152.116/30
-  - IP-CIDR,17.248.152.114/31
-  - IP-CIDR,17.248.152.96/28
-  - IP-CIDR,17.248.152.94/31
-  - IP-CIDR,17.248.152.64/26
-  - IP-CIDR,17.248.152.62/31
-  - IP-CIDR,17.248.152.32/27
-  - IP-CIDR,17.248.152.30/31
-  - IP-CIDR,17.248.152.1/32
   - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,whispersystems.org
   - DOMAIN-SUFFIX,textsecure-service.whispersystems.org
@@ -55,45 +39,6 @@ rules:
   - DOMAIN-SUFFIX,updates.signal.org
   - DOMAIN-SUFFIX,storage.signal.org
   - DOMAIN-SUFFIX,signal-cdn.org
-  - DOMAIN-SUFFIX,signal.org
-  - DOMAIN-SUFFIX,events.mapbox.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,immersivetranslate.com
-  - DOMAIN-SUFFIX,sprig.com
-  - DOMAIN-SUFFIX,kelee.one
-  - DOMAIN-SUFFIX,splunkcloud.com
-  - DOMAIN-SUFFIX,sub.nexconvert.com
-  - DOMAIN-SUFFIX,notion.so
-  - DOMAIN-SUFFIX,notion-static.com
-  - DOMAIN-SUFFIX,notionusercontent.com
-  - DOMAIN-SUFFIX,loggly.com
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN,http-inputs-notion.splunkcloud.com
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,discord
-  - DOMAIN-KEYWORD,sci-hub
-  - DOMAIN-KEYWORD,dropbox
-  - DOMAIN-KEYWORD,jav
-  - DOMAIN-KEYWORD,pinterest
-  - DOMAIN-KEYWORD,porn
-  - DOMAIN-KEYWORD,quote
-  - DOMAIN-KEYWORD,stocks
-  - DOMAIN-KEYWORD,market
-  - DOMAIN-KEYWORD,docker
-  - DOMAIN-KEYWORD,mastodon
-  - DOMAIN-KEYWORD,techhub.social
-  - DOMAIN-KEYWORD,macked
-  - DOMAIN-KEYWORD,onion
-  - DOMAIN-KEYWORD,davinciresolve
-  - DOMAIN-SUFFIX,amazontrust.com
-  - DOMAIN-SUFFIX,lencr.org
-  - DOMAIN-SUFFIX,privacyportal-fr.onetrust.com
-  - DOMAIN-SUFFIX,pki.goog
-  - DOMAIN-SUFFIX,ocsp.digicert.com
-  - DOMAIN-SUFFIX,1password.com
-  - DOMAIN-SUFFIX,1passwordservices.com
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discordapp.net
@@ -111,24 +56,39 @@ rules:
   - DOMAIN-SUFFIX,linkedin.at
   - DOMAIN-SUFFIX,lnkd.in
   - DOMAIN-SUFFIX,tumblr.com
+  - DOMAIN-KEYWORD,discord
+  - DOMAIN-KEYWORD,mastodon
+  - DOMAIN-KEYWORD,techhub.social
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notionusercontent.com
   - DOMAIN-SUFFIX,img.notionusercontent.com
-  - DOMAIN-SUFFIX,ubisoft.com
-  - DOMAIN-SUFFIX,ubi.com
-  - DOMAIN-SUFFIX,majsoul.union-game.com
-  - DOMAIN-SUFFIX,nubia.cn
-  - DOMAIN-SUFFIX,nubia.com
-  - DOMAIN-SUFFIX,blizzard.com
-  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN,http-inputs-notion.splunkcloud.com
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,render.com
-  - DOMAIN-SUFFIX,gitlab.com
-  - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,gist.build
   - DOMAIN-SUFFIX,travis-ci.org
   - DOMAIN-SUFFIX,travis-ci.com
+  - DOMAIN-SUFFIX,sublimetext.com
+  - DOMAIN-SUFFIX,sublimehq.com
+  - DOMAIN-SUFFIX,blackmagicdesign.com
+  - DOMAIN-SUFFIX,obsproject.com
+  - DOMAIN-KEYWORD,docker
+  - DOMAIN-KEYWORD,davinciresolve
+  - PROCESS-NAME,obs64.exe
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,deepl.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
+  - DOMAIN-SUFFIX,prowritingaid.com
+  - DOMAIN-SUFFIX,wordtune.com
+  - DOMAIN-SUFFIX,quillbot.com
+  - DOMAIN-SUFFIX,grammarly.com
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,nytimes.com
   - DOMAIN-SUFFIX,bbc.com
@@ -139,6 +99,11 @@ rules:
   - DOMAIN-SUFFIX,washingtonpost.com
   - DOMAIN-SUFFIX,wsj.com
   - DOMAIN-SUFFIX,foxnews.com
+  - DOMAIN-SUFFIX,duckduckgo.com
+  - DOMAIN-SUFFIX,kagi.com
+  - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,archive.is
+  - DOMAIN-KEYWORD,blogspot
   - DOMAIN-SUFFIX,thepiratebay.org
   - DOMAIN-SUFFIX,nyaa.si
   - DOMAIN-SUFFIX,dropbox.com
@@ -147,18 +112,12 @@ rules:
   - DOMAIN-SUFFIX,mega.io
   - DOMAIN-SUFFIX,pikpak.me
   - DOMAIN-SUFFIX,mypikpak.com
-  - DOMAIN-SUFFIX,firefox.com
-  - DOMAIN-SUFFIX,mozilla.org
-  - DOMAIN-SUFFIX,mozilla.com
-  - DOMAIN-SUFFIX,brave.com
-  - DOMAIN-SUFFIX,duckduckgo.com
-  - DOMAIN-SUFFIX,kagi.com
-  - DOMAIN-SUFFIX,archive.org
-  - DOMAIN-SUFFIX,archive.is
   - DOMAIN-SUFFIX,libgen.rs
   - DOMAIN-SUFFIX,libgen.is
   - DOMAIN-SUFFIX,z-library.se
   - DOMAIN-SUFFIX,annas-archive.org
+  - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-KEYWORD,dropbox
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aex.com
@@ -167,33 +126,32 @@ rules:
   - DOMAIN-SUFFIX,nicehash.com
   - DOMAIN-SUFFIX,etherscan.io
   - DOMAIN-SUFFIX,cryptocompare.com
-  - DOMAIN-SUFFIX,character.ai
-  - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,coze.com
-  - DOMAIN-SUFFIX,prowritingaid.com
-  - DOMAIN-SUFFIX,wordtune.com
-  - DOMAIN-SUFFIX,quillbot.com
-  - DOMAIN-SUFFIX,grammarly.com
-  - DOMAIN-SUFFIX,deepl.com
-  - DOMAIN-SUFFIX,huggingface.co
-  - DOMAIN-SUFFIX,ipleak.net
-  - DOMAIN-SUFFIX,whoer.net
-  - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-KEYWORD,quote
+  - DOMAIN-KEYWORD,stocks
+  - DOMAIN-KEYWORD,market
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,ocsp.digicert.com
+  - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,1passwordservices.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,shadowsocks.org
   - DOMAIN-SUFFIX,v2ray.com
   - DOMAIN-SUFFIX,v2fly.org
   - DOMAIN-SUFFIX,surfshark.com
+  - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,whoer.net
+  - PROCESS-NAME,AdguardSvc.exe
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,ubi.com
+  - DOMAIN-SUFFIX,majsoul.union-game.com
+  - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,xhamster.com
-  - DOMAIN-SUFFIX,sublimetext.com
-  - DOMAIN-SUFFIX,sublimehq.com
-  - DOMAIN-SUFFIX,blackmagicdesign.com
-  - DOMAIN-SUFFIX,obsproject.com
-  - IP-CIDR,52.0.0.0/14
-  - IP-CIDR,69.0.0.0/16
-  - IP-CIDR,103.0.0.0/16
-  - PROCESS-NAME,obs64.exe
-  - PROCESS-NAME,AdguardSvc.exe
+  - DOMAIN-KEYWORD,jav
+  - DOMAIN-KEYWORD,porn
