@@ -1,5 +1,37 @@
-# 最后更新时间: 2026-02-14 22:46:51 (北京时间)
+# 最后更新时间: 2026-02-14 22:48:38 (北京时间)
 rules:
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,oculus
+  - DOMAIN-KEYWORD,threads
+  - DOMAIN-KEYWORD,meta
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,whatsapp.biz
+  - DOMAIN-SUFFIX,wa.me
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,threads.net
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,workplace.com
+  - DOMAIN-SUFFIX,reactjs.org
+  - DOMAIN-SUFFIX,m.me
+  - DOMAIN-SUFFIX,internet.org
+  - DOMAIN-SUFFIX,freebasics.com
+  - DOMAIN-SUFFIX,accountkit.com
+  - DOMAIN-SUFFIX,atdmt2.com
+  - DOMAIN-SUFFIX,parse.com
+  - DOMAIN-SUFFIX,liverail.com
   - DOMAIN-KEYWORD,adobe
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobe.io
