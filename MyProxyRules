@@ -1,5 +1,15 @@
-# 最后更新时间: 2026-02-14 22:49:02 (北京时间)
+# 最后更新时间: 2026-02-14 22:53:14 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,r11.o.lencr.org
+  - DOMAIN-SUFFIX,steam-chat.com
+  - IP-CIDR,45.207.10.185/24
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,twimg.com
@@ -50,6 +60,34 @@ rules:
   - DOMAIN-SUFFIX,atdmt2.com
   - DOMAIN-SUFFIX,parse.com
   - DOMAIN-SUFFIX,liverail.com
+  - DOMAIN-SUFFIX,crowdtangle.com
+  - DOMAIN-SUFFIX,friendfeed.com
+  - DOMAIN-SUFFIX,rocksdb.org
+  - DOMAIN-SUFFIX,thefacebook.com
+  - IP-CIDR,31.13.64.0/18
+  - IP-CIDR,157.240.0.0/17
+  - IP-CIDR,129.134.0.0/17
+  - IP-CIDR,173.252.64.0/18
+  - IP-CIDR,69.63.176.0/20
+  - IP-CIDR,69.171.224.0/19
+  - IP-CIDR,66.220.144.0/20
+  - IP-CIDR,3.123.36.126/32
+  - IP-CIDR,35.157.215.84/32
+  - IP-CIDR,35.157.217.255/32
+  - IP-CIDR,52.58.209.134/32
+  - IP-CIDR,54.93.124.31/32
+  - IP-CIDR,54.162.243.80/32
+  - IP-CIDR,54.173.34.141/32
+  - IP-CIDR,54.235.23.242/32
+  - IP-CIDR,54.93.124.31/32
+  - IP-CIDR,108.168.176.192/26
+  - IP-CIDR,108.168.177.0/27
+  - IP-CIDR,108.168.180.96/27
+  - IP-CIDR,108.177.8.0/21
+  - IP-CIDR,119.235.224.0/24
+  - IP-CIDR,119.235.232.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-ASN,32934
   - DOMAIN-KEYWORD,adobe
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobe.io
