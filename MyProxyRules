@@ -1,5 +1,51 @@
-# 最后更新时间: 2026-02-14 20:38:08 (北京时间)
+# 最后更新时间: 2026-02-14 20:55:47 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,download.clashverge.dev
+  - DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,rustup.rs
+  - DOMAIN-SUFFIX,api.ip.sb
+  - DOMAIN-SUFFIX,edge.sdk.awswaf.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,api.hf.space
+  - DOMAIN-SUFFIX,files.pythonhosted.org
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,i.vimeocdn.com
+  - DOMAIN-SUFFIX,comfy.org
+  - DOMAIN-SUFFIX,api.mixpanel.com
+  - DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,atom.io
+  - DOMAIN-SUFFIX,dependabot.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+  - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+  - DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.community
+  - DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubhackathon.com
+  - DOMAIN-SUFFIX,githubnext.com
+  - DOMAIN-SUFFIX,githubpreview.dev
+  - DOMAIN-SUFFIX,githubstatus.com
+  - DOMAIN-SUFFIX,githubuniverse.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,npm.community
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,opensource.guide
+  - DOMAIN-SUFFIX,rawgit.com
+  - DOMAIN-SUFFIX,rawgithub.com
+  - DOMAIN-SUFFIX,repo.new
+  - DOMAIN-SUFFIX,thegithubshop.com
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,default.exp-tas.com
   - DOMAIN-SUFFIX,people.apple.com
   - IP-CIDR,17.248.152.0/24
   - DOMAIN-SUFFIX,icloud-content.com
