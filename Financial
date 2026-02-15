@@ -1,5 +1,21 @@
-# 最后更新时间: 2026-02-14 22:55:53 (北京时间)
+# 最后更新时间: 2026-02-16 07:57:27 (北京时间)
 rules:
+  - DOMAIN-SUFFIX,alipay-corp.com
+  - DOMAIN-SUFFIX,alipay-eco.com
+  - DOMAIN-SUFFIX,alipay-inc.com
+  - DOMAIN-SUFFIX,alipay-traffic.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipay.hk
+  - DOMAIN-SUFFIX,alipay.net
+  - DOMAIN-SUFFIX,alipaydesign.com
+  - DOMAIN-SUFFIX,alipaydev.com
+  - DOMAIN-SUFFIX,alipaydns.com
+  - DOMAIN-SUFFIX,alipayeshop.com
+  - DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,alipaymo.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,alipayplus.com
+  - DOMAIN-SUFFIX,luohanacademy.com
   - DOMAIN-SUFFIX,1306379396.file.myqcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
   - IP-CIDR,47.242.186.255/32
