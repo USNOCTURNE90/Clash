@@ -1,6 +1,8 @@
-# 最后更新时间: 2026-02-16 07:57:27 (北京时间)
+# 最后更新时间: 2026-02-27 18:34:26 (北京时间)
 rules:
-  - PROCESS-NAME,[Rule]
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,mhitpoker.com
+  - DOMAIN-SUFFIX,unity3d.com
   - IP-CIDR, 192.168.0.0/16
   - IP-CIDR, 10.0.0.0/8
   - IP-CIDR, 172.16.0.0/12
