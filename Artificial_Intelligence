@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-03-22 23:24:57 (北京时间)
+# 最后更新时间: 2026-03-22 23:26:53 (北京时间)
 rules:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,workos.com
@@ -17,7 +17,7 @@ rules:
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,anthropic.ai
   - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-KEYWORD,claude
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
