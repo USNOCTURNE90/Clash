@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-08 21:00:38 (北京时间)
+# 最后更新时间: 2026-04-13 00:10:59 (北京时间)
 rules:
   - IP-CIDR,127.0.0.0/8
   - IP-CIDR,10.0.0.0/8
@@ -40,6 +40,6 @@ rules:
   - DOMAIN-SUFFIX,icloud.com.cn
   - PROCESS-NAME,trustd
   - PROCESS-NAME,netbiosd
-  - codex-e2e-test.example
-  - 198.51.100.42
-  - CodexTestProcess
+  - DOMAIN-SUFFIX,codex-e2e-test.example
+  - IP-CIDR,198.51.100.42/32
+  - PROCESS-NAME,CodexTestProcess
