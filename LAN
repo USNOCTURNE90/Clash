@@ -40,3 +40,6 @@ rules:
   - DOMAIN-SUFFIX,icloud.com.cn
   - PROCESS-NAME,trustd
   - PROCESS-NAME,netbiosd
+  - codex-e2e-test.example
+  - 198.51.100.42
+  - CodexTestProcess
