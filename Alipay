@@ -18,5 +18,5 @@ rules:
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaylog.com
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaymo.com
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayobjects.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayplus.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,luohanacademy.com
+- DOMAIN-SUFFIX,alipayplus.com
+- DOMAIN-SUFFIX,luohanacademy.com
