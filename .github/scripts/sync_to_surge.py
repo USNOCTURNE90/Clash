@@ -74,12 +74,13 @@ for p in Path(".").iterdir():
         continue
 
     lines = []
+
     for raw in p.read_text(encoding="utf-8").splitlines():
         n = normalize(raw)
         if n:
             lines.append(n)
 
-    # 先把 Clash 本地文件格式化成标准 rules 样式
+    # Clash 本地原地格式化
     local_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动同步\n"
@@ -94,7 +95,7 @@ for p in Path(".").iterdir():
         p.write_text(local_output, encoding="utf-8")
         changed_local = True
 
-    # 再生成 Surge 版本
+    # Surge 目标文件
     remote_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动同步\n"
@@ -107,6 +108,7 @@ for p in Path(".").iterdir():
     if not target.exists() or target.read_text(encoding="utf-8") != remote_output:
         target.write_text(remote_output, encoding="utf-8")
         changed_remote = True
+
 
 if changed_local:
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
