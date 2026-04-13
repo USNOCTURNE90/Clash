@@ -62,8 +62,8 @@ subprocess.run([
     "git", "-C", "surge_repo", "checkout", os.environ["TARGET_BRANCH"]
 ], check=True)
 
-
-changed = False
+changed_local = False
+changed_remote = False
 
 for p in Path(".").iterdir():
     if (
@@ -74,13 +74,28 @@ for p in Path(".").iterdir():
         continue
 
     lines = []
-
     for raw in p.read_text(encoding="utf-8").splitlines():
         n = normalize(raw)
         if n:
             lines.append(n)
 
-    output = (
+    # 先把 Clash 本地文件格式化成标准 rules 样式
+    local_output = (
+        f"# 最后更新时间: {now_str()}\n"
+        "# 从Clash自动同步\n"
+        f"# 原始文件: {p.name}\n"
+        "rules:\n"
+        + "\n".join(f"  - {x}" for x in lines)
+        + "\n"
+    )
+
+    old_local = p.read_text(encoding="utf-8")
+    if old_local != local_output:
+        p.write_text(local_output, encoding="utf-8")
+        changed_local = True
+
+    # 再生成 Surge 版本
+    remote_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动同步\n"
         f"# 原始文件: {p.name}\n"
@@ -89,13 +104,18 @@ for p in Path(".").iterdir():
     )
 
     target = repo / p.name
+    if not target.exists() or target.read_text(encoding="utf-8") != remote_output:
+        target.write_text(remote_output, encoding="utf-8")
+        changed_remote = True
 
-    if not target.exists() or target.read_text(encoding="utf-8") != output:
-        target.write_text(output, encoding="utf-8")
-        changed = True
+if changed_local:
+    subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+    subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
+    subprocess.run(["git", "add", "."], check=True)
+    subprocess.run(["git", "commit", "-m", f"[AUTO_SYNC] 本地格式化 Clash 规则集 - {now_str()}"], check=True)
+    subprocess.run(["git", "push"], check=True)
 
-
-if changed:
+if changed_remote:
     subprocess.run(["git", "-C", "surge_repo", "config", "user.name", "github-actions[bot]"], check=True)
     subprocess.run(["git", "-C", "surge_repo", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
     subprocess.run(["git", "-C", "surge_repo", "add", "."], check=True)
