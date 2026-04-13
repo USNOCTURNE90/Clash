@@ -1,44 +1,43 @@
-# 最后更新时间: 2026-04-14 02:18:46 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
+# 从Clash自动同步
 # 原始文件: Telegram
-rules:
-  - IP-CIDR,160.174.236.84/32
-  - IP-CIDR,176.88.168.6/32
-  - IP-CIDR,91.108.0.0/16
-  - IP-CIDR,1.0.0.0/32
-  - IP-CIDR,149.154.160.0/20
-  - IP-CIDR,96.198.122.33/32
-  - IP-CIDR,5.28.192.0/18
-  - IP-CIDR,64.139.127.33/32
-  - IP-CIDR,20.1.0.0/32
-  - IP-CIDR,32.208.189.1/32
-  - IP-CIDR,32.40.83.1/32
-  - IP-CIDR,96.106.174.1/32
-  - IP-CIDR,192.60.172.1/32
-  - IP-CIDR,192.204.172.1/32
-  - IP-CIDR,32.186.170.1/32
-  - IP-CIDR,64.26.172.1/32
-  - IP-CIDR,192.128.171.1/32
-  - IP-ASN,44907
-  - IP-ASN,59930
-  - IP-ASN,62014
-  - IP-ASN,62041
-  - IP-ASN,211157
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telesco.pe
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,tg.dev
-  - DOMAIN-SUFFIX,tx.me
-  - DOMAIN-SUFFIX,telegram-cdn.org
-  - DOMAIN-SUFFIX,cdn-telegram.org
-  - DOMAIN-SUFFIX,usercontent.dev
-  - DOMAIN-KEYWORD,nicegram
-  - DOMAIN,api.swiftgram.app
-  - DOMAIN,api.imem.app
-  - DOMAIN-SUFFIX,mbrx.app
-  - PROCESS-NAME,org.telegram.messenger
-  - PROCESS-NAME,telegram-desktop
-  - PROCESS-NAME,nekox.messenger
-  - PROCESS-NAME,tw.nekomimi.nekogram
+IP-CIDR,160.174.236.84/32
+IP-CIDR,176.88.168.6/32
+IP-CIDR,91.108.0.0/16
+IP-CIDR,1.0.0.0/32
+IP-CIDR,149.154.160.0/20
+IP-CIDR,96.198.122.33/32
+IP-CIDR,5.28.192.0/18
+IP-CIDR,64.139.127.33/32
+IP-CIDR,20.1.0.0/32
+IP-CIDR,32.208.189.1/32
+IP-CIDR,32.40.83.1/32
+IP-CIDR,96.106.174.1/32
+IP-CIDR,192.60.172.1/32
+IP-CIDR,192.204.172.1/32
+IP-CIDR,32.186.170.1/32
+IP-CIDR,64.26.172.1/32
+IP-CIDR,192.128.171.1/32
+IP-ASN,44907
+IP-ASN,59930
+IP-ASN,62014
+IP-ASN,62041
+IP-ASN,211157
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-KEYWORD,nicegram
+DOMAIN,api.swiftgram.app
+DOMAIN,api.imem.app
+DOMAIN-SUFFIX,mbrx.app
+PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,telegram-desktop
+PROCESS-NAME,nekox.messenger
+PROCESS-NAME,tw.nekomimi.nekogram

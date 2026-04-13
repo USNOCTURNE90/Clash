@@ -1,948 +1,947 @@
-# 最后更新时间: 2026-04-14 02:18:46 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
+# 从Clash自动同步
 # 原始文件: Speedtest
-rules:
-  - DOMAIN-KEYWORD,speedtest
-  - DOMAIN-SUFFIX,peedtest-net.mk.de
-  - DOMAIN-SUFFIX,speedtest.rt.ru
-  - DOMAIN-SUFFIX,peedtest-sg.cbn.id
-  - DOMAIN-SUFFIX,t.mow.gin.ru
-  - DOMAIN-SUFFIX,peedtest.hep.gg
-  - DOMAIN-SUFFIX,peedtest.kko.me
-  - DOMAIN-SUFFIX,peedtest-cbr.cdn.on.net
-  - DOMAIN-SUFFIX,speed.pfm.gg
-  - DOMAIN-SUFFIX,speedtest.pni.tw
-  - DOMAIN-SUFFIX,peedtest.nyc.rr.com
-  - DOMAIN-SUFFIX,yrny-speedtest-02.nyroc.rr.com
-  - DOMAIN-SUFFIX,pl3pt.fft.ops.eu.uu.net
-  - DOMAIN-SUFFIX,pl3pt.syd.ops.aspac.uu.net
-  - DOMAIN-SUFFIX,peedtest-prs.vts.bf
-  - DOMAIN-SUFFIX,peedtest.23m.com
-  - DOMAIN-SUFFIX,peedtest.asvt.ru
-  - DOMAIN-SUFFIX,srvr.bell.ca
-  - DOMAIN-SUFFIX,peedtest.beyn.in
-  - DOMAIN-SUFFIX,peedtest2.cln.net
-  - DOMAIN-SUFFIX,peed.data.cr
-  - DOMAIN-SUFFIX,peedtest.ddps.jp
-  - DOMAIN-SUFFIX,ookla-speedtest.fsr.com
-  - DOMAIN-SUFFIX,speedtest.i3d.net
-  - DOMAIN-SUFFIX,peedtest.link.bm
-  - DOMAIN-SUFFIX,peed.uk.lon.m247.ro
-  - DOMAIN-SUFFIX,okla.moji.fr
-  - DOMAIN-SUFFIX,k-lon-tcy-mtn-speedtest-server-01.mtn.com
-  - DOMAIN-SUFFIX,peedtest.nrbn.ca
-  - DOMAIN-SUFFIX,1.pfst.ru
-  - DOMAIN-SUFFIX,ode01.jln.psrv.ch
-  - DOMAIN-SUFFIX,ookla.rcp.net
-  - DOMAIN-SUFFIX,peedtest.rit.edu
-  - DOMAIN-SUFFIX,peedtest.ropa.de
-  - DOMAIN-SUFFIX,peedtest.sits.su
-  - DOMAIN-SUFFIX,his_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-  - DOMAIN-SUFFIX,peedtest.tigo.cr
-  - DOMAIN-SUFFIX,peedtest.uia.net
-  - DOMAIN-SUFFIX,peedtest.upp.com
-  - DOMAIN-SUFFIX,peedtest.vnet.su
-  - DOMAIN-SUFFIX,peedtest.ams.wd6.net
-  - DOMAIN-SUFFIX,ms-eq6-tptest1.31173.se
-  - DOMAIN-SUFFIX,ra-eq5-tptest1.31173.se
-  - DOMAIN-SUFFIX,on-ix1-tptest1.31173.se
-  - DOMAIN-SUFFIX,peedtest.58243.as
-  - DOMAIN-SUFFIX,g-ffm.aeza.net
-  - DOMAIN-SUFFIX,g-lon.aeza.net
-  - DOMAIN-SUFFIX,peedtest1.claro.cr
-  - DOMAIN-SUFFIX,peedtest.ct.co.cr
-  - DOMAIN-SUFFIX,peedtest3.dacor.de
-  - DOMAIN-SUFFIX,peedtest.dcs1.biz
-  - DOMAIN-SUFFIX,egasqa.ddns.net
-  - DOMAIN-SUFFIX,ookla-speedtests.e2ro.com
-  - DOMAIN-SUFFIX,peedtest-dc08.enzu.com
-  - DOMAIN-SUFFIX,fast.com
-  - DOMAIN-SUFFIX,peedtest.nik.fiber.nl
-  - DOMAIN-SUFFIX,peedtest12.hkbn.net
-  - DOMAIN-SUFFIX,peedtest1c.hkix.net
-  - DOMAIN-SUFFIX,t1.htva.net
-  - DOMAIN-SUFFIX,peedtest.inoc.net
-  - DOMAIN-SUFFIX,krd-speedtest.loni.org
-  - DOMAIN-SUFFIX,0gspeedtest.mnsi.net
-  - DOMAIN-SUFFIX,lg-105-sptest.ncri.com
-  - DOMAIN-SUFFIX,njscarc-speed01.nwrd.net
-  - DOMAIN-SUFFIX,peedtest.race.com
-  - DOMAIN-SUFFIX,peedtest-ams.retn.net
-  - DOMAIN-SUFFIX,peedtest-lon.retn.net
-  - DOMAIN-SUFFIX,peedtest-msk.retn.net
-  - DOMAIN-SUFFIX,peedtest-fkt-eqx.retn.net
-  - DOMAIN-SUFFIX,peedtest.sewan.fr
-  - DOMAIN-SUFFIX,est.slic.com
-  - DOMAIN-SUFFIX,peedtest.slic.com
-  - DOMAIN-SUFFIX,peedtest-london.start.ca
-  - DOMAIN-SUFFIX,sk3.companion.tele2.ru
-  - DOMAIN-SUFFIX,peedtest2.telin.sg
-  - DOMAIN-SUFFIX,peedtest10.vqbn.com
-  - DOMAIN-SUFFIX,peedtest.w-net.us
-  - DOMAIN-SUFFIX,peedtest-intl.xl.co.id
-  - DOMAIN-SUFFIX,ycuspeed.169ol.com
-  - DOMAIN-SUFFIX,okla.aghost.uk
-  - DOMAIN-SUFFIX,peedtest1.ah163.com
-  - DOMAIN-SUFFIX,peedtest.apnic.net
-  - DOMAIN-SUFFIX,peedperf.axione.fr
-  - DOMAIN-SUFFIX,xytc.com
-  - DOMAIN-SUFFIX,peedtest.cittel.ru
-  - DOMAIN-SUFFIX,peed.coe.ad.jp
-  - DOMAIN-SUFFIX,peedtest.cogeco.ca
-  - DOMAIN-SUFFIX,peedtest.dynet.net
-  - DOMAIN-SUFFIX,peedtest.ams1.edgoo.net
-  - DOMAIN-SUFFIX,peedtest.lon1.edgoo.net
-  - DOMAIN-SUFFIX,h1.chtm.hinet.net
-  - DOMAIN-SUFFIX,c1.chtm.hinet.net
-  - DOMAIN-SUFFIX,h1.chtm.hinet.net
-  - DOMAIN-SUFFIX,c1.chtm.hinet.net
-  - DOMAIN-SUFFIX,n1.chtm.hinet.net
-  - DOMAIN-SUFFIX,p1.chtm.hinet.net
-  - DOMAIN-SUFFIX,y1.chtm.hinet.net
-  - DOMAIN-SUFFIX,tp1.chtm.hinet.net
-  - DOMAIN-SUFFIX,ytron-hk.hytron.io
-  - DOMAIN-SUFFIX,peed.udx.icscoe.jp
-  - DOMAIN-SUFFIX,okla.idnet.net
-  - DOMAIN-SUFFIX,peedtest1.innsys.ca
-  - DOMAIN-SUFFIX,elocidade.ip.eti.br
-  - DOMAIN-SUFFIX,peedtest.kairun.jp
-  - DOMAIN-SUFFIX,peedtest-fra-11.kemmit.de
-  - DOMAIN-SUFFIX,erf.keyyo.net
-  - DOMAIN-SUFFIX,peedtest.b2.mhn.cloud
-  - DOMAIN-SUFFIX,peedtest.mel.mhn.cloud
-  - DOMAIN-SUFFIX,peedtest.syd.mhn.cloud
-  - DOMAIN-SUFFIX,peedtest.newsxs.nl
-  - DOMAIN-SUFFIX,peedtest2.niutk.com
-  - DOMAIN-SUFFIX,anjoseiturbide.openti.mx
-  - DOMAIN-SUFFIX,speedtest.orange.fr
-  - DOMAIN-SUFFIX,peedtest.pendc.com
-  - DOMAIN-SUFFIX,peedtest-engine.primus.ca
-  - DOMAIN-SUFFIX,speedtest.rascom.ru
-  - DOMAIN-SUFFIX,peedtest.reconn.ru
-  - DOMAIN-SUFFIX,peedtest.reycom.cr
-  - DOMAIN-SUFFIX,okla.sh.com.tr
-  - DOMAIN-SUFFIX,peedtest.sjc.sonic.net
-  - DOMAIN-SUFFIX,peedtest.sptel.com
-  - DOMAIN-SUFFIX,peed1.swhab.net
-  - DOMAIN-SUFFIX,speedtest.telus.com
-  - DOMAIN-SUFFIX,nookla.tn.edu.tw
-  - DOMAIN-SUFFIX,peedtest-nl.vdsina.ru
-  - DOMAIN-SUFFIX,peedtest-ru.vdsina.ru
-  - DOMAIN-SUFFIX,peedtest-ade.vocus.net
-  - DOMAIN-SUFFIX,peedtest-bne.vocus.net
-  - DOMAIN-SUFFIX,peedtest-mel.vocus.net
-  - DOMAIN-SUFFIX,peedtest-syd.vocus.net
-  - DOMAIN-SUFFIX,peedtest.vulut.com
-  - DOMAIN-SUFFIX,yc1-speedtest.webnx.com
-  - DOMAIN-SUFFIX,ax1a-speedtest.webnx.com
-  - DOMAIN-SUFFIX,peedtest.miam.fl.wtsky.net
-  - DOMAIN-SUFFIX,peedtest1.xbase.com
-  - DOMAIN-SUFFIX,yz-speedtest.xplore.ca
-  - DOMAIN-SUFFIX,peedtest.xsnews.nl
-  - DOMAIN-SUFFIX,peedtest-yoncudc.yoncu.com
-  - DOMAIN-SUFFIX,peedtest-sjc.acreto.net
-  - DOMAIN-SUFFIX,speedtest.alagas.net
-  - DOMAIN-SUFFIX,peed.msk.avantel.ru
-  - DOMAIN-SUFFIX,peedtest.bnsdfw.com
-  - DOMAIN-SUFFIX,urtestisbest.brolve.net
-  - DOMAIN-SUFFIX,peedtest.brsk.co.uk
-  - DOMAIN-SUFFIX,ibrarian.comstar.ru
-  - DOMAIN-SUFFIX,peedtestsvq01.comvive.es
-  - DOMAIN-SUFFIX,peedtest.coreix.net
-  - DOMAIN-SUFFIX,peedtest.cotoax.com
-  - DOMAIN-SUFFIX,arp.cronon.net
-  - DOMAIN-SUFFIX,peedtest.hk210.hkg.cn.ctcsci.com
-  - DOMAIN-SUFFIX,peedtest.jp230.hnd.jp.ctcsci.com
-  - DOMAIN-SUFFIX,peedtest.sg220.sgp.sg.ctcsci.com
-  - DOMAIN-SUFFIX,peedtest.us310.lax.us.ctcsci.com
-  - DOMAIN-SUFFIX,speedtest.dchost.com
-  - DOMAIN-SUFFIX,peed2.dg-sys.net
-  - DOMAIN-SUFFIX,peedtest01.dns-net.de
-  - DOMAIN-SUFFIX,fm-01-ovpn.vpn.eseven.net
-  - DOMAIN-SUFFIX,speedtest.faelix.net
-  - DOMAIN-SUFFIX,peed2.flawcra.cc
-  - DOMAIN-SUFFIX,t.fratec.net
-  - DOMAIN-SUFFIX,peedtest-xg-oki.glbb.ne.jp
-  - DOMAIN-SUFFIX,okla-speedtest-central.hgconair.hgc.com.hk
-  - DOMAIN-SUFFIX,peedtest.honest.net
-  - DOMAIN-SUFFIX,peedtest.sg.hsp.net.id
-  - DOMAIN-SUFFIX,peedtest1.inetcom.ru
-  - DOMAIN-SUFFIX,peedtest1.itp360.com
-  - DOMAIN-SUFFIX,peedtest-london.its-tg.net
-  - DOMAIN-SUFFIX,speedtest.jsinfo.net
-  - DOMAIN-SUFFIX,peedtest2.keyubu.com
-  - DOMAIN-SUFFIX,peedtest.konaman.ru
-  - DOMAIN-SUFFIX,peedtest-thn.krystal.uk
-  - DOMAIN-SUFFIX,speedtest.labixe.net
-  - DOMAIN-SUFFIX,peedtest.lla-cr.com
-  - DOMAIN-SUFFIX,peedtest.luminet.cr
-  - DOMAIN-SUFFIX,etservice01.ber01.lwlcom.net
-  - DOMAIN-SUFFIX,peedtest.macpaw.com
-  - DOMAIN-SUFFIX,peedtest.maryno.net
-  - DOMAIN-SUFFIX,peedtest-stf.megafon.ru
-  - DOMAIN-SUFFIX,speed.misaka.one
-  - DOMAIN-SUFFIX,peedtest.mosline.ru
-  - DOMAIN-SUFFIX,peedtest.myarena.ru
-  - DOMAIN-SUFFIX,peedcheck.netknox.de
-  - DOMAIN-SUFFIX,irror.nforce.com
-  - DOMAIN-SUFFIX,p-de.nuxt.cloud
-  - DOMAIN-SUFFIX,peedtest3.dal.nxlink.com
-  - DOMAIN-SUFFIX,peedtest-lhr-01.pdx.net.uk
-  - DOMAIN-SUFFIX,ydinspeedtest.posive.net
-  - DOMAIN-SUFFIX,ursaspeedtest.posive.net
-  - DOMAIN-SUFFIX,uzcespeedtest.posive.net
-  - DOMAIN-SUFFIX,zmirspeedtest.posive.net
-  - DOMAIN-SUFFIX,dirnespeedtest.posive.net
-  - DOMAIN-SUFFIX,anisaspeedtest.posive.net
-  - DOMAIN-SUFFIX,ilecikspeedtest.posive.net
-  - DOMAIN-SUFFIX,ocaelispeedtest.posive.net
-  - DOMAIN-SUFFIX,utahyaspeedtest.posive.net
-  - DOMAIN-SUFFIX,akaryaspeedtest.posive.net
-  - DOMAIN-SUFFIX,stanbulspeedtest.posive.net
-  - DOMAIN-SUFFIX,alikesirspeedtest.posive.net
-  - DOMAIN-SUFFIX,anakkalespeedtest.posive.net
-  - DOMAIN-SUFFIX,irklarelispeedtest.posive.net
-  - DOMAIN-SUFFIX,peedtest-ca.pq.hosting
-  - DOMAIN-SUFFIX,peedtest-de.pq.hosting
-  - DOMAIN-SUFFIX,peedtest-ru.pq.hosting
-  - DOMAIN-SUFFIX,peedtest-tr.pq.hosting
-  - DOMAIN-SUFFIX,r-speedtest.qonzer.net
-  - DOMAIN-SUFFIX,peedtest.quadro.net
-  - DOMAIN-SUFFIX,peedtest2.rhitcr.com
-  - DOMAIN-SUFFIX,tguelph.rogers.com
-  - DOMAIN-SUFFIX,tlondon.rogers.com
-  - DOMAIN-SUFFIX,tmilton.rogers.com
-  - DOMAIN-SUFFIX,ttoronto.rogers.com
-  - DOMAIN-SUFFIX,tvaughan.rogers.com
-  - DOMAIN-SUFFIX,tbrampton.rogers.com
-  - DOMAIN-SUFFIX,thamilton.rogers.com
-  - DOMAIN-SUFFIX,tkingcity.rogers.com
-  - DOMAIN-SUFFIX,toakville.rogers.com
-  - DOMAIN-SUFFIX,tstthomas.rogers.com
-  - DOMAIN-SUFFIX,twaterloo.rogers.com
-  - DOMAIN-SUFFIX,tbrantford.rogers.com
-  - DOMAIN-SUFFIX,tetobicoke.rogers.com
-  - DOMAIN-SUFFIX,tkitchener.rogers.com
-  - DOMAIN-SUFFIX,tnorthyork.rogers.com
-  - DOMAIN-SUFFIX,tpickering.rogers.com
-  - DOMAIN-SUFFIX,tstratford.rogers.com
-  - DOMAIN-SUFFIX,twoodstock.rogers.com
-  - DOMAIN-SUFFIX,tmississauga.rogers.com
-  - DOMAIN-SUFFIX,torangeville.rogers.com
-  - DOMAIN-SUFFIX,tscarborough.rogers.com
-  - DOMAIN-SUFFIX,tguelphwireless.rogers.com
-  - DOMAIN-SUFFIX,tlondonwireless.rogers.com
-  - DOMAIN-SUFFIX,tmiltonwireless.rogers.com
-  - DOMAIN-SUFFIX,tsarniawireless.rogers.com
-  - DOMAIN-SUFFIX,tchathamwireless.rogers.com
-  - DOMAIN-SUFFIX,ttorontowireless.rogers.com
-  - DOMAIN-SUFFIX,twindsorwireless.rogers.com
-  - DOMAIN-SUFFIX,thamiltonwireless.rogers.com
-  - DOMAIN-SUFFIX,tstthomaswireless.rogers.com
-  - DOMAIN-SUFFIX,tbrantfordwireless.rogers.com
-  - DOMAIN-SUFFIX,tkitchenerwireless.rogers.com
-  - DOMAIN-SUFFIX,tnorthyorkwireless.rogers.com
-  - DOMAIN-SUFFIX,tstratfordwireless.rogers.com
-  - DOMAIN-SUFFIX,twoodstockwireless.rogers.com
-  - DOMAIN-SUFFIX,tgeorgetownwireless.rogers.com
-  - DOMAIN-SUFFIX,tleamingtonwireless.rogers.com
-  - DOMAIN-SUFFIX,tmississaugawireless.rogers.com
-  - DOMAIN-SUFFIX,torangevillewireless.rogers.com
-  - DOMAIN-SUFFIX,tstcatharineswireless.rogers.com
-  - DOMAIN-SUFFIX,tsaultstemariewireless.rogers.com
-  - DOMAIN-SUFFIX,twellandpelhamwireless.rogers.com
-  - DOMAIN-SUFFIX,alspeedtest.rtatel.com
-  - DOMAIN-SUFFIX,peedtest-server-lax.starry.com
-  - DOMAIN-SUFFIX,peedtest-server-nyc.starry.com
-  - DOMAIN-SUFFIX,peedtest1.synlinq.de
-  - DOMAIN-SUFFIX,4y-tor-sts1.ser.tek4you.ca
-  - DOMAIN-SUFFIX,peedtestlondon.telecom.mu
-  - DOMAIN-SUFFIX,peedtest.toob.co.uk
-  - DOMAIN-SUFFIX,peedtest.mia.upx.net.br
-  - DOMAIN-SUFFIX,peedtest.vee.com.tw
-  - DOMAIN-SUFFIX,rtvpdspeedtestb.voiped.com
-  - DOMAIN-SUFFIX,speedtest.warian.net
-  - DOMAIN-SUFFIX,peedtest-wa.waveip.org
-  - DOMAIN-SUFFIX,iwan66.seattle.westnet.ca
-  - DOMAIN-SUFFIX,wifiman.me
-  - DOMAIN-SUFFIX,axla0001speedtestserver01.wiline.com
-  - DOMAIN-SUFFIX,fosj0096speedtestserver01.wiline.com
-  - DOMAIN-SUFFIX,peedam.wsp.net.br
-  - DOMAIN-SUFFIX,pdtst.xenyth.net
-  - DOMAIN-SUFFIX,pop.yondoo.com
-  - DOMAIN-SUFFIX,peedtest02a.web.zen.net.uk
-  - DOMAIN-SUFFIX,peedtest.139play.com
-  - DOMAIN-SUFFIX,peedtest.5x5tele.com
-  - DOMAIN-SUFFIX,elocimetro-spt.akto.com.br
-  - DOMAIN-SUFFIX,peedtest.alastyr.com
-  - DOMAIN-SUFFIX,peedtest.anksoft.net
-  - DOMAIN-SUFFIX,peedtest_antalpha_sc7_hk.antalpha.io
-  - DOMAIN-SUFFIX,speedtest.aptg.com.tw
-  - DOMAIN-SUFFIX,pt-nyc.as13786.net
-  - DOMAIN-SUFFIX,peedtest1-sttlwawb.as20055.net
-  - DOMAIN-SUFFIX,peedtest-ookla-par.as62000.net
-  - DOMAIN-SUFFIX,peedtest1.axes.com.br
-  - DOMAIN-SUFFIX,pt1.bsnlive.net
-  - DOMAIN-SUFFIX,peedtest-1.compute.dc1.cilix.cloud
-  - DOMAIN-SUFFIX,peedtest.claranet.nl
-  - DOMAIN-SUFFIX,tosat-rvlt-01.sys.comcast.net
-  - DOMAIN-SUFFIX,speedtest.contabo.net
-  - DOMAIN-SUFFIX,sk-speedtest2.corbina.net
-  - DOMAIN-SUFFIX,peedtest1.net.cornell.edu
-  - DOMAIN-SUFFIX,peedtest.cubedns.com
-  - DOMAIN-SUFFIX,peedtest.dcsi.net.au
-  - DOMAIN-SUFFIX,peedtest.ffm.dynamic.icu
-  - DOMAIN-SUFFIX,pt-ist.edgeuno.com
-  - DOMAIN-SUFFIX,pt-mia.edgeuno.com
-  - DOMAIN-SUFFIX,pt-dal1.edgeuno.com
-  - DOMAIN-SUFFIX,pt-jfk1.edgeuno.com
-  - DOMAIN-SUFFIX,peedtest2.esrv.center
-  - DOMAIN-SUFFIX,g-speedtest.fast.net.id
-  - DOMAIN-SUFFIX,peedtest.fios.net.br
-  - DOMAIN-SUFFIX,t02.fynn-int.de
-  - DOMAIN-SUFFIX,perf.gakijken.nl
-  - DOMAIN-SUFFIX,peedtest.herza.cloud
-  - DOMAIN-SUFFIX,speedtest.highnet.com
-  - DOMAIN-SUFFIX,peedtest.host.com.tw
-  - DOMAIN-SUFFIX,ms-speedtest.isp.htb.systems
-  - DOMAIN-SUFFIX,k-test1.jaist.ac.jp
-  - DOMAIN-SUFFIX,p1.jump.net.uk
-  - DOMAIN-SUFFIX,peedtest.kuzeydc.com
-  - DOMAIN-SUFFIX,peedtest.lekloud.net
-  - DOMAIN-SUFFIX,okla.lunoxia.net
-  - DOMAIN-SUFFIX,peedtest.la.macarne.com
-  - DOMAIN-SUFFIX,peedtest.fra.macarne.com
-  - DOMAIN-SUFFIX,peedtest.lon.macarne.com
-  - DOMAIN-SUFFIX,peedtest.sv5.macarne.com
-  - DOMAIN-SUFFIX,peedtest.tokyo.macarne.com
-  - DOMAIN-SUFFIX,okla.mbspeed.net
-  - DOMAIN-SUFFIX,okla2.mbspeed.net
-  - DOMAIN-SUFFIX,peedtest.mhcable.com
-  - DOMAIN-SUFFIX,peedtest.mitsupp.com
-  - DOMAIN-SUFFIX,peedtest-c.netgear.com
-  - DOMAIN-SUFFIX,etwork.netlara.com
-  - DOMAIN-SUFFIX,peedtest.nexicom.net
-  - DOMAIN-SUFFIX,peedtest.noone.co.uk
-  - DOMAIN-SUFFIX,peedtest.octaplus.uk
-  - DOMAIN-SUFFIX,peedtest-bursa.olfe.net.tr
-  - DOMAIN-SUFFIX,peedtestlon.orbital.net
-  - DOMAIN-SUFFIX,dnspeedtest.rackdog.com
-  - DOMAIN-SUFFIX,ydspeedtest.rackdog.com
-  - DOMAIN-SUFFIX,pe01.speedtest.rfchost.com
-  - DOMAIN-SUFFIX,al-speedtest.net.sangoma.net
-  - DOMAIN-SUFFIX,ea-speedtest.net.sangoma.net
-  - DOMAIN-SUFFIX,or-speedtest.net.sangoma.net
-  - DOMAIN-SUFFIX,etnt1.seed.net.tw
-  - DOMAIN-SUFFIX,etsz1.seed.net.tw
-  - DOMAIN-SUFFIX,etyl1.seed.net.tw
-  - DOMAIN-SUFFIX,etzl1.seed.net.tw
-  - DOMAIN-SUFFIX,eednet-ty1.seed.net.tw
-  - DOMAIN-SUFFIX,peedtest.sercomm.com
-  - DOMAIN-SUFFIX,peedtest01.ber.server.camp
-  - DOMAIN-SUFFIX,peed4.snap.net.nz
-  - DOMAIN-SUFFIX,peedtest.spacenet.ru
-  - DOMAIN-SUFFIX,speedtest.starhub.com
-  - DOMAIN-SUFFIX,peedtest.ams.t-mobile.nl
-  - DOMAIN-SUFFIX,peedtest.telerys.net
-  - DOMAIN-SUFFIX,speedtest.telstra.net
-  - DOMAIN-SUFFIX,peedtest.teslatel.ru
-  - DOMAIN-SUFFIX,peedtest.tinp.net.tw
-  - DOMAIN-SUFFIX,peedtest.tushino.com
-  - DOMAIN-SUFFIX,peedtest.twds.com.tw
-  - DOMAIN-SUFFIX,peedtest.twerion.net
-  - DOMAIN-SUFFIX,peedtest.twincher.ru
-  - DOMAIN-SUFFIX,peedtest.ams14.usenet.farm
-  - DOMAIN-SUFFIX,alcon.its.utoronto.ca
-  - DOMAIN-SUFFIX,rc.verimek.com
-  - DOMAIN-SUFFIX,p-nperf.verizon.net
-  - DOMAIN-SUFFIX,us-nperf.verizon.net
-  - DOMAIN-SUFFIX,gn-nperf.verizon.net
-  - DOMAIN-SUFFIX,starkh1.vibo.net.tw
-  - DOMAIN-SUFFIX,tmsk.volga-ix.ru
-  - DOMAIN-SUFFIX,peedtest.srv-uk01.edge.voltcorp.uk
-  - DOMAIN-SUFFIX,peedtest-lon06.vorboss.net
-  - DOMAIN-SUFFIX,peedtestam.vtal.net.br
-  - DOMAIN-SUFFIX,peedtestap.vtal.net.br
-  - DOMAIN-SUFFIX,peedtestrr.vtal.net.br
-  - DOMAIN-SUFFIX,e-bln2-ookla-01.wemacom.net
-  - DOMAIN-SUFFIX,e-ffm1-ookla-01.wemacom.net
-  - DOMAIN-SUFFIX,peedtest.westcall.ru
-  - DOMAIN-SUFFIX,peedtest.wifi.net.tr
-  - DOMAIN-SUFFIX,wifiman.com
-  - DOMAIN-SUFFIX,e-speedtest.woks.com.tr
-  - DOMAIN-SUFFIX,peedtest01.wowrack.com
-  - DOMAIN-SUFFIX,peedtest.lax01.xfernet.net
-  - DOMAIN-SUFFIX,elocidade-mns.4wnet.net.br
-  - DOMAIN-SUFFIX,peedtest.aeza.network
-  - DOMAIN-SUFFIX,peedtest.amnet.net.br
-  - DOMAIN-SUFFIX,peedtest.thn.lon.network.as201838.net
-  - DOMAIN-SUFFIX,peedtest.as210667.net
-  - DOMAIN-SUFFIX,peedtest.asymptote.cc
-  - DOMAIN-SUFFIX,p1.atcc-gns.net
-  - DOMAIN-SUFFIX,p3.atcc-gns.net
-  - DOMAIN-SUFFIX,p5.atcc-gns.net
-  - DOMAIN-SUFFIX,p7.atcc-gns.net
-  - DOMAIN-SUFFIX,peedtest.beyondair.ca
-  - DOMAIN-SUFFIX,pen.cachefly.net
-  - DOMAIN-SUFFIX,peedtest.capti.com.au
-  - DOMAIN-SUFFIX,tcspeedtest.catskill.net
-  - DOMAIN-SUFFIX,peedtest.clarkson.edu
-  - DOMAIN-SUFFIX,pd33.claro.com.br
-  - DOMAIN-SUFFIX,pd49.claro.com.br
-  - DOMAIN-SUFFIX,iztesti.codit.com.tr
-  - DOMAIN-SUFFIX,iztesti-ist.codit.com.tr
-  - DOMAIN-SUFFIX,ookla.ddnsgeek.com
-  - DOMAIN-SUFFIX,okla.delhitel.net
-  - DOMAIN-SUFFIX,peedtest-mel0.encoo.com.au
-  - DOMAIN-SUFFIX,peedtest-syd0.encoo.com.au
-  - DOMAIN-SUFFIX,peedtest.msk.ertelecom.ru
-  - DOMAIN-SUFFIX,peedtest.execulink.ca
-  - DOMAIN-SUFFIX,peed2.fiberlink.pl
-  - DOMAIN-SUFFIX,speedtest.frontier.com
-  - DOMAIN-SUFFIX,peedtest5.fybercom.net
-  - DOMAIN-SUFFIX,a-ookla.geolinks.com
-  - DOMAIN-SUFFIX,v-ookla.geolinks.com
-  - DOMAIN-SUFFIX,speedtest.gibir.net.tr
-  - DOMAIN-SUFFIX,jdm-speedtest.globe.com.ph
-  - DOMAIN-SUFFIX,peed.golddata.net
-  - DOMAIN-SUFFIX,peedtest-miami.grupogtd.com
-  - DOMAIN-SUFFIX,ars-speedtest.guzel.net.tr
-  - DOMAIN-SUFFIX,peedtest.helpmert.com
-  - DOMAIN-SUFFIX,peedtest-ist.hostifox.com
-  - DOMAIN-SUFFIX,peedtest.hostopya.com
-  - DOMAIN-SUFFIX,peedtest.inet-isp.com
-  - DOMAIN-SUFFIX,peedtest.syd.infininet.au
-  - DOMAIN-SUFFIX,peedtest.ixirhost.com
-  - DOMAIN-SUFFIX,peedtest.eu.kamatera.com
-  - DOMAIN-SUFFIX,peedtest.eu-lo.kamatera.com
-  - DOMAIN-SUFFIX,peedtest.us-mi.kamatera.com
-  - DOMAIN-SUFFIX,peedtest.us-se.kamatera.com
-  - DOMAIN-SUFFIX,speedtest.seattle.wa.limewave.net
-  - DOMAIN-SUFFIX,peedtest-1.litfibre.com
-  - DOMAIN-SUFFIX,1speedtest1.m1net.com.sg
-  - DOMAIN-SUFFIX,peedtest-ams.melbicom.net
-  - DOMAIN-SUFFIX,peedtest-fra.melbicom.net
-  - DOMAIN-SUFFIX,peedtest-lax.melbicom.net
-  - DOMAIN-SUFFIX,peedtest-msk.melbicom.net
-  - DOMAIN-SUFFIX,peedtest-sin.melbicom.net
-  - DOMAIN-SUFFIX,peedtest.micron21.com
-  - DOMAIN-SUFFIX,peed.navegalo.com
-  - DOMAIN-SUFFIX,peedtest.hk212.hkg.cn.nerocloud.io
-  - DOMAIN-SUFFIX,peedtest.netflash.net
-  - DOMAIN-SUFFIX,peedtest.syd.netsg.net.au
-  - DOMAIN-SUFFIX,peedtest.dal1.nitelusa.net
-  - DOMAIN-SUFFIX,peedtest.lax1.nitelusa.net
-  - DOMAIN-SUFFIX,peedtest.sea1.nitelusa.net
-  - DOMAIN-SUFFIX,peedtest1.nyc1.nitelusa.net
-  - DOMAIN-SUFFIX,peedtest.onedc.com.tr
-  - DOMAIN-SUFFIX,speedtest.ozarksgo.net
-  - DOMAIN-SUFFIX,peedtest.pingless.com
-  - DOMAIN-SUFFIX,peedtest.polycomm.net
-  - DOMAIN-SUFFIX,ostapps.com
-  - DOMAIN-SUFFIX,peedtest.rrhosting.eu
-  - DOMAIN-SUFFIX,t1.scaleway.com
-  - DOMAIN-SUFFIX,ra1speedtest01.skylogic.com
-  - DOMAIN-SUFFIX,ar1speedtest01.skylogic.com
-  - DOMAIN-SUFFIX,peedtest.skynetcom.ru
-  - DOMAIN-SUFFIX,ami.smartone.com
-  - DOMAIN-SUFFIX,peedtest.snnet.com.br
-  - DOMAIN-SUFFIX,peedtest-ookla-roc1.synoptek.com
-  - DOMAIN-SUFFIX,peedtest.taifo.com.tw
-  - DOMAIN-SUFFIX,peedtest.team-host.ru
-  - DOMAIN-SUFFIX,peedtest-tek.teksavvy.com
-  - DOMAIN-SUFFIX,peedtest2-tor.teksavvy.com
-  - DOMAIN-SUFFIX,peedtest-jp.tgb-host.com
-  - DOMAIN-SUFFIX,peedtest.three.com.hk
-  - DOMAIN-SUFFIX,osimhk.datapath.three.com.hk
-  - DOMAIN-SUFFIX,wifiman.ubncloud.com
-  - DOMAIN-SUFFIX,assoon-sg-1.violin.co.th
-  - DOMAIN-SUFFIX,peedtest.wilcasji.com
-  - DOMAIN-SUFFIX,peedtest.willoweb.net
-  - DOMAIN-SUFFIX,peedtest-1.london.network.youfibre.com
-  - DOMAIN-SUFFIX,speedtest.aarnet.net.au
-  - DOMAIN-SUFFIX,sdvuspeedtest01p.allstream.com
-  - DOMAIN-SUFFIX,peedtest01.srv.hcvlny.alticeusa.net
-  - DOMAIN-SUFFIX,peedtest03.srv.whplny.alticeusa.net
-  - DOMAIN-SUFFIX,rtspeedtest.altimatel.com
-  - DOMAIN-SUFFIX,okla.asanet.tec.br
-  - DOMAIN-SUFFIX,okla-ita.asanet.tec.br
-  - DOMAIN-SUFFIX,p1.asthriona.com
-  - DOMAIN-SUFFIX,peedtest.london.atharva.co.id
-  - DOMAIN-SUFFIX,peedtest.singapore.atharva.co.id
-  - DOMAIN-SUFFIX,peedtest-tor.beanfield.com
-  - DOMAIN-SUFFIX,p1.burstfire.net
-  - DOMAIN-SUFFIX,allas1.cabospeed.com
-  - DOMAIN-SUFFIX,este.cdanet.com.br
-  - DOMAIN-SUFFIX,peedtest.cdmsfirst.com
-  - DOMAIN-SUFFIX,ensura.cdn-apple.com
-  - DOMAIN-SUFFIX,speedtest.clouvider.net
-  - DOMAIN-SUFFIX,speedtest.comnet.com.tr
-  - DOMAIN-SUFFIX,peedtest1.mia.fl.us.convergia.net
-  - DOMAIN-SUFFIX,skeycsit.dyndns-ip.com
-  - DOMAIN-SUFFIX,peedtest.qld.edgeix.net.au
-  - DOMAIN-SUFFIX,speedtest.exetel.com.au
-  - DOMAIN-SUFFIX,t-1.fibrenest.net
-  - DOMAIN-SUFFIX,peedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,fyonspeedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,ursaspeedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,zmirspeedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,stanbulspeedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,alikesirspeedtest.fixnet.com.tr
-  - DOMAIN-SUFFIX,peedtest-la.getonward.com
-  - DOMAIN-SUFFIX,peedtest1.gigafy.com.au
-  - DOMAIN-SUFFIX,peedtest.thn.uk.hso-group.net
-  - DOMAIN-SUFFIX,ns.i-systems.com
-  - DOMAIN-SUFFIX,peedtest.i4networks.nl
-  - DOMAIN-SUFFIX,peedtest.inforr.com.br
-  - DOMAIN-SUFFIX,iztesti.isimkayit.com
-  - DOMAIN-SUFFIX,peedtest.jbarbieri.net
-  - DOMAIN-SUFFIX,adoshspeed.kadoshnet.com
-  - DOMAIN-SUFFIX,peedtest16.lintas.net.id
-  - DOMAIN-SUFFIX,peed.vm.brs.marcusn.co.uk
-  - DOMAIN-SUFFIX,ptest2.mgts-spdop.ru
-  - DOMAIN-SUFFIX,peedtest-sg.napinfo.co.id
-  - DOMAIN-SUFFIX,tguelph.netcrawler.ca
-  - DOMAIN-SUFFIX,tlondon.netcrawler.ca
-  - DOMAIN-SUFFIX,peedtest.netcrawler.ca
-  - DOMAIN-SUFFIX,tbrampton.netcrawler.ca
-  - DOMAIN-SUFFIX,thamilton.netcrawler.ca
-  - DOMAIN-SUFFIX,tmontreal.netcrawler.ca
-  - DOMAIN-SUFFIX,twaterloo.netcrawler.ca
-  - DOMAIN-SUFFIX,tetobicoke.netcrawler.ca
-  - DOMAIN-SUFFIX,tnorthyork.netcrawler.ca
-  - DOMAIN-SUFFIX,tmississauga.netcrawler.ca
-  - DOMAIN-SUFFIX,tscarborough.netcrawler.ca
-  - DOMAIN-SUFFIX,etgearsj.com
-  - DOMAIN-SUFFIX,peedtest-syr.northland.net
-  - DOMAIN-SUFFIX,peedtest-utc.northland.net
-  - DOMAIN-SUFFIX,peedtest.us.openinfra.com
-  - DOMAIN-SUFFIX,peedgauge2.optonline.net
-  - DOMAIN-SUFFIX,peedtest-lax.perfectip.net
-  - DOMAIN-SUFFIX,tcareiro.pplink.net.br
-  - DOMAIN-SUFFIX,tmanaquiri.pplink.net.br
-  - DOMAIN-SUFFIX,peedtestde.pvdatanet.com
-  - DOMAIN-SUFFIX,peedtestus.pvdatanet.com
-  - DOMAIN-SUFFIX,peedtest.ramtek.net.tr
-  - DOMAIN-SUFFIX,oshiyomi.ratatoskr.org
-  - DOMAIN-SUFFIX,peedtest1.net.rochester.edu
-  - DOMAIN-SUFFIX,speedtest.sbcglobal.net
-  - DOMAIN-SUFFIX,peedtest.scotnet.co.uk
-  - DOMAIN-SUFFIX,peed.sdmnet.com.br
-  - DOMAIN-SUFFIX,peedtest.seaside.ns.ca
-  - DOMAIN-SUFFIX,okla.la.ca.sharktech.net
-  - DOMAIN-SUFFIX,peedtest.ams.sharktech.net
-  - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,ld-speedtest.spirit.com.au
-  - DOMAIN-SUFFIX,ic-speedtest.spirit.com.au
-  - DOMAIN-SUFFIX,allas-st.sumofiber.com
-  - DOMAIN-SUFFIX,pd01-adl.au.superloop.com
-  - DOMAIN-SUFFIX,pd01-bne.au.superloop.com
-  - DOMAIN-SUFFIX,pd01-mel.au.superloop.com
-  - DOMAIN-SUFFIX,pd02-syd.au.superloop.com
-  - DOMAIN-SUFFIX,peedtest.surfshark.com
-  - DOMAIN-SUFFIX,peed1.syseleven.net
-  - DOMAIN-SUFFIX,ustom.tbcnet.net.tw
-  - DOMAIN-SUFFIX,zmit-speed.tbtnet.com.tr
-  - DOMAIN-SUFFIX,peedtest.thryve.com.au
-  - DOMAIN-SUFFIX,peed-test.ukservers.com
-  - DOMAIN-SUFFIX,peedtest-lon.veloxserv.net
-  - DOMAIN-SUFFIX,peedtest.viberlink.net
-  - DOMAIN-SUFFIX,elocimetro-mns.virtua.com.br
-  - DOMAIN-SUFFIX,peed-test.westelcom.com
-  - DOMAIN-SUFFIX,peedtest.astralnode.com
-  - DOMAIN-SUFFIX,peedtest.baanthaispa.eu
-  - DOMAIN-SUFFIX,peedtest.baiconnect.com
-  - DOMAIN-SUFFIX,peedtest.brooketel.coop
-  - DOMAIN-SUFFIX,on-hex-speedtest.cloudconnx.net
-  - DOMAIN-SUFFIX,speed.cloudflare.com
-  - DOMAIN-SUFFIX,g.cloudhost.asia
-  - DOMAIN-SUFFIX,peedtest.datafex.com.tr
-  - DOMAIN-SUFFIX,izaydin.durunet.com.tr
-  - DOMAIN-SUFFIX,izbursa.durunet.com.tr
-  - DOMAIN-SUFFIX,izduzce.durunet.com.tr
-  - DOMAIN-SUFFIX,izizmir.durunet.com.tr
-  - DOMAIN-SUFFIX,izkutahya.durunet.com.tr
-  - DOMAIN-SUFFIX,izsakarya.durunet.com.tr
-  - DOMAIN-SUFFIX,izbalikesir.durunet.com.tr
-  - DOMAIN-SUFFIX,izistanbul1.durunet.com.tr
-  - DOMAIN-SUFFIX,peedtest.eminnet.com.tr
-  - DOMAIN-SUFFIX,peedtest-bne-dn1.empower.net.au
-  - DOMAIN-SUFFIX,peedtest-mel-dn1.empower.net.au
-  - DOMAIN-SUFFIX,peedtest-syd-dn1.empower.net.au
-  - DOMAIN-SUFFIX,g-ams.fdcservers.net
-  - DOMAIN-SUFFIX,g-fra.fdcservers.net
-  - DOMAIN-SUFFIX,g-hkg.fdcservers.net
-  - DOMAIN-SUFFIX,g-lax.fdcservers.net
-  - DOMAIN-SUFFIX,g-lon.fdcservers.net
-  - DOMAIN-SUFFIX,g-mia.fdcservers.net
-  - DOMAIN-SUFFIX,g-nyc.fdcservers.net
-  - DOMAIN-SUFFIX,g-sea.fdcservers.net
-  - DOMAIN-SUFFIX,g-sin.fdcservers.net
-  - DOMAIN-SUFFIX,g-syd.fdcservers.net
-  - DOMAIN-SUFFIX,g-tok.fdcservers.net
-  - DOMAIN-SUFFIX,g-tor.fdcservers.net
-  - DOMAIN-SUFFIX,g-par2.fdcservers.net
-  - DOMAIN-SUFFIX,peedtest01.fibernetics.ca
-  - DOMAIN-SUFFIX,okla.fullisp.com.br
-  - DOMAIN-SUFFIX,peedtest.la2.gigabitnow.com
-  - DOMAIN-SUFFIX,peed.golddata.co.cr
-  - DOMAIN-SUFFIX,peed06.gonetspeed.com
-  - DOMAIN-SUFFIX,peed07.gonetspeed.com
-  - DOMAIN-SUFFIX,peed08.gonetspeed.com
-  - DOMAIN-SUFFIX,peed09.gonetspeed.com
-  - DOMAIN-SUFFIX,peedtest.gosfieldtel.ca
-  - DOMAIN-SUFFIX,p1.hcetelecom.com
-  - DOMAIN-SUFFIX,peedtest.dal.hivelocity.net
-  - DOMAIN-SUFFIX,peedtest.lax.hivelocity.net
-  - DOMAIN-SUFFIX,peedtest.mia.hivelocity.net
-  - DOMAIN-SUFFIX,peedtest.nyc.hivelocity.net
-  - DOMAIN-SUFFIX,peedtest.ams1.hivelocity.net
-  - DOMAIN-SUFFIX,peedtest.yyz2.hivelocity.net
-  - DOMAIN-SUFFIX,pd-tr-bursa.hostlayici.net
-  - DOMAIN-SUFFIX,peedtest-la.hostsailor.com
-  - DOMAIN-SUFFIX,peedlon.hyperoptic.com
-  - DOMAIN-SUFFIX,peedtest.intlink.com.br
-  - DOMAIN-SUFFIX,peedtest.ip-projects.de
-  - DOMAIN-SUFFIX,peedtest.jvswifi.com.br
-  - DOMAIN-SUFFIX,peedtest.lamasatpro.com
-  - DOMAIN-SUFFIX,peedtest-hob.launtel.net.au
-  - DOMAIN-SUFFIX,peedtest-lton.launtel.net.au
-  - DOMAIN-SUFFIX,peedtest.ade01.launtel.net.au
-  - DOMAIN-SUFFIX,peedtest.bri01.launtel.net.au
-  - DOMAIN-SUFFIX,peedtest.mel01.launtel.net.au
-  - DOMAIN-SUFFIX,peedtest.syd01.launtel.net.au
-  - DOMAIN-SUFFIX,speedtest.leaptel.com.au
-  - DOMAIN-SUFFIX,backend.librespeed.org
-  - DOMAIN-SUFFIX,peedtest.meerfarbig.net
-  - DOMAIN-SUFFIX,peedtest.nl3.mirhosting.net
-  - DOMAIN-SUFFIX,ig-speedtest.moratelindo.io
-  - DOMAIN-SUFFIX,eloteste.mrjomar.com.br
-  - DOMAIN-SUFFIX,peedtest.netcalibre.net
-  - DOMAIN-SUFFIX,1.netfast.com.br
-  - DOMAIN-SUFFIX,kspeedtest.netvigator.com
-  - DOMAIN-SUFFIX,peedtest1.nextpertise.nl
-  - DOMAIN-SUFFIX,okla.opticaltel.com
-  - DOMAIN-SUFFIX,speedtest.optitel.com.au
-  - DOMAIN-SUFFIX,peednld.phoenixnap.com
-  - DOMAIN-SUFFIX,peedsin.phoenixnap.com
-  - DOMAIN-SUFFIX,peedtest.pilotfiber.com
-  - DOMAIN-SUFFIX,g.mia.plasmarack.com
-  - DOMAIN-SUFFIX,p01.rbfibra.net.br
-  - DOMAIN-SUFFIX,peedtest.redactus.co.uk
-  - DOMAIN-SUFFIX,peed.rnp-net.com.br
-  - DOMAIN-SUFFIX,peedtest.sewan-group.de
-  - DOMAIN-SUFFIX,peedtest.singnet.com.sg
-  - DOMAIN-SUFFIX,peedtest.solutechzk.com
-  - DOMAIN-SUFFIX,peedtest01.syd1.spintel.net.au
-  - DOMAIN-SUFFIX,peed1.spitfireuk.net
-  - DOMAIN-SUFFIX,peedtest.sugiartana.net
-  - DOMAIN-SUFFIX,peedtest.sunucum.net.tr
-  - DOMAIN-SUFFIX,peedtest.sunucun.com.tr
-  - DOMAIN-SUFFIX,peedtest.swishfibre.com
-  - DOMAIN-SUFFIX,peedtest-dallas.swyftfiber.com
-  - DOMAIN-SUFFIX,peedtestlon.telefonica.com
-  - DOMAIN-SUFFIX,peed.tepenet.com.tr
-  - DOMAIN-SUFFIX,peedtest-syd.thecore.net.au
-  - DOMAIN-SUFFIX,al-speedtest.transtelco.net
-  - DOMAIN-SUFFIX,peedtest.vanciscloud.nl
-  - DOMAIN-SUFFIX,peedtest.dc3.vmvault.com.au
-  - DOMAIN-SUFFIX,peedtest-london-east.vodafone.co.uk
-  - DOMAIN-SUFFIX,speedtest.windstream.net
-  - DOMAIN-SUFFIX,este.wsfibra.com.br
-  - DOMAIN-SUFFIX,peedtest.xcdtelecom.com
-  - DOMAIN-SUFFIX,peedtest.yless4u.com.au
-  - DOMAIN-SUFFIX,peedtest.airfiber.com.tr
-  - DOMAIN-SUFFIX,peedtest.airlink.network
-  - DOMAIN-SUFFIX,peedtest.bursabil.com.tr
-  - DOMAIN-SUFFIX,speedtest.centurylink.net
-  - DOMAIN-SUFFIX,peedtest.hk.chinamobile.com
-  - DOMAIN-SUFFIX,peedtestbb.hk.chinamobile.com
-  - DOMAIN-SUFFIX,speedtest.cmcnetworks.net
-  - DOMAIN-SUFFIX,peedtestookla.datahost.net.tr
-  - DOMAIN-SUFFIX,auseq4vost1.datamossa.cloud
-  - DOMAIN-SUFFIX,peedtest.dongfong.com.tw
-  - DOMAIN-SUFFIX,peedtest.fra.ewgmedianet.com
-  - DOMAIN-SUFFIX,pd.fibranet.srv.br
-  - DOMAIN-SUFFIX,peedtest-nxtb2.fsg-hosting.com
-  - DOMAIN-SUFFIX,peedtest-nxts1.fsg-hosting.com
-  - DOMAIN-SUFFIX,peedtest-eqxae1.fsg-hosting.com
-  - DOMAIN-SUFFIX,peedtestmia.gethotwired.com
-  - DOMAIN-SUFFIX,peed-mel.gigacomm.net.au
-  - DOMAIN-SUFFIX,peed-syd.gigacomm.net.au
-  - DOMAIN-SUFFIX,speed.googlefiber.net
-  - DOMAIN-SUFFIX,speedtest.gslnetworks.com
-  - DOMAIN-SUFFIX,iztesti.hiperbox.com.tr
-  - DOMAIN-SUFFIX,sl.hkspeedtest.com
-  - DOMAIN-SUFFIX,kt.hkspeedtest.com
-  - DOMAIN-SUFFIX,010.hkspeedtest.com
-  - DOMAIN-SUFFIX,unmobile.hkspeedtest.com
-  - DOMAIN-SUFFIX,d-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,h-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,s-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,c-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,n-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,p-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,d-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,tp-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,ky-speedtest.homeplus.net.tw
-  - DOMAIN-SUFFIX,peedtest-nl.hyperfilter.com
-  - DOMAIN-SUFFIX,este.ihgfibra.net.br
-  - DOMAIN-SUFFIX,peedtest.jetspeed.com.br
-  - DOMAIN-SUFFIX,este.jsnet.manaus.br
-  - DOMAIN-SUFFIX,peedtest.kapteyan.com.tr
-  - DOMAIN-SUFFIX,e-fra2-lg1.level66.network
-  - DOMAIN-SUFFIX,peedtest.linkamos.com.br
-  - DOMAIN-SUFFIX,ontsouris3.d2m.c2d.liveservices.fr
-  - DOMAIN-SUFFIX,peed.lodosnet.com.tr
-  - DOMAIN-SUFFIX,peedtest.lodosnet.com.tr
-  - DOMAIN-SUFFIX,p1.logicpro.com.br
-  - DOMAIN-SUFFIX,peed.mpvnetworks.com
-  - DOMAIN-SUFFIX,tizmir.netspeed.net.tr
-  - DOMAIN-SUFFIX,ooklaserver.net
-  - DOMAIN-SUFFIX,peedtest-adl.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-bla.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-bri.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-ebw.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-syd.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-darwin-nt.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-townsville-qld.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest-limestonecoast-sa.optusnet.com.au
-  - DOMAIN-SUFFIX,peedtest.orixinet.com.br
-  - DOMAIN-SUFFIX,peedtest.packetworks.net
-  - DOMAIN-SUFFIX,peedtest.portalnt.com.br
-  - DOMAIN-SUFFIX,oklaspeedtest-cdb.quebeccloud.com
-  - DOMAIN-SUFFIX,peedtest-obd.redeconecta.com
-  - DOMAIN-SUFFIX,peedtest.rekornet.com.tr
-  - DOMAIN-SUFFIX,peed.lax-1.serverforge.org
-  - DOMAIN-SUFFIX,peedtest.softether.co.jp
-  - DOMAIN-SUFFIX,speednet.net.tr
-  - DOMAIN-SUFFIX,peedtest.springfibre.com
-  - DOMAIN-SUFFIX,peedtest-tdc3.tasmanet.com.au
-  - DOMAIN-SUFFIX,peedtest.teknosos.com.tr
-  - DOMAIN-SUFFIX,peedtestnyc.telebermuda.com
-  - DOMAIN-SUFFIX,peedtest.telecablecr.com
-  - DOMAIN-SUFFIX,peedtest.ufinetlatam.net
-  - DOMAIN-SUFFIX,peedtest.uplinkrr.com.br
-  - DOMAIN-SUFFIX,peedtest.vareshcloud.com
-  - DOMAIN-SUFFIX,zmir.verinomidns.com
-  - DOMAIN-SUFFIX,stanbul.verinomidns.com
-  - DOMAIN-SUFFIX,speedtest.vodafone.com.au
-  - DOMAIN-SUFFIX,peedtest3.vodafone.com.tr
-  - DOMAIN-SUFFIX,peedtest2.voicehost.co.uk
-  - DOMAIN-SUFFIX,peedtest.webdiscount.net
-  - DOMAIN-SUFFIX,peedtest.wifitelekom.com
-  - DOMAIN-SUFFIX,peed.xpandtec.com.br
-  - DOMAIN-SUFFIX,peedtest.yesilnet.com.tr
-  - DOMAIN-SUFFIX,peedtest-lax.advinservers.com
-  - DOMAIN-SUFFIX,peed.amazonett.com.br
-  - DOMAIN-SUFFIX,peedtest.archtopfiber.com
-  - DOMAIN-SUFFIX,peedtest.axclusive.com.sg
-  - DOMAIN-SUFFIX,iaspeedtest.blackburn-pr.com
-  - DOMAIN-SUFFIX,peedtest.bouwhuis.network
-  - DOMAIN-SUFFIX,peedtest.brightstar.cloud
-  - DOMAIN-SUFFIX,peednet.brsserver.com.br
-  - DOMAIN-SUFFIX,p1.campanaworks.com
-  - DOMAIN-SUFFIX,peedtest.cyberline.com.br
-  - DOMAIN-SUFFIX,peedtest.cyberlink.net.br
-  - DOMAIN-SUFFIX,peedtestuk1.cybersmart.co.za
-  - DOMAIN-SUFFIX,steste.dstelecom.net.br
-  - DOMAIN-SUFFIX,peedtest.embrasnet.com.br
-  - DOMAIN-SUFFIX,peedtest.empireaccess.com
-  - DOMAIN-SUFFIX,elocimetro.esolution.srv.br
-  - DOMAIN-SUFFIX,elocidad.fiberlink.com.pa
-  - DOMAIN-SUFFIX,peedtest.fiberlink.com.pe
-  - DOMAIN-SUFFIX,peedtest.fiberlink.net.ua
-  - DOMAIN-SUFFIX,peedtest1.flashwifi.com.br
-  - DOMAIN-SUFFIX,peedtest.global-layer.com
-  - DOMAIN-SUFFIX,peedtest.singapore.globalxtreme.net
-  - DOMAIN-SUFFIX,elocimetro.govistabr.com.br
-  - DOMAIN-SUFFIX,peedtestldn.grainconnect.com
-  - DOMAIN-SUFFIX,tdal.highlinefast.com
-  - DOMAIN-SUFFIX,hizinitestet.com
-  - DOMAIN-SUFFIX,a-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,iami-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,ondon-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,oscow-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,ewyork-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,oronto-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,msterdam-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,rankfurt-speedtest-1.hostingswift.com
-  - DOMAIN-SUFFIX,peedtest.lightsource1.com
-  - DOMAIN-SUFFIX,peedtest.markahost.com.tr
-  - DOMAIN-SUFFIX,p.merkurnet.com.tr
-  - DOMAIN-SUFFIX,iami-speedtest.reliablesite.net
-  - DOMAIN-SUFFIX,os-angeles-speedtest.reliablesite.net
-  - DOMAIN-SUFFIX,este.routinger.com.br
-  - DOMAIN-SUFFIX,peedtest.routinger.com.br
-  - DOMAIN-SUFFIX,peedtest.rvconnect.com.br
-  - DOMAIN-SUFFIX,peedtest3.rvconnect.com.br
-  - DOMAIN-SUFFIX,peedtest.serverpronto.com
-  - DOMAIN-SUFFIX,ervidor.speedplay.com.br
-  - DOMAIN-SUFFIX,speedtest.com.sg
-  - DOMAIN-SUFFIX,speedtest.idv.tw
-  - DOMAIN-SUFFIX,peedtest.syscom.manaus.br
-  - DOMAIN-SUFFIX,peedtest1.taipeinet.com.tw
-  - DOMAIN-SUFFIX,ptch2.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptcy2.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptdad.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptdl2.taiwanmobile.com
-  - DOMAIN-SUFFIX,pthc1.taiwanmobile.com
-  - DOMAIN-SUFFIX,pthl1.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptkh1.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptkh2.taiwanmobile.com
-  - DOMAIN-SUFFIX,pttc2.taiwanmobile.com
-  - DOMAIN-SUFFIX,pttn2.taiwanmobile.com
-  - DOMAIN-SUFFIX,pttp1.taiwanmobile.com
-  - DOMAIN-SUFFIX,ptty1.taiwanmobile.com
-  - DOMAIN-SUFFIX,petstmns01.timbrasil.com.br
-  - DOMAIN-SUFFIX,b-speedtest-1.twmbroadband.net
-  - DOMAIN-SUFFIX,peedtest.velosonet.com.br
-  - DOMAIN-SUFFIX,peedtest.viberlink.net.id
-  - DOMAIN-SUFFIX,peedtest-ldn.voxtelecom.co.za
-  - DOMAIN-SUFFIX,este.xtremenet.com.br
-  - DOMAIN-SUFFIX,peedtest-ad-1.zoominternet.net
-  - DOMAIN-SUFFIX,peedtest-rd-1.zoominternet.net
-  - DOMAIN-SUFFIX,peedtest.asimonetworks.com
-  - DOMAIN-SUFFIX,l.blackhost.network
-  - DOMAIN-SUFFIX,peed.ccspublichost.com
-  - DOMAIN-SUFFIX,peedtest.cenosnetworks.net
-  - DOMAIN-SUFFIX,peedtest.connectbv8.com.br
-  - DOMAIN-SUFFIX,peedtest.creolineserver.de
-  - DOMAIN-SUFFIX,peedtest.csmtelecom.net.br
-  - DOMAIN-SUFFIX,este.diotelecom.com.br
-  - DOMAIN-SUFFIX,peedtest-dfw.dish-wireless.com
-  - DOMAIN-SUFFIX,peedtest-lax.dish-wireless.com
-  - DOMAIN-SUFFIX,peedtest-mia.dish-wireless.com
-  - DOMAIN-SUFFIX,peedtest-nyc.dish-wireless.com
-  - DOMAIN-SUFFIX,peedtest-sea.dish-wireless.com
-  - DOMAIN-SUFFIX,peedtest-sjc.dish-wireless.com
-  - DOMAIN-SUFFIX,rvteste.edntelecom.net.br
-  - DOMAIN-SUFFIX,elocidade.exytelecom.com.br
-  - DOMAIN-SUFFIX,pd-01.thn.fullfibre.systems
-  - DOMAIN-SUFFIX,peedtest.fra01.fusionflare.cloud
-  - DOMAIN-SUFFIX,este.mwhtelecom.com.br
-  - DOMAIN-SUFFIX,peedtest.myrepublic.com.sg
-  - DOMAIN-SUFFIX,edidor.nortelecom.com.br
-  - DOMAIN-SUFFIX,elocimetro.proveinter.com.br
-  - DOMAIN-SUFFIX,este.reatelecom.com.br
-  - DOMAIN-SUFFIX,peedtest.roraimanet.com.br
-  - DOMAIN-SUFFIX,este.speednetpa.net.br
-  - DOMAIN-SUFFIX,okla-speedtest.starverse.network
-  - DOMAIN-SUFFIX,kthspeedtest02.telstraglobal.net
-  - DOMAIN-SUFFIX,peed01.tresteknoloji.com
-  - DOMAIN-SUFFIX,peedtest.unitelecom.net.br
-  - DOMAIN-SUFFIX,elocidade.vlctelecom.com.br
-  - DOMAIN-SUFFIX,speedtest.angolacables.co.ao
-  - DOMAIN-SUFFIX,peedtest1.atlantisnet.com.tr
-  - DOMAIN-SUFFIX,peedtest.auratelecom.com.br
-  - DOMAIN-SUFFIX,peedtest.boxbroadband.co.uk
-  - DOMAIN-SUFFIX,peedtest2.comvergence.com.au
-  - DOMAIN-SUFFIX,test.gslnetworks.com.au
-  - DOMAIN-SUFFIX,speedtest.gslnetworks.com.au
-  - DOMAIN-SUFFIX,peedtest1.indosatooredoo.com
-  - DOMAIN-SUFFIX,peedtest.internetbolaget.nu
-  - DOMAIN-SUFFIX,peedtest.linkbroadbands.com
-  - DOMAIN-SUFFIX,este.linkonfibra.com.br
-  - DOMAIN-SUFFIX,measurementlab.net
-  - DOMAIN-SUFFIX,peedtest.newberlinfiber.net
-  - DOMAIN-SUFFIX,oklatins.redeconexaonet.com
-  - DOMAIN-SUFFIX,peedtest.redrawinternet.com
-  - DOMAIN-SUFFIX,elocidade.softtelecom.net.br
-  - DOMAIN-SUFFIX,speedtestkorea.com
-  - DOMAIN-SUFFIX,peedtest.systemlifeline.com
-  - DOMAIN-SUFFIX,er.wsqm.telekom-dienste.de
-  - DOMAIN-SUFFIX,fm.wsqm.telekom-dienste.de
-  - DOMAIN-SUFFIX,kconnectrr.com.br
-  - DOMAIN-SUFFIX,ur1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,sk1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,ay1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,eb1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,un1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,mr1speedtest.turktelekom.com.tr
-  - DOMAIN-SUFFIX,peedtest.unlimitedfiber.com
-  - DOMAIN-SUFFIX,peedtest.upwirefibra.com.br
-  - DOMAIN-SUFFIX,peedtest.voip-unlimited.net
-  - DOMAIN-SUFFIX,este.wificonnect.com.br
-  - DOMAIN-SUFFIX,elocimetro.wiretelecom.com.br
-  - DOMAIN-SUFFIX,peedtest03.bluestreamfiber.net
-  - DOMAIN-SUFFIX,okla-london.briantbroadband.com
-  - DOMAIN-SUFFIX,elocimetro.fibernetwork.com.br
-  - DOMAIN-SUFFIX,ast-speedtest.frontiernetworks.ca
-  - DOMAIN-SUFFIX,elocimetro.infinitemais.com.br
-  - DOMAIN-SUFFIX,measurement-lab.org
-  - DOMAIN-SUFFIX,peedtest.naturalwireless.com
-  - DOMAIN-SUFFIX,peedtest2.pacificinternet.com
-  - DOMAIN-SUFFIX,peedtest.satanhosting.com.tr
-  - DOMAIN-SUFFIX,ia01.screenshot.download
-  - DOMAIN-SUFFIX,yc01.screenshot.download
-  - DOMAIN-SUFFIX,speedtestcustom.com
-  - DOMAIN-SUFFIX,t-atakoy-1.turksatkablo.com.tr
-  - DOMAIN-SUFFIX,t-manisa-1.turksatkablo.com.tr
-  - DOMAIN-SUFFIX,t-yalova-1.turksatkablo.com.tr
-  - DOMAIN-SUFFIX,t-balikesir-1.turksatkablo.com.tr
-  - DOMAIN-SUFFIX,peedtest.turnkeyinternet.net
-  - DOMAIN-SUFFIX,test.ultraconnect.com.br
-  - DOMAIN-SUFFIX,okla.araujotelecom.com.br
-  - DOMAIN-SUFFIX,peedtest-us.chainlinkhosting.com
-  - DOMAIN-SUFFIX,peedtest-aus.chainlinkhosting.com
-  - DOMAIN-SUFFIX,peedtest-ger.chainlinkhosting.com
-  - DOMAIN-SUFFIX,iami.getstreamhosting.com
-  - DOMAIN-SUFFIX,msterdam.getstreamhosting.com
-  - DOMAIN-SUFFIX,peedtest.getstreamhosting.com
-  - DOMAIN-SUFFIX,elocidade.idnetttelecom.com.br
-  - DOMAIN-SUFFIX,peedtest.infowayconect.com.br
-  - DOMAIN-SUFFIX,peedtest-sydney.macquarietelecom.com
-  - DOMAIN-SUFFIX,peedtest-brisbane.macquarietelecom.com
-  - DOMAIN-SUFFIX,peedtest-melbourne.macquarietelecom.com
-  - DOMAIN-SUFFIX,t2.octopustelecom.co.uk
-  - DOMAIN-SUFFIX,e.prismanetworks.cloud
-  - DOMAIN-SUFFIX,peedtest.seveninternet.com.br
-  - DOMAIN-SUFFIX,elocimetro.speednetworks.com.br
-  - DOMAIN-SUFFIX,speedtestwnet.com.br
-  - DOMAIN-SUFFIX,peed-server3.summit-broadband.com
-  - DOMAIN-SUFFIX,untechspeedtest.com
-  - DOMAIN-SUFFIX,este.suprainternet.com.br
-  - DOMAIN-SUFFIX,este.tstelecomltda.com.br
-  - DOMAIN-SUFFIX,peedtest.visiontelecom.com.br
-  - DOMAIN-SUFFIX,elocidade.conectstelecom.com.br
-  - DOMAIN-SUFFIX,este.ddlsuprimentos.com.br
-  - DOMAIN-SUFFIX,peedtest.mirror.digitalpacific.com.au
-  - DOMAIN-SUFFIX,peedtest.mirror.mel1.digitalpacific.com.au
-  - DOMAIN-SUFFIX,este.freedomnetwork.net.br
-  - DOMAIN-SUFFIX,peedtest.hostingturkiye.com.tr
-  - DOMAIN-SUFFIX,t2.barquisimeto.intercomservicios.com
-  - DOMAIN-SUFFIX,peedtest.japanettelecom.com.br
-  - DOMAIN-SUFFIX,t.jnettelecom-am.com.br
-  - DOMAIN-SUFFIX,peedtest2.lightningfibre.net.uk
-  - DOMAIN-SUFFIX,este.newsolutionnet.com.br
-  - DOMAIN-SUFFIX,peedteste.newsolutionnet.com.br
-  - DOMAIN-SUFFIX,peedtest.absolutevalidation.com
-  - DOMAIN-SUFFIX,peedtest.sea.accretive-networks.net
-  - DOMAIN-SUFFIX,peedtest.albatroznetwork.com.br
-  - DOMAIN-SUFFIX,okla-itacoatiara.amazoniasat-isp.com.br
-  - DOMAIN-SUFFIX,elocidade.amazoniatelecom.com.br
-  - DOMAIN-SUFFIX,peed.ade.aussiebroadband.com.au
-  - DOMAIN-SUFFIX,peed.bne.aussiebroadband.com.au
-  - DOMAIN-SUFFIX,peed.mel.aussiebroadband.com.au
-  - DOMAIN-SUFFIX,peed.syd.aussiebroadband.com.au
-  - DOMAIN-SUFFIX,peedtest.cerberusnetworks.co.uk
-  - DOMAIN-SUFFIX,peedtest.conecta-soluciones.com
-  - DOMAIN-SUFFIX,peedtest.conectaamazonia.com.br
-  - DOMAIN-SUFFIX,peedtest.greenlightnetworks.com
-  - DOMAIN-SUFFIX,peedtest-albany.greenlightnetworks.com
-  - DOMAIN-SUFFIX,peedtest-buffalo.greenlightnetworks.com
-  - DOMAIN-SUFFIX,peedtest-binghamton.greenlightnetworks.com
-  - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN-SUFFIX,peed.newclicktelecom.com.br
-  - DOMAIN-SUFFIX,okla.playmaisreverso.net.br
-  - DOMAIN-SUFFIX,speedtestunonet.com.br
-  - DOMAIN-SUFFIX,peedtest.webfibertelecom.com.br
-  - DOMAIN-SUFFIX,peedtest-tesa.coelhotecnologia.com.br
-  - DOMAIN-SUFFIX,elocidade.impertechtelecom.com.br
-  - DOMAIN-SUFFIX,linknetspeedtest.net.br
-  - DOMAIN-SUFFIX,peedtest.mirror.serversaustralia.com.au
-  - DOMAIN-SUFFIX,peedtest.globalfiberbrasil.com.br
-  - DOMAIN-SUFFIX,este.mundialnettelecom.com.br
-  - DOMAIN-SUFFIX,est.infoconnecttelecom.com.br
-  - DOMAIN-SUFFIX,okla.jgainterlinktelecom.com.br
-  - DOMAIN-SUFFIX,erviciospablomella3.com.do
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,peedtest-net.mk.de
+DOMAIN-SUFFIX,speedtest.rt.ru
+DOMAIN-SUFFIX,peedtest-sg.cbn.id
+DOMAIN-SUFFIX,t.mow.gin.ru
+DOMAIN-SUFFIX,peedtest.hep.gg
+DOMAIN-SUFFIX,peedtest.kko.me
+DOMAIN-SUFFIX,peedtest-cbr.cdn.on.net
+DOMAIN-SUFFIX,speed.pfm.gg
+DOMAIN-SUFFIX,speedtest.pni.tw
+DOMAIN-SUFFIX,peedtest.nyc.rr.com
+DOMAIN-SUFFIX,yrny-speedtest-02.nyroc.rr.com
+DOMAIN-SUFFIX,pl3pt.fft.ops.eu.uu.net
+DOMAIN-SUFFIX,pl3pt.syd.ops.aspac.uu.net
+DOMAIN-SUFFIX,peedtest-prs.vts.bf
+DOMAIN-SUFFIX,peedtest.23m.com
+DOMAIN-SUFFIX,peedtest.asvt.ru
+DOMAIN-SUFFIX,srvr.bell.ca
+DOMAIN-SUFFIX,peedtest.beyn.in
+DOMAIN-SUFFIX,peedtest2.cln.net
+DOMAIN-SUFFIX,peed.data.cr
+DOMAIN-SUFFIX,peedtest.ddps.jp
+DOMAIN-SUFFIX,ookla-speedtest.fsr.com
+DOMAIN-SUFFIX,speedtest.i3d.net
+DOMAIN-SUFFIX,peedtest.link.bm
+DOMAIN-SUFFIX,peed.uk.lon.m247.ro
+DOMAIN-SUFFIX,okla.moji.fr
+DOMAIN-SUFFIX,k-lon-tcy-mtn-speedtest-server-01.mtn.com
+DOMAIN-SUFFIX,peedtest.nrbn.ca
+DOMAIN-SUFFIX,1.pfst.ru
+DOMAIN-SUFFIX,ode01.jln.psrv.ch
+DOMAIN-SUFFIX,ookla.rcp.net
+DOMAIN-SUFFIX,peedtest.rit.edu
+DOMAIN-SUFFIX,peedtest.ropa.de
+DOMAIN-SUFFIX,peedtest.sits.su
+DOMAIN-SUFFIX,his_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN-SUFFIX,peedtest.tigo.cr
+DOMAIN-SUFFIX,peedtest.uia.net
+DOMAIN-SUFFIX,peedtest.upp.com
+DOMAIN-SUFFIX,peedtest.vnet.su
+DOMAIN-SUFFIX,peedtest.ams.wd6.net
+DOMAIN-SUFFIX,ms-eq6-tptest1.31173.se
+DOMAIN-SUFFIX,ra-eq5-tptest1.31173.se
+DOMAIN-SUFFIX,on-ix1-tptest1.31173.se
+DOMAIN-SUFFIX,peedtest.58243.as
+DOMAIN-SUFFIX,g-ffm.aeza.net
+DOMAIN-SUFFIX,g-lon.aeza.net
+DOMAIN-SUFFIX,peedtest1.claro.cr
+DOMAIN-SUFFIX,peedtest.ct.co.cr
+DOMAIN-SUFFIX,peedtest3.dacor.de
+DOMAIN-SUFFIX,peedtest.dcs1.biz
+DOMAIN-SUFFIX,egasqa.ddns.net
+DOMAIN-SUFFIX,ookla-speedtests.e2ro.com
+DOMAIN-SUFFIX,peedtest-dc08.enzu.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,peedtest.nik.fiber.nl
+DOMAIN-SUFFIX,peedtest12.hkbn.net
+DOMAIN-SUFFIX,peedtest1c.hkix.net
+DOMAIN-SUFFIX,t1.htva.net
+DOMAIN-SUFFIX,peedtest.inoc.net
+DOMAIN-SUFFIX,krd-speedtest.loni.org
+DOMAIN-SUFFIX,0gspeedtest.mnsi.net
+DOMAIN-SUFFIX,lg-105-sptest.ncri.com
+DOMAIN-SUFFIX,njscarc-speed01.nwrd.net
+DOMAIN-SUFFIX,peedtest.race.com
+DOMAIN-SUFFIX,peedtest-ams.retn.net
+DOMAIN-SUFFIX,peedtest-lon.retn.net
+DOMAIN-SUFFIX,peedtest-msk.retn.net
+DOMAIN-SUFFIX,peedtest-fkt-eqx.retn.net
+DOMAIN-SUFFIX,peedtest.sewan.fr
+DOMAIN-SUFFIX,est.slic.com
+DOMAIN-SUFFIX,peedtest.slic.com
+DOMAIN-SUFFIX,peedtest-london.start.ca
+DOMAIN-SUFFIX,sk3.companion.tele2.ru
+DOMAIN-SUFFIX,peedtest2.telin.sg
+DOMAIN-SUFFIX,peedtest10.vqbn.com
+DOMAIN-SUFFIX,peedtest.w-net.us
+DOMAIN-SUFFIX,peedtest-intl.xl.co.id
+DOMAIN-SUFFIX,ycuspeed.169ol.com
+DOMAIN-SUFFIX,okla.aghost.uk
+DOMAIN-SUFFIX,peedtest1.ah163.com
+DOMAIN-SUFFIX,peedtest.apnic.net
+DOMAIN-SUFFIX,peedperf.axione.fr
+DOMAIN-SUFFIX,xytc.com
+DOMAIN-SUFFIX,peedtest.cittel.ru
+DOMAIN-SUFFIX,peed.coe.ad.jp
+DOMAIN-SUFFIX,peedtest.cogeco.ca
+DOMAIN-SUFFIX,peedtest.dynet.net
+DOMAIN-SUFFIX,peedtest.ams1.edgoo.net
+DOMAIN-SUFFIX,peedtest.lon1.edgoo.net
+DOMAIN-SUFFIX,h1.chtm.hinet.net
+DOMAIN-SUFFIX,c1.chtm.hinet.net
+DOMAIN-SUFFIX,h1.chtm.hinet.net
+DOMAIN-SUFFIX,c1.chtm.hinet.net
+DOMAIN-SUFFIX,n1.chtm.hinet.net
+DOMAIN-SUFFIX,p1.chtm.hinet.net
+DOMAIN-SUFFIX,y1.chtm.hinet.net
+DOMAIN-SUFFIX,tp1.chtm.hinet.net
+DOMAIN-SUFFIX,ytron-hk.hytron.io
+DOMAIN-SUFFIX,peed.udx.icscoe.jp
+DOMAIN-SUFFIX,okla.idnet.net
+DOMAIN-SUFFIX,peedtest1.innsys.ca
+DOMAIN-SUFFIX,elocidade.ip.eti.br
+DOMAIN-SUFFIX,peedtest.kairun.jp
+DOMAIN-SUFFIX,peedtest-fra-11.kemmit.de
+DOMAIN-SUFFIX,erf.keyyo.net
+DOMAIN-SUFFIX,peedtest.b2.mhn.cloud
+DOMAIN-SUFFIX,peedtest.mel.mhn.cloud
+DOMAIN-SUFFIX,peedtest.syd.mhn.cloud
+DOMAIN-SUFFIX,peedtest.newsxs.nl
+DOMAIN-SUFFIX,peedtest2.niutk.com
+DOMAIN-SUFFIX,anjoseiturbide.openti.mx
+DOMAIN-SUFFIX,speedtest.orange.fr
+DOMAIN-SUFFIX,peedtest.pendc.com
+DOMAIN-SUFFIX,peedtest-engine.primus.ca
+DOMAIN-SUFFIX,speedtest.rascom.ru
+DOMAIN-SUFFIX,peedtest.reconn.ru
+DOMAIN-SUFFIX,peedtest.reycom.cr
+DOMAIN-SUFFIX,okla.sh.com.tr
+DOMAIN-SUFFIX,peedtest.sjc.sonic.net
+DOMAIN-SUFFIX,peedtest.sptel.com
+DOMAIN-SUFFIX,peed1.swhab.net
+DOMAIN-SUFFIX,speedtest.telus.com
+DOMAIN-SUFFIX,nookla.tn.edu.tw
+DOMAIN-SUFFIX,peedtest-nl.vdsina.ru
+DOMAIN-SUFFIX,peedtest-ru.vdsina.ru
+DOMAIN-SUFFIX,peedtest-ade.vocus.net
+DOMAIN-SUFFIX,peedtest-bne.vocus.net
+DOMAIN-SUFFIX,peedtest-mel.vocus.net
+DOMAIN-SUFFIX,peedtest-syd.vocus.net
+DOMAIN-SUFFIX,peedtest.vulut.com
+DOMAIN-SUFFIX,yc1-speedtest.webnx.com
+DOMAIN-SUFFIX,ax1a-speedtest.webnx.com
+DOMAIN-SUFFIX,peedtest.miam.fl.wtsky.net
+DOMAIN-SUFFIX,peedtest1.xbase.com
+DOMAIN-SUFFIX,yz-speedtest.xplore.ca
+DOMAIN-SUFFIX,peedtest.xsnews.nl
+DOMAIN-SUFFIX,peedtest-yoncudc.yoncu.com
+DOMAIN-SUFFIX,peedtest-sjc.acreto.net
+DOMAIN-SUFFIX,speedtest.alagas.net
+DOMAIN-SUFFIX,peed.msk.avantel.ru
+DOMAIN-SUFFIX,peedtest.bnsdfw.com
+DOMAIN-SUFFIX,urtestisbest.brolve.net
+DOMAIN-SUFFIX,peedtest.brsk.co.uk
+DOMAIN-SUFFIX,ibrarian.comstar.ru
+DOMAIN-SUFFIX,peedtestsvq01.comvive.es
+DOMAIN-SUFFIX,peedtest.coreix.net
+DOMAIN-SUFFIX,peedtest.cotoax.com
+DOMAIN-SUFFIX,arp.cronon.net
+DOMAIN-SUFFIX,peedtest.hk210.hkg.cn.ctcsci.com
+DOMAIN-SUFFIX,peedtest.jp230.hnd.jp.ctcsci.com
+DOMAIN-SUFFIX,peedtest.sg220.sgp.sg.ctcsci.com
+DOMAIN-SUFFIX,peedtest.us310.lax.us.ctcsci.com
+DOMAIN-SUFFIX,speedtest.dchost.com
+DOMAIN-SUFFIX,peed2.dg-sys.net
+DOMAIN-SUFFIX,peedtest01.dns-net.de
+DOMAIN-SUFFIX,fm-01-ovpn.vpn.eseven.net
+DOMAIN-SUFFIX,speedtest.faelix.net
+DOMAIN-SUFFIX,peed2.flawcra.cc
+DOMAIN-SUFFIX,t.fratec.net
+DOMAIN-SUFFIX,peedtest-xg-oki.glbb.ne.jp
+DOMAIN-SUFFIX,okla-speedtest-central.hgconair.hgc.com.hk
+DOMAIN-SUFFIX,peedtest.honest.net
+DOMAIN-SUFFIX,peedtest.sg.hsp.net.id
+DOMAIN-SUFFIX,peedtest1.inetcom.ru
+DOMAIN-SUFFIX,peedtest1.itp360.com
+DOMAIN-SUFFIX,peedtest-london.its-tg.net
+DOMAIN-SUFFIX,speedtest.jsinfo.net
+DOMAIN-SUFFIX,peedtest2.keyubu.com
+DOMAIN-SUFFIX,peedtest.konaman.ru
+DOMAIN-SUFFIX,peedtest-thn.krystal.uk
+DOMAIN-SUFFIX,speedtest.labixe.net
+DOMAIN-SUFFIX,peedtest.lla-cr.com
+DOMAIN-SUFFIX,peedtest.luminet.cr
+DOMAIN-SUFFIX,etservice01.ber01.lwlcom.net
+DOMAIN-SUFFIX,peedtest.macpaw.com
+DOMAIN-SUFFIX,peedtest.maryno.net
+DOMAIN-SUFFIX,peedtest-stf.megafon.ru
+DOMAIN-SUFFIX,speed.misaka.one
+DOMAIN-SUFFIX,peedtest.mosline.ru
+DOMAIN-SUFFIX,peedtest.myarena.ru
+DOMAIN-SUFFIX,peedcheck.netknox.de
+DOMAIN-SUFFIX,irror.nforce.com
+DOMAIN-SUFFIX,p-de.nuxt.cloud
+DOMAIN-SUFFIX,peedtest3.dal.nxlink.com
+DOMAIN-SUFFIX,peedtest-lhr-01.pdx.net.uk
+DOMAIN-SUFFIX,ydinspeedtest.posive.net
+DOMAIN-SUFFIX,ursaspeedtest.posive.net
+DOMAIN-SUFFIX,uzcespeedtest.posive.net
+DOMAIN-SUFFIX,zmirspeedtest.posive.net
+DOMAIN-SUFFIX,dirnespeedtest.posive.net
+DOMAIN-SUFFIX,anisaspeedtest.posive.net
+DOMAIN-SUFFIX,ilecikspeedtest.posive.net
+DOMAIN-SUFFIX,ocaelispeedtest.posive.net
+DOMAIN-SUFFIX,utahyaspeedtest.posive.net
+DOMAIN-SUFFIX,akaryaspeedtest.posive.net
+DOMAIN-SUFFIX,stanbulspeedtest.posive.net
+DOMAIN-SUFFIX,alikesirspeedtest.posive.net
+DOMAIN-SUFFIX,anakkalespeedtest.posive.net
+DOMAIN-SUFFIX,irklarelispeedtest.posive.net
+DOMAIN-SUFFIX,peedtest-ca.pq.hosting
+DOMAIN-SUFFIX,peedtest-de.pq.hosting
+DOMAIN-SUFFIX,peedtest-ru.pq.hosting
+DOMAIN-SUFFIX,peedtest-tr.pq.hosting
+DOMAIN-SUFFIX,r-speedtest.qonzer.net
+DOMAIN-SUFFIX,peedtest.quadro.net
+DOMAIN-SUFFIX,peedtest2.rhitcr.com
+DOMAIN-SUFFIX,tguelph.rogers.com
+DOMAIN-SUFFIX,tlondon.rogers.com
+DOMAIN-SUFFIX,tmilton.rogers.com
+DOMAIN-SUFFIX,ttoronto.rogers.com
+DOMAIN-SUFFIX,tvaughan.rogers.com
+DOMAIN-SUFFIX,tbrampton.rogers.com
+DOMAIN-SUFFIX,thamilton.rogers.com
+DOMAIN-SUFFIX,tkingcity.rogers.com
+DOMAIN-SUFFIX,toakville.rogers.com
+DOMAIN-SUFFIX,tstthomas.rogers.com
+DOMAIN-SUFFIX,twaterloo.rogers.com
+DOMAIN-SUFFIX,tbrantford.rogers.com
+DOMAIN-SUFFIX,tetobicoke.rogers.com
+DOMAIN-SUFFIX,tkitchener.rogers.com
+DOMAIN-SUFFIX,tnorthyork.rogers.com
+DOMAIN-SUFFIX,tpickering.rogers.com
+DOMAIN-SUFFIX,tstratford.rogers.com
+DOMAIN-SUFFIX,twoodstock.rogers.com
+DOMAIN-SUFFIX,tmississauga.rogers.com
+DOMAIN-SUFFIX,torangeville.rogers.com
+DOMAIN-SUFFIX,tscarborough.rogers.com
+DOMAIN-SUFFIX,tguelphwireless.rogers.com
+DOMAIN-SUFFIX,tlondonwireless.rogers.com
+DOMAIN-SUFFIX,tmiltonwireless.rogers.com
+DOMAIN-SUFFIX,tsarniawireless.rogers.com
+DOMAIN-SUFFIX,tchathamwireless.rogers.com
+DOMAIN-SUFFIX,ttorontowireless.rogers.com
+DOMAIN-SUFFIX,twindsorwireless.rogers.com
+DOMAIN-SUFFIX,thamiltonwireless.rogers.com
+DOMAIN-SUFFIX,tstthomaswireless.rogers.com
+DOMAIN-SUFFIX,tbrantfordwireless.rogers.com
+DOMAIN-SUFFIX,tkitchenerwireless.rogers.com
+DOMAIN-SUFFIX,tnorthyorkwireless.rogers.com
+DOMAIN-SUFFIX,tstratfordwireless.rogers.com
+DOMAIN-SUFFIX,twoodstockwireless.rogers.com
+DOMAIN-SUFFIX,tgeorgetownwireless.rogers.com
+DOMAIN-SUFFIX,tleamingtonwireless.rogers.com
+DOMAIN-SUFFIX,tmississaugawireless.rogers.com
+DOMAIN-SUFFIX,torangevillewireless.rogers.com
+DOMAIN-SUFFIX,tstcatharineswireless.rogers.com
+DOMAIN-SUFFIX,tsaultstemariewireless.rogers.com
+DOMAIN-SUFFIX,twellandpelhamwireless.rogers.com
+DOMAIN-SUFFIX,alspeedtest.rtatel.com
+DOMAIN-SUFFIX,peedtest-server-lax.starry.com
+DOMAIN-SUFFIX,peedtest-server-nyc.starry.com
+DOMAIN-SUFFIX,peedtest1.synlinq.de
+DOMAIN-SUFFIX,4y-tor-sts1.ser.tek4you.ca
+DOMAIN-SUFFIX,peedtestlondon.telecom.mu
+DOMAIN-SUFFIX,peedtest.toob.co.uk
+DOMAIN-SUFFIX,peedtest.mia.upx.net.br
+DOMAIN-SUFFIX,peedtest.vee.com.tw
+DOMAIN-SUFFIX,rtvpdspeedtestb.voiped.com
+DOMAIN-SUFFIX,speedtest.warian.net
+DOMAIN-SUFFIX,peedtest-wa.waveip.org
+DOMAIN-SUFFIX,iwan66.seattle.westnet.ca
+DOMAIN-SUFFIX,wifiman.me
+DOMAIN-SUFFIX,axla0001speedtestserver01.wiline.com
+DOMAIN-SUFFIX,fosj0096speedtestserver01.wiline.com
+DOMAIN-SUFFIX,peedam.wsp.net.br
+DOMAIN-SUFFIX,pdtst.xenyth.net
+DOMAIN-SUFFIX,pop.yondoo.com
+DOMAIN-SUFFIX,peedtest02a.web.zen.net.uk
+DOMAIN-SUFFIX,peedtest.139play.com
+DOMAIN-SUFFIX,peedtest.5x5tele.com
+DOMAIN-SUFFIX,elocimetro-spt.akto.com.br
+DOMAIN-SUFFIX,peedtest.alastyr.com
+DOMAIN-SUFFIX,peedtest.anksoft.net
+DOMAIN-SUFFIX,peedtest_antalpha_sc7_hk.antalpha.io
+DOMAIN-SUFFIX,speedtest.aptg.com.tw
+DOMAIN-SUFFIX,pt-nyc.as13786.net
+DOMAIN-SUFFIX,peedtest1-sttlwawb.as20055.net
+DOMAIN-SUFFIX,peedtest-ookla-par.as62000.net
+DOMAIN-SUFFIX,peedtest1.axes.com.br
+DOMAIN-SUFFIX,pt1.bsnlive.net
+DOMAIN-SUFFIX,peedtest-1.compute.dc1.cilix.cloud
+DOMAIN-SUFFIX,peedtest.claranet.nl
+DOMAIN-SUFFIX,tosat-rvlt-01.sys.comcast.net
+DOMAIN-SUFFIX,speedtest.contabo.net
+DOMAIN-SUFFIX,sk-speedtest2.corbina.net
+DOMAIN-SUFFIX,peedtest1.net.cornell.edu
+DOMAIN-SUFFIX,peedtest.cubedns.com
+DOMAIN-SUFFIX,peedtest.dcsi.net.au
+DOMAIN-SUFFIX,peedtest.ffm.dynamic.icu
+DOMAIN-SUFFIX,pt-ist.edgeuno.com
+DOMAIN-SUFFIX,pt-mia.edgeuno.com
+DOMAIN-SUFFIX,pt-dal1.edgeuno.com
+DOMAIN-SUFFIX,pt-jfk1.edgeuno.com
+DOMAIN-SUFFIX,peedtest2.esrv.center
+DOMAIN-SUFFIX,g-speedtest.fast.net.id
+DOMAIN-SUFFIX,peedtest.fios.net.br
+DOMAIN-SUFFIX,t02.fynn-int.de
+DOMAIN-SUFFIX,perf.gakijken.nl
+DOMAIN-SUFFIX,peedtest.herza.cloud
+DOMAIN-SUFFIX,speedtest.highnet.com
+DOMAIN-SUFFIX,peedtest.host.com.tw
+DOMAIN-SUFFIX,ms-speedtest.isp.htb.systems
+DOMAIN-SUFFIX,k-test1.jaist.ac.jp
+DOMAIN-SUFFIX,p1.jump.net.uk
+DOMAIN-SUFFIX,peedtest.kuzeydc.com
+DOMAIN-SUFFIX,peedtest.lekloud.net
+DOMAIN-SUFFIX,okla.lunoxia.net
+DOMAIN-SUFFIX,peedtest.la.macarne.com
+DOMAIN-SUFFIX,peedtest.fra.macarne.com
+DOMAIN-SUFFIX,peedtest.lon.macarne.com
+DOMAIN-SUFFIX,peedtest.sv5.macarne.com
+DOMAIN-SUFFIX,peedtest.tokyo.macarne.com
+DOMAIN-SUFFIX,okla.mbspeed.net
+DOMAIN-SUFFIX,okla2.mbspeed.net
+DOMAIN-SUFFIX,peedtest.mhcable.com
+DOMAIN-SUFFIX,peedtest.mitsupp.com
+DOMAIN-SUFFIX,peedtest-c.netgear.com
+DOMAIN-SUFFIX,etwork.netlara.com
+DOMAIN-SUFFIX,peedtest.nexicom.net
+DOMAIN-SUFFIX,peedtest.noone.co.uk
+DOMAIN-SUFFIX,peedtest.octaplus.uk
+DOMAIN-SUFFIX,peedtest-bursa.olfe.net.tr
+DOMAIN-SUFFIX,peedtestlon.orbital.net
+DOMAIN-SUFFIX,dnspeedtest.rackdog.com
+DOMAIN-SUFFIX,ydspeedtest.rackdog.com
+DOMAIN-SUFFIX,pe01.speedtest.rfchost.com
+DOMAIN-SUFFIX,al-speedtest.net.sangoma.net
+DOMAIN-SUFFIX,ea-speedtest.net.sangoma.net
+DOMAIN-SUFFIX,or-speedtest.net.sangoma.net
+DOMAIN-SUFFIX,etnt1.seed.net.tw
+DOMAIN-SUFFIX,etsz1.seed.net.tw
+DOMAIN-SUFFIX,etyl1.seed.net.tw
+DOMAIN-SUFFIX,etzl1.seed.net.tw
+DOMAIN-SUFFIX,eednet-ty1.seed.net.tw
+DOMAIN-SUFFIX,peedtest.sercomm.com
+DOMAIN-SUFFIX,peedtest01.ber.server.camp
+DOMAIN-SUFFIX,peed4.snap.net.nz
+DOMAIN-SUFFIX,peedtest.spacenet.ru
+DOMAIN-SUFFIX,speedtest.starhub.com
+DOMAIN-SUFFIX,peedtest.ams.t-mobile.nl
+DOMAIN-SUFFIX,peedtest.telerys.net
+DOMAIN-SUFFIX,speedtest.telstra.net
+DOMAIN-SUFFIX,peedtest.teslatel.ru
+DOMAIN-SUFFIX,peedtest.tinp.net.tw
+DOMAIN-SUFFIX,peedtest.tushino.com
+DOMAIN-SUFFIX,peedtest.twds.com.tw
+DOMAIN-SUFFIX,peedtest.twerion.net
+DOMAIN-SUFFIX,peedtest.twincher.ru
+DOMAIN-SUFFIX,peedtest.ams14.usenet.farm
+DOMAIN-SUFFIX,alcon.its.utoronto.ca
+DOMAIN-SUFFIX,rc.verimek.com
+DOMAIN-SUFFIX,p-nperf.verizon.net
+DOMAIN-SUFFIX,us-nperf.verizon.net
+DOMAIN-SUFFIX,gn-nperf.verizon.net
+DOMAIN-SUFFIX,starkh1.vibo.net.tw
+DOMAIN-SUFFIX,tmsk.volga-ix.ru
+DOMAIN-SUFFIX,peedtest.srv-uk01.edge.voltcorp.uk
+DOMAIN-SUFFIX,peedtest-lon06.vorboss.net
+DOMAIN-SUFFIX,peedtestam.vtal.net.br
+DOMAIN-SUFFIX,peedtestap.vtal.net.br
+DOMAIN-SUFFIX,peedtestrr.vtal.net.br
+DOMAIN-SUFFIX,e-bln2-ookla-01.wemacom.net
+DOMAIN-SUFFIX,e-ffm1-ookla-01.wemacom.net
+DOMAIN-SUFFIX,peedtest.westcall.ru
+DOMAIN-SUFFIX,peedtest.wifi.net.tr
+DOMAIN-SUFFIX,wifiman.com
+DOMAIN-SUFFIX,e-speedtest.woks.com.tr
+DOMAIN-SUFFIX,peedtest01.wowrack.com
+DOMAIN-SUFFIX,peedtest.lax01.xfernet.net
+DOMAIN-SUFFIX,elocidade-mns.4wnet.net.br
+DOMAIN-SUFFIX,peedtest.aeza.network
+DOMAIN-SUFFIX,peedtest.amnet.net.br
+DOMAIN-SUFFIX,peedtest.thn.lon.network.as201838.net
+DOMAIN-SUFFIX,peedtest.as210667.net
+DOMAIN-SUFFIX,peedtest.asymptote.cc
+DOMAIN-SUFFIX,p1.atcc-gns.net
+DOMAIN-SUFFIX,p3.atcc-gns.net
+DOMAIN-SUFFIX,p5.atcc-gns.net
+DOMAIN-SUFFIX,p7.atcc-gns.net
+DOMAIN-SUFFIX,peedtest.beyondair.ca
+DOMAIN-SUFFIX,pen.cachefly.net
+DOMAIN-SUFFIX,peedtest.capti.com.au
+DOMAIN-SUFFIX,tcspeedtest.catskill.net
+DOMAIN-SUFFIX,peedtest.clarkson.edu
+DOMAIN-SUFFIX,pd33.claro.com.br
+DOMAIN-SUFFIX,pd49.claro.com.br
+DOMAIN-SUFFIX,iztesti.codit.com.tr
+DOMAIN-SUFFIX,iztesti-ist.codit.com.tr
+DOMAIN-SUFFIX,ookla.ddnsgeek.com
+DOMAIN-SUFFIX,okla.delhitel.net
+DOMAIN-SUFFIX,peedtest-mel0.encoo.com.au
+DOMAIN-SUFFIX,peedtest-syd0.encoo.com.au
+DOMAIN-SUFFIX,peedtest.msk.ertelecom.ru
+DOMAIN-SUFFIX,peedtest.execulink.ca
+DOMAIN-SUFFIX,peed2.fiberlink.pl
+DOMAIN-SUFFIX,speedtest.frontier.com
+DOMAIN-SUFFIX,peedtest5.fybercom.net
+DOMAIN-SUFFIX,a-ookla.geolinks.com
+DOMAIN-SUFFIX,v-ookla.geolinks.com
+DOMAIN-SUFFIX,speedtest.gibir.net.tr
+DOMAIN-SUFFIX,jdm-speedtest.globe.com.ph
+DOMAIN-SUFFIX,peed.golddata.net
+DOMAIN-SUFFIX,peedtest-miami.grupogtd.com
+DOMAIN-SUFFIX,ars-speedtest.guzel.net.tr
+DOMAIN-SUFFIX,peedtest.helpmert.com
+DOMAIN-SUFFIX,peedtest-ist.hostifox.com
+DOMAIN-SUFFIX,peedtest.hostopya.com
+DOMAIN-SUFFIX,peedtest.inet-isp.com
+DOMAIN-SUFFIX,peedtest.syd.infininet.au
+DOMAIN-SUFFIX,peedtest.ixirhost.com
+DOMAIN-SUFFIX,peedtest.eu.kamatera.com
+DOMAIN-SUFFIX,peedtest.eu-lo.kamatera.com
+DOMAIN-SUFFIX,peedtest.us-mi.kamatera.com
+DOMAIN-SUFFIX,peedtest.us-se.kamatera.com
+DOMAIN-SUFFIX,speedtest.seattle.wa.limewave.net
+DOMAIN-SUFFIX,peedtest-1.litfibre.com
+DOMAIN-SUFFIX,1speedtest1.m1net.com.sg
+DOMAIN-SUFFIX,peedtest-ams.melbicom.net
+DOMAIN-SUFFIX,peedtest-fra.melbicom.net
+DOMAIN-SUFFIX,peedtest-lax.melbicom.net
+DOMAIN-SUFFIX,peedtest-msk.melbicom.net
+DOMAIN-SUFFIX,peedtest-sin.melbicom.net
+DOMAIN-SUFFIX,peedtest.micron21.com
+DOMAIN-SUFFIX,peed.navegalo.com
+DOMAIN-SUFFIX,peedtest.hk212.hkg.cn.nerocloud.io
+DOMAIN-SUFFIX,peedtest.netflash.net
+DOMAIN-SUFFIX,peedtest.syd.netsg.net.au
+DOMAIN-SUFFIX,peedtest.dal1.nitelusa.net
+DOMAIN-SUFFIX,peedtest.lax1.nitelusa.net
+DOMAIN-SUFFIX,peedtest.sea1.nitelusa.net
+DOMAIN-SUFFIX,peedtest1.nyc1.nitelusa.net
+DOMAIN-SUFFIX,peedtest.onedc.com.tr
+DOMAIN-SUFFIX,speedtest.ozarksgo.net
+DOMAIN-SUFFIX,peedtest.pingless.com
+DOMAIN-SUFFIX,peedtest.polycomm.net
+DOMAIN-SUFFIX,ostapps.com
+DOMAIN-SUFFIX,peedtest.rrhosting.eu
+DOMAIN-SUFFIX,t1.scaleway.com
+DOMAIN-SUFFIX,ra1speedtest01.skylogic.com
+DOMAIN-SUFFIX,ar1speedtest01.skylogic.com
+DOMAIN-SUFFIX,peedtest.skynetcom.ru
+DOMAIN-SUFFIX,ami.smartone.com
+DOMAIN-SUFFIX,peedtest.snnet.com.br
+DOMAIN-SUFFIX,peedtest-ookla-roc1.synoptek.com
+DOMAIN-SUFFIX,peedtest.taifo.com.tw
+DOMAIN-SUFFIX,peedtest.team-host.ru
+DOMAIN-SUFFIX,peedtest-tek.teksavvy.com
+DOMAIN-SUFFIX,peedtest2-tor.teksavvy.com
+DOMAIN-SUFFIX,peedtest-jp.tgb-host.com
+DOMAIN-SUFFIX,peedtest.three.com.hk
+DOMAIN-SUFFIX,osimhk.datapath.three.com.hk
+DOMAIN-SUFFIX,wifiman.ubncloud.com
+DOMAIN-SUFFIX,assoon-sg-1.violin.co.th
+DOMAIN-SUFFIX,peedtest.wilcasji.com
+DOMAIN-SUFFIX,peedtest.willoweb.net
+DOMAIN-SUFFIX,peedtest-1.london.network.youfibre.com
+DOMAIN-SUFFIX,speedtest.aarnet.net.au
+DOMAIN-SUFFIX,sdvuspeedtest01p.allstream.com
+DOMAIN-SUFFIX,peedtest01.srv.hcvlny.alticeusa.net
+DOMAIN-SUFFIX,peedtest03.srv.whplny.alticeusa.net
+DOMAIN-SUFFIX,rtspeedtest.altimatel.com
+DOMAIN-SUFFIX,okla.asanet.tec.br
+DOMAIN-SUFFIX,okla-ita.asanet.tec.br
+DOMAIN-SUFFIX,p1.asthriona.com
+DOMAIN-SUFFIX,peedtest.london.atharva.co.id
+DOMAIN-SUFFIX,peedtest.singapore.atharva.co.id
+DOMAIN-SUFFIX,peedtest-tor.beanfield.com
+DOMAIN-SUFFIX,p1.burstfire.net
+DOMAIN-SUFFIX,allas1.cabospeed.com
+DOMAIN-SUFFIX,este.cdanet.com.br
+DOMAIN-SUFFIX,peedtest.cdmsfirst.com
+DOMAIN-SUFFIX,ensura.cdn-apple.com
+DOMAIN-SUFFIX,speedtest.clouvider.net
+DOMAIN-SUFFIX,speedtest.comnet.com.tr
+DOMAIN-SUFFIX,peedtest1.mia.fl.us.convergia.net
+DOMAIN-SUFFIX,skeycsit.dyndns-ip.com
+DOMAIN-SUFFIX,peedtest.qld.edgeix.net.au
+DOMAIN-SUFFIX,speedtest.exetel.com.au
+DOMAIN-SUFFIX,t-1.fibrenest.net
+DOMAIN-SUFFIX,peedtest.fixnet.com.tr
+DOMAIN-SUFFIX,fyonspeedtest.fixnet.com.tr
+DOMAIN-SUFFIX,ursaspeedtest.fixnet.com.tr
+DOMAIN-SUFFIX,zmirspeedtest.fixnet.com.tr
+DOMAIN-SUFFIX,stanbulspeedtest.fixnet.com.tr
+DOMAIN-SUFFIX,alikesirspeedtest.fixnet.com.tr
+DOMAIN-SUFFIX,peedtest-la.getonward.com
+DOMAIN-SUFFIX,peedtest1.gigafy.com.au
+DOMAIN-SUFFIX,peedtest.thn.uk.hso-group.net
+DOMAIN-SUFFIX,ns.i-systems.com
+DOMAIN-SUFFIX,peedtest.i4networks.nl
+DOMAIN-SUFFIX,peedtest.inforr.com.br
+DOMAIN-SUFFIX,iztesti.isimkayit.com
+DOMAIN-SUFFIX,peedtest.jbarbieri.net
+DOMAIN-SUFFIX,adoshspeed.kadoshnet.com
+DOMAIN-SUFFIX,peedtest16.lintas.net.id
+DOMAIN-SUFFIX,peed.vm.brs.marcusn.co.uk
+DOMAIN-SUFFIX,ptest2.mgts-spdop.ru
+DOMAIN-SUFFIX,peedtest-sg.napinfo.co.id
+DOMAIN-SUFFIX,tguelph.netcrawler.ca
+DOMAIN-SUFFIX,tlondon.netcrawler.ca
+DOMAIN-SUFFIX,peedtest.netcrawler.ca
+DOMAIN-SUFFIX,tbrampton.netcrawler.ca
+DOMAIN-SUFFIX,thamilton.netcrawler.ca
+DOMAIN-SUFFIX,tmontreal.netcrawler.ca
+DOMAIN-SUFFIX,twaterloo.netcrawler.ca
+DOMAIN-SUFFIX,tetobicoke.netcrawler.ca
+DOMAIN-SUFFIX,tnorthyork.netcrawler.ca
+DOMAIN-SUFFIX,tmississauga.netcrawler.ca
+DOMAIN-SUFFIX,tscarborough.netcrawler.ca
+DOMAIN-SUFFIX,etgearsj.com
+DOMAIN-SUFFIX,peedtest-syr.northland.net
+DOMAIN-SUFFIX,peedtest-utc.northland.net
+DOMAIN-SUFFIX,peedtest.us.openinfra.com
+DOMAIN-SUFFIX,peedgauge2.optonline.net
+DOMAIN-SUFFIX,peedtest-lax.perfectip.net
+DOMAIN-SUFFIX,tcareiro.pplink.net.br
+DOMAIN-SUFFIX,tmanaquiri.pplink.net.br
+DOMAIN-SUFFIX,peedtestde.pvdatanet.com
+DOMAIN-SUFFIX,peedtestus.pvdatanet.com
+DOMAIN-SUFFIX,peedtest.ramtek.net.tr
+DOMAIN-SUFFIX,oshiyomi.ratatoskr.org
+DOMAIN-SUFFIX,peedtest1.net.rochester.edu
+DOMAIN-SUFFIX,speedtest.sbcglobal.net
+DOMAIN-SUFFIX,peedtest.scotnet.co.uk
+DOMAIN-SUFFIX,peed.sdmnet.com.br
+DOMAIN-SUFFIX,peedtest.seaside.ns.ca
+DOMAIN-SUFFIX,okla.la.ca.sharktech.net
+DOMAIN-SUFFIX,peedtest.ams.sharktech.net
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ld-speedtest.spirit.com.au
+DOMAIN-SUFFIX,ic-speedtest.spirit.com.au
+DOMAIN-SUFFIX,allas-st.sumofiber.com
+DOMAIN-SUFFIX,pd01-adl.au.superloop.com
+DOMAIN-SUFFIX,pd01-bne.au.superloop.com
+DOMAIN-SUFFIX,pd01-mel.au.superloop.com
+DOMAIN-SUFFIX,pd02-syd.au.superloop.com
+DOMAIN-SUFFIX,peedtest.surfshark.com
+DOMAIN-SUFFIX,peed1.syseleven.net
+DOMAIN-SUFFIX,ustom.tbcnet.net.tw
+DOMAIN-SUFFIX,zmit-speed.tbtnet.com.tr
+DOMAIN-SUFFIX,peedtest.thryve.com.au
+DOMAIN-SUFFIX,peed-test.ukservers.com
+DOMAIN-SUFFIX,peedtest-lon.veloxserv.net
+DOMAIN-SUFFIX,peedtest.viberlink.net
+DOMAIN-SUFFIX,elocimetro-mns.virtua.com.br
+DOMAIN-SUFFIX,peed-test.westelcom.com
+DOMAIN-SUFFIX,peedtest.astralnode.com
+DOMAIN-SUFFIX,peedtest.baanthaispa.eu
+DOMAIN-SUFFIX,peedtest.baiconnect.com
+DOMAIN-SUFFIX,peedtest.brooketel.coop
+DOMAIN-SUFFIX,on-hex-speedtest.cloudconnx.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,g.cloudhost.asia
+DOMAIN-SUFFIX,peedtest.datafex.com.tr
+DOMAIN-SUFFIX,izaydin.durunet.com.tr
+DOMAIN-SUFFIX,izbursa.durunet.com.tr
+DOMAIN-SUFFIX,izduzce.durunet.com.tr
+DOMAIN-SUFFIX,izizmir.durunet.com.tr
+DOMAIN-SUFFIX,izkutahya.durunet.com.tr
+DOMAIN-SUFFIX,izsakarya.durunet.com.tr
+DOMAIN-SUFFIX,izbalikesir.durunet.com.tr
+DOMAIN-SUFFIX,izistanbul1.durunet.com.tr
+DOMAIN-SUFFIX,peedtest.eminnet.com.tr
+DOMAIN-SUFFIX,peedtest-bne-dn1.empower.net.au
+DOMAIN-SUFFIX,peedtest-mel-dn1.empower.net.au
+DOMAIN-SUFFIX,peedtest-syd-dn1.empower.net.au
+DOMAIN-SUFFIX,g-ams.fdcservers.net
+DOMAIN-SUFFIX,g-fra.fdcservers.net
+DOMAIN-SUFFIX,g-hkg.fdcservers.net
+DOMAIN-SUFFIX,g-lax.fdcservers.net
+DOMAIN-SUFFIX,g-lon.fdcservers.net
+DOMAIN-SUFFIX,g-mia.fdcservers.net
+DOMAIN-SUFFIX,g-nyc.fdcservers.net
+DOMAIN-SUFFIX,g-sea.fdcservers.net
+DOMAIN-SUFFIX,g-sin.fdcservers.net
+DOMAIN-SUFFIX,g-syd.fdcservers.net
+DOMAIN-SUFFIX,g-tok.fdcservers.net
+DOMAIN-SUFFIX,g-tor.fdcservers.net
+DOMAIN-SUFFIX,g-par2.fdcservers.net
+DOMAIN-SUFFIX,peedtest01.fibernetics.ca
+DOMAIN-SUFFIX,okla.fullisp.com.br
+DOMAIN-SUFFIX,peedtest.la2.gigabitnow.com
+DOMAIN-SUFFIX,peed.golddata.co.cr
+DOMAIN-SUFFIX,peed06.gonetspeed.com
+DOMAIN-SUFFIX,peed07.gonetspeed.com
+DOMAIN-SUFFIX,peed08.gonetspeed.com
+DOMAIN-SUFFIX,peed09.gonetspeed.com
+DOMAIN-SUFFIX,peedtest.gosfieldtel.ca
+DOMAIN-SUFFIX,p1.hcetelecom.com
+DOMAIN-SUFFIX,peedtest.dal.hivelocity.net
+DOMAIN-SUFFIX,peedtest.lax.hivelocity.net
+DOMAIN-SUFFIX,peedtest.mia.hivelocity.net
+DOMAIN-SUFFIX,peedtest.nyc.hivelocity.net
+DOMAIN-SUFFIX,peedtest.ams1.hivelocity.net
+DOMAIN-SUFFIX,peedtest.yyz2.hivelocity.net
+DOMAIN-SUFFIX,pd-tr-bursa.hostlayici.net
+DOMAIN-SUFFIX,peedtest-la.hostsailor.com
+DOMAIN-SUFFIX,peedlon.hyperoptic.com
+DOMAIN-SUFFIX,peedtest.intlink.com.br
+DOMAIN-SUFFIX,peedtest.ip-projects.de
+DOMAIN-SUFFIX,peedtest.jvswifi.com.br
+DOMAIN-SUFFIX,peedtest.lamasatpro.com
+DOMAIN-SUFFIX,peedtest-hob.launtel.net.au
+DOMAIN-SUFFIX,peedtest-lton.launtel.net.au
+DOMAIN-SUFFIX,peedtest.ade01.launtel.net.au
+DOMAIN-SUFFIX,peedtest.bri01.launtel.net.au
+DOMAIN-SUFFIX,peedtest.mel01.launtel.net.au
+DOMAIN-SUFFIX,peedtest.syd01.launtel.net.au
+DOMAIN-SUFFIX,speedtest.leaptel.com.au
+DOMAIN-SUFFIX,backend.librespeed.org
+DOMAIN-SUFFIX,peedtest.meerfarbig.net
+DOMAIN-SUFFIX,peedtest.nl3.mirhosting.net
+DOMAIN-SUFFIX,ig-speedtest.moratelindo.io
+DOMAIN-SUFFIX,eloteste.mrjomar.com.br
+DOMAIN-SUFFIX,peedtest.netcalibre.net
+DOMAIN-SUFFIX,1.netfast.com.br
+DOMAIN-SUFFIX,kspeedtest.netvigator.com
+DOMAIN-SUFFIX,peedtest1.nextpertise.nl
+DOMAIN-SUFFIX,okla.opticaltel.com
+DOMAIN-SUFFIX,speedtest.optitel.com.au
+DOMAIN-SUFFIX,peednld.phoenixnap.com
+DOMAIN-SUFFIX,peedsin.phoenixnap.com
+DOMAIN-SUFFIX,peedtest.pilotfiber.com
+DOMAIN-SUFFIX,g.mia.plasmarack.com
+DOMAIN-SUFFIX,p01.rbfibra.net.br
+DOMAIN-SUFFIX,peedtest.redactus.co.uk
+DOMAIN-SUFFIX,peed.rnp-net.com.br
+DOMAIN-SUFFIX,peedtest.sewan-group.de
+DOMAIN-SUFFIX,peedtest.singnet.com.sg
+DOMAIN-SUFFIX,peedtest.solutechzk.com
+DOMAIN-SUFFIX,peedtest01.syd1.spintel.net.au
+DOMAIN-SUFFIX,peed1.spitfireuk.net
+DOMAIN-SUFFIX,peedtest.sugiartana.net
+DOMAIN-SUFFIX,peedtest.sunucum.net.tr
+DOMAIN-SUFFIX,peedtest.sunucun.com.tr
+DOMAIN-SUFFIX,peedtest.swishfibre.com
+DOMAIN-SUFFIX,peedtest-dallas.swyftfiber.com
+DOMAIN-SUFFIX,peedtestlon.telefonica.com
+DOMAIN-SUFFIX,peed.tepenet.com.tr
+DOMAIN-SUFFIX,peedtest-syd.thecore.net.au
+DOMAIN-SUFFIX,al-speedtest.transtelco.net
+DOMAIN-SUFFIX,peedtest.vanciscloud.nl
+DOMAIN-SUFFIX,peedtest.dc3.vmvault.com.au
+DOMAIN-SUFFIX,peedtest-london-east.vodafone.co.uk
+DOMAIN-SUFFIX,speedtest.windstream.net
+DOMAIN-SUFFIX,este.wsfibra.com.br
+DOMAIN-SUFFIX,peedtest.xcdtelecom.com
+DOMAIN-SUFFIX,peedtest.yless4u.com.au
+DOMAIN-SUFFIX,peedtest.airfiber.com.tr
+DOMAIN-SUFFIX,peedtest.airlink.network
+DOMAIN-SUFFIX,peedtest.bursabil.com.tr
+DOMAIN-SUFFIX,speedtest.centurylink.net
+DOMAIN-SUFFIX,peedtest.hk.chinamobile.com
+DOMAIN-SUFFIX,peedtestbb.hk.chinamobile.com
+DOMAIN-SUFFIX,speedtest.cmcnetworks.net
+DOMAIN-SUFFIX,peedtestookla.datahost.net.tr
+DOMAIN-SUFFIX,auseq4vost1.datamossa.cloud
+DOMAIN-SUFFIX,peedtest.dongfong.com.tw
+DOMAIN-SUFFIX,peedtest.fra.ewgmedianet.com
+DOMAIN-SUFFIX,pd.fibranet.srv.br
+DOMAIN-SUFFIX,peedtest-nxtb2.fsg-hosting.com
+DOMAIN-SUFFIX,peedtest-nxts1.fsg-hosting.com
+DOMAIN-SUFFIX,peedtest-eqxae1.fsg-hosting.com
+DOMAIN-SUFFIX,peedtestmia.gethotwired.com
+DOMAIN-SUFFIX,peed-mel.gigacomm.net.au
+DOMAIN-SUFFIX,peed-syd.gigacomm.net.au
+DOMAIN-SUFFIX,speed.googlefiber.net
+DOMAIN-SUFFIX,speedtest.gslnetworks.com
+DOMAIN-SUFFIX,iztesti.hiperbox.com.tr
+DOMAIN-SUFFIX,sl.hkspeedtest.com
+DOMAIN-SUFFIX,kt.hkspeedtest.com
+DOMAIN-SUFFIX,010.hkspeedtest.com
+DOMAIN-SUFFIX,unmobile.hkspeedtest.com
+DOMAIN-SUFFIX,d-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,h-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,s-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,c-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,n-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,p-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,d-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,tp-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,ky-speedtest.homeplus.net.tw
+DOMAIN-SUFFIX,peedtest-nl.hyperfilter.com
+DOMAIN-SUFFIX,este.ihgfibra.net.br
+DOMAIN-SUFFIX,peedtest.jetspeed.com.br
+DOMAIN-SUFFIX,este.jsnet.manaus.br
+DOMAIN-SUFFIX,peedtest.kapteyan.com.tr
+DOMAIN-SUFFIX,e-fra2-lg1.level66.network
+DOMAIN-SUFFIX,peedtest.linkamos.com.br
+DOMAIN-SUFFIX,ontsouris3.d2m.c2d.liveservices.fr
+DOMAIN-SUFFIX,peed.lodosnet.com.tr
+DOMAIN-SUFFIX,peedtest.lodosnet.com.tr
+DOMAIN-SUFFIX,p1.logicpro.com.br
+DOMAIN-SUFFIX,peed.mpvnetworks.com
+DOMAIN-SUFFIX,tizmir.netspeed.net.tr
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,peedtest-adl.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-bla.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-bri.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-ebw.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-syd.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-darwin-nt.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-townsville-qld.optusnet.com.au
+DOMAIN-SUFFIX,peedtest-limestonecoast-sa.optusnet.com.au
+DOMAIN-SUFFIX,peedtest.orixinet.com.br
+DOMAIN-SUFFIX,peedtest.packetworks.net
+DOMAIN-SUFFIX,peedtest.portalnt.com.br
+DOMAIN-SUFFIX,oklaspeedtest-cdb.quebeccloud.com
+DOMAIN-SUFFIX,peedtest-obd.redeconecta.com
+DOMAIN-SUFFIX,peedtest.rekornet.com.tr
+DOMAIN-SUFFIX,peed.lax-1.serverforge.org
+DOMAIN-SUFFIX,peedtest.softether.co.jp
+DOMAIN-SUFFIX,speednet.net.tr
+DOMAIN-SUFFIX,peedtest.springfibre.com
+DOMAIN-SUFFIX,peedtest-tdc3.tasmanet.com.au
+DOMAIN-SUFFIX,peedtest.teknosos.com.tr
+DOMAIN-SUFFIX,peedtestnyc.telebermuda.com
+DOMAIN-SUFFIX,peedtest.telecablecr.com
+DOMAIN-SUFFIX,peedtest.ufinetlatam.net
+DOMAIN-SUFFIX,peedtest.uplinkrr.com.br
+DOMAIN-SUFFIX,peedtest.vareshcloud.com
+DOMAIN-SUFFIX,zmir.verinomidns.com
+DOMAIN-SUFFIX,stanbul.verinomidns.com
+DOMAIN-SUFFIX,speedtest.vodafone.com.au
+DOMAIN-SUFFIX,peedtest3.vodafone.com.tr
+DOMAIN-SUFFIX,peedtest2.voicehost.co.uk
+DOMAIN-SUFFIX,peedtest.webdiscount.net
+DOMAIN-SUFFIX,peedtest.wifitelekom.com
+DOMAIN-SUFFIX,peed.xpandtec.com.br
+DOMAIN-SUFFIX,peedtest.yesilnet.com.tr
+DOMAIN-SUFFIX,peedtest-lax.advinservers.com
+DOMAIN-SUFFIX,peed.amazonett.com.br
+DOMAIN-SUFFIX,peedtest.archtopfiber.com
+DOMAIN-SUFFIX,peedtest.axclusive.com.sg
+DOMAIN-SUFFIX,iaspeedtest.blackburn-pr.com
+DOMAIN-SUFFIX,peedtest.bouwhuis.network
+DOMAIN-SUFFIX,peedtest.brightstar.cloud
+DOMAIN-SUFFIX,peednet.brsserver.com.br
+DOMAIN-SUFFIX,p1.campanaworks.com
+DOMAIN-SUFFIX,peedtest.cyberline.com.br
+DOMAIN-SUFFIX,peedtest.cyberlink.net.br
+DOMAIN-SUFFIX,peedtestuk1.cybersmart.co.za
+DOMAIN-SUFFIX,steste.dstelecom.net.br
+DOMAIN-SUFFIX,peedtest.embrasnet.com.br
+DOMAIN-SUFFIX,peedtest.empireaccess.com
+DOMAIN-SUFFIX,elocimetro.esolution.srv.br
+DOMAIN-SUFFIX,elocidad.fiberlink.com.pa
+DOMAIN-SUFFIX,peedtest.fiberlink.com.pe
+DOMAIN-SUFFIX,peedtest.fiberlink.net.ua
+DOMAIN-SUFFIX,peedtest1.flashwifi.com.br
+DOMAIN-SUFFIX,peedtest.global-layer.com
+DOMAIN-SUFFIX,peedtest.singapore.globalxtreme.net
+DOMAIN-SUFFIX,elocimetro.govistabr.com.br
+DOMAIN-SUFFIX,peedtestldn.grainconnect.com
+DOMAIN-SUFFIX,tdal.highlinefast.com
+DOMAIN-SUFFIX,hizinitestet.com
+DOMAIN-SUFFIX,a-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,iami-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,ondon-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,oscow-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,ewyork-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,oronto-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,msterdam-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,rankfurt-speedtest-1.hostingswift.com
+DOMAIN-SUFFIX,peedtest.lightsource1.com
+DOMAIN-SUFFIX,peedtest.markahost.com.tr
+DOMAIN-SUFFIX,p.merkurnet.com.tr
+DOMAIN-SUFFIX,iami-speedtest.reliablesite.net
+DOMAIN-SUFFIX,os-angeles-speedtest.reliablesite.net
+DOMAIN-SUFFIX,este.routinger.com.br
+DOMAIN-SUFFIX,peedtest.routinger.com.br
+DOMAIN-SUFFIX,peedtest.rvconnect.com.br
+DOMAIN-SUFFIX,peedtest3.rvconnect.com.br
+DOMAIN-SUFFIX,peedtest.serverpronto.com
+DOMAIN-SUFFIX,ervidor.speedplay.com.br
+DOMAIN-SUFFIX,speedtest.com.sg
+DOMAIN-SUFFIX,speedtest.idv.tw
+DOMAIN-SUFFIX,peedtest.syscom.manaus.br
+DOMAIN-SUFFIX,peedtest1.taipeinet.com.tw
+DOMAIN-SUFFIX,ptch2.taiwanmobile.com
+DOMAIN-SUFFIX,ptcy2.taiwanmobile.com
+DOMAIN-SUFFIX,ptdad.taiwanmobile.com
+DOMAIN-SUFFIX,ptdl2.taiwanmobile.com
+DOMAIN-SUFFIX,pthc1.taiwanmobile.com
+DOMAIN-SUFFIX,pthl1.taiwanmobile.com
+DOMAIN-SUFFIX,ptkh1.taiwanmobile.com
+DOMAIN-SUFFIX,ptkh2.taiwanmobile.com
+DOMAIN-SUFFIX,pttc2.taiwanmobile.com
+DOMAIN-SUFFIX,pttn2.taiwanmobile.com
+DOMAIN-SUFFIX,pttp1.taiwanmobile.com
+DOMAIN-SUFFIX,ptty1.taiwanmobile.com
+DOMAIN-SUFFIX,petstmns01.timbrasil.com.br
+DOMAIN-SUFFIX,b-speedtest-1.twmbroadband.net
+DOMAIN-SUFFIX,peedtest.velosonet.com.br
+DOMAIN-SUFFIX,peedtest.viberlink.net.id
+DOMAIN-SUFFIX,peedtest-ldn.voxtelecom.co.za
+DOMAIN-SUFFIX,este.xtremenet.com.br
+DOMAIN-SUFFIX,peedtest-ad-1.zoominternet.net
+DOMAIN-SUFFIX,peedtest-rd-1.zoominternet.net
+DOMAIN-SUFFIX,peedtest.asimonetworks.com
+DOMAIN-SUFFIX,l.blackhost.network
+DOMAIN-SUFFIX,peed.ccspublichost.com
+DOMAIN-SUFFIX,peedtest.cenosnetworks.net
+DOMAIN-SUFFIX,peedtest.connectbv8.com.br
+DOMAIN-SUFFIX,peedtest.creolineserver.de
+DOMAIN-SUFFIX,peedtest.csmtelecom.net.br
+DOMAIN-SUFFIX,este.diotelecom.com.br
+DOMAIN-SUFFIX,peedtest-dfw.dish-wireless.com
+DOMAIN-SUFFIX,peedtest-lax.dish-wireless.com
+DOMAIN-SUFFIX,peedtest-mia.dish-wireless.com
+DOMAIN-SUFFIX,peedtest-nyc.dish-wireless.com
+DOMAIN-SUFFIX,peedtest-sea.dish-wireless.com
+DOMAIN-SUFFIX,peedtest-sjc.dish-wireless.com
+DOMAIN-SUFFIX,rvteste.edntelecom.net.br
+DOMAIN-SUFFIX,elocidade.exytelecom.com.br
+DOMAIN-SUFFIX,pd-01.thn.fullfibre.systems
+DOMAIN-SUFFIX,peedtest.fra01.fusionflare.cloud
+DOMAIN-SUFFIX,este.mwhtelecom.com.br
+DOMAIN-SUFFIX,peedtest.myrepublic.com.sg
+DOMAIN-SUFFIX,edidor.nortelecom.com.br
+DOMAIN-SUFFIX,elocimetro.proveinter.com.br
+DOMAIN-SUFFIX,este.reatelecom.com.br
+DOMAIN-SUFFIX,peedtest.roraimanet.com.br
+DOMAIN-SUFFIX,este.speednetpa.net.br
+DOMAIN-SUFFIX,okla-speedtest.starverse.network
+DOMAIN-SUFFIX,kthspeedtest02.telstraglobal.net
+DOMAIN-SUFFIX,peed01.tresteknoloji.com
+DOMAIN-SUFFIX,peedtest.unitelecom.net.br
+DOMAIN-SUFFIX,elocidade.vlctelecom.com.br
+DOMAIN-SUFFIX,speedtest.angolacables.co.ao
+DOMAIN-SUFFIX,peedtest1.atlantisnet.com.tr
+DOMAIN-SUFFIX,peedtest.auratelecom.com.br
+DOMAIN-SUFFIX,peedtest.boxbroadband.co.uk
+DOMAIN-SUFFIX,peedtest2.comvergence.com.au
+DOMAIN-SUFFIX,test.gslnetworks.com.au
+DOMAIN-SUFFIX,speedtest.gslnetworks.com.au
+DOMAIN-SUFFIX,peedtest1.indosatooredoo.com
+DOMAIN-SUFFIX,peedtest.internetbolaget.nu
+DOMAIN-SUFFIX,peedtest.linkbroadbands.com
+DOMAIN-SUFFIX,este.linkonfibra.com.br
+DOMAIN-SUFFIX,measurementlab.net
+DOMAIN-SUFFIX,peedtest.newberlinfiber.net
+DOMAIN-SUFFIX,oklatins.redeconexaonet.com
+DOMAIN-SUFFIX,peedtest.redrawinternet.com
+DOMAIN-SUFFIX,elocidade.softtelecom.net.br
+DOMAIN-SUFFIX,speedtestkorea.com
+DOMAIN-SUFFIX,peedtest.systemlifeline.com
+DOMAIN-SUFFIX,er.wsqm.telekom-dienste.de
+DOMAIN-SUFFIX,fm.wsqm.telekom-dienste.de
+DOMAIN-SUFFIX,kconnectrr.com.br
+DOMAIN-SUFFIX,ur1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,sk1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,ay1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,eb1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,un1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,mr1speedtest.turktelekom.com.tr
+DOMAIN-SUFFIX,peedtest.unlimitedfiber.com
+DOMAIN-SUFFIX,peedtest.upwirefibra.com.br
+DOMAIN-SUFFIX,peedtest.voip-unlimited.net
+DOMAIN-SUFFIX,este.wificonnect.com.br
+DOMAIN-SUFFIX,elocimetro.wiretelecom.com.br
+DOMAIN-SUFFIX,peedtest03.bluestreamfiber.net
+DOMAIN-SUFFIX,okla-london.briantbroadband.com
+DOMAIN-SUFFIX,elocimetro.fibernetwork.com.br
+DOMAIN-SUFFIX,ast-speedtest.frontiernetworks.ca
+DOMAIN-SUFFIX,elocimetro.infinitemais.com.br
+DOMAIN-SUFFIX,measurement-lab.org
+DOMAIN-SUFFIX,peedtest.naturalwireless.com
+DOMAIN-SUFFIX,peedtest2.pacificinternet.com
+DOMAIN-SUFFIX,peedtest.satanhosting.com.tr
+DOMAIN-SUFFIX,ia01.screenshot.download
+DOMAIN-SUFFIX,yc01.screenshot.download
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-SUFFIX,t-atakoy-1.turksatkablo.com.tr
+DOMAIN-SUFFIX,t-manisa-1.turksatkablo.com.tr
+DOMAIN-SUFFIX,t-yalova-1.turksatkablo.com.tr
+DOMAIN-SUFFIX,t-balikesir-1.turksatkablo.com.tr
+DOMAIN-SUFFIX,peedtest.turnkeyinternet.net
+DOMAIN-SUFFIX,test.ultraconnect.com.br
+DOMAIN-SUFFIX,okla.araujotelecom.com.br
+DOMAIN-SUFFIX,peedtest-us.chainlinkhosting.com
+DOMAIN-SUFFIX,peedtest-aus.chainlinkhosting.com
+DOMAIN-SUFFIX,peedtest-ger.chainlinkhosting.com
+DOMAIN-SUFFIX,iami.getstreamhosting.com
+DOMAIN-SUFFIX,msterdam.getstreamhosting.com
+DOMAIN-SUFFIX,peedtest.getstreamhosting.com
+DOMAIN-SUFFIX,elocidade.idnetttelecom.com.br
+DOMAIN-SUFFIX,peedtest.infowayconect.com.br
+DOMAIN-SUFFIX,peedtest-sydney.macquarietelecom.com
+DOMAIN-SUFFIX,peedtest-brisbane.macquarietelecom.com
+DOMAIN-SUFFIX,peedtest-melbourne.macquarietelecom.com
+DOMAIN-SUFFIX,t2.octopustelecom.co.uk
+DOMAIN-SUFFIX,e.prismanetworks.cloud
+DOMAIN-SUFFIX,peedtest.seveninternet.com.br
+DOMAIN-SUFFIX,elocimetro.speednetworks.com.br
+DOMAIN-SUFFIX,speedtestwnet.com.br
+DOMAIN-SUFFIX,peed-server3.summit-broadband.com
+DOMAIN-SUFFIX,untechspeedtest.com
+DOMAIN-SUFFIX,este.suprainternet.com.br
+DOMAIN-SUFFIX,este.tstelecomltda.com.br
+DOMAIN-SUFFIX,peedtest.visiontelecom.com.br
+DOMAIN-SUFFIX,elocidade.conectstelecom.com.br
+DOMAIN-SUFFIX,este.ddlsuprimentos.com.br
+DOMAIN-SUFFIX,peedtest.mirror.digitalpacific.com.au
+DOMAIN-SUFFIX,peedtest.mirror.mel1.digitalpacific.com.au
+DOMAIN-SUFFIX,este.freedomnetwork.net.br
+DOMAIN-SUFFIX,peedtest.hostingturkiye.com.tr
+DOMAIN-SUFFIX,t2.barquisimeto.intercomservicios.com
+DOMAIN-SUFFIX,peedtest.japanettelecom.com.br
+DOMAIN-SUFFIX,t.jnettelecom-am.com.br
+DOMAIN-SUFFIX,peedtest2.lightningfibre.net.uk
+DOMAIN-SUFFIX,este.newsolutionnet.com.br
+DOMAIN-SUFFIX,peedteste.newsolutionnet.com.br
+DOMAIN-SUFFIX,peedtest.absolutevalidation.com
+DOMAIN-SUFFIX,peedtest.sea.accretive-networks.net
+DOMAIN-SUFFIX,peedtest.albatroznetwork.com.br
+DOMAIN-SUFFIX,okla-itacoatiara.amazoniasat-isp.com.br
+DOMAIN-SUFFIX,elocidade.amazoniatelecom.com.br
+DOMAIN-SUFFIX,peed.ade.aussiebroadband.com.au
+DOMAIN-SUFFIX,peed.bne.aussiebroadband.com.au
+DOMAIN-SUFFIX,peed.mel.aussiebroadband.com.au
+DOMAIN-SUFFIX,peed.syd.aussiebroadband.com.au
+DOMAIN-SUFFIX,peedtest.cerberusnetworks.co.uk
+DOMAIN-SUFFIX,peedtest.conecta-soluciones.com
+DOMAIN-SUFFIX,peedtest.conectaamazonia.com.br
+DOMAIN-SUFFIX,peedtest.greenlightnetworks.com
+DOMAIN-SUFFIX,peedtest-albany.greenlightnetworks.com
+DOMAIN-SUFFIX,peedtest-buffalo.greenlightnetworks.com
+DOMAIN-SUFFIX,peedtest-binghamton.greenlightnetworks.com
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN-SUFFIX,peed.newclicktelecom.com.br
+DOMAIN-SUFFIX,okla.playmaisreverso.net.br
+DOMAIN-SUFFIX,speedtestunonet.com.br
+DOMAIN-SUFFIX,peedtest.webfibertelecom.com.br
+DOMAIN-SUFFIX,peedtest-tesa.coelhotecnologia.com.br
+DOMAIN-SUFFIX,elocidade.impertechtelecom.com.br
+DOMAIN-SUFFIX,linknetspeedtest.net.br
+DOMAIN-SUFFIX,peedtest.mirror.serversaustralia.com.au
+DOMAIN-SUFFIX,peedtest.globalfiberbrasil.com.br
+DOMAIN-SUFFIX,este.mundialnettelecom.com.br
+DOMAIN-SUFFIX,est.infoconnecttelecom.com.br
+DOMAIN-SUFFIX,okla.jgainterlinktelecom.com.br
+DOMAIN-SUFFIX,erviciospablomella3.com.do
