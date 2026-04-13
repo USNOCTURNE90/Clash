@@ -1,125 +1,127 @@
-# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
-# 从Clash自动同步
+# 最后更新时间: 2026-04-14 02:52:25 (北京时间)
+# 从Surge自动同步
 # 原始文件: Financial
-DOMAIN-SUFFIX,alipay-corp.com
-DOMAIN-SUFFIX,alipay-eco.com
-DOMAIN-SUFFIX,alipay-inc.com
-DOMAIN-SUFFIX,alipay-traffic.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipay.hk
-DOMAIN-SUFFIX,alipay.net
-DOMAIN-SUFFIX,alipaydesign.com
-DOMAIN-SUFFIX,alipaydev.com
-DOMAIN-SUFFIX,alipaydns.com
-DOMAIN-SUFFIX,alipayeshop.com
-DOMAIN-SUFFIX,alipaylog.com
-DOMAIN-SUFFIX,alipaymo.com
-DOMAIN-SUFFIX,alipayobjects.com
-DOMAIN-SUFFIX,alipayplus.com
-DOMAIN-SUFFIX,luohanacademy.com
-DOMAIN-SUFFIX,1306379396.file.myqcloud.com
-DOMAIN-SUFFIX,usmartsg.com
-IP-CIDR,47.242.186.255/32
-DOMAIN-SUFFIX,openbb.co
-DOMAIN-SUFFIX,scorecardresearch.com
-DOMAIN-SUFFIX,guce.oath.com
-DOMAIN-SUFFIX,mobile-gw.spot.im
-DOMAIN-SUFFIX,obi.aol.com
-DOMAIN-SUFFIX,zaip-aic.za.group
-DOMAIN-SUFFIX,integrate-appgw.zajourney.com
-DOMAIN-SUFFIX,testcdn.zaticdn.com
-DOMAIN-SUFFIX,appmon-prd.zajourney.com
-DOMAIN-SUFFIX,cdn.zaticdn.com
-DOMAIN-SUFFIX,bankappgw.za.group
-DOMAIN-SUFFIX,aim-abtesting-sdk.za.group
-DOMAIN-SUFFIX,bankappgw.za.group
-DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
-DOMAIN-SUFFIX,appguard.za.group
-DOMAIN-SUFFIX,optionstrat.com
-DOMAIN-SUFFIX,trade-hk.osl.com
-DOMAIN-KEYWORD,osl
-DOMAIN-SUFFIX,accountopen.victorysec.com.hk
-DOMAIN-KEYWORD,rwbkr
-DOMAIN-SUFFIX,rwbkr.com
-DOMAIN-SUFFIX,lbkrs.com
-DOMAIN-SUFFIX,longbridge.com
-DOMAIN-SUFFIX,longportapp.com
-IP-CIDR,18.163.178.98/32
-DOMAIN-SUFFIX,tradingview.com
-DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,schwabinstitutional.com
-DOMAIN-SUFFIX,schwaballiance.com
-DOMAIN-SUFFIX,schwabbank.com
-DOMAIN-SUFFIX,schwabplan.com
-DOMAIN-SUFFIX,schwabrt.com
-DOMAIN-SUFFIX,schwabsavings.com
-DOMAIN-SUFFIX,schwabmoneywise.com
-DOMAIN-SUFFIX,aboutschwab.com
-DOMAIN-SUFFIX,schwab-global.com
-DOMAIN-SUFFIX,schwabcharitable.org
-DOMAIN-SUFFIX,schwabfunds.com
-DOMAIN-SUFFIX,schwabetf.com
-DOMAIN-SUFFIX,optionsxpress.com
-DOMAIN-SUFFIX,tdameritrade.com
-DOMAIN-SUFFIX,ameritrade.com
-DOMAIN-KEYWORD,schwab
-DOMAIN-KEYWORD,brokerage
-DOMAIN-KEYWORD,investing
-DOMAIN-KEYWORD,trading
-DOMAIN-SUFFIX,ifaa.org.cn
-DOMAIN-SUFFIX,luohanacademy.com
-DOMAIN-SUFFIX,sinopayment.com.cn
-DOMAIN-SUFFIX,ocsp.digicert.com
-DOMAIN-SUFFIX,c.go-mpulse.net
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,ibroker.com
-DOMAIN-SUFFIX,ib-api.com
-DOMAIN-SUFFIX,ibgapi.com
-DOMAIN-SUFFIX,ibkraml.com
-DOMAIN-SUFFIX,interactivebrokers.*
-DOMAIN-SUFFIX,ibkrmobile.com
-DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,ibroker.*
-DOMAIN-SUFFIX,ibbroker.*
-IP-CIDR,104.20.8.0/22
-IP-CIDR,169.62.208.0/20
-IP-CIDR,207.228.232.0/24
-PROCESS-NAME,ibkr-desktop
-PROCESS-NAME,ibkr-mobile
-PROCESS-NAME,ibkr-api
-PROCESS-NAME,ib-trader-workstation
-PROCESS-NAME,ibkr-pro
-PROCESS-NAME,ib-mobile
-PROCESS-NAME,ibgateway
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,yimg.com
-DOMAIN-SUFFIX,yahooapis.com
-DOMAIN-SUFFIX,hsbc.com
-DOMAIN-SUFFIX,hsbc.co.uk
-DOMAIN-SUFFIX,hsbcnet.com
-DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-SUFFIX,hsbc.ca
-DOMAIN-SUFFIX,hsbc.com.sg
-DOMAIN-SUFFIX,hsbc.com.au
-DOMAIN-SUFFIX,hsbc.co.in
-DOMAIN-SUFFIX,hsbc.fr
-DOMAIN-SUFFIX,hsbc.de
-DOMAIN-SUFFIX,hsbc.com.mx
-DOMAIN-SUFFIX,sy.msghist.liveperson.net
-DOMAIN-SUFFIX,lpsnmedia.net
-DOMAIN-SUFFIX,liveperson.net
-DOMAIN-SUFFIX,we-stats.com
-DOMAIN-SUFFIX,tealiumiq.com
-DOMAIN-SUFFIX,messaging.prod.ap-east-1.vam-hk.cloud1.vv1865.com
-DOMAIN-SUFFIX,match.adsrvr.org
-DOMAIN-SUFFIX,optimizely.com
-DOMAIN-SUFFIX,akamai.tiqcdn.com
-DOMAIN-SUFFIX,online-metrix.net
-DOMAIN-SUFFIX,cdn-fastly.obsproject.com
-DOMAIN-SUFFIX,ingest.contribute.live-video.net
-DOMAIN-SUFFIX,o.ss2.us
-DOMAIN-SUFFIX,obsproject.com
-DOMAIN-SUFFIX,store.steampowered.com
-DOMAIN-SUFFIX,yahooapis.com
-DOMAIN-SUFFIX,yimg.com
+rules:
+  - rules:
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-corp.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-eco.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-inc.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-traffic.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.hk
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydesign.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydev.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydns.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayeshop.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaymo.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayplus.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,luohanacademy.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,1306379396.file.myqcloud.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,usmartsg.com
+  - DOMAIN-SUFFIX,- IP-CIDR,47.242.186.255/32
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,openbb.co
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,guce.oath.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,mobile-gw.spot.im
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,obi.aol.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,zaip-aic.za.group
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,integrate-appgw.zajourney.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,testcdn.zaticdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,appmon-prd.zajourney.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cdn.zaticdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bankappgw.za.group
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,aim-abtesting-sdk.za.group
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bankappgw.za.group
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,appguard.za.group
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,optionstrat.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,trade-hk.osl.com
+  - - DOMAIN-KEYWORD,osl
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,accountopen.victorysec.com.hk
+  - - DOMAIN-KEYWORD,rwbkr
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rwbkr.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,longportapp.com
+  - DOMAIN-SUFFIX,- IP-CIDR,18.163.178.98/32
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tradingview.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabinstitutional.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwaballiance.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabbank.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabplan.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabrt.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabsavings.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabmoneywise.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,aboutschwab.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwab-global.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabcharitable.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabfunds.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,schwabetf.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,optionsxpress.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tdameritrade.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ameritrade.com
+  - - DOMAIN-KEYWORD,schwab
+  - - DOMAIN-KEYWORD,brokerage
+  - - DOMAIN-KEYWORD,investing
+  - - DOMAIN-KEYWORD,trading
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ifaa.org.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,luohanacademy.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,sinopayment.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ocsp.digicert.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,c.go-mpulse.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibroker.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ib-api.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibgapi.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibkraml.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,interactivebrokers.*
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibkrmobile.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibroker.*
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibbroker.*
+  - DOMAIN-SUFFIX,- IP-CIDR,104.20.8.0/22
+  - DOMAIN-SUFFIX,- IP-CIDR,169.62.208.0/20
+  - DOMAIN-SUFFIX,- IP-CIDR,207.228.232.0/24
+  - - PROCESS-NAME,ibkr-desktop
+  - - PROCESS-NAME,ibkr-mobile
+  - - PROCESS-NAME,ibkr-api
+  - - PROCESS-NAME,ib-trader-workstation
+  - - PROCESS-NAME,ibkr-pro
+  - - PROCESS-NAME,ib-mobile
+  - - PROCESS-NAME,ibgateway
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,yimg.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,yahooapis.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.co.uk
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbcnet.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.ca
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.com.sg
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.com.au
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.co.in
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.fr
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.de
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hsbc.com.mx
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,sy.msghist.liveperson.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,lpsnmedia.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,we-stats.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tealiumiq.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,messaging.prod.ap-east-1.vam-hk.cloud1.vv1865.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,match.adsrvr.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,optimizely.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,akamai.tiqcdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,online-metrix.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cdn-fastly.obsproject.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ingest.contribute.live-video.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,o.ss2.us
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,obsproject.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,yahooapis.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,yimg.com

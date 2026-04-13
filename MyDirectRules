@@ -1,170 +1,171 @@
-# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
-# 从Clash自动同步
+# 最后更新时间: 2026-04-14 02:52:25 (北京时间)
+# 从Surge自动同步
 # 原始文件: MyDirectRules
-IP-CIDR,9.9.9.9/32
-IP-CIDR,155.102.175.142/32
-IP-CIDR,155.102.181.182/32
-IP-CIDR,163.181.35.204/32
-IP-CIDR,219.76.20.224/32
-DOMAIN-SUFFIX,uc.cmd
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,mhitpoker.com
-DOMAIN-SUFFIX,unity3d.com
-IP-CIDR,192.168.0.0/16
-IP-CIDR,10.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,127.0.0.0/8
-IP-CIDR,169.254.0.0/16
-IP-CIDR6,fe80::/10
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,edge-076.xasha1.icloud-content.com.cn
-DOMAIN-KEYWORD,office
-DOMAIN-KEYWORD,skype
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,live.net
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,gfx.ms
-DOMAIN-SUFFIX,svc.ms
-DOMAIN-SUFFIX,azurewebsites.net
-DOMAIN-SUFFIX,dynamics.com
-DOMAIN-SUFFIX,s-microsoft.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,azure-api.net
-DOMAIN-SUFFIX,azure.cn
-DOMAIN-SUFFIX,azurefd.net
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,microsoftapp.net
-DOMAIN-SUFFIX,microsoft.net
-DOMAIN-SUFFIX,microsoftedge.com
-DOMAIN-SUFFIX,microsoftonline-p.cn
-DOMAIN-SUFFIX,microsoftonline.cn
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,windows.com.cn
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,msftauth.cn
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,msn.cn
-DOMAIN-SUFFIX,storage.msn.com
-DOMAIN-SUFFIX,bingapis.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.cn
-DOMAIN-SUFFIX,bing.com.cn
-DOMAIN-SUFFIX,s.rsg.sc
-DOMAIN-SUFFIX,rockstargames.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,store.steampowered.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,xboxab.com
-DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
-DOMAIN-SUFFIX,api.lolesports.com
-DOMAIN-SUFFIX,wegame.com.cn
-DOMAIN-SUFFIX,catalog.gamepass.com
-DOMAIN-SUFFIX,xbox.com.cn
-DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xboxlive.cn
-DOMAIN-SUFFIX,xboxlive.com
-DOMAIN-SUFFIX,xboxservices.com
-PROCESS-NAME,Battle.net.exe
-PROCESS-NAME,Wow.exe
-PROCESS-NAME,PlatformWebBrowser.exe
-PROCESS-NAME,LeagueClient.exe
-PROCESS-NAME,SC2_x64.exe
-DOMAIN-KEYWORD,tencent
-DOMAIN-KEYWORD,mxdl
-DOMAIN-SUFFIX,shuidichou.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,dl.istoreos.com
-DOMAIN-SUFFIX,zjcdn.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,bytegecko.com
-DOMAIN-SUFFIX,api.doupay.com
-DOMAIN-SUFFIX,ecombdapi.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,bblmw.com
-DOMAIN-SUFFIX,iam.e-govt.cn
-DOMAIN-SUFFIX,fujian.gov.cn
-DOMAIN-SUFFIX,ibllc.com.cn
-DOMAIN-SUFFIX,doh.pub
-DOMAIN-SUFFIX,ap-shanghai.myqcloud.com
-DOMAIN-SUFFIX,qtreport.qq.com
-DOMAIN-SUFFIX,report.url.cn
-DOMAIN-SUFFIX,status-ipv6.jpush.cn
-DOMAIN-SUFFIX,micode.cn
-DOMAIN-SUFFIX,micode.net
-DOMAIN-SUFFIX,stun.voipstunt.com
-DOMAIN-SUFFIX,stun.voiparound.com
-DOMAIN-SUFFIX,cdn.primehelix.co
-DOMAIN-SUFFIX,autodesk.com
-DOMAIN-SUFFIX,developer.api.autodesk.com
-DOMAIN-SUFFIX,dn2r0q8ek3r7o.cloudfront.net
-DOMAIN-SUFFIX,fcdc6d61a.yrpfkl.xyz
-DOMAIN-SUFFIX,bambu-lab.com
-DOMAIN-SUFFIX,gstore.val.manlaxy.com
-DOMAIN-SUFFIX,st.dl.eccdnx.com
-DOMAIN-SUFFIX,dl.steam.clngaa.com
-DOMAIN-SUFFIX,xz.pphimalayanrt.com
-DOMAIN-SUFFIX,ocsp.comodoca.com
-DOMAIN-SUFFIX,fonts.ne
-DOMAIN-SUFFIX,bazaarvoice.com
-DOMAIN-SUFFIX,static-ecst.licdn.com
-DOMAIN-SUFFIX,amazontrust.com
-DOMAIN-SUFFIX,ghproxy.ne
-DOMAIN-SUFFIX,splashtop.com
-DOMAIN-SUFFIX,some.url
-DOMAIN-SUFFIX,crl3.digicert.com
-DOMAIN-SUFFIX,ocsp.sectigo.com
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,ocsp.usertrust.com
-DOMAIN-SUFFIX,updates.a-volute.com
-DOMAIN-SUFFIX,steelseries.com
-DOMAIN-SUFFIX,sb.scorecardresearch.com
-DOMAIN-SUFFIX,logitech.io
-DOMAIN-SUFFIX,mapbox.com
-DOMAIN-SUFFIX,api.lbctrl.com
-DOMAIN-SUFFIX,event-tracking.lbctrl.com
-DOMAIN-SUFFIX,lbkrs.com
-DOMAIN-SUFFIX,nvidia.com
-DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
-DOMAIN-SUFFIX,x1.c.lencr.org
-DOMAIN-SUFFIX,api.wsgw-rewrite.com
-DOMAIN-SUFFIX,assets.immersivetranslate.cn
-DOMAIN-SUFFIX,asus.com
-DOMAIN-SUFFIX,asusrouter.com
-DOMAIN-SUFFIX,assoc-amazon.cn
-DOMAIN-SUFFIX,asuscomm.com
-IP-ASN,714
-IP-ASN,6185
-IP-CIDR,163.181.77.215/32
-IP-CIDR,163.181.77.216/32
-IP-CIDR,163.181.77.220/32
-IP-CIDR,163.181.77.221/32
-IP-CIDR,163.181.35.186/32
-IP-CIDR,163.181.35.187/32
-IP-CIDR,139.177.246.206/32
-IP-CIDR,38.175.45.13/32
-IP-CIDR,38.175.45.19/32
-IP-CIDR,101.47.85.10/32
-IP-CIDR,101.47.81.229/32
-IP-CIDR,129.227.71.37/32
-IP-CIDR,52.139.169.119/32
-IP-CIDR,103.36.24.14/32
-PROCESS-NAME,OR,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
+rules:
+  - rules:
+  - DOMAIN-SUFFIX,- IP-CIDR,155.102.175.142/32
+  - DOMAIN-SUFFIX,- IP-CIDR,155.102.181.182/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.35.204/32
+  - DOMAIN-SUFFIX,- IP-CIDR,219.76.20.224/32
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,uc.cmd
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,mhitpoker.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,unity3d.com
+  - DOMAIN-SUFFIX,- IP-CIDR,192.168.0.0/16
+  - DOMAIN-SUFFIX,- IP-CIDR,10.0.0.0/8
+  - DOMAIN-SUFFIX,- IP-CIDR,172.16.0.0/12
+  - DOMAIN-SUFFIX,- IP-CIDR,127.0.0.0/8
+  - DOMAIN-SUFFIX,- IP-CIDR,169.254.0.0/16
+  - - IP-CIDR6,fe80::/10
+  - - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,apple.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,- DOMAIN,edge-076.xasha1.icloud-content.com.cn
+  - - DOMAIN-KEYWORD,office
+  - - DOMAIN-KEYWORD,skype
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,svc.ms
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,azurewebsites.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dynamics.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,azure-api.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,azure.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,azurefd.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoft.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoftedge.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoftonline-p.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoftonline.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,windows.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msftauth.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,msn.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bingapis.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bing.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,s.rsg.sc
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.lolesports.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,wegame.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,catalog.gamepass.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xbox.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xboxlive.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,- PROCESS-NAME,Battle.net.exe
+  - DOMAIN-SUFFIX,- PROCESS-NAME,Wow.exe
+  - DOMAIN-SUFFIX,- PROCESS-NAME,PlatformWebBrowser.exe
+  - DOMAIN-SUFFIX,- PROCESS-NAME,LeagueClient.exe
+  - DOMAIN-SUFFIX,- PROCESS-NAME,SC2_x64.exe
+  - - DOMAIN-KEYWORD,tencent
+  - - DOMAIN-KEYWORD,mxdl
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,shuidichou.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dl.istoreos.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bytegecko.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.doupay.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ecombdapi.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bblmw.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,iam.e-govt.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,fujian.gov.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibllc.com.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ap-shanghai.myqcloud.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,qtreport.qq.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,report.url.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,status-ipv6.jpush.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,micode.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,micode.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,stun.voipstunt.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,stun.voiparound.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cdn.primehelix.co
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,autodesk.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,developer.api.autodesk.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dn2r0q8ek3r7o.cloudfront.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,fcdc6d61a.yrpfkl.xyz
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bambu-lab.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,gstore.val.manlaxy.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,xz.pphimalayanrt.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ocsp.comodoca.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,fonts.ne
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bazaarvoice.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,static-ecst.licdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ghproxy.ne
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,splashtop.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,some.url
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,crl3.digicert.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ocsp.sectigo.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ocsp.usertrust.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,updates.a-volute.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steelseries.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,sb.scorecardresearch.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,logitech.io
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,mapbox.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.lbctrl.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,event-tracking.lbctrl.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,x1.c.lencr.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.wsgw-rewrite.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,assets.immersivetranslate.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,asus.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,asusrouter.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,assoc-amazon.cn
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,asuscomm.com
+  - - IP-ASN,714
+  - - IP-ASN,6185
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.77.215/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.77.216/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.77.220/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.77.221/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.35.186/32
+  - DOMAIN-SUFFIX,- IP-CIDR,163.181.35.187/32
+  - DOMAIN-SUFFIX,- IP-CIDR,139.177.246.206/32
+  - DOMAIN-SUFFIX,- IP-CIDR,38.175.45.13/32
+  - DOMAIN-SUFFIX,- IP-CIDR,38.175.45.19/32
+  - DOMAIN-SUFFIX,- IP-CIDR,101.47.85.10/32
+  - DOMAIN-SUFFIX,- IP-CIDR,101.47.81.229/32
+  - DOMAIN-SUFFIX,- IP-CIDR,129.227.71.37/32
+  - DOMAIN-SUFFIX,- IP-CIDR,52.139.169.119/32
+  - DOMAIN-SUFFIX,- IP-CIDR,103.36.24.14/32
+  - - PROCESS-NAME,OR,((PROTOCOL,UDP),(DEST-PORT,10000-20000))

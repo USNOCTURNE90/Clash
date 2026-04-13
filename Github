@@ -1,50 +1,52 @@
-# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
-# 从Clash自动同步
+# 最后更新时间: 2026-04-14 02:52:25 (北京时间)
+# 从Surge自动同步
 # 原始文件: Github
-DOMAIN-SUFFIX,raw.githubusercontent.com
-DOMAIN-SUFFIX,download.clashverge.dev
-DOMAIN-SUFFIX,rust-lang.org
-DOMAIN-SUFFIX,rustup.rs
-DOMAIN-SUFFIX,api.ip.sb
-DOMAIN-SUFFIX,edge.sdk.awswaf.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,api.hf.space
-DOMAIN-SUFFIX,files.pythonhosted.org
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,download.pytorch.org
-DOMAIN-SUFFIX,i.vimeocdn.com
-DOMAIN-SUFFIX,comfy.org
-DOMAIN-SUFFIX,api.mixpanel.com
-DOMAIN-SUFFIX,download.pytorch.org
-DOMAIN-SUFFIX,atom.io
-DOMAIN-SUFFIX,dependabot.com
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
-DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
-DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.community
-DOMAIN-SUFFIX,github.dev
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubhackathon.com
-DOMAIN-SUFFIX,githubnext.com
-DOMAIN-SUFFIX,githubpreview.dev
-DOMAIN-SUFFIX,githubstatus.com
-DOMAIN-SUFFIX,githubuniverse.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,myoctocat.com
-DOMAIN-SUFFIX,npm.community
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,opensource.guide
-DOMAIN-SUFFIX,rawgit.com
-DOMAIN-SUFFIX,rawgithub.com
-DOMAIN-SUFFIX,repo.new
-DOMAIN-SUFFIX,thegithubshop.com
-DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,default.exp-tas.com
-DOMAIN-SUFFIX,cdn-lfs-us-1.hf.co
+rules:
+  - rules:
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,download.clashverge.dev
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rust-lang.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rustup.rs
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.ip.sb
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,edge.sdk.awswaf.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.hf.space
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,files.pythonhosted.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,i.vimeocdn.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,comfy.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,api.mixpanel.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,download.pytorch.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,atom.io
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dependabot.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github.blog
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github.community
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github.dev
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubhackathon.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubnext.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubpreview.dev
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubstatus.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubuniverse.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,npm.community
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,opensource.guide
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rawgit.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,rawgithub.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,repo.new
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,thegithubshop.com
+  - - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,default.exp-tas.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,cdn-lfs-us-1.hf.co

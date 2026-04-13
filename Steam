@@ -1,13 +1,15 @@
-# 最后更新时间: 2026-04-14 02:33:20 (北京时间)
-# 从Clash自动同步
+# 最后更新时间: 2026-04-14 02:52:25 (北京时间)
+# 从Surge自动同步
 # 原始文件: Steam
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
-DOMAIN-SUFFIX,r11.o.lencr.org
-DOMAIN-SUFFIX,steam-chat.com
-IP-CIDR,45.207.10.185/24
+rules:
+  - rules:
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,r11.o.lencr.org
+  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,- IP-CIDR,45.207.10.185/24
