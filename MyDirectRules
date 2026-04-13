@@ -2,6 +2,7 @@
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
+sd.com
   - IP-CIDR,1.1.1.333/32
   - IP-CIDR,155.102.175.142/32
   - IP-CIDR,155.102.181.182/32
