@@ -1,33 +1,32 @@
-# 最后更新时间: 2026-04-14 03:02:08 (北京时间)
+# 最后更新时间: 2026-04-14 03:02:25 (北京时间)
 # 从Surge自动同步
 # 原始文件: Tiktok
 rules:
-  - rules:
-  - DOMAIN-SUFFIX,- DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN-SUFFIX,- DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-  - DOMAIN-SUFFIX,- DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,capcut.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokd.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokmusic.app
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tiktokv.us
-  - - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-SUFFIX,- DOMAIN-KEYWORD,musical.ly
-  - - DOMAIN-KEYWORD,tiktok
-  - DOMAIN-SUFFIX,- PROCESS-NAME,com.zhiliaoapp.musically
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-KEYWORD,-tiktokcdn-com
+  - DOMAIN-KEYWORD,musical.ly
+  - DOMAIN-KEYWORD,tiktok
+  - PROCESS-NAME,com.zhiliaoapp.musically
