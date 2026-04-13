@@ -1,22 +1,20 @@
-# 最后更新时间: 2026-04-14 02:52:25 (北京时间)
+# 最后更新时间: 2026-04-14 02:57:36 (北京时间)
 # 从Surge自动同步
 # 原始文件: Alipay
 rules:
-  - rules:
-  - IP-CIDR,3.3.3.3/32
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-corp.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-eco.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-inc.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay-traffic.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.hk
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipay.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydesign.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydev.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaydns.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayeshop.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaylog.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipaymo.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,alipayobjects.com
-- DOMAIN-SUFFIX,alipayplus.com
-- DOMAIN-SUFFIX,luohanacademy.com
+  - DOMAIN-SUFFIX,alipay-corp.com
+  - DOMAIN-SUFFIX,alipay-eco.com
+  - DOMAIN-SUFFIX,alipay-inc.com
+  - DOMAIN-SUFFIX,alipay-traffic.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipay.hk
+  - DOMAIN-SUFFIX,alipay.net
+  - DOMAIN-SUFFIX,alipaydesign.com
+  - DOMAIN-SUFFIX,alipaydev.com
+  - DOMAIN-SUFFIX,alipaydns.com
+  - DOMAIN-SUFFIX,alipayeshop.com
+  - DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,alipaymo.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,alipayplus.com
+  - DOMAIN-SUFFIX,luohanacademy.com
