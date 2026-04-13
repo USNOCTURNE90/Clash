@@ -1,9 +1,20 @@
 import json
 import os
+import re
 import shutil
 import subprocess
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+RULE_PREFIXES = (
+    "DOMAIN,",
+    "DOMAIN-SUFFIX,",
+    "DOMAIN-KEYWORD,",
+    "IP-CIDR,",
+    "IP-CIDR6,",
+    "IP-ASN,",
+    "PROCESS-NAME,",
+)
 
 STATE_PATH = Path(".github/sync_state/deletions_to_surge.json")
 GRACE_SECONDS = 300
@@ -33,6 +44,21 @@ def is_rule_file(path: Path) -> bool:
     if path.suffix in {".py", ".yml", ".yaml", ".md", ".json"}:
         return False
     return True
+
+
+def normalize(raw: str):
+    raw = raw.strip()
+    if not raw or raw.startswith("#") or raw in {"rules:", "payload:"}:
+        return None
+    if raw.startswith("- "):
+        raw = raw[2:].strip()
+    if raw.startswith(RULE_PREFIXES):
+        return raw
+    if re.fullmatch(r"\d+\.\d+\.\d+\.\d+", raw):
+        return f"IP-CIDR,{raw}/32"
+    if "." in raw:
+        return f"DOMAIN-SUFFIX,{raw}"
+    return raw
 
 
 def load_state():
@@ -76,7 +102,9 @@ source_files = {p.name: p for p in Path(".").iterdir() if is_rule_file(p)}
 target_files = {
     p.name: p
     for p in repo.iterdir()
-    if p.is_file() and not p.name.startswith(".") and p.suffix not in {".py", ".yml", ".yaml", ".md", ".json"}
+    if p.is_file()
+    and not p.name.startswith(".")
+    and p.suffix not in {".py", ".yml", ".yaml", ".md", ".json"}
 }
 
 changed = False
@@ -85,12 +113,9 @@ now = datetime.now(bj_tz())
 for name, p in source_files.items():
     lines = []
     for raw in p.read_text(encoding="utf-8").splitlines():
-        raw = raw.strip()
-        if not raw or raw.startswith("#") or raw in {"rules:", "payload:"}:
-            continue
-        if raw.startswith("- "):
-            raw = raw[2:]
-        lines.append(raw)
+        n = normalize(raw)
+        if n:
+            lines.append(n)
 
     out = (
         f"# 最后更新时间: {bj_now()}\n"
