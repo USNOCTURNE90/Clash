@@ -1,0 +1,30 @@
+name: Sync Clash to Surge
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync:
+    if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[AUTO_SYNC]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Clash repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Clash to Surge sync
+        env:
+          TARGET_REPO: USNOCTURNE90/Surge
+          TARGET_BRANCH: Surge
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        run: |
+          python .github/scripts/sync_to_surge.py
