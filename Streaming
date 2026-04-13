@@ -1,31 +1,30 @@
-# 最后更新时间: 2026-04-14 03:02:25 (北京时间)
+# 最后更新时间: 2026-04-14 03:02:36 (北京时间)
 # 从Surge自动同步
 # 原始文件: Streaming
 rules:
-  - rules:
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,fast.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,netflix.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,netflix.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nflxext.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nflximg.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nflximg.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nflxso.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,nflxvideo.net
-  - DOMAIN-SUFFIX,- DOMAIN,api.viu.now.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,aiv-cdn.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,tvb.com
-  - DOMAIN-SUFFIX,- PROCESS-NAME,com.disney.disneyplus
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,global.edge.bamgrid.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,disneyplus.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,disney-plus.net
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,disneystreaming.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,dssott.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,bamgrid.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,registerdisney.go.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,disney.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,disneyjunior.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN,api.viu.now.com
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,tvb.com
+  - PROCESS-NAME,com.disney.disneyplus
+  - DOMAIN-SUFFIX,global.edge.bamgrid.com
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,registerdisney.go.com
+  - DOMAIN-SUFFIX,disney.com
+  - DOMAIN-SUFFIX,disneyjunior.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,primevideo.com
