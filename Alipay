@@ -1,8 +1,7 @@
-# 最后更新时间: 2026-04-14 03:04:28 (北京时间)
+# 最后更新时间: 2026-04-14 03:05:59 (北京时间)
 # 从Surge自动同步
 # 原始文件: Alipay
 rules:
-1.1.1.1
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
