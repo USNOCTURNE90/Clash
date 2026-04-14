@@ -2,9 +2,6 @@
 # 从Surge自动同步
 # 原始文件: Alipay
 rules:
-  - DOMAIN-SUFFIX,jakal.com
-  - IP-CIDR,1.1.1.1/32
-  - DOMAIN-SUFFIX,su.com
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
