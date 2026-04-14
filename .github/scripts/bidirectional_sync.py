@@ -33,6 +33,16 @@ SUPPORTED_RULE_PREFIXES = (
     "USER-AGENT,",
 )
 
+OLD_HEADER_PREFIXES = (
+    "# 最后更新时间:",
+    "# 从Clash自动标准化",
+    "# 从Clash自动同步",
+    "# 从Surge自动同步",
+    "# 原始文件:",
+    "# 规则集:",
+    SYNC_MARK,
+)
+
 
 def now_str() -> str:
     return datetime.now(BJ_TZ).strftime("%Y-%m-%d %H:%M:%S (北京时间)")
@@ -94,16 +104,13 @@ def looks_like_bare_process_name(s: str) -> bool:
     return re.fullmatch(r"[A-Za-z0-9_+\-]+", s) is not None
 
 
-def normalize_rule(line: str):
-    raw = line.strip()
+def normalize_rule(raw: str):
+    raw = raw.strip()
 
     if not raw:
         return None
     if raw.startswith("#") or raw.startswith("//") or raw.startswith(";"):
         return None
-
-    if " #" in raw:
-        raw = raw.split(" #", 1)[0].strip()
 
     if raw.startswith("- "):
         raw = raw[2:].strip()
@@ -111,11 +118,15 @@ def normalize_rule(line: str):
     if raw in ("payload:", "rules:"):
         return None
 
-    # 已知规则类型，直接保留
+    if raw.startswith(OLD_HEADER_PREFIXES):
+        return None
+
+    if " #" in raw:
+        raw = raw.split(" #", 1)[0].strip()
+
     if raw.startswith(SUPPORTED_RULE_PREFIXES):
         return raw
 
-    # IP
     if is_ipv4(raw):
         return f"IP-CIDR,{raw}/32"
 
@@ -127,17 +138,14 @@ def normalize_rule(line: str):
             return f"IP-CIDR6,{raw}"
         return f"IP-CIDR6,{raw}/128"
 
-    # 域名
     if looks_like_plain_domain(raw):
         if raw.startswith("*."):
             return f"DOMAIN-WILDCARD,{raw}"
         return f"DOMAIN-SUFFIX,{raw}"
 
-    # 裸进程名，例如 Alipay / WeChat / Telegram
     if looks_like_bare_process_name(raw):
         return f"PROCESS-NAME,{raw}"
 
-    # 其他无法识别的内容，不要删，原样保留
     return raw
 
 
@@ -171,6 +179,45 @@ def parse_surge_repo(base: Path):
     return files
 
 
+def parse_clash_lines(lines):
+    rules = []
+    in_section = False
+
+    for raw in lines:
+        line = raw.rstrip("\n")
+        stripped = line.strip()
+
+        if not stripped:
+            continue
+        if stripped.startswith(OLD_HEADER_PREFIXES):
+            continue
+
+        if stripped in ("payload:", "rules:"):
+            in_section = True
+            continue
+
+        if in_section:
+            # YAML 列表项
+            if stripped.startswith("- "):
+                r = normalize_rule(stripped)
+                if r:
+                    rules.append(r)
+                continue
+
+            # 如果进入 section 后又碰到非列表项，说明旧格式/脏格式混入，也继续尝试解析
+            r = normalize_rule(stripped)
+            if r:
+                rules.append(r)
+            continue
+
+        # 对历史脏文件做兜底：即使没显式 payload/rules 头，也尝试解析
+        r = normalize_rule(stripped)
+        if r:
+            rules.append(r)
+
+    return dedupe_keep_order(rules)
+
+
 def parse_clash_repo(base: Path):
     files = {}
     for p in sorted(base.iterdir(), key=lambda x: x.name.lower()):
@@ -179,13 +226,9 @@ def parse_clash_repo(base: Path):
         if p.suffix.lower() not in CLASH_ALLOWED_SUFFIXES:
             continue
 
-        rules = []
-        for line in p.read_text(encoding="utf-8", errors="ignore").splitlines():
-            r = normalize_rule(line)
-            if r:
-                rules.append(r)
+        lines = p.read_text(encoding="utf-8", errors="ignore").splitlines()
+        rules = parse_clash_lines(lines)
 
-        rules = dedupe_keep_order(rules)
         if rules:
             files[p.stem] = rules
     return files
