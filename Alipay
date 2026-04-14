@@ -2,7 +2,6 @@
 # 从Surge自动同步
 # 原始文件: Alipay
 rules:
-3.3.3.3
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
