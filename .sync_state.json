@@ -2,6 +2,8 @@
   "files": {
     "Alipay": [
       "IP-CIDR,22.2.2.2/32",
+      "PROCESS-NAME,fdfs",
+      "PROCESS-NAME,123123123",
       "DOMAIN-SUFFIX,23.23.32",
       "DOMAIN-SUFFIX,alipay-corp.com",
       "DOMAIN-SUFFIX,alipay-eco.com",
@@ -2404,6 +2406,6 @@
       "IP-CIDR,216.73.80.0/20"
     ]
   },
-  "updated_at": "2026-04-14 14:12:46 (北京时间)",
+  "updated_at": "2026-04-14 14:28:21 (北京时间)",
   "updated_from": "USNOCTURNE90/Surge"
 }
