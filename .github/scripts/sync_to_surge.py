@@ -81,7 +81,7 @@ def normalize(line: str):
     if "." in line:
         return f"DOMAIN-SUFFIX,{line}"
 
-    return line
+    return f"PROCESS-NAME,{line}"
 
 
 def parse_rules_from_file(path: Path):
@@ -131,7 +131,6 @@ for p in Path(".").iterdir():
 
     rules = parse_rules_from_file(p)
 
-    # Clash 本地标准化为合法 YAML
     local_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动标准化\n"
@@ -143,69 +142,4 @@ for p in Path(".").iterdir():
 
     old_local = p.read_text(encoding="utf-8")
     if old_local != local_output:
-        p.write_text(local_output, encoding="utf-8")
-        changed_local = True
-
-    # Surge 远端输出为纯文本规则
-    remote_output = (
-        f"# 最后更新时间: {now_str()}\n"
-        "# 从Clash自动同步\n"
-        f"# 原始文件: {p.name}\n"
-        + "\n".join(rules)
-        + "\n"
-    )
-
-    target = repo / p.name
-    old_remote = target.read_text(encoding="utf-8") if target.exists() else None
-
-    if old_remote != remote_output:
-        target.write_text(remote_output, encoding="utf-8")
-        changed_remote = True
-
-if changed_local:
-    subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-    subprocess.run(
-        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
-        check=True,
-    )
-    subprocess.run(["git", "add", "."], check=True)
-    subprocess.run(
-        ["git", "commit", "-m", f"[AUTO_SYNC] 本地格式化 Clash 规则集 - {now_str()}"],
-        check=True,
-    )
-    subprocess.run(
-        [
-            "git",
-            "remote",
-            "set-url",
-            "origin",
-            f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/USNOCTURNE90/Clash.git",
-        ],
-        check=True,
-    )
-    subprocess.run(["git", "push"], check=True)
-
-if changed_remote:
-    subprocess.run(["git", "-C", "surge_repo", "config", "user.name", "github-actions[bot]"], check=True)
-    subprocess.run(
-        ["git", "-C", "surge_repo", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
-        check=True,
-    )
-    subprocess.run(["git", "-C", "surge_repo", "add", "."], check=True)
-    subprocess.run(
-        ["git", "-C", "surge_repo", "commit", "-m", f"[AUTO_SYNC] 从Clash自动同步规则集 - {now_str()}"],
-        check=True,
-    )
-    subprocess.run(
-        [
-            "git",
-            "-C",
-            "surge_repo",
-            "remote",
-            "set-url",
-            "origin",
-            f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{os.environ['TARGET_REPO']}.git",
-        ],
-        check=True,
-    )
-    subprocess.run(["git", "-C", "surge_repo", "push"], check=True)
+        p.write_text
