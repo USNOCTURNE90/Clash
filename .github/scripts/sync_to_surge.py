@@ -27,10 +27,25 @@ def now_str():
     return datetime.now(bj_tz()).strftime("%Y-%m-%d %H:%M:%S (北京时间)")
 
 
+def should_ignore_header(line: str) -> bool:
+    prefixes = (
+        "# 最后更新时间:",
+        "# 从Surge自动同步",
+        "# 从Surge自动标准化",
+        "# 从Clash自动同步",
+        "# 从Clash自动标准化",
+        "# 原始文件:",
+    )
+    return line.startswith(prefixes)
+
+
 def normalize(line: str):
     line = line.strip()
 
-    if not line or line.startswith("#"):
+    if not line:
+        return None
+
+    if line.startswith("#"):
         return None
 
     if line in {"rules:", "payload:"}:
@@ -41,6 +56,9 @@ def normalize(line: str):
 
     if " #" in line:
         line = line.split(" #", 1)[0].strip()
+
+    if not line:
+        return None
 
     if line.startswith(RULE_PREFIXES):
         return line
@@ -64,6 +82,22 @@ def normalize(line: str):
         return f"DOMAIN-SUFFIX,{line}"
 
     return line
+
+
+def parse_rules_from_file(path: Path):
+    rules = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        raw = raw.strip()
+        if not raw:
+            continue
+        if raw.startswith("#"):
+            if should_ignore_header(raw):
+                continue
+            continue
+        n = normalize(raw)
+        if n:
+            rules.append(n)
+    return rules
 
 
 repo = Path("surge_repo")
@@ -95,18 +129,16 @@ for p in Path(".").iterdir():
     ):
         continue
 
-    rules = []
-    for raw in p.read_text(encoding="utf-8").splitlines():
-        n = normalize(raw)
-        if n:
-            rules.append(n)
+    # 无论原文件是不是裸内容，统一解析成标准规则数组
+    rules = parse_rules_from_file(p)
 
+    # 重新生成 Clash 本地合法 YAML
     local_output = (
         f"# 最后更新时间: {now_str()}\n"
-        "# 从Clash自动同步\n"
+        "# 从Clash自动标准化\n"
         f"# 原始文件: {p.name}\n"
         "rules:\n"
-        + "\n".join(f"  - {x}" for x in rules)
+        + "\n".join(f"  - {rule}" for rule in rules)
         + "\n"
     )
 
@@ -115,6 +147,7 @@ for p in Path(".").iterdir():
         p.write_text(local_output, encoding="utf-8")
         changed_local = True
 
+    # 生成 Surge 远端纯文本
     remote_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动同步\n"
@@ -132,7 +165,10 @@ for p in Path(".").iterdir():
 
 if changed_local:
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-    subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
+    subprocess.run(
+        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
+        check=True,
+    )
     subprocess.run(["git", "add", "."], check=True)
     subprocess.run(
         ["git", "commit", "-m", f"[AUTO_SYNC] 本地格式化 Clash 规则集 - {now_str()}"],
