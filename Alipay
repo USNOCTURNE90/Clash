@@ -2,7 +2,7 @@
 # 从Surge自动同步
 # 原始文件: Alipay
 rules:
-  - IP-CIDR,123.123.123.123/32
+123.123.123.123/32
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
