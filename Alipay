@@ -2,6 +2,8 @@
 # 从Clash自动标准化
 # 原始文件: Alipay
 rules:
+1.1.1.1
+bai.com
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
