@@ -4,6 +4,7 @@
 rules:
 1.1.1.1
 bai.com
+123
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
