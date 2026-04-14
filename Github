@@ -2,6 +2,7 @@
 # 从Clash自动标准化
 # 原始文件: Github
 rules:
+qqqqq
   - DOMAIN-SUFFIX,raw.githubusercontent.com
   - DOMAIN-SUFFIX,download.clashverge.dev
   - DOMAIN-SUFFIX,rust-lang.org
