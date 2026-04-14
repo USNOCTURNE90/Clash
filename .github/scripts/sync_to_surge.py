@@ -129,10 +129,9 @@ for p in Path(".").iterdir():
     ):
         continue
 
-    # 无论原文件是不是裸内容，统一解析成标准规则数组
     rules = parse_rules_from_file(p)
 
-    # 重新生成 Clash 本地合法 YAML
+    # Clash 本地标准化为合法 YAML
     local_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动标准化\n"
@@ -147,7 +146,7 @@ for p in Path(".").iterdir():
         p.write_text(local_output, encoding="utf-8")
         changed_local = True
 
-    # 生成 Surge 远端纯文本
+    # Surge 远端输出为纯文本规则
     remote_output = (
         f"# 最后更新时间: {now_str()}\n"
         "# 从Clash自动同步\n"
@@ -174,6 +173,16 @@ if changed_local:
         ["git", "commit", "-m", f"[AUTO_SYNC] 本地格式化 Clash 规则集 - {now_str()}"],
         check=True,
     )
+    subprocess.run(
+        [
+            "git",
+            "remote",
+            "set-url",
+            "origin",
+            f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/USNOCTURNE90/Clash.git",
+        ],
+        check=True,
+    )
     subprocess.run(["git", "push"], check=True)
 
 if changed_remote:
@@ -185,6 +194,18 @@ if changed_remote:
     subprocess.run(["git", "-C", "surge_repo", "add", "."], check=True)
     subprocess.run(
         ["git", "-C", "surge_repo", "commit", "-m", f"[AUTO_SYNC] 从Clash自动同步规则集 - {now_str()}"],
+        check=True,
+    )
+    subprocess.run(
+        [
+            "git",
+            "-C",
+            "surge_repo",
+            "remote",
+            "set-url",
+            "origin",
+            f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{os.environ['TARGET_REPO']}.git",
+        ],
         check=True,
     )
     subprocess.run(["git", "-C", "surge_repo", "push"], check=True)
