@@ -10,8 +10,8 @@ BJ_TZ = timezone(timedelta(hours=8))
 STATE_FILE = ".sync_state.json"
 SYNC_MARK = "# 双向同步生成（标准输出）"
 
-SURGE_SKIP = {".git", ".github", "README.md", "LICENSE", ".DS_Store", STATE_FILE}
-CLASH_SKIP = {".git", ".github", "README.md", "LICENSE", ".DS_Store", STATE_FILE}
+SURGE_SKIP = {".git", ".github", "README.md", "LICENSE", ".DS_Store", STATE_FILE, "peer_repo"}
+CLASH_SKIP = {".git", ".github", "README.md", "LICENSE", ".DS_Store", STATE_FILE, "peer_repo"}
 
 SURGE_ALLOWED_SUFFIXES = {"", ".list", ".txt", ".rules", ".rule", ".conf"}
 CLASH_ALLOWED_SUFFIXES = {".yaml", ".yml"}
@@ -69,7 +69,8 @@ def looks_like_plain_domain(s: str) -> bool:
         return False
     if s.startswith("http://") or s.startswith("https://"):
         return False
-    if s.startswith("*."):
+    wildcard = s.startswith("*.")
+    if wildcard:
         s = s[2:]
     if s.endswith("."):
         s = s[:-1]
@@ -293,12 +294,39 @@ def write_clash_repo(base: Path, files: dict):
     return changed
 
 
+def add_local_repo_files(repo_path: Path):
+    tracked_names = set()
+
+    state_file = repo_path / STATE_FILE
+    if state_file.exists():
+        run(["git", "add", "--", STATE_FILE], cwd=repo_path)
+        tracked_names.add(STATE_FILE)
+
+    for p in sorted(repo_path.iterdir(), key=lambda x: x.name.lower()):
+        if not p.is_file():
+            continue
+        if p.name in SURGE_SKIP or p.name in CLASH_SKIP:
+            continue
+
+        suffix = p.suffix.lower()
+        if suffix in SURGE_ALLOWED_SUFFIXES or suffix in CLASH_ALLOWED_SUFFIXES or suffix == "":
+            run(["git", "add", "--", p.name], cwd=repo_path)
+            tracked_names.add(p.name)
+
+    run(["git", "add", "-u"], cwd=repo_path)
+    return tracked_names
+
+
 def commit_if_needed(repo_path: Path, message: str):
     run(["git", "config", "user.name", "github-actions[bot]"], cwd=repo_path)
     run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], cwd=repo_path)
 
     run(["git", "pull", "--rebase"], cwd=repo_path)
-    run(["git", "add", "."], cwd=repo_path)
+
+    if repo_path.resolve() == Path(".").resolve():
+        add_local_repo_files(repo_path)
+    else:
+        run(["git", "add", "-A"], cwd=repo_path)
 
     status = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo_path)
     if status.returncode == 0:
