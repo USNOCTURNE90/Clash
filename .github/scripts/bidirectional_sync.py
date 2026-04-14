@@ -1,5 +1,4 @@
 import json
-import os
 import re
 import shutil
 import subprocess
@@ -75,13 +74,23 @@ def looks_like_plain_domain(s: str) -> bool:
         return False
     if s.startswith("http://") or s.startswith("https://"):
         return False
-    if s.startswith("*."):
-        s = s[2:]
-    if s.endswith("."):
-        s = s[:-1]
-    if "." not in s:
+    t = s[2:] if s.startswith("*.") else s
+    if t.endswith("."):
+        t = t[:-1]
+    if "." not in t:
         return False
-    return re.fullmatch(r"[A-Za-z0-9.-]+", s) is not None
+    return re.fullmatch(r"[A-Za-z0-9.-]+", t) is not None
+
+
+def looks_like_bare_process_name(s: str) -> bool:
+    s = s.strip()
+    if not s:
+        return False
+    if " " in s or "," in s or "/" in s or ":" in s:
+        return False
+    if "." in s:
+        return False
+    return re.fullmatch(r"[A-Za-z0-9_+\-]+", s) is not None
 
 
 def normalize_rule(line: str):
@@ -101,9 +110,11 @@ def normalize_rule(line: str):
     if raw in ("payload:", "rules:"):
         return None
 
+    # 已知规则类型，直接保留
     if raw.startswith(SUPPORTED_RULE_PREFIXES):
         return raw
 
+    # IP
     if is_ipv4(raw):
         return f"IP-CIDR,{raw}/32"
 
@@ -115,12 +126,18 @@ def normalize_rule(line: str):
             return f"IP-CIDR6,{raw}"
         return f"IP-CIDR6,{raw}/128"
 
+    # 域名
     if looks_like_plain_domain(raw):
         if raw.startswith("*."):
             return f"DOMAIN-WILDCARD,{raw}"
         return f"DOMAIN-SUFFIX,{raw}"
 
-    return None
+    # 裸进程名，例如 Alipay / WeChat / Telegram
+    if looks_like_bare_process_name(raw):
+        return f"PROCESS-NAME,{raw}"
+
+    # 其他无法识别的内容，不要删，原样保留
+    return raw
 
 
 def dedupe_keep_order(items):
