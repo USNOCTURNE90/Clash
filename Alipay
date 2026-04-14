@@ -2,6 +2,7 @@
 # 从Clash自动标准化
 # 原始文件: Alipay
 rules:
+ssss
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
