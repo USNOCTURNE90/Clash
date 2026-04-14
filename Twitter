@@ -1,9 +1,8 @@
-# 最后更新时间: 2026-04-14 08:30:05 (北京时间)
+# 最后更新时间: 2026-04-14 09:55:31 (北京时间)
 # 从Surge自动同步
 # 原始文件: Twitter
 rules:
-  - rules:
-  - - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,twitter
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,twimg.co
