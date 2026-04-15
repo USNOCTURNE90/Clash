@@ -1,7 +1,8 @@
-# 最后更新时间: 2026-04-15 13:10:44 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 13:11:44 (北京时间)
+# 从Surge自动同步
 # 原始文件: Alipay
 rules:
+  - PROCESS-NAME,qq
   - DOMAIN-SUFFIX,alipay-corp.com
   - DOMAIN-SUFFIX,alipay-eco.com
   - DOMAIN-SUFFIX,alipay-inc.com
