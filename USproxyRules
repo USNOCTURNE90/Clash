@@ -151,7 +151,6 @@ rules:
   - DOMAIN-KEYWORD,textnow
   - DOMAIN-SUFFIX,tiqcdn.com
   - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,vzw.com
   - DOMAIN-SUFFIX,att.com
