@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-15 15:53:54 (北京时间)
+# 最后更新时间: 2026-04-15 15:56:46 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
@@ -167,4 +167,4 @@ rules:
   - IP-CIDR,129.227.71.37/32
   - IP-CIDR,52.139.169.119/32
   - IP-CIDR,103.36.24.14/32
-  - PROCESS-NAME,OR,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
+  - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
