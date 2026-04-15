@@ -282,7 +282,6 @@ rules:
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,kraken.com
-  - DOMAIN-SUFFIX,mexc.com
   - DOMAIN-SUFFIX,nicehash.com
   - DOMAIN-SUFFIX,etherscan.io
   - DOMAIN-SUFFIX,cryptocompare.com
