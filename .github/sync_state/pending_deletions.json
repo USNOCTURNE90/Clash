@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "repo": "Clash",
+    "target_repo": "Surge",
+    "filename": "123123",
+    "requested_at": "2026-04-15T16:46:42.612294+08:00"
+  }
+]
