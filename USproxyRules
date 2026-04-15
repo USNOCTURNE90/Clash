@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-15 16:04:41 (北京时间)
+# 最后更新时间: 2026-04-15 16:13:30 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
@@ -26,7 +26,6 @@ rules:
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.us
-  - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok
   - PROCESS-NAME,com.zhiliaoapp.musically
