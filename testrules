@@ -1,7 +1,0 @@
-# 最后更新时间: 2026-04-15 13:32:39 (北京时间)
-# 从Clash自动标准化
-# 原始文件: testrules
-rules:
-  - IP-CIDR,1.3.3.3/32
-  - PROCESS-NAME,qqqqq
-  - PROCESS-NAME,aaaaaa
