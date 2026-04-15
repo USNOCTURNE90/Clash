@@ -284,7 +284,6 @@ rules:
   - DOMAIN-SUFFIX,kraken.com
   - DOMAIN-SUFFIX,nicehash.com
   - DOMAIN-SUFFIX,etherscan.io
-  - DOMAIN-SUFFIX,cryptocompare.com
   - DOMAIN-KEYWORD,quote
   - DOMAIN-KEYWORD,stocks
   - DOMAIN-KEYWORD,market
