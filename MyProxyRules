@@ -236,7 +236,6 @@ rules:
   - DOMAIN-SUFFIX,sublimetext.com
   - DOMAIN-SUFFIX,sublimehq.com
   - DOMAIN-SUFFIX,blackmagicdesign.com
-  - DOMAIN-SUFFIX,obsproject.com
   - DOMAIN-KEYWORD,docker
   - DOMAIN-KEYWORD,davinciresolve
   - PROCESS-NAME,obs64.exe
