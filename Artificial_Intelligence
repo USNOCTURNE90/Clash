@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-15 16:39:38 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 16:46:08 (北京时间)
+# 从Surge自动同步
 # 原始文件: Artificial_Intelligence
 rules:
   - DOMAIN-KEYWORD,openai
