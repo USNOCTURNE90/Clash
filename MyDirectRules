@@ -125,7 +125,6 @@ rules:
   - DOMAIN-SUFFIX,fonts.net
   - DOMAIN-SUFFIX,bazaarvoice.com
   - DOMAIN-SUFFIX,static-ecst.licdn.com
-  - DOMAIN-SUFFIX,amazontrust.com
   - DOMAIN-SUFFIX,ghproxy.net
   - DOMAIN-SUFFIX,splashtop.com
   - DOMAIN-SUFFIX,some.url
