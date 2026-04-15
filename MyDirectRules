@@ -139,7 +139,6 @@ rules:
   - DOMAIN-SUFFIX,mapbox.com
   - DOMAIN-SUFFIX,api.lbctrl.com
   - DOMAIN-SUFFIX,event-tracking.lbctrl.com
-  - DOMAIN-SUFFIX,lbkrs.com
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
   - DOMAIN-SUFFIX,x1.c.lencr.org
