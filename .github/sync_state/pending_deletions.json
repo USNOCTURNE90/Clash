@@ -4,5 +4,11 @@
     "target_repo": "Surge",
     "filename": "aqqqq",
     "requested_at": "2026-04-15T13:32:39.938636+08:00"
+  },
+  {
+    "repo": "Clash",
+    "target_repo": "Surge",
+    "filename": "testrules",
+    "requested_at": "2026-04-15T13:33:00.629212+08:00"
   }
 ]
