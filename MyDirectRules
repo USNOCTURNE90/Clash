@@ -93,7 +93,6 @@ rules:
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,dl.istoreos.com
   - DOMAIN-SUFFIX,zjcdn.com
-  - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,bytegecko.com
   - DOMAIN-SUFFIX,api.doupay.com
