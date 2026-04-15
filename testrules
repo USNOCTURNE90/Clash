@@ -4,6 +4,4 @@
 rules:
   - IP-CIDR,1.3.3.3/32
   - PROCESS-NAME,qqqqq
-  - DOMAIN-SUFFIX,22.com
-  - PROCESS-NAME,ssss
-  - PROCESS-NAME,qq
+aaaaaa
