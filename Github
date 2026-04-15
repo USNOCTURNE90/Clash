@@ -1,8 +1,7 @@
-# 最后更新时间: 2026-04-14 11:29:49 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 13:09:46 (北京时间)
+# 从Surge自动同步
 # 原始文件: Github
 rules:
-qqqqq
   - DOMAIN-SUFFIX,raw.githubusercontent.com
   - DOMAIN-SUFFIX,download.clashverge.dev
   - DOMAIN-SUFFIX,rust-lang.org
@@ -17,7 +16,6 @@ qqqqq
   - DOMAIN-SUFFIX,i.vimeocdn.com
   - DOMAIN-SUFFIX,comfy.org
   - DOMAIN-SUFFIX,api.mixpanel.com
-  - DOMAIN-SUFFIX,download.pytorch.org
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,dependabot.com
   - DOMAIN-SUFFIX,ghcr.io

@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-14 11:29:49 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 13:09:46 (北京时间)
+# 从Surge自动同步
 # 原始文件: MyProxyRules
 rules:
   - DOMAIN-SUFFIX,steampowered.com
@@ -81,7 +81,6 @@ rules:
   - IP-CIDR,54.162.243.80/32
   - IP-CIDR,54.173.34.141/32
   - IP-CIDR,54.235.23.242/32
-  - IP-CIDR,54.93.124.31/32
   - IP-CIDR,108.168.176.192/26
   - IP-CIDR,108.168.177.0/27
   - IP-CIDR,108.168.180.96/27
@@ -132,7 +131,6 @@ rules:
   - DOMAIN-SUFFIX,i.vimeocdn.com
   - DOMAIN-SUFFIX,comfy.org
   - DOMAIN-SUFFIX,api.mixpanel.com
-  - DOMAIN-SUFFIX,download.pytorch.org
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,dependabot.com
   - DOMAIN-SUFFIX,ghcr.io
@@ -216,7 +214,6 @@ rules:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,snap.com
   - DOMAIN-SUFFIX,snapchat.com
-  - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linkedin.at
   - DOMAIN-SUFFIX,lnkd.in
@@ -229,7 +226,6 @@ rules:
   - DOMAIN-SUFFIX,notionusercontent.com
   - DOMAIN-SUFFIX,img.notionusercontent.com
   - DOMAIN,http-inputs-notion.splunkcloud.com
-  - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,render.com

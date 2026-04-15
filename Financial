@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-14 11:29:49 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 13:09:46 (北京时间)
+# 从Surge自动同步
 # 原始文件: Financial
 rules:
   - DOMAIN-SUFFIX,alipay-corp.com
@@ -33,7 +33,6 @@ rules:
   - DOMAIN-SUFFIX,cdn.zaticdn.com
   - DOMAIN-SUFFIX,bankappgw.za.group
   - DOMAIN-SUFFIX,aim-abtesting-sdk.za.group
-  - DOMAIN-SUFFIX,bankappgw.za.group
   - DOMAIN-SUFFIX,bank-sbsmarket.zafinsvc.com
   - DOMAIN-SUFFIX,appguard.za.group
   - DOMAIN-SUFFIX,optionstrat.com
@@ -68,7 +67,6 @@ rules:
   - DOMAIN-KEYWORD,investing
   - DOMAIN-KEYWORD,trading
   - DOMAIN-SUFFIX,ifaa.org.cn
-  - DOMAIN-SUFFIX,luohanacademy.com
   - DOMAIN-SUFFIX,sinopayment.com.cn
   - DOMAIN-SUFFIX,ocsp.digicert.com
   - DOMAIN-SUFFIX,c.go-mpulse.net
@@ -122,5 +120,3 @@ rules:
   - DOMAIN-SUFFIX,o.ss2.us
   - DOMAIN-SUFFIX,obsproject.com
   - DOMAIN-SUFFIX,store.steampowered.com
-  - DOMAIN-SUFFIX,yahooapis.com
-  - DOMAIN-SUFFIX,yimg.com

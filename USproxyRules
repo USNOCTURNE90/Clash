@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-14 11:29:49 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-15 13:09:46 (北京时间)
+# 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -103,9 +103,7 @@ rules:
   - DOMAIN-SUFFIX,cloud.gist.build
   - DOMAIN-SUFFIX,fi.google.com
   - PROCESS-NAME,谷歌IP地址段
-  - IP-CIDR,172.110.32.0/21
   - IP-CIDR,173.194.0.0/16
-  - IP-CIDR,216.73.80.0/20
   - IP-CIDR,74.125.0.0/16
   - PROCESS-NAME,安卓谷歌应用进程
   - PROCESS-NAME,com.android.vending
