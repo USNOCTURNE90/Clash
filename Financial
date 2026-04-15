@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-15 13:44:17 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-04-15 13:44:55 (北京时间)
+# 从Clash自动标准化
 # 原始文件: Financial
 rules:
   - DOMAIN-SUFFIX,alipay-corp.com
