@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-15 15:56:46 (北京时间)
+# 最后更新时间: 2026-04-15 16:04:41 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
@@ -55,7 +55,6 @@ rules:
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,recaptcha
-  - PROCESS-NAME,谷歌核心服务域名
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googledrive.com
@@ -63,7 +62,6 @@ rules:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,1e100.net
-  - PROCESS-NAME,谷歌广告与分析服务
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,googlesyndication.com
@@ -71,7 +69,6 @@ rules:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,app-measurement.com
-  - PROCESS-NAME,谷歌常用服务
   - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,android.com
@@ -81,7 +78,6 @@ rules:
   - DOMAIN-SUFFIX,waze.com
   - DOMAIN-SUFFIX,nest.com
   - DOMAIN-SUFFIX,waymo.com
-  - PROCESS-NAME,其他重要谷歌服务
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,admob.com
   - DOMAIN-SUFFIX,ampproject.org
@@ -94,7 +90,6 @@ rules:
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,schema.org
-  - PROCESS-NAME,特定功能服务
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,googleapis-cn.com
@@ -105,7 +100,6 @@ rules:
   - PROCESS-NAME,谷歌IP地址段
   - IP-CIDR,173.194.0.0/16
   - IP-CIDR,74.125.0.0/16
-  - PROCESS-NAME,安卓谷歌应用进程
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.google.android.gsf
