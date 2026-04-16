@@ -1,7 +1,12 @@
-# 最后更新时间: 2026-04-17 00:02:15 (北京时间)
+# 最后更新时间: 2026-04-17 00:02:55 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-SUFFIX,api.sprig.com
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,youtubego
   - DOMAIN-SUFFIX,youtu.be
