@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-16 23:32:46 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-17 00:00:12 (北京时间)
+# 从Surge自动同步
 # 原始文件: Speedtest
 rules:
   - DOMAIN-KEYWORD,speedtest

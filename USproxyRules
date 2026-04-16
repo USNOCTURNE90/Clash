@@ -1,7 +1,45 @@
-# 最后更新时间: 2026-04-16 23:32:46 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-17 00:00:12 (北京时间)
+# 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,chronosphere.io
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,imgix.net
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,api.appcenter.ms
+  - DOMAIN-SUFFIX,api.revenuecat.com
+  - DOMAIN-SUFFIX,siftscience.com
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-KEYWORD,bing
+  - DOMAIN-SUFFIX,todesktop.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,anthropic.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursorlist.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,static.cloudflareinsights.com
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,vscode-cdn.net
+  - DOMAIN-SUFFIX,vscode-unpkg.net
+  - IP-CIDR,24.199.123.28/32
+  - IP-CIDR,64.23.132.171/32
+  - IP-ASN,20473
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
