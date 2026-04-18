@@ -1,8 +1,8 @@
-# 最后更新时间: 2026-04-18 21:02:00 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-04-18 21:04:39 (北京时间)
+# 从Clash自动标准化
 # 原始文件: USproxyRules
 rules:
-usnocturne90.us
+  - DOMAIN-SUFFIX,usnocturne90.us
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,paypal.com
