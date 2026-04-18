@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-18 22:20:24 (北京时间)
+# 最后更新时间: 2026-04-18 22:20:43 (北京时间)
 # 从Surge自动同步
 # 原始文件: Reject
 rules:
-  - DOMAIN-SUFFIX,msmp.abchina.com.cn
+  - DOMAIN,msmp.abchina.com.cn
