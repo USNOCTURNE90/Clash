@@ -1,7 +1,9 @@
-# 最后更新时间: 2026-04-17 00:06:05 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-04-18 21:02:00 (北京时间)
+# 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal-mktg.com
