@@ -1,7 +1,34 @@
-# 最后更新时间: 2026-04-19 23:50:04 (北京时间)
+# 最后更新时间: 2026-04-19 23:52:18 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN,router.asus.com
+  - DOMAIN,router.synology.com
+  - DOMAIN-SUFFIX,nip.io
+  - DOMAIN,api.smoot.apple.com
+  - DOMAIN,captive.apple.com
+  - DOMAIN,xp.apple.com
+  - DOMAIN,configuration.apple.com
+  - DOMAIN,guzzoni.apple.com
+  - DOMAIN,smp-device-content.apple.com
+  - DOMAIN-SUFFIX,ess.apple.com
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,mesu.apple.com
+  - DOMAIN,api.smoot.apple.cn
+  - DOMAIN,gs-loc.apple.com
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com
+  - DOMAIN-SUFFIX,lcdn-registration.apple.com
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN,instant-hotspot.svc.apple.com
+  - DOMAIN,smp-device
+  - DOMAIN-SUFFIX,apple-mobileme.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - PROCESS-NAME,trustd
+  - PROCESS-NAME,netbiosd
   - IP-CIDR,155.102.175.142/32
   - IP-CIDR,155.102.181.182/32
   - IP-CIDR,163.181.35.204/32
