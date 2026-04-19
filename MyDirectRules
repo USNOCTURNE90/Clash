@@ -1,12 +1,29 @@
-# 最后更新时间: 2026-04-20 00:46:38 (北京时间)
+# 最后更新时间: 2026-04-20 00:51:25 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
+  - DOMAIN,router.asus.com
   - DOMAIN,router.synology.com
   - DOMAIN-SUFFIX,nip.io
+  - DOMAIN,api.smoot.apple.com
+  - DOMAIN,captive.apple.com
+  - DOMAIN,xp.apple.com
+  - DOMAIN,configuration.apple.com
+  - DOMAIN,guzzoni.apple.com
+  - DOMAIN,smp-device-content.apple.com
   - DOMAIN-SUFFIX,ess.apple.com
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
   - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,mesu.apple.com
+  - DOMAIN,api.smoot.apple.cn
+  - DOMAIN,gs-loc.apple.com
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com
+  - DOMAIN-SUFFIX,lcdn-registration.apple.com
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN,instant-hotspot.svc.apple.com
   - DOMAIN,smp-device
   - DOMAIN-SUFFIX,apple-mobileme.com
   - DOMAIN-SUFFIX,icloud.com.cn
@@ -61,6 +78,7 @@ rules:
   - DOMAIN-SUFFIX,msftauth.cn
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,msn.cn
+  - DOMAIN-SUFFIX,storage.msn.com
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bingapis.cn
@@ -70,12 +88,12 @@ rules:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN-SUFFIX,tqos.gamesafe.wegamex.com.hk
-  - DOMAIN-SUFFIX,lolesports.com
+  - DOMAIN-SUFFIX,api.lolesports.com
   - DOMAIN-SUFFIX,wegame.com.cn
   - DOMAIN-SUFFIX,catalog.gamepass.com
   - DOMAIN-SUFFIX,xbox.com.cn
@@ -96,7 +114,7 @@ rules:
   - DOMAIN-SUFFIX,zjcdn.com
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,bytegecko.com
-  - DOMAIN-SUFFIX,doupay.com
+  - DOMAIN-SUFFIX,api.doupay.com
   - DOMAIN-SUFFIX,ecombdapi.com
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,bblmw.com
@@ -104,16 +122,17 @@ rules:
   - DOMAIN-SUFFIX,fujian.gov.cn
   - DOMAIN-SUFFIX,ibllc.com.cn
   - DOMAIN-SUFFIX,doh.pub
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,jpush.cn
+  - DOMAIN-SUFFIX,ap-shanghai.myqcloud.com
+  - DOMAIN-SUFFIX,qtreport.qq.com
   - DOMAIN-SUFFIX,report.url.cn
+  - DOMAIN-SUFFIX,status-ipv6.jpush.cn
   - DOMAIN-SUFFIX,micode.cn
   - DOMAIN-SUFFIX,micode.net
   - DOMAIN-SUFFIX,stun.voipstunt.com
   - DOMAIN-SUFFIX,stun.voiparound.com
   - DOMAIN-SUFFIX,cdn.primehelix.co
   - DOMAIN-SUFFIX,autodesk.com
+  - DOMAIN-SUFFIX,developer.api.autodesk.com
   - DOMAIN-SUFFIX,dn2r0q8ek3r7o.cloudfront.net
   - DOMAIN-SUFFIX,fcdc6d61a.yrpfkl.xyz
   - DOMAIN-SUFFIX,bambu-lab.com
@@ -137,7 +156,8 @@ rules:
   - DOMAIN-SUFFIX,sb.scorecardresearch.com
   - DOMAIN-SUFFIX,logitech.io
   - DOMAIN-SUFFIX,mapbox.com
-  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-SUFFIX,api.lbctrl.com
+  - DOMAIN-SUFFIX,event-tracking.lbctrl.com
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
   - DOMAIN-SUFFIX,x1.c.lencr.org
