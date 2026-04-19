@@ -1,38 +1,18 @@
-# 最后更新时间: 2026-04-20 00:43:00 (北京时间)
+# 最后更新时间: 2026-04-20 00:45:07 (北京时间)
 # 从Surge自动同步
 # 原始文件: LAN
 rules:
-  - PROCESS-NAME,DOMAIN-SUFFIX local
-  - DOMAIN-SUFFIX,IP-CIDR 0.0.0.0/8
-  - DOMAIN-SUFFIX,IP-CIDR 10.0.0.0/8
-  - DOMAIN-SUFFIX,IP-CIDR 100.64.0.0/10
-  - DOMAIN-SUFFIX,IP-CIDR 127.0.0.0/8
-  - DOMAIN-SUFFIX,IP-CIDR 172.16.0.0/12
-  - DOMAIN-SUFFIX,IP-CIDR 169.254.0.0/16
-  - DOMAIN-SUFFIX,IP-CIDR 192.0.0.0/24
-  - DOMAIN-SUFFIX,IP-CIDR 192.0.2.0/24
-  - DOMAIN-SUFFIX,IP-CIDR 192.168.0.0/16
-  - DOMAIN-SUFFIX,IP-CIDR 224.0.0.0/4
-  - PROCESS-NAME,IP-CIDR6 ::1/128
-  - PROCESS-NAME,IP-CIDR6 fc00::/7
-  - PROCESS-NAME,IP-CIDR6 fe80::/10
-  - DOMAIN-SUFFIX,DOMAIN api.smoot.apple.com
-  - DOMAIN-SUFFIX,DOMAIN captive.apple.com
-  - DOMAIN-SUFFIX,DOMAIN xp.apple.com
-  - DOMAIN-SUFFIX,DOMAIN configuration.apple.com
-  - DOMAIN-SUFFIX,DOMAIN guzzoni.apple.com
-  - DOMAIN-SUFFIX,DOMAIN smp-device-content.apple.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX ess.apple.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX push-apple.com.akadns.net
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX push.apple.com
-  - DOMAIN-SUFFIX,DOMAIN aod.itunes.apple.com
-  - DOMAIN-SUFFIX,DOMAIN mesu.apple.com
-  - DOMAIN-SUFFIX,DOMAIN api.smoot.apple.cn
-  - DOMAIN-SUFFIX,DOMAIN gs-loc.apple.com
-  - DOMAIN-SUFFIX,DOMAIN mvod.itunes.apple.com
-  - DOMAIN-SUFFIX,DOMAIN streamingaudio.itunes.apple.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX lcdn-locator.apple.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX lcdn-registration.apple.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX ls.apple.com
-  - PROCESS-NAME,PROCESS-NAME trustd
-  - PROCESS-NAME,PROCESS-NAME netbiosd
+  - DOMAIN-SUFFIX,local
+  - IP-CIDR,0.0.0.0/8
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,100.64.0.0/10
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,169.254.0.0/16
+  - IP-CIDR,192.0.0.0/24
+  - IP-CIDR,192.0.2.0/24
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,224.0.0.0/4
+  - IP-CIDR6,::1/128
+  - IP-CIDR6,fc00::/7
+  - IP-CIDR6,fe80::/10
