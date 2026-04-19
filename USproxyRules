@@ -1,8 +1,9 @@
-# 最后更新时间: 2026-04-19 22:24:47 (北京时间)
+# 最后更新时间: 2026-04-19 22:26:11 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
   - DOMAIN-SUFFIX,slackhq.com
+  - DOMAIN-SUFFIX,slackb.com
   - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,slack-edge.com
   - DOMAIN-SUFFIX,usnocturne90.us
