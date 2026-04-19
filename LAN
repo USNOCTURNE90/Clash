@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-19 23:59:15 (北京时间)
+# 最后更新时间: 2026-04-20 00:43:00 (北京时间)
 # 从Surge自动同步
 # 原始文件: LAN
 rules:
@@ -16,3 +16,23 @@ rules:
   - PROCESS-NAME,IP-CIDR6 ::1/128
   - PROCESS-NAME,IP-CIDR6 fc00::/7
   - PROCESS-NAME,IP-CIDR6 fe80::/10
+  - DOMAIN-SUFFIX,DOMAIN api.smoot.apple.com
+  - DOMAIN-SUFFIX,DOMAIN captive.apple.com
+  - DOMAIN-SUFFIX,DOMAIN xp.apple.com
+  - DOMAIN-SUFFIX,DOMAIN configuration.apple.com
+  - DOMAIN-SUFFIX,DOMAIN guzzoni.apple.com
+  - DOMAIN-SUFFIX,DOMAIN smp-device-content.apple.com
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX ess.apple.com
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX push.apple.com
+  - DOMAIN-SUFFIX,DOMAIN aod.itunes.apple.com
+  - DOMAIN-SUFFIX,DOMAIN mesu.apple.com
+  - DOMAIN-SUFFIX,DOMAIN api.smoot.apple.cn
+  - DOMAIN-SUFFIX,DOMAIN gs-loc.apple.com
+  - DOMAIN-SUFFIX,DOMAIN mvod.itunes.apple.com
+  - DOMAIN-SUFFIX,DOMAIN streamingaudio.itunes.apple.com
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX lcdn-locator.apple.com
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX lcdn-registration.apple.com
+  - DOMAIN-SUFFIX,DOMAIN-SUFFIX ls.apple.com
+  - PROCESS-NAME,PROCESS-NAME trustd
+  - PROCESS-NAME,PROCESS-NAME netbiosd
