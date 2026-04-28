@@ -1,7 +1,11 @@
-# 最后更新时间: 2026-04-27 17:41:44 (北京时间)
+# 最后更新时间: 2026-04-28 13:24:03 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN,cloudflare-dns.com
+  - DOMAIN,dns.google
+  - IP-CIDR,1.1.1.1/32
+  - IP-CIDR,8.8.8.8/32
   - DOMAIN-SUFFIX,slackhq.com
   - DOMAIN-SUFFIX,slackb.com
   - DOMAIN-SUFFIX,slack.com
