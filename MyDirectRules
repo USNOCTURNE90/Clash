@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-04-28 13:24:03 (北京时间)
+# 最后更新时间: 2026-05-02 22:36:09 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
@@ -8,6 +8,7 @@ rules:
   - DOMAIN,api.smoot.apple.com
   - DOMAIN,captive.apple.com
   - DOMAIN,xp.apple.com
+  - DOMAIN-SUFFIX,icloud-content.com.cn
   - DOMAIN,configuration.apple.com
   - DOMAIN,guzzoni.apple.com
   - DOMAIN,smp-device-content.apple.com
