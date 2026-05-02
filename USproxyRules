@@ -1,7 +1,12 @@
-# 最后更新时间: 2026-05-02 22:36:09 (北京时间)
+# 最后更新时间: 2026-05-02 23:23:18 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,init*.push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,init*.push.apple.com
+  - DOMAIN-SUFFIX,init-p01md.apple.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,dns.google
   - IP-CIDR,1.1.1.1/32
