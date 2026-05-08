@@ -2,6 +2,7 @@
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
+teslamotors.com
   - DOMAIN,router.asus.com
   - DOMAIN,router.synology.com
   - DOMAIN-SUFFIX,nip.io
