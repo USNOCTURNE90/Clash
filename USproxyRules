@@ -1,7 +1,8 @@
-# 最后更新时间: 2026-05-08 15:33:58 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-05-12 22:43:13 (北京时间)
+# 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - DOMAIN,people.apple.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,dns.google
   - IP-CIDR,1.1.1.1/32
