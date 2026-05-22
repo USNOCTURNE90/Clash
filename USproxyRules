@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-05-23 04:12:13 (北京时间)
+# 最后更新时间: 2026-05-23 04:13:35 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
@@ -11,7 +11,6 @@ rules:
   - DOMAIN-SUFFIX,slackb.com
   - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,slack-edge.com
-  - DOMAIN-SUFFIX,usnocturne90.us
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,paypal.com
