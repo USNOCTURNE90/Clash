@@ -1,8 +1,8 @@
-# 最后更新时间: 2026-05-24 17:41:25 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-05-26 00:05:52 (北京时间)
+# 从Clash自动标准化
 # 原始文件: USproxyRules
 rules:
-crashlytics.com
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN,people.apple.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,dns.google
