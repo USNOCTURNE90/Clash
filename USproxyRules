@@ -2,6 +2,7 @@
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+crashlytics.com
   - DOMAIN,people.apple.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,dns.google
