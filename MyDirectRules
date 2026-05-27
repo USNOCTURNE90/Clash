@@ -1,10 +1,7 @@
-# 最后更新时间: 2026-05-27 11:54:17 (北京时间)
+# 最后更新时间: 2026-05-27 11:55:24 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
-  - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,3478-3497))
-  - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,16384-16387))
-  - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,16393-16402))
   - DOMAIN-SUFFIX,teslamotors.com
   - DOMAIN,router.asus.com
   - DOMAIN,router.synology.com
