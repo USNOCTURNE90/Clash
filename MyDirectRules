@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-05-26 11:20:31 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-05-27 11:23:26 (北京时间)
+# 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,teslamotors.com
@@ -9,6 +9,7 @@ rules:
   - DOMAIN,api.smoot.apple.com
   - DOMAIN,captive.apple.com
   - DOMAIN,xp.apple.com
+  - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-content.com.cn
   - DOMAIN,configuration.apple.com
   - DOMAIN,guzzoni.apple.com
@@ -28,6 +29,12 @@ rules:
   - DOMAIN,instant-hotspot.svc.apple.com
   - DOMAIN,smp-device
   - DOMAIN-SUFFIX,apple-mobileme.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,apzones.com
+  - DOMAIN-SUFFIX,gc.apple.com
+  - DOMAIN-SUFFIX,iwork.apple.com
+  - DOMAIN-SUFFIX,icloud.apple.com
   - DOMAIN-SUFFIX,icloud.com.cn
   - PROCESS-NAME,trustd
   - PROCESS-NAME,netbiosd
@@ -40,13 +47,10 @@ rules:
   - DOMAIN-SUFFIX,mhitpoker.com
   - DOMAIN-SUFFIX,unity3d.com
   - IP-CIDR6,fe80::/10
-  - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,apple.cn
-  - DOMAIN-SUFFIX,apple.com.cn
+  - DOMAIN-SUFFIX,apps.apple.com
+  - DOMAIN-SUFFIX,itunes.apple.com
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN,edge-076.xasha1.icloud-content.com.cn
@@ -165,8 +169,6 @@ rules:
   - DOMAIN-SUFFIX,asusrouter.com
   - DOMAIN-SUFFIX,assoc-amazon.cn
   - DOMAIN-SUFFIX,asuscomm.com
-  - IP-ASN,714
-  - IP-ASN,6185
   - IP-CIDR,163.181.77.215/32
   - IP-CIDR,163.181.77.216/32
   - IP-CIDR,163.181.77.220/32
