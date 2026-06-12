@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-06-12 11:10:24 (北京时间)
+# 最后更新时间: 2026-06-12 11:16:11 (北京时间)
 # 从Surge自动同步
 # 原始文件: Reject
 rules:
@@ -9,4 +9,3 @@ rules:
   - DOMAIN-SUFFIX,bncstatic.com
   - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,bnbchain.org
-  - PROCESS-NAME,com.eagleyun.sase
