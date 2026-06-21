@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-06-12 11:16:52 (北京时间)
+# 最后更新时间: 2026-06-21 10:42:36 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
@@ -29,7 +29,9 @@ rules:
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,216.73.80.0/20
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com
   - DOMAIN-SUFFIX,chronosphere.io
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,imgix.net
@@ -43,6 +45,11 @@ rules:
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,ct.sendgrid.net
+  - DOMAIN-SUFFIX,ingest.sentry.io
+  - DOMAIN,challenges.cloudflare.com
   - DOMAIN-SUFFIX,anthropic.ai
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claudeusercontent.com
