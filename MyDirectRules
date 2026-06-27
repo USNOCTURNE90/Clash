@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-06-21 10:42:36 (北京时间)
+# 最后更新时间: 2026-06-27 20:05:24 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
@@ -6,13 +6,11 @@ rules:
   - DOMAIN,router.asus.com
   - DOMAIN,router.synology.com
   - DOMAIN-SUFFIX,nip.io
-  - DOMAIN,api.smoot.apple.com
   - DOMAIN,captive.apple.com
   - DOMAIN,xp.apple.com
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-content.com.cn
   - DOMAIN,configuration.apple.com
-  - DOMAIN,guzzoni.apple.com
   - DOMAIN,smp-device-content.apple.com
   - DOMAIN-SUFFIX,ess.apple.com
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
