@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-06-27 20:05:24 (北京时间)
+# 最后更新时间: 2026-06-27 20:11:10 (北京时间)
 # 从Surge自动同步
 # 原始文件: MyProxyRules
 rules:
@@ -42,12 +42,6 @@ rules:
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,appsto.re
-  - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,guzzoni.apple.com
-  - DOMAIN,apple-relay.cloudflare.com
-  - DOMAIN,apple-relay.fastly-edge.com
-  - DOMAIN,cp4.cloudflare.com
-  - DOMAIN,apple-relay.apple.com
   - DOMAIN,amp-api.podcasts.apple.com
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.itunes.apple.com

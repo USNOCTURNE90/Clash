@@ -1,8 +1,14 @@
-# 最后更新时间: 2026-06-27 20:05:24 (北京时间)
+# 最后更新时间: 2026-06-27 20:11:10 (北京时间)
 # 从Surge自动同步
 # 原始文件: APNS
 rules:
   - DOMAIN,people.apple.com
+  - DOMAIN,guzzoni.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,cp4.cloudflare.com
+  - DOMAIN,apple-relay.apple.com
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
