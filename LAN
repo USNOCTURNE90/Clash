@@ -1,10 +1,11 @@
-# 最后更新时间: 2026-09-01 14:17:00 (北京时间)
+# 最后更新时间: 2026-10-03 16:34:11 (北京时间)
 # 从Surge自动同步
 # 原始文件: LAN
 rules:
   - PROCESS-NAME,#,最后更新时间:,2026-04-20,00:45:07,(北京时间)
   - PROCESS-NAME,#,从Surge自动标准化
   - PROCESS-NAME,#,原始文件:,LAN
+  - DOMAIN,revivalbarbershop.asuscomm.com
   - DOMAIN-SUFFIX,local
   - IP-CIDR,0.0.0.0/8
   - IP-CIDR,10.0.0.0/8
