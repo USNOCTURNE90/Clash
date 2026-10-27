@@ -188,3 +188,4 @@ rules:
   - IP-CIDR,103.36.24.14/32
   - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
   - PROCESS-NAME,com.eagleyun.sase.helper
+  - PROCESS-NAME,GameViewerServer.exe
