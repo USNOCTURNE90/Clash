@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-10-03 16:39:03 (北京时间)
-# 从Surge自动同步
+# 最后更新时间: 2026-10-27 16:58:17 (北京时间)
+# 从Clash自动标准化
 # 原始文件: Steam
 rules:
   - DOMAIN-SUFFIX,steampowered.com
