@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-10-27 16:58:17 (北京时间)
-# 从Clash自动标准化
+# 最后更新时间: 2026-11-06 22:41:49 (北京时间)
+# 从Surge自动同步
 # 原始文件: MyDirectRules
 rules:
   - DOMAIN-SUFFIX,djicdn.com
@@ -189,3 +189,9 @@ rules:
   - PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
   - PROCESS-NAME,com.eagleyun.sase.helper
   - PROCESS-NAME,GameViewerServer.exe
+  - # 从 iPhone 单条直连规则迁入
+  - DOMAIN-SUFFIX,dbankcdn.com
+  - DOMAIN-SUFFIX,huawei.com
+  - DOMAIN-SUFFIX,dbankcloud.com
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,zijieapi.com
