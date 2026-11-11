@@ -1,7 +1,8 @@
-# 最后更新时间: 2026-11-08 20:58:48 (北京时间)
+# 最后更新时间: 2026-11-11 13:35:19 (北京时间)
 # 从Surge自动同步
 # 原始文件: USproxyRules
 rules:
+  - PROCESS-NAME,Claude
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,crashlytics.com
